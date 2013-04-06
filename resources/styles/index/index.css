@@ -1,0 +1,312 @@
+.rowline {
+    /*word-break:break-all;
+    word-wrap:break-word;
+    text-align:justify;
+    text-justify:inter-ideograph;
+    text-align:justify;*/
+    min-height: 260px;
+    height: auto;
+    font-family:"宋体,Arial,Tahoma";
+}
+/** cp */
+.title {
+    color: #990000;
+    font-family:"宋体,Arial,Tahoma";
+    font-size: 16px;
+    font-weight: bold;
+    margin-left: 10px;
+    *margin-left: 5px;
+    float: left;
+    padding-bottom: 5px;
+}
+
+/** 研发实力*/
+.yf {
+    width: 348px;
+    min-height: 290px;
+    height: auto;
+    overflow: hidden;
+    margin-top: 8px;
+    float: left;
+}
+
+.yf_dx {
+    height: 3px;
+    width: 340px;
+    background: url(/resources/images/common/dianbg.jpg) repeat-x;
+    overflow: hidden;
+    float: left;
+}
+
+.yf_01 {
+    width: 348px;
+    min-height: 100px;
+    height: auto;
+    overflow: hidden;
+    float: left;
+    margin-top: 5px;
+}
+
+.yf_img {
+    width: 131px;
+    height: 86px;
+    overflow: hidden;
+    padding: 5px;
+    float: left;
+}
+
+.yf_01 h1 {
+
+    font-size: 14px;
+    font-weight: bold;
+    color: #666666;
+    line-height: 30px;
+}
+
+.yf_01 h2 {
+
+    font-size: 12px;
+    color: #666666;
+    line-height: 20px;
+    padding-left: 5px;
+    padding-right: 5px;
+}
+
+/**公司简介*/
+.gs {
+    width: 370px;
+    min-height: 290px;
+    height: auto;
+    overflow: hidden;
+    margin-top: 8px;
+    float: left;
+    margin-left: 15px;
+}
+
+.gs_dx {
+    height: 3px;
+    width: 370px;
+    background: url(/resources/images/common/dianbg.jpg) repeat-x;
+    overflow: hidden;
+    float: left;
+}
+
+.gs_info {
+    width: 380px;
+    min-height: 70px;
+    height: auto;
+    float: left;
+    overflow: hidden;
+}
+
+.gs_info02 {
+    width: 380px;
+    float: left;
+    overflow: hidden;
+    min-height: 160px;
+    height: auto;
+}
+
+.gs_info h1 {
+
+    font-size: 12px;
+    color: #666666;
+    line-height: 20px;
+    padding: 5px;
+}
+
+.gs_info02 ul li {
+
+    font-size: 12px;
+    color: #666666;
+    line-height: 19px;
+    margin-left: 50px;
+    *margin-left: 25px;
+    list-style: square;
+}
+
+/**联系方式*/
+.call {
+    width: 220px;
+    min-height: 290px;
+    height: auto;
+    overflow: hidden;
+    margin-top: 8px;
+    float: left;
+    margin-left: 25px;
+}
+
+.call_dx {
+    height: 3px;
+    width: 220px;
+    background: url(/resources/images/common/dianbg.jpg) repeat-x;
+    overflow: hidden;
+    float: left;
+}
+
+.call_info {
+    width: 220px;
+    height: 240px;
+    float: left;
+    overflow: hidden;
+}
+
+.call h1 {
+
+    font-size: 12px;
+    color: #666666;
+    line-height: 20px;
+    padding: 5px;
+}
+
+/**特色产品*/
+.cp {
+    width: 348px;
+    min-height: 365px;
+    height: auto;
+    overflow: hidden;
+    margin-top: 8px;
+    float: left;
+}
+
+.cp_dx {
+    height: 3px;
+    width: 340px;
+    background: url(/resources/images/common/dianbg.jpg) repeat-x;
+    overflow: hidden;
+    float: left;
+}
+
+.cpimg {
+    width: 150px;
+    height: 365px;
+    overflow: hidden;
+    float: left;
+}
+
+.cpimg ul li {
+    width: 82px;
+    height: 92px;
+    padding-top: 10px;
+    padding-left: 0px;
+    padding-right: 10px;
+    list-style: none;
+}
+
+.coinfo {
+    width: 160px;
+    height: 365px;
+    overflow: hidden;
+    float: left;
+}
+
+.cpinfo ul {
+    margin-top: 22px;
+}
+
+.cpinfo li {
+
+    font-size: 14px;
+    color: #666666;
+    font-weight: bold;
+    line-height: 30px;
+    padding-top: 15px;
+    padding-left: 20px;
+    list-style: none;
+}
+
+/**特色应用*/
+.yy {
+    width: 370px;
+    min-height: 365px;
+    height: auto;
+    overflow: hidden;
+    margin-top: 8px;
+    float: left;
+    margin-left: 15px;
+}
+
+.yy_dx {
+    height: 3px;
+    width: 370px;
+    background: url(/resources/images/common/dianbg.jpg) repeat-x;
+    overflow: hidden;
+    float: left;
+}
+
+.yy_info {
+    width: 370px;
+    overflow: hidden;
+    float: left;
+}
+
+.yy_info h1 {
+
+    font-size: 14px;
+    color: #666666;
+    font-weight: bold;
+    line-height: 20px;
+    padding: 5px;
+}
+
+.yy_info02 {
+    width: 370px;
+    overflow: hidden;
+    float: left;
+}
+
+.yy_info_img {
+    width: 116px;
+    height: 69px;
+    overflow: hidden;
+    padding: 5px;
+    float: left;
+}
+
+.yy_info02 h2 {
+
+    font-size: 12px;
+    color: #666666;
+    line-height: 25px;
+}
+
+/**质量控制*/
+.zl {
+    width: 220px;
+    min-height: 160px;
+    height: auto;
+    overflow: hidden;
+    margin-top: 8px;
+    float: left;
+    margin-left: 25px;
+}
+
+.zl_dx {
+    height: 3px;
+    width: 220px;
+    background: url(/resources/images/common/dianbg.jpg) repeat-x;
+    overflow: hidden;
+    float: left;
+}
+
+.zl_info {
+    width: 220px;
+    overflow: hidden;
+    float: left;
+}
+
+.zl ul {
+    margin-top: 10px;
+}
+
+.zl li {
+
+    font-size: 12px;
+    color: #666666;
+    line-height: 25px;
+    list-style: none;
+    margin-left: 30px;
+    *margin-left: 15px;
+}
+
+

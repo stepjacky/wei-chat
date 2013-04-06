@@ -1,0 +1,28 @@
+.rowline {
+    min-height: 370px;
+}
+.gs_info02 ul li{
+    line-height:25px;
+}
+.footer ul{
+    width: 180px;
+    word-break: break-all;
+    margin-left: 15px;
+}
+
+.footer ul li{
+    margin-left: 0px;
+
+}
+
+.footer ul li a {
+
+    text-align:justify;
+    text-justify: inter-word;
+}
+
+.footer-inner {
+    margin: 0 auto;
+    min-width: 600px;
+    width: auto;
+}
