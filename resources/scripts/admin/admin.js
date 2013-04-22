@@ -139,13 +139,14 @@ function onClick(event, treeId, treeNode, clickFlag){
 }
 
 $(document).ready(function(){
+    /*
     var treeObj = $("#artTree");
     $.fn.zTree.init(treeObj, setting, zNodes);
     zTree_Menu = $.fn.zTree.getZTreeObj("artTree");
     curMenu = zTree_Menu.getNodes()[0].children[0].children[0];
     zTree_Menu.selectNode(curMenu);
     treeObj.addClass("showIcon");
-    /*treeObj.hover(function () {
+    treeObj.hover(function () {
         if (!treeObj.hasClass("showIcon")) {
             treeObj.addClass("showIcon");
         }

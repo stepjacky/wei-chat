@@ -33,7 +33,7 @@ class Admin extends MY_Controller {
 
     public function index(){
 
-        (!$this->nsession->userdata('user')) AND redirect('admin/openlogin');
+       // (!$this->nsession->userdata('user')) AND redirect('admin/openlogin');
 
 
         $this->load->view("admin/header");
