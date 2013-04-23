@@ -1,9 +1,11 @@
 
 <link href="/resources/styles/coupon/style.css" media="screen" rel="stylesheet" type="text/css" />
-<form id="couponform" method="post" >
+<form id="couponform" method="post">
 
 <fieldset>
-<legend>编辑/新增-优惠券</legend>
+<legend>
+<h4>编辑[新增]<span class="label label-info">优惠券记录</span></h4>
+</legend>
 <table class="table table-hover table-bordered">
 <tbody>
       <input id="id" type="hidden" name="id" value="<?=val($id)?>" />
@@ -11,10 +13,15 @@
   
      
   
+      <input id="name" type="hidden" name="name" value="<?=val($name)?>" />
+  
+  
+     
+  
      <tr>
    <td>验证类型</td>
    <td>            
-        <select name="validator" id="validator"></select>
+        <select name="validator" id="validator" class="validate[required]"></select>
    </td>     
    
 </tr>
@@ -25,7 +32,7 @@
      <tr>
    <td>验证码</td>
    <td>            
-        <input name="cvcode" id="cvcode" type="text" value="<?=val($cvcode)?>" />
+        <input name="cvcode" id="cvcode" type="text" value="<?=val($cvcode)?>" class="validate[required]" />
    </td>     
    
 </tr>
@@ -36,7 +43,7 @@
      <tr>
    <td>使用时间</td>
    <td>            
-        <input type="text" name="firedate" id="firedate" data-date-format="yyyy-mm-dd" readonly="true" class=" datepicker" value="<?=val($firedate)?>" />
+        <input type="text" name="firedate" id="firedate" data-date-format="yyyy-mm-dd" readonly="true" class=" datepicker validate[required]" value="<?=val($firedate)?>" />
    </td>     
    
 </tr>
@@ -44,24 +51,12 @@
   
      
   
-     <tr>
-   <td>所属优惠券</td>
-   <td>            
-        <select name="catalog_id" id="catalog_id"></select>
-   </td>     
-   
-</tr>
+      <input type="hidden" name="catalog_id" id="catalog_id" value="<?=val($catalog_id)?>" />
   
   
      
   
-     <tr>
-   <td>领取人</td>
-   <td>            
-        <select name="member_id" id="member_id"></select>
-   </td>     
-   
-</tr>
+      <input type="hidden" name="member_id" id="member_id" value="<?=val($member_id)?>" />
   
   
      

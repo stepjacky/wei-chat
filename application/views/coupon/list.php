@@ -1,16 +1,18 @@
 <link href="/resources/styles/coupon/style.css" media="screen" rel="stylesheet" type="text/css" />
-<h3>优惠券列表</h3>
+<h3>优惠券记录列表</h3>
 <table id="list" class="table table-striped table-bordered table-hover">
         <thead>
         <tr>
-          <th colspan="7">
+          <th colspan="8">
             <button type="button" class="btn btn-info" onclick="newOne();">
-             <i class="icon-plus"></i>新增优惠券
+             <i class="icon-plus"></i>新增优惠券记录
             </button>
           </th>
         </tr>
         <tr>
                 <th>编号</th> 
+                         
+                <th></th> 
                          
                 <th>验证类型</th> 
                          
@@ -34,6 +36,10 @@
            <tr>
                 <td>
               <?=val($id)?>             
+            </td>  
+                      
+                <td>
+              <?=val($name)?>             
             </td>  
                       
                 <td>
@@ -71,7 +77,7 @@
         </tbody>
         <tfoot>
         <tr>          
-            <td colspan="7">
+            <td colspan="8">
                 <?=$pagelink;?>
             </td>
         </tr>

@@ -2,283 +2,64 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="9c42f37f-b41b-40a5-884c-3813c2511426" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/bootstrap/charisma/img/gallery/1.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/bootstrap/charisma/img/gallery/thumbs/1.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/bootstrap/charisma/img/gallery/10.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/bootstrap/charisma/img/gallery/thumbs/10.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/bootstrap/charisma/img/gallery/11.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/bootstrap/charisma/img/gallery/thumbs/11.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/bootstrap/charisma/img/gallery/12.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/bootstrap/charisma/img/gallery/thumbs/12.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/bootstrap/charisma/img/gallery/13.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/bootstrap/charisma/img/gallery/thumbs/13.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/bootstrap/charisma/img/gallery/14.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/bootstrap/charisma/img/gallery/thumbs/14.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/bootstrap/charisma/img/gallery/15.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/bootstrap/charisma/img/gallery/thumbs/15.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/bootstrap/charisma/img/gallery/16.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/bootstrap/charisma/img/gallery/thumbs/16.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/bootstrap/charisma/img/gallery/17.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/bootstrap/charisma/img/gallery/thumbs/17.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/bootstrap/charisma/img/gallery/18.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/bootstrap/charisma/img/gallery/thumbs/18.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/bootstrap/charisma/img/gallery/19.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/bootstrap/charisma/img/gallery/thumbs/19.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/bootstrap/charisma/img/gallery/2.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/bootstrap/charisma/img/gallery/thumbs/2.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/bootstrap/charisma/img/gallery/20.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/bootstrap/charisma/img/gallery/thumbs/20.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/bootstrap/charisma/img/gallery/21.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/bootstrap/charisma/img/gallery/thumbs/21.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/bootstrap/charisma/img/gallery/22.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/bootstrap/charisma/img/gallery/thumbs/22.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/bootstrap/charisma/img/gallery/23.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/bootstrap/charisma/img/gallery/thumbs/23.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/bootstrap/charisma/img/gallery/24.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/bootstrap/charisma/img/gallery/thumbs/24.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/bootstrap/charisma/img/gallery/3.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/bootstrap/charisma/img/gallery/thumbs/3.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/bootstrap/charisma/img/gallery/4.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/bootstrap/charisma/img/gallery/thumbs/4.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/bootstrap/charisma/img/gallery/5.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/bootstrap/charisma/img/gallery/thumbs/5.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/bootstrap/charisma/img/gallery/6.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/bootstrap/charisma/img/gallery/thumbs/6.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/bootstrap/charisma/img/gallery/7.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/bootstrap/charisma/img/gallery/thumbs/7.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/bootstrap/charisma/img/gallery/8.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/bootstrap/charisma/img/gallery/thumbs/8.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/bootstrap/charisma/img/gallery/9.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/bootstrap/charisma/img/gallery/thumbs/9.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/bootstrap/charisma/img/ajax-loaders/ajax-loader-1.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/bootstrap/charisma/img/ajax-loaders/ajax-loader-2.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/bootstrap/charisma/img/ajax-loaders/ajax-loader-3.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/bootstrap/charisma/img/ajax-loaders/ajax-loader-4.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/bootstrap/charisma/img/ajax-loaders/ajax-loader-5.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/bootstrap/charisma/img/ajax-loaders/ajax-loader-6.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/bootstrap/charisma/img/ajax-loaders/ajax-loader-7.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/bootstrap/charisma/img/ajax-loaders/ajax-loader-8.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/bootstrap/charisma/img/arrows-active.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/bootstrap/charisma/img/arrows-normal.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/bootstrap/charisma/img/bg-input-focus.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/bootstrap/charisma/img/bg-input.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/bootstrap/charisma/img/border.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/bootstrap/charisma/img/buttons.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/bootstrap/charisma/img/cancel-off.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/bootstrap/charisma/img/cancel-on.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/bootstrap/charisma/img/chosen-sprite.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/bootstrap/charisma/img/controls.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/bootstrap/charisma/img/crop.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/bootstrap/charisma/img/dialogs.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/bootstrap/ext/droidsans-bold.woff" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/bootstrap/ext/droidsans-v3.woff" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/bootstrap/charisma/img/error_bg.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/bootstrap/charisma/img/favicon.ico" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/bootstrap/charisma/img/glyphicons-halflings-white.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/bootstrap/charisma/img/glyphicons-halflings.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/bootstrap/charisma/img/icons-big.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/bootstrap/charisma/img/icons-small.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/bootstrap/ext/karla-v2.woff" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/bootstrap/charisma/img/gallery/.tmb/l1_MS5qcGc1344290228.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/bootstrap/charisma/img/gallery/.tmb/l1_MS5qcGc1365777630.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/bootstrap/charisma/img/gallery/.tmb/l1_MTAuanBn1344290212.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/bootstrap/charisma/img/gallery/.tmb/l1_MTAuanBn1365777630.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/bootstrap/charisma/img/gallery/.tmb/l1_MTEuanBn1344290212.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/bootstrap/charisma/img/gallery/.tmb/l1_MTEuanBn1365777630.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/bootstrap/charisma/img/gallery/.tmb/l1_MTIuanBn1344290216.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/bootstrap/charisma/img/gallery/.tmb/l1_MTIuanBn1365777630.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/bootstrap/charisma/img/gallery/.tmb/l1_MTMuanBn1344290218.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/bootstrap/charisma/img/gallery/.tmb/l1_MTMuanBn1365777630.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/bootstrap/charisma/img/gallery/.tmb/l1_MTQuanBn1344290218.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/bootstrap/charisma/img/gallery/.tmb/l1_MTQuanBn1365777630.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/bootstrap/charisma/img/gallery/.tmb/l1_MTUuanBn1344290220.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/bootstrap/charisma/img/gallery/.tmb/l1_MTUuanBn1365777630.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/bootstrap/charisma/img/gallery/.tmb/l1_MTYuanBn1344290222.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/bootstrap/charisma/img/gallery/.tmb/l1_MTYuanBn1365777630.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/bootstrap/charisma/img/gallery/.tmb/l1_MTcuanBn1344290224.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/bootstrap/charisma/img/gallery/.tmb/l1_MTcuanBn1365777630.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/bootstrap/charisma/img/gallery/.tmb/l1_MTguanBn1344290226.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/bootstrap/charisma/img/gallery/.tmb/l1_MTguanBn1365777630.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/bootstrap/charisma/img/gallery/.tmb/l1_MTkuanBn1344290228.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/bootstrap/charisma/img/gallery/.tmb/l1_MTkuanBn1365777630.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/bootstrap/charisma/img/gallery/.tmb/l1_Mi5qcGc1344290242.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/bootstrap/charisma/img/gallery/.tmb/l1_Mi5qcGc1365777630.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/bootstrap/charisma/img/gallery/.tmb/l1_MjAuanBn1344290232.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/bootstrap/charisma/img/gallery/.tmb/l1_MjAuanBn1365777630.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/bootstrap/charisma/img/gallery/.tmb/l1_MjEuanBn1344290232.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/bootstrap/charisma/img/gallery/.tmb/l1_MjEuanBn1365777630.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/bootstrap/charisma/img/gallery/.tmb/l1_MjIuanBn1344290236.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/bootstrap/charisma/img/gallery/.tmb/l1_MjIuanBn1365777630.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/bootstrap/charisma/img/gallery/.tmb/l1_MjMuanBn1344290238.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/bootstrap/charisma/img/gallery/.tmb/l1_MjQuanBn1344290240.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/bootstrap/charisma/img/gallery/.tmb/l1_My5qcGc1344290244.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/bootstrap/charisma/img/gallery/.tmb/l1_NC5qcGc1344290246.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/bootstrap/charisma/img/gallery/.tmb/l1_NS5qcGc1344290246.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/bootstrap/charisma/img/gallery/.tmb/l1_Ni5qcGc1344290248.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/bootstrap/charisma/img/gallery/.tmb/l1_Ny5qcGc1344290252.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/bootstrap/charisma/img/gallery/.tmb/l1_OC5qcGc1344290254.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/bootstrap/charisma/img/gallery/.tmb/l1_OS5qcGc1344290254.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/bootstrap/charisma/img/gallery/.tmb/l1_dGh1bWJzXDE0LmpwZw1365777630.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/bootstrap/charisma/img/gallery/.tmb/l1_dGh1bWJzXDE1LmpwZw1365777630.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/bootstrap/charisma/img/gallery/.tmb/l1_dGh1bWJzXDE2LmpwZw1365777630.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/bootstrap/charisma/img/gallery/.tmb/l1_dGh1bWJzXDE3LmpwZw1365777630.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/bootstrap/charisma/img/gallery/.tmb/l1_dGh1bWJzXDE4LmpwZw1365777630.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/bootstrap/charisma/img/gallery/.tmb/l1_dGh1bWJzXDE5LmpwZw1365777630.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/bootstrap/charisma/img/gallery/.tmb/l1_dGh1bWJzXDEuanBn1365777630.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/bootstrap/charisma/img/gallery/.tmb/l1_dGh1bWJzXDEwLmpwZw1365777630.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/bootstrap/charisma/img/gallery/.tmb/l1_dGh1bWJzXDExLmpwZw1365777630.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/bootstrap/charisma/img/gallery/.tmb/l1_dGh1bWJzXDEyLmpwZw1365777630.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/bootstrap/charisma/img/gallery/.tmb/l1_dGh1bWJzXDEzLmpwZw1365777630.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/bootstrap/charisma/img/gallery/.tmb/l1_dGh1bWJzXDI0LmpwZw1365777630.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/bootstrap/charisma/img/gallery/.tmb/l1_dGh1bWJzXDIuanBn1365777630.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/bootstrap/charisma/img/gallery/.tmb/l1_dGh1bWJzXDIwLmpwZw1365777630.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/bootstrap/charisma/img/gallery/.tmb/l1_dGh1bWJzXDIxLmpwZw1365777630.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/bootstrap/charisma/img/gallery/.tmb/l1_dGh1bWJzXDIyLmpwZw1365777630.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/bootstrap/charisma/img/gallery/.tmb/l1_dGh1bWJzXDIzLmpwZw1365777630.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/bootstrap/charisma/img/gallery/.tmb/l1_dGh1bWJzXDMuanBn1365777630.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/bootstrap/charisma/img/gallery/.tmb/l1_dGh1bWJzXDQuanBn1365777630.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/bootstrap/charisma/img/gallery/.tmb/l1_dGh1bWJzXDUuanBn1365777630.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/bootstrap/charisma/img/gallery/.tmb/l1_dGh1bWJzXDYuanBn1365777630.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/bootstrap/charisma/img/gallery/.tmb/l1_dGh1bWJzXDcuanBn1365777630.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/bootstrap/charisma/img/gallery/.tmb/l1_dGh1bWJzXDguanBn1365777630.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/bootstrap/charisma/img/gallery/.tmb/l1_dGh1bWJzXDkuanBn1365777630.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/bootstrap/charisma/img/loading.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/bootstrap/charisma/img/loading_background.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/bootstrap/charisma/img/logo.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/bootstrap/charisma/img/logo20.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/bootstrap/charisma/img/iphone-style-checkboxes/off.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/bootstrap/charisma/img/iphone-style-checkboxes/on.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/bootstrap/charisma/img/opa-icons-black16.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/bootstrap/charisma/img/opa-icons-black32.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/bootstrap/charisma/img/opa-icons-blue16.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/bootstrap/charisma/img/opa-icons-blue32.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/bootstrap/charisma/img/opa-icons-color16.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/bootstrap/charisma/img/opa-icons-color32.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/bootstrap/charisma/img/opa-icons-darkgray16.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/bootstrap/charisma/img/opa-icons-darkgray32.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/bootstrap/charisma/img/opa-icons-gray16.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/bootstrap/charisma/img/opa-icons-gray32.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/bootstrap/charisma/img/opa-icons-green16.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/bootstrap/charisma/img/opa-icons-green32.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/bootstrap/charisma/img/opa-icons-orange16.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/bootstrap/charisma/img/opa-icons-orange32.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/bootstrap/charisma/img/opa-icons-red16.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/bootstrap/charisma/img/opa-icons-red32.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/bootstrap/charisma/img/opa-icons-white16.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/bootstrap/charisma/img/opa-icons-white32.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/bootstrap/ext/opensans-v6-a.woff" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/bootstrap/ext/opensans-v6-b.woff" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/bootstrap/charisma/img/progress.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/bootstrap/charisma/img/qrcode.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/bootstrap/charisma/img/qrcode136.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/bootstrap/charisma/img/quicklook-bg.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/bootstrap/charisma/img/quicklook-icons.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/bootstrap/charisma/img/resize.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/bootstrap/ext/shojumaru-v1.woff" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/bootstrap/charisma/img/iphone-style-checkboxes/slider.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/bootstrap/charisma/img/iphone-style-checkboxes/slider_center.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/bootstrap/charisma/img/iphone-style-checkboxes/slider_left.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/bootstrap/charisma/img/iphone-style-checkboxes/slider_right.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/bootstrap/charisma/img/spinner-mini.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/bootstrap/charisma/img/sprite.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/bootstrap/charisma/img/star-half.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/bootstrap/charisma/img/star-off.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/bootstrap/charisma/img/star-on.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/bootstrap/charisma/img/thumb.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/bootstrap/charisma/img/toolbar.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/bootstrap/charisma/img/toolbar.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/bootstrap/ext/ubuntu-v4.woff" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/bootstrap/charisma/img/ui-bg_flat_0_aaaaaa_40x100.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/bootstrap/charisma/img/ui-bg_flat_75_ffffff_40x100.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/bootstrap/charisma/img/ui-bg_glass_55_fbf9ee_1x400.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/bootstrap/charisma/img/ui-bg_glass_65_ffffff_1x400.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/bootstrap/charisma/img/ui-bg_glass_75_dadada_1x400.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/bootstrap/charisma/img/ui-bg_glass_75_e6e6e6_1x400.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/bootstrap/charisma/img/ui-bg_glass_95_fef1ec_1x400.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/bootstrap/charisma/img/ui-bg_highlight-soft_75_cccccc_1x100.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/bootstrap/charisma/img/ui-icons_222222_256x240.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/bootstrap/charisma/img/ui-icons_2e83ff_256x240.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/bootstrap/charisma/img/ui-icons_454545_256x240.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/bootstrap/charisma/img/ui-icons_888888_256x240.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/bootstrap/charisma/img/ui-icons_cd0a0a_256x240.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/bootstrap/charisma/img/uploadify-cancel.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/bootstrap/charisma/js/bootstrap-alert.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/bootstrap/charisma/js/bootstrap-button.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/bootstrap/charisma/js/bootstrap-carousel.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/bootstrap/charisma/css/bootstrap-cerulean.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/bootstrap/charisma/css/bootstrap-classic.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/bootstrap/charisma/css/bootstrap-classic.min.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/bootstrap/charisma/js/bootstrap-collapse.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/bootstrap/charisma/css/bootstrap-cyborg.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/bootstrap/charisma/js/bootstrap-dropdown.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/bootstrap/charisma/css/bootstrap-journal.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/bootstrap/charisma/js/bootstrap-modal.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/bootstrap/charisma/js/bootstrap-popover.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/bootstrap/charisma/css/bootstrap-redy.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/bootstrap/charisma/css/bootstrap-responsive.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/bootstrap/charisma/css/bootstrap-responsive.min.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/bootstrap/charisma/js/bootstrap-scrollspy.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/bootstrap/charisma/css/bootstrap-simplex.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/bootstrap/charisma/css/bootstrap-slate.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/bootstrap/charisma/css/bootstrap-spacelab.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/bootstrap/charisma/js/bootstrap-tab.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/bootstrap/charisma/js/bootstrap-toggle.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/bootstrap/charisma/js/bootstrap-tooltip.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/bootstrap/charisma/js/bootstrap-tour.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/bootstrap/charisma/js/bootstrap-transition.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/bootstrap/charisma/js/bootstrap-typeahead.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/bootstrap/charisma/css/bootstrap-united.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/bootstrap/charisma/css/charisma-app.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/bootstrap/charisma/js/charisma.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/bootstrap/charisma/css/chosen.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/bootstrap/charisma/css/colorbox.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/bootstrap/charisma/css/elfinder.min.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/bootstrap/charisma/css/elfinder.theme.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/bootstrap/charisma/js/excanvas.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/bootstrap/charisma/css/fullcalendar.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/bootstrap/charisma/js/fullcalendar.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/bootstrap/charisma/css/fullcalendar.print.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/bootstrap/charisma/css/jquery-ui-1.8.21.custom.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/bootstrap/charisma/js/jquery-ui-1.8.21.custom.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/bootstrap/charisma/js/jquery.autogrow-textarea.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/bootstrap/charisma/js/jquery.chosen.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/bootstrap/charisma/css/jquery.cleditor.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/bootstrap/charisma/js/jquery.cleditor.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/bootstrap/charisma/js/jquery.colorbox.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/bootstrap/charisma/js/jquery.cookie.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/bootstrap/charisma/js/jquery.dataTables.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/bootstrap/charisma/js/jquery.elfinder.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/bootstrap/charisma/js/jquery.flot.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/bootstrap/charisma/js/jquery.flot.pie.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/bootstrap/charisma/js/jquery.flot.resize.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/bootstrap/charisma/js/jquery.flot.stack.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/bootstrap/charisma/js/jquery.history.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/bootstrap/charisma/css/jquery.iphone.toggle.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/bootstrap/charisma/js/jquery.iphone.toggle.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/bootstrap/charisma/css/jquery.noty.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/bootstrap/charisma/js/jquery.noty.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/bootstrap/charisma/js/jquery.raty.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/bootstrap/charisma/js/jquery.uniform.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/bootstrap/charisma/js/jquery.uploadify-3.1.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/jsLibraryMappings.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/bootstrap/charisma/css/noty_theme_default.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/bootstrap/charisma/css/opa-icons.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/bootstrap/charisma/css/uniform.default.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/bootstrap/charisma/css/uploadify.css" />
-      <change type="DELETED" beforePath="G:\webroot\wei-chat\wei-chat" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/scripts/admin/admin.js" afterPath="$PROJECT_DIR$/resources/scripts/admin/admin.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/application/controllers/admin.php" afterPath="$PROJECT_DIR$/application/controllers/admin.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/QuickFlip2/README" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/QuickFlip2/demo/css/basic-quickflips.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/application/views/admin/footer-pure.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/QuickFlip2/demo/css/hover-quickflips.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/QuickFlip2/demo/hover-quickflips.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/QuickFlip2/demo/index.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/scripts/admin/index.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/QuickFlip2/jquery.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/QuickFlip2/jquery.quickflip.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/QuickFlip2/jquery.quickflip.source.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/application/controllers/system.php" />
+      <change type="DELETED" beforePath="G:\webroot\wei-chat\resources\scripts\admin\admin.js" afterPath="" />
+      <change type="DELETED" beforePath="G:\webroot\wei-chat\resources\scripts\coupon_cata\edit.js" afterPath="" />
+      <change type="DELETED" beforePath="G:\webroot\wei-chat\resources\scripts\coupon_cata\list.js" afterPath="" />
+      <change type="DELETED" beforePath="G:\webroot\wei-chat\resources\scripts\coupon_get_policy\edit.js" afterPath="" />
+      <change type="DELETED" beforePath="G:\webroot\wei-chat\resources\scripts\coupon_get_policy\list.js" afterPath="" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/application/controllers/coupon.php" afterPath="$PROJECT_DIR$/application/controllers/coupon.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/application/models/coupon_model.php" afterPath="$PROJECT_DIR$/application/models/coupon_model.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/application/controllers/couponcatalog.php" afterPath="$PROJECT_DIR$/application/controllers/couponcatalog.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/application/models/couponcatalog_model.php" afterPath="$PROJECT_DIR$/application/models/couponcatalog_model.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/application/controllers/couponpolicy.php" afterPath="$PROJECT_DIR$/application/controllers/couponpolicy.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/application/models/couponpolicy_model.php" afterPath="$PROJECT_DIR$/application/models/couponpolicy_model.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/application/controllers/credits.php" afterPath="$PROJECT_DIR$/application/controllers/credits.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/application/models/credits_model.php" afterPath="$PROJECT_DIR$/application/models/credits_model.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/application/language/de-de/de-de_lang.php" afterPath="$PROJECT_DIR$/application/language/de-de/de-de_lang.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/scripts/coupon/edit.js" afterPath="$PROJECT_DIR$/resources/scripts/coupon/edit.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/scripts/couponcatalog/edit.js" afterPath="$PROJECT_DIR$/resources/scripts/couponcatalog/edit.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/scripts/credits/edit.js" afterPath="$PROJECT_DIR$/resources/scripts/credits/edit.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/scripts/member/edit.js" afterPath="$PROJECT_DIR$/resources/scripts/member/edit.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/scripts/merchant/edit.js" afterPath="$PROJECT_DIR$/resources/scripts/merchant/edit.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/application/views/coupon/editNew.php" afterPath="$PROJECT_DIR$/application/views/coupon/editNew.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/application/views/couponcatalog/editNew.php" afterPath="$PROJECT_DIR$/application/views/couponcatalog/editNew.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/application/views/credits/editNew.php" afterPath="$PROJECT_DIR$/application/views/credits/editNew.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/application/views/member/editNew.php" afterPath="$PROJECT_DIR$/application/views/member/editNew.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/application/views/merchant/editNew.php" afterPath="$PROJECT_DIR$/application/views/merchant/editNew.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/application/language/en-us/en-us_lang.php" afterPath="$PROJECT_DIR$/application/language/en-us/en-us_lang.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/application/views/admin/footer.php" afterPath="$PROJECT_DIR$/application/views/admin/footer.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/application/language/fr-fr/fr-fr_lang.php" afterPath="$PROJECT_DIR$/application/language/fr-fr/fr-fr_lang.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/application/views/admin/header-pure.php" afterPath="$PROJECT_DIR$/application/views/admin/header-pure.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/application/views/admin/header.php" afterPath="$PROJECT_DIR$/application/views/admin/header.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/application/views/admin/index.php" afterPath="$PROJECT_DIR$/application/views/admin/index.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/application/language/ja/ja_lang.php" afterPath="$PROJECT_DIR$/application/language/ja/ja_lang.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/application/views/coupon/list.php" afterPath="$PROJECT_DIR$/application/views/coupon/list.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/application/views/couponcatalog/list.php" afterPath="$PROJECT_DIR$/application/views/couponcatalog/list.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/application/views/merchant/list.php" afterPath="$PROJECT_DIR$/application/views/merchant/list.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/application/controllers/member.php" afterPath="$PROJECT_DIR$/application/controllers/member.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/application/models/member_model.php" afterPath="$PROJECT_DIR$/application/models/member_model.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/application/controllers/merchant.php" afterPath="$PROJECT_DIR$/application/controllers/merchant.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/application/models/merchant_model.php" afterPath="$PROJECT_DIR$/application/models/merchant_model.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/application/views/common/result-close.php" afterPath="$PROJECT_DIR$/application/views/common/result-close.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/application/language/zh-cn/zh-cn_lang.php" afterPath="$PROJECT_DIR$/application/language/zh-cn/zh-cn_lang.php" />
     </list>
     <ignored path="weixin.iws" />
     <ignored path=".idea/workspace.xml" />
-    <file path="/header.php" changelist="9c42f37f-b41b-40a5-884c-3813c2511426" time="1366643833619" ignored="false" />
-    <file path="/index.php" changelist="9c42f37f-b41b-40a5-884c-3813c2511426" time="1365260163385" ignored="false" />
-    <file path="/Dummy.txt" changelist="9c42f37f-b41b-40a5-884c-3813c2511426" time="1366639412402" ignored="false" />
-    <file path="/footer.php" changelist="9c42f37f-b41b-40a5-884c-3813c2511426" time="1365836427791" ignored="false" />
+    <file path="/header.php" changelist="9c42f37f-b41b-40a5-884c-3813c2511426" time="1366727982738" ignored="false" />
+    <file path="/index.php" changelist="9c42f37f-b41b-40a5-884c-3813c2511426" time="1366727367149" ignored="false" />
+    <file path="/Dummy.txt" changelist="9c42f37f-b41b-40a5-884c-3813c2511426" time="1366706924631" ignored="false" />
+    <file path="/footer.php" changelist="9c42f37f-b41b-40a5-884c-3813c2511426" time="1366727626605" ignored="false" />
     <file path="/charisma-app.css" changelist="9c42f37f-b41b-40a5-884c-3813c2511426" time="1366641995464" ignored="false" />
     <file path="/bootstrap-cerulean.css" changelist="9c42f37f-b41b-40a5-884c-3813c2511426" time="1366641664395" ignored="false" />
     <file path="/karla-ubuntu.css" changelist="9c42f37f-b41b-40a5-884c-3813c2511426" time="1366642196156" ignored="false" />
@@ -290,6 +71,12 @@
     <file path="/bootstrap-united.css" changelist="9c42f37f-b41b-40a5-884c-3813c2511426" time="1366643127786" ignored="false" />
     <file path="/bootstrap-redy.css" changelist="9c42f37f-b41b-40a5-884c-3813c2511426" time="1366643809179" ignored="false" />
     <file path="/member.php" changelist="9c42f37f-b41b-40a5-884c-3813c2511426" time="1366644810053" ignored="false" />
+    <file path="/index.js" changelist="9c42f37f-b41b-40a5-884c-3813c2511426" time="1366727823363" ignored="false" />
+    <file path="/header-pure.php" changelist="9c42f37f-b41b-40a5-884c-3813c2511426" time="1366732487326" ignored="false" />
+    <file path="/footer-pure.php" changelist="9c42f37f-b41b-40a5-884c-3813c2511426" time="1366735675860" ignored="false" />
+    <file path="/validationEngine.jquery.css" changelist="9c42f37f-b41b-40a5-884c-3813c2511426" time="1366734744129" ignored="false" />
+    <file path="/result-close.php" changelist="9c42f37f-b41b-40a5-884c-3813c2511426" time="1366735739021" ignored="false" />
+    <file path="/system.php" changelist="9c42f37f-b41b-40a5-884c-3813c2511426" time="1366735854776" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -309,19 +96,37 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="header.php" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/application/views/admin/header.php">
+      <file leaf-file-name="footer-pure.php" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/application/views/admin/footer-pure.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="134" column="21" selection-start="6508" selection-end="6508" vertical-scroll-proportion="-51.636364">
+            <state line="22" column="81" selection-start="890" selection-end="890" vertical-scroll-proportion="-16.0">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="member.php" pinned="false" current="true" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/application/controllers/member.php">
+      <file leaf-file-name="system.php" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/application/controllers/system.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="64" column="0" selection-start="1895" selection-end="1895" vertical-scroll-proportion="0.91314834">
+            <state line="16" column="38" selection-start="322" selection-end="322" vertical-scroll-proportion="-11.636364">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="editNew.php" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/application/views/cardcatalog/editNew.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="2" column="0" selection-start="105" selection-end="105" vertical-scroll-proportion="-0.7949337">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="result-close.php" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/application/views/common/result-close.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="1" column="8" selection-start="40" selection-end="40" vertical-scroll-proportion="-0.72727275">
               <folding />
             </state>
           </provider>
@@ -345,22 +150,22 @@
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
       <list>
-        <option value="$PROJECT_DIR$/application/views/admin/footer.php" />
+        <option value="$PROJECT_DIR$/application/language/en-us/en-us_lang.php" />
+        <option value="$PROJECT_DIR$/application/language/fr-fr/fr-fr_lang.php" />
+        <option value="$PROJECT_DIR$/application/language/ja/ja_lang.php" />
+        <option value="$PROJECT_DIR$/application/language/zh-cn/zh-cn_lang.php" />
+        <option value="$PROJECT_DIR$/application/views/cardcatalog/index.php" />
         <option value="$PROJECT_DIR$/resources/scripts/admin/admin.js" />
-        <option value="$PROJECT_DIR$/application/views/admin/index.php" />
-        <option value="$PROJECT_DIR$/resources/bootstrap/charisma/js/charisma.js" />
-        <option value="$PROJECT_DIR$/resources/bootstrap/charisma/css/bootstrap-cerulean.css" />
-        <option value="$PROJECT_DIR$/resources/bootstrap/charisma/css/charisma-app.css" />
-        <option value="$PROJECT_DIR$/resources/bootstrap/ext/karla-ubuntu.css" />
-        <option value="$PROJECT_DIR$/resources/bootstrap/ext/Shojumaru.css" />
-        <option value="$PROJECT_DIR$/resources/bootstrap/charisma/css/bootstrap-cyborg.css" />
-        <option value="$PROJECT_DIR$/resources/bootstrap/ext/droidsans.css" />
-        <option value="$PROJECT_DIR$/resources/bootstrap/charisma/css/bootstrap-journal.css" />
-        <option value="$PROJECT_DIR$/resources/bootstrap/ext/opensans.css" />
-        <option value="$PROJECT_DIR$/resources/bootstrap/charisma/css/bootstrap-united.css" />
-        <option value="$PROJECT_DIR$/resources/bootstrap/charisma/css/bootstrap-redy.css" />
+        <option value="$PROJECT_DIR$/resources/scripts/admin/index.js" />
         <option value="$PROJECT_DIR$/application/views/admin/header.php" />
-        <option value="$PROJECT_DIR$/application/controllers/member.php" />
+        <option value="$PROJECT_DIR$/application/views/admin/footer.-pure.php" />
+        <option value="$PROJECT_DIR$/application/views/admin/footer.php" />
+        <option value="$PROJECT_DIR$/application/views/admin/header-pure.php" />
+        <option value="$PROJECT_DIR$/resources/scripts/cardcatalog/edit.js" />
+        <option value="$PROJECT_DIR$/resources/jquery-validation/css/validationEngine.jquery.css" />
+        <option value="$PROJECT_DIR$/application/views/admin/footer-pure.php" />
+        <option value="$PROJECT_DIR$/application/views/common/result-close.php" />
+        <option value="$PROJECT_DIR$/application/controllers/system.php" />
       </list>
     </option>
   </component>
@@ -425,7 +230,61 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
+              <option name="myItemId" value="resources" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="weixin" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="wei-chat" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
               <option name="myItemId" value="application" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="weixin" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="wei-chat" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="application" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="views" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="weixin" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="wei-chat" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="application" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="views" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="cardcatalog" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -458,14 +317,16 @@
     <property name="options.lastSelected" value="project.propVCSSupport.Mappings" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="FullScreen" value="false" />
-    <property name="options.splitter.details.proportions" value="0.2" />
     <property name="options.searchVisible" value="true" />
+    <property name="options.splitter.details.proportions" value="0.2" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="G:\webroot\wei-chat\application\controllers" />
+      <recent name="G:\webroot\wei-chat\application\views\admin" />
+      <recent name="G:\webroot\wei-chat\resources" />
       <recent name="G:\webroot\wei-chat\resources\bootstrap\ext" />
       <recent name="G:\webroot\wei-chat\resources\bootstrap\charisma" />
-      <recent name="G:\webroot\weixin\resources" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="G:\webroot\wei-chat\resources\styles\images" />
@@ -517,14 +378,14 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1936" height="1056" extended-state="0" />
+    <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
     <editor active="true" />
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.21573876" sideWeight="0.6708075" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.18683083" sideWeight="0.6708075" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
@@ -600,114 +461,114 @@
     <breakpoint-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/resources/bootstrap/charisma/css/colorbox.css">
+    <entry file="file://$PROJECT_DIR$/application/language/ja/ja_lang.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="8" column="38" selection-start="196" selection-end="196" vertical-scroll-proportion="-5.818182">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/application/language/zh-cn/zh-cn_lang.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="8" column="38" selection-start="196" selection-end="196" vertical-scroll-proportion="0.23160434">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/application/views/cardcatalog/index.php">
       <provider selected="true" editor-type-id="text-editor">
         <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/resources/bootstrap/charisma/css/elfinder.min.css">
+    <entry file="file://$PROJECT_DIR$/application/controllers/cards.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
+        <state line="20" column="21" selection-start="993" selection-end="993" vertical-scroll-proportion="0.16043426">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/resources/bootstrap/charisma/css/elfinder.theme.css">
+    <entry file="file://$PROJECT_DIR$/resources/scripts/admin/index.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
+        <state line="16" column="31" selection-start="346" selection-end="346" vertical-scroll-proportion="0.44547564">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/resources/bootstrap/charisma/css/fullcalendar.css">
+    <entry file="file://$PROJECT_DIR$/application/views/admin/footer.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
+        <state line="49" column="37" selection-start="1922" selection-end="1922" vertical-scroll-proportion="0.31506848">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/resources/bootstrap/charisma/css/fullcalendar.print.css">
+    <entry file="file://$PROJECT_DIR$/resources/jquery-validation/css/validationEngine.jquery.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
+        <state line="49" column="15" selection-start="799" selection-end="799" vertical-scroll-proportion="0.54545456">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/resources/bootstrap/charisma/css/jquery.cleditor.css">
+    <entry file="file://$PROJECT_DIR$/resources/scripts/cardcatalog/edit.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
+        <state line="16" column="19" selection-start="569" selection-end="569" vertical-scroll-proportion="0.44547564">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/resources/bootstrap/charisma/css/jquery.iphone.toggle.css">
+    <entry file="file://$PROJECT_DIR$/application/views/cardcatalog/list.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="22" column="11" selection-start="571" selection-end="571" vertical-scroll-proportion="0.0">
+        <state line="10" column="13" selection-start="419" selection-end="419" vertical-scroll-proportion="0.28950542">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/resources/bootstrap/charisma/css/jquery.noty.css">
+    <entry file="file://$PROJECT_DIR$/application/views/admin/header-pure.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/resources/bootstrap/charisma/css/jquery-ui-1.8.21.custom.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/resources/bootstrap/charisma/css/noty_theme_default.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/resources/bootstrap/charisma/css/opa-icons.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/resources/bootstrap/charisma/css/uniform.default.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/resources/bootstrap/charisma/css/uploadify.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/resources/bootstrap/charisma/css/bootstrap-redy.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="2783" column="14" selection-start="59206" selection-end="59206" vertical-scroll-proportion="0.56537104">
+        <state line="28" column="91" selection-start="1523" selection-end="1523" vertical-scroll-proportion="0.7352941">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/application/views/admin/header.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="134" column="21" selection-start="6508" selection-end="6508" vertical-scroll-proportion="-51.636364">
+        <state line="117" column="0" selection-start="5336" selection-end="5336" vertical-scroll-proportion="1.9975874">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/application/controllers/member.php">
+    <entry file="file://$PROJECT_DIR$/application/controllers/cardcatalog.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="64" column="0" selection-start="1895" selection-end="1895" vertical-scroll-proportion="0.91314834">
+        <state line="17" column="24" selection-start="902" selection-end="902" vertical-scroll-proportion="0.04463209">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/application/views/common/result-close.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="1" column="8" selection-start="40" selection-end="40" vertical-scroll-proportion="-0.72727275">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/application/views/admin/footer-pure.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="22" column="81" selection-start="890" selection-end="890" vertical-scroll-proportion="-16.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/application/controllers/system.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="16" column="38" selection-start="322" selection-end="322" vertical-scroll-proportion="-11.636364">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/application/views/cardcatalog/editNew.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="2" column="0" selection-start="105" selection-end="105" vertical-scroll-proportion="-0.7949337">
           <folding />
         </state>
       </provider>

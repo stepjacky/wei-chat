@@ -1,11 +1,11 @@
 <link href="/resources/styles/couponcatalog/style.css" media="screen" rel="stylesheet" type="text/css" />
-<h3>优惠券类别列表</h3>
+<h3>优惠券列表</h3>
 <table id="list" class="table table-striped table-bordered table-hover">
         <thead>
         <tr>
-          <th colspan="11">
+          <th colspan="10">
             <button type="button" class="btn btn-info" onclick="newOne();">
-             <i class="icon-plus"></i>新增优惠券类别
+             <i class="icon-plus"></i>新增优惠券
             </button>
           </th>
         </tr>
@@ -21,8 +21,6 @@
                 <th>起始日期</th> 
                          
                 <th>结束日期</th> 
-                         
-                <th>优惠策略</th> 
                          
                 <th>商家</th> 
                          
@@ -64,10 +62,6 @@
             </td>  
                       
                 <td>
-              <?=val($couponpolicy_id)?>             
-            </td>  
-                      
-                <td>
               <?=val($merchant_id)?>             
             </td>  
                       
@@ -91,7 +85,7 @@
         </tbody>
         <tfoot>
         <tr>          
-            <td colspan="11">
+            <td colspan="10">
                 <?=$pagelink;?>
             </td>
         </tr>

@@ -33,7 +33,6 @@
 <!-- jQuery -->
 <script src="/resources/jquery-1.8.2.js"></script>
 
-<script type="text/javascript" src="/resources/scripts/admin/admin.js"></script>
 <!-- jQuery UI -->
 <script src="/resources/bootstrap/charisma/js/jquery-ui-1.8.21.custom.min.js"></script>
 <!-- transition / effect library -->
@@ -102,5 +101,6 @@
 <!-- application script for Charisma demo -->
 <script src="/resources/bootstrap/charisma/js/charisma.js"></script>
 
+<script src="/resources/scripts/admin/index.js" type="text/javascript"></script>
 </body>
 </html>

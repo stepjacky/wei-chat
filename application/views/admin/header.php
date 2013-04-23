@@ -95,40 +95,31 @@
         <!-- left menu starts -->
         <div class="span2 main-menu-span">
             <div class="well nav-collapse sidebar-nav">
-                <ul class="nav nav-tabs nav-stacked main-menu">
-                    <li class="nav-header hidden-tablet">微生活卡</li>
-                    <li><a class="ajax-link"
-                           link="/member/list" href="###">
-                            <i class="icon-home"></i><span class="hidden-tablet">
-                                      会员管理                      </span></a></li>
-                    <li><a class="ajax-link" link="/member/cards" href="###">
+                <ul class="leftnav nav nav-tabs nav-stacked main-menu">
+                    <li class="nav-header hidden-tablet">微生活业务</li>
+
+                    <li><a class="ajax-link" link="/cardcatalog/lists" href="###">
                             <i class="icon-eye-open"></i>
-                            <span class="hidden-tablet">会员卡管理</span></a></li>
-                    <li><a class="ajax-link" link="/credits/list" href="###">
+                            <span class="hidden-tablet">会员卡</span></a></li>
+                    <li><a class="ajax-link" link="/couponcatalog/lists" href="###">
                             <i class="icon-edit"></i>
-                            <span class="hidden-tablet">优惠券管理</span></a></li>
-                    <li><a class="ajax-link" link="/credits/validate" href="###">
-                            <i class="icon-list-alt"></i>
-                            <span class="hidden-tablet">优惠券验证</span></a></li>
-                    <li><a class="ajax-link" link="/credits/distribute" href="###">
-                            <i class="icon-font"></i>
-                            <span class="hidden-tablet">优惠券发放</span></a></li>
+                            <span class="hidden-tablet">优惠券</span></a></li>
 
                     <li class="nav-header hidden-tablet">公众账号</li>
-                    <li><a class="ajax-link" link="/watcher/list" href="###">
+                    <li><a class="ajax-link" link="/member/lists" href="###">
                             <i class="icon-align-justify"></i>
-                            <span class="hidden-tablet">关注者账号</span></a></li>
+                            <span class="hidden-tablet">会员</span></a></li>
                     <li><a class="ajax-link" link="/message/index" href="###">
                             <i class="icon-calendar"></i>
-                            <span class="hidden-tablet">信息发布</span></a></li>
-                    <li><a class="ajax-link" link="/message/list" href="###">
+                            <span class="hidden-tablet">消息设置</span></a></li>
+                    <li><a class="ajax-link" link="/message/lists" href="###">
                             <i class="icon-th"></i>
-                            <span class="hidden-tablet">我的消息</span></a></li>
+                            <span class="hidden-tablet">消息管理</span></a></li>
 
-                    <li class="nav-header hidden-tablet">系统管理</li>
+                    <li class="nav-header hidden-tablet">系统</li>
                     <li><a class="ajax-link" link="/profile" href="###">
                             <i class="icon-picture"></i>
-                            <span class="hidden-tablet">我的资料</span></a></li>
+                            <span class="hidden-tablet">商户资料</span></a></li>
                     <li><a link="/system/logout" href="###">
                             <i class="icon-globe"></i>
                             <span class="hidden-tablet">退出</span></a></li>

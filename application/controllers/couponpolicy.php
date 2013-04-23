@@ -20,7 +20,7 @@
  * User: qujiakang
  * QQ:myqq_postor@qq.com
  * Email: qujiakang@gmail.com  
- * Date: Sat Apr 13 15:19:23 CST 2013
+ * Date: Tue Apr 23 22:57:33 CST 2013
  *    
  */
 
@@ -53,9 +53,9 @@ class Couponpolicy extends MY_Controller {
         
         }
         
-        $this->load->view("admin/res-head");
+        $this->load->view("admin/header-pure");
         $this->load->view($this->dao->table()."/editNew",$data);
-        $this->load->view("admin/footer");
+        $this->load->view("admin/footer-pure");
     }
     
     
