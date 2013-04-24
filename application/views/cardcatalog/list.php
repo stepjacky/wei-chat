@@ -3,19 +3,19 @@
 <table id="list" class="table table-striped table-bordered table-hover">
         <thead>
         <tr>
-          <th colspan="5">
+          <th colspan="6">
             <button type="button" class="btn btn-info" onclick="newOne();">
              <i class="icon-plus"></i>新增会员卡
             </button>
           </th>
         </tr>
         <tr>
-                <th>编号</th> 
                          
                 <th>名称</th> 
                          
+                <th>模板</th> 
                          
-                <th>所属商家</th> 
+                         
                          
             <th>管理</th>
         </tr>
@@ -28,16 +28,20 @@
             ?>
            <tr>
                 <td>
-              <?=val($id)?>             
+              <?=$id?>             
             </td>  
                       
                 <td>
-              <?=val($name)?>             
+              <?=$name?>             
+            </td>  
+                      
+                <td>
+              <?=$image?>             
             </td>  
                       
                       
                 <td>
-              <?=val($merchant_id)?>             
+              <?=$merchant_id?>             
             </td>  
                       
            <td>
@@ -55,7 +59,7 @@
         </tbody>
         <tfoot>
         <tr>          
-            <td colspan="5">
+            <td colspan="6">
                 <?=$pagelink;?>
             </td>
         </tr>

@@ -3,7 +3,7 @@
 <table id="list" class="table table-striped table-bordered table-hover">
         <thead>
         <tr>
-          <th colspan="14">
+          <th colspan="8">
             <button type="button" class="btn btn-info" onclick="newOne();">
              <i class="icon-plus"></i>新增商户
             </button>
@@ -12,29 +12,17 @@
         <tr>
                 <th>公众账号</th> 
                          
-                <th>微信号</th> 
-                         
-                <th></th> 
-                         
-                <th>令牌</th> 
+                <th>密码</th> 
                          
                 <th>名称</th> 
                          
+                <th>VIP级别</th> 
+                         
                 <th>电话</th> 
                          
-                <th>密码</th> 
+                <th>QQ</th> 
                          
-                <th></th> 
-                         
-                <th></th> 
-                         
-                <th></th> 
-                         
-                <th></th> 
-                         
-                <th></th> 
-                         
-                <th></th> 
+                <th>地址</th> 
                          
             <th>管理</th>
         </tr>
@@ -47,55 +35,31 @@
             ?>
            <tr>
                 <td>
-              <?=val($id)?>             
+              <?=$id?>             
             </td>  
                       
                 <td>
-              <?=val($weixin_id)?>             
+              <?=$pword?>             
             </td>  
                       
                 <td>
-              <?=val($weixin)?>             
+              <?=$name?>             
             </td>  
                       
                 <td>
-              <?=val($token)?>             
+              <?=$grade?>             
             </td>  
                       
                 <td>
-              <?=val($name)?>             
+              <?=$phone?>             
             </td>  
                       
                 <td>
-              <?=val($phone)?>             
+              <?=$qq?>             
             </td>  
                       
                 <td>
-              <?=val($pword)?>             
-            </td>  
-                      
-                <td>
-              <?=val($appid)?>             
-            </td>  
-                      
-                <td>
-              <?=val($appsecret)?>             
-            </td>  
-                      
-                <td>
-              <?=val($avatar)?>             
-            </td>  
-                      
-                <td>
-              <?=val($address)?>             
-            </td>  
-                      
-                <td>
-              <?=val($qq)?>             
-            </td>  
-                      
-                <td>
-              <?=val($statlink)?>             
+              <?=$address?>             
             </td>  
                       
            <td>
@@ -113,7 +77,7 @@
         </tbody>
         <tfoot>
         <tr>          
-            <td colspan="14">
+            <td colspan="8">
                 <?=$pagelink;?>
             </td>
         </tr>

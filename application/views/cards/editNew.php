@@ -1,4 +1,3 @@
-
 <link href="/resources/styles/cards/style.css" media="screen" rel="stylesheet" type="text/css" />
 <form id="cardsform" method="post">
 
@@ -60,5 +59,7 @@
 </table>
 </fieldset>
 </form>
+
+<script type="text/javascript" src="/resources/scripts/picture/picture.js" charset="UTF-8"></script>
 <script type="text/javascript" src="/resources/bootstrap/js/locales/bootstrap-datepicker.zh-CN.js" charset="UTF-8"></script>
 <script type="text/javascript" src="/resources/scripts/cards/edit.js"></script>

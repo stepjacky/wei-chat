@@ -20,7 +20,7 @@
  * User: qujiakang
  * QQ:myqq_postor@qq.com
  * Email: qujiakang@gmail.com  
- * Date: Wed Apr 24 00:44:25 CST 2013
+ * Date: Wed Apr 24 23:46:44 CST 2013
  *    
  */
 
@@ -32,32 +32,25 @@ class Cardcatalog extends MY_Controller {
                 
     }
 
-    public function index(){
-        $data = array();
-        
-        $this->__user_header($data);
+    public function index($id=FALSE){
+         $data = $this->dao->get($id);        
+        //$this->load->view("admin/header-pure");
         $this->load->view("cardcatalog/index",$data);
-        $this->load->view("apps/footer");
+        //$this->load->view("admin/footer-pure");
     }
     
      /**
       * 新增编辑
       */
-    public function editNew($id=-1){
+    public function editNew($id=FALSE){
         
-       $data = array(); 
+       $data = $this->dao->get($id);
              
                $ckcfg = array();
                $ckcfg["name"]  ="info";          
-      
-        if($id!=-1){
-           $data = $this->dao->get($id);
+             
               $ckcfg["value"] = $data["info"];       
-          
-        }else{
-           $data = $this->dao->emptyObject();
-        
-        }
+     
         
              $data['my_editor'] = $this->create_ckeditor->createEditor( $ckcfg);        
         $this->load->view("admin/header-pure");

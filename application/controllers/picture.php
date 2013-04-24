@@ -38,23 +38,7 @@ class Picture extends MY_Controller {
         $this->load->view("picture/index",$data);
         $this->load->view("admin/footer");
     }
-    
-     /**
-      * 新增编辑
-      */
-    public function editNew($id=-1){
-        
-       $data = array(); 
-      
-        if($id!=-1){
-           $data = $this->dao->get($id);
-          
-        }
-        
-        $this->load->view("admin/header");
-        $this->load->view($this->dao->table()."/editNew",$data);
-        $this->load->view("admin/footer");
-    }
+
 
     public function add_picture($phone){
 
@@ -119,14 +103,8 @@ class Picture extends MY_Controller {
     public function selector_thumbnails($ptype,$page=1){
         $data = array();
         $data['ptype'] = $ptype;
-        if($ptype=="artitle" || $ptype=="video"){
-            $beans = $this->dao->find_by_type($ptype,$page);
-            $pagelink = $this->dao->create_page_link('ptype',$ptype,$page);
-        }else{
-            $beans =  $this->dao->find_by_phone($ptype,$page);
-            $pagelink = $this->dao->create_page_link('phone_id',$ptype,$page);
-
-        }
+        $beans = $this->dao->find_by_type($ptype,$page);
+        $pagelink = $this->dao->create_page_link('ptype',$ptype,$page);
 
         $data['beans']     = $beans;
         $data['pagelink']  = $pagelink;
@@ -145,12 +123,12 @@ class Picture extends MY_Controller {
     }
 
     public function selector(){
-        $this->load->view('admin/res-head');
+        $this->load->view('admin/header-pure');
         $this->load->view('picture/selector');
     }
 
     public function input(){
-        $this->load->view('admin/res-head');
+        $this->load->view('admin/header-pure');
         $this->load->view('picture/input');
     }
     public function selector_list($page=1){

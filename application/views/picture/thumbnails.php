@@ -11,32 +11,23 @@
         <div class="caption">
             <p>
                 <label class="radio inline">
-                    <input type="radio" id="ptype-mini-<?=$pic['id']?>" name="ptype-<?=$pic['id']?>" value="minipic"
+                    <input type="radio" id="ptype-mini-<?=$pic['id']?>" name="ptype-<?=$pic['id']?>" value="card"
                             <?php
-                              if($ptype=="minipic")
+                              if($ptype=="card")
                                   echo "checked='checked'";
                               ?>
                             onclick="updatePtype('<?=$pic['id']?>',this.value)"
-                            />小图
+                            />优惠卡
                 </label>
                 <label class="radio inline">
-                    <input type="radio" id="ptype-large-<?=$pic['id']?>" name="ptype-<?=$pic['id']?>" value="largepic"
+                    <input type="radio" id="ptype-large-<?=$pic['id']?>" name="ptype-<?=$pic['id']?>" value="coupon"
                         <?php
                     if($ptype=="largepic")
                         echo "checked='checked'";
                     ?>
                            onclick="updatePtype('<?=$pic['id']?>',this.value)"
 
-                            >大图
-                </label>
-                <label class="radio inline">
-                    <input type="radio" id="ptype-plist-<?=$pic['id']?>" name="ptype-<?=$pic['id']?>" value="plist"
-                        <?php
-                    if($ptype=="plist")
-                        echo "checked='checked'";
-                    ?>
-                           onclick="updatePtype('<?=$pic['id']?>',this.value)"
-                            >列表
+                            >优惠券
                 </label>
                 <label class="radio inline">
                     <a href="javascript:;" onclick="removePic('<?=$pic['id']?>')">
@@ -61,7 +52,6 @@
 
 <script type="text/javascript">
    function updatePtype(id,ptype){
-       if(topType=="artitle" || topType=="video")return;
        $.post('/picture/update_ptype/'+id+"/"+ptype);
    }
 

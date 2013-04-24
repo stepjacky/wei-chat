@@ -1,6 +1,7 @@
 function newOne(){
   	var url="/coupon/editNew";
   	window.showModalDialog(url,window);   
+  	
 }
 function editOne(id){
     var url="/coupon/editNew/"+id;

@@ -10,9 +10,7 @@
           </th>
         </tr>
         <tr>
-                <th>编号</th> 
                          
-                <th></th> 
                          
                 <th>验证类型</th> 
                          
@@ -20,9 +18,7 @@
                          
                 <th>使用时间</th> 
                          
-                <th>所属优惠券</th> 
                          
-                <th>领取人</th> 
                          
             <th>管理</th>
         </tr>
@@ -35,31 +31,31 @@
             ?>
            <tr>
                 <td>
-              <?=val($id)?>             
+              <?=$id?>             
             </td>  
                       
                 <td>
-              <?=val($name)?>             
+              <?=$name?>             
             </td>  
                       
                 <td>
-              <?=val($validator)?>             
+              <?=$validator?>             
             </td>  
                       
                 <td>
-              <?=val($cvcode)?>             
+              <?=$cvcode?>             
             </td>  
                       
                 <td>
-              <?=val($firedate)?>             
+              <?=$firedate?>             
             </td>  
                       
                 <td>
-              <?=val($catalog_id)?>             
+              <?=$catalog_id?>             
             </td>  
                       
                 <td>
-              <?=val($member_id)?>             
+              <?=$member_id?>             
             </td>  
                       
            <td>

@@ -1,4 +1,3 @@
-
 <link href="/resources/styles/respmusicmessage/style.css" media="screen" rel="stylesheet" type="text/css" />
 <form id="respmusicmessageform" method="post">
 
@@ -79,5 +78,7 @@
 </table>
 </fieldset>
 </form>
+
+<script type="text/javascript" src="/resources/scripts/picture/picture.js" charset="UTF-8"></script>
 <script type="text/javascript" src="/resources/bootstrap/js/locales/bootstrap-datepicker.zh-CN.js" charset="UTF-8"></script>
 <script type="text/javascript" src="/resources/scripts/respmusicmessage/edit.js"></script>

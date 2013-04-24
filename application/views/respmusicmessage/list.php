@@ -10,25 +10,16 @@
           </th>
         </tr>
         <tr>
-                <th>编号</th> 
                          
                 <th>消息类型</th> 
                          
-                <th></th> 
                          
-                <th></th> 
                          
-                <th></th> 
                          
-                <th></th> 
                          
-                <th></th> 
                          
-                <th></th> 
                          
-                <th></th> 
                          
-                <th></th> 
                          
             <th>管理</th>
         </tr>
@@ -41,43 +32,43 @@
             ?>
            <tr>
                 <td>
-              <?=val($MsgId)?>             
+              <?=$MsgId?>             
             </td>  
                       
                 <td>
-              <?=val($msgType)?>             
+              <?=$msgType?>             
             </td>  
                       
                 <td>
-              <?=val($ToUserName)?>             
+              <?=$ToUserName?>             
             </td>  
                       
                 <td>
-              <?=val($FromUserName)?>             
+              <?=$FromUserName?>             
             </td>  
                       
                 <td>
-              <?=val($CreateTime)?>             
+              <?=$CreateTime?>             
             </td>  
                       
                 <td>
-              <?=val($Title)?>             
+              <?=$Title?>             
             </td>  
                       
                 <td>
-              <?=val($Description)?>             
+              <?=$Description?>             
             </td>  
                       
                 <td>
-              <?=val($MusicUrl)?>             
+              <?=$MusicUrl?>             
             </td>  
                       
                 <td>
-              <?=val($HQMusicUrl)?>             
+              <?=$HQMusicUrl?>             
             </td>  
                       
                 <td>
-              <?=val($FuncFlag)?>             
+              <?=$FuncFlag?>             
             </td>  
                       
            <td>

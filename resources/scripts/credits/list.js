@@ -1,6 +1,7 @@
 function newOne(){
   	var url="/credits/editNew";
   	window.showModalDialog(url,window);   
+  	
 }
 function editOne(id){
     var url="/credits/editNew/"+id;

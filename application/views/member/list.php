@@ -10,7 +10,6 @@
           </th>
         </tr>
         <tr>
-                <th>编号</th> 
                          
                 <th>微信</th> 
                          
@@ -20,7 +19,6 @@
                          
                 <th>会员卡号</th> 
                          
-                <th>所属商户</th> 
                          
             <th>管理</th>
         </tr>
@@ -33,27 +31,27 @@
             ?>
            <tr>
                 <td>
-              <?=val($id)?>             
+              <?=$id?>             
             </td>  
                       
                 <td>
-              <?=val($weixin)?>             
+              <?=$weixin?>             
             </td>  
                       
                 <td>
-              <?=val($nick)?>             
+              <?=$nick?>             
             </td>  
                       
                 <td>
-              <?=val($email)?>             
+              <?=$email?>             
             </td>  
                       
                 <td>
-              <?=val($vip)?>             
+              <?=$vip?>             
             </td>  
                       
                 <td>
-              <?=val($merchant_id)?>             
+              <?=$merchant_id?>             
             </td>  
                       
            <td>

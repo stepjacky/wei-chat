@@ -25,31 +25,33 @@
 </div>
 <script type="text/javascript">
     var setting = {
+        /**
         async: {
-            enable: true,
+            enable: false,
             url:"/phone/ztree",
             autoParam:["id"],
             otherParam:{"pictype":"phone"}
 
         },
+         */
         callback: {
             onClick: onClick
         }
     };
     var zNodes =[
 
-        {
+       /* {
             id:"root",
             name:"所有手机品牌",
             isParent:true
-        },
+        },*/
         {
-            id:'artitle',
-            name:'新闻图片',
+            id:'card',
+            name:'会员卡模板',
             isParent:false
         },{
-            id:'video',
-            name:'视频图片',
+            id:'coupon',
+            name:'优惠券模板',
             isParent:false
         }
 

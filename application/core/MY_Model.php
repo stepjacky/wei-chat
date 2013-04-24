@@ -163,12 +163,13 @@ class MY_Model extends CI_Model
         $this->db->delete($this->table(), array($pk=>$id));
     }
 
-    public function get($id,$pk='id'){
+    public function get($id=FALSE,$pk='id'){
+        if(!$id) return $this->emptyObject();
         $id = urldecode($id);
 
         $query = $this->db->get_where($this->table(), array($pk => $id));
         $bean =   $query->row_array();
-        return count($bean)==0?$this->emptyObject():$bean;
+        return empty($bean)?$this->emptyObject():$bean;
     }
 
     public function table(){

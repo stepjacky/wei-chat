@@ -31,7 +31,7 @@ class Picture_model extends MY_Model {
     }  
 
     public function find_by_phone($phoneId,$page=1){
-        $this->db->select("id,name,path,phone_id,ptype");
+        $this->db->select("id,name,path,ptype");
         $this->db->where("phone_id",$phoneId);
         $this->db->limit(9,($page-1)*9);
         $query =$this->db->get($this->table());

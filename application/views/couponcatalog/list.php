@@ -10,7 +10,6 @@
           </th>
         </tr>
         <tr>
-                <th>编号</th> 
                          
                 <th>名称</th> 
                          
@@ -22,7 +21,6 @@
                          
                 <th>结束日期</th> 
                          
-                <th>商家</th> 
                          
                 <th>日领取数</th> 
                          
@@ -38,35 +36,35 @@
             ?>
            <tr>
                 <td>
-              <?=val($id)?>             
+              <?=$id?>             
             </td>  
                       
                 <td>
-              <?=val($name)?>             
+              <?=$name?>             
             </td>  
                       
                 <td>
-              <?=val($amount)?>             
+              <?=$amount?>             
             </td>  
                       
                 <td>
-              <?=val($image)?>             
+              <?=$image?>             
             </td>  
                       
                 <td>
-              <?=val($startdate)?>             
+              <?=$startdate?>             
             </td>  
                       
                 <td>
-              <?=val($enddate)?>             
+              <?=$enddate?>             
             </td>  
                       
                 <td>
-              <?=val($merchant_id)?>             
+              <?=$merchant_id?>             
             </td>  
                       
                 <td>
-              <?=val($daily_limit)?>             
+              <?=$daily_limit?>             
             </td>  
                       
                       

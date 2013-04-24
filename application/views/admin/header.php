@@ -117,7 +117,7 @@
                             <span class="hidden-tablet">消息管理</span></a></li>
 
                     <li class="nav-header hidden-tablet">系统</li>
-                    <li><a class="ajax-link" link="/profile" href="###">
+                    <li><a class="ajax-link" link="/merchant" href="###">
                             <i class="icon-picture"></i>
                             <span class="hidden-tablet">商户资料</span></a></li>
                     <li><a link="/system/logout" href="###">

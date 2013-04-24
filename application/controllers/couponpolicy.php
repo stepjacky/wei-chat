@@ -36,6 +36,7 @@ class Couponpolicy extends MY_Controller {
         $this->__user_header($data);
         $this->load->view("couponpolicy/index",$data);
         $this->load->view("apps/footer");
+
     }
     
      /**

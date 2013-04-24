@@ -10,15 +10,12 @@
           </th>
         </tr>
         <tr>
-                <th>编号</th> 
                          
                 <th>分值</th> 
                          
                 <th>积分日期</th> 
                          
-                <th>积分用户</th> 
                          
-                <th>积分优惠券</th> 
                          
             <th>管理</th>
         </tr>
@@ -31,23 +28,23 @@
             ?>
            <tr>
                 <td>
-              <?=val($id)?>             
+              <?=$id?>             
             </td>  
                       
                 <td>
-              <?=val($amount)?>             
+              <?=$amount?>             
             </td>  
                       
                 <td>
-              <?=val($firedate)?>             
+              <?=$firedate?>             
             </td>  
                       
                 <td>
-              <?=val($member_id)?>             
+              <?=$member_id?>             
             </td>  
                       
                 <td>
-              <?=val($catalog_id)?>             
+              <?=$catalog_id?>             
             </td>  
                       
            <td>

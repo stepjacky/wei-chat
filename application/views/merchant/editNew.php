@@ -1,4 +1,3 @@
-
 <link href="/resources/styles/merchant/style.css" media="screen" rel="stylesheet" type="text/css" />
 <form id="merchantform" method="post">
 
@@ -8,31 +7,15 @@
 </legend>
 <table class="table table-hover table-bordered">
 <tbody>
-      <input name="id" id="id" type="text" value="<?=val($id)?>" class="validate[required] readonly" />
+      <input name="id" id="id" type="text" value="<?=val($id)?>" class="validate[required]" />
   
   
      
   
      <tr>
-   <td>微信号</td>
+   <td>密码</td>
    <td>            
-        <input name="weixin_id" id="weixin_id" type="text" value="<?=val($weixin_id)?>" class="validate[required]" />
-   </td>     
-   
-</tr>
-  
-  
-     
-  
-      <input id="weixin" type="hidden" name="weixin" value="<?=val($weixin)?>" />
-  
-  
-     
-  
-     <tr>
-   <td>令牌</td>
-   <td>            
-        <input name="token" id="token" type="text" value="<?=val($token)?>" class="validate[required]" />
+        <input name="pword" id="pword" type="password" value="<?=val($pword)?>" class="validate[required]" />
    </td>     
    
 </tr>
@@ -52,6 +35,17 @@
      
   
      <tr>
+   <td>VIP级别</td>
+   <td>            
+        <input name="grade" id="grade" type="text" value="<?=val($grade)?>" class="validate[required]" />
+   </td>     
+   
+</tr>
+  
+  
+     
+  
+     <tr>
    <td>电话</td>
    <td>            
         <input name="phone" id="phone" type="text" value="<?=val($phone)?>" class="validate[required]" />
@@ -63,9 +57,9 @@
      
   
      <tr>
-   <td>密码</td>
+   <td>QQ</td>
    <td>            
-        <input name="pword" id="pword" type="password" value="<?=val($pword)?>" class="validate[required]" />
+        <input name="qq" id="qq" type="text" value="<?=val($qq)?>" class="validate[required]" />
    </td>     
    
 </tr>
@@ -73,32 +67,13 @@
   
      
   
-      <input id="appid" type="hidden" name="appid" value="<?=val($appid)?>" />
-  
-  
-     
-  
-      <input id="appsecret" type="hidden" name="appsecret" value="<?=val($appsecret)?>" />
-  
-  
-     
-  
-      <input id="avatar" type="hidden" name="avatar" value="<?=val($avatar)?>" />
-  
-  
-     
-  
-      <input id="address" type="hidden" name="address" value="<?=val($address)?>" />
-  
-  
-     
-  
-      <input id="qq" type="hidden" name="qq" value="<?=val($qq)?>" />
-  
-  
-     
-  
-      <input id="statlink" type="hidden" name="statlink" value="<?=val($statlink)?>" />
+     <tr>
+   <td>地址</td>
+   <td>            
+        <textarea id="address" name="address" class="validate[required]"><?=val($address)?></textarea>
+   </td>     
+   
+</tr>
   
   
      
@@ -118,5 +93,7 @@
 </table>
 </fieldset>
 </form>
+
+<script type="text/javascript" src="/resources/scripts/picture/picture.js" charset="UTF-8"></script>
 <script type="text/javascript" src="/resources/bootstrap/js/locales/bootstrap-datepicker.zh-CN.js" charset="UTF-8"></script>
 <script type="text/javascript" src="/resources/scripts/merchant/edit.js"></script>

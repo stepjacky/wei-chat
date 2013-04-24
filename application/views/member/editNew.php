@@ -1,4 +1,3 @@
-
 <link href="/resources/styles/member/style.css" media="screen" rel="stylesheet" type="text/css" />
 <form id="memberform" method="post">
 
@@ -57,13 +56,7 @@
   
      
   
-     <tr>
-   <td>所属商户</td>
-   <td>            
-        <input name="merchant_id" id="merchant_id" type="text" value="<?=val($merchant_id)?>" class="validate[required]" />
-   </td>     
-   
-</tr>
+      <input type="hidden" name="merchant_id" id="merchant_id" value="<?=val($merchant_id)?>" />
   
   
      
@@ -83,5 +76,7 @@
 </table>
 </fieldset>
 </form>
+
+<script type="text/javascript" src="/resources/scripts/picture/picture.js" charset="UTF-8"></script>
 <script type="text/javascript" src="/resources/bootstrap/js/locales/bootstrap-datepicker.zh-CN.js" charset="UTF-8"></script>
 <script type="text/javascript" src="/resources/scripts/member/edit.js"></script>

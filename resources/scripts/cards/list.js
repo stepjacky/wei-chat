@@ -1,6 +1,7 @@
 function newOne(){
   	var url="/cards/editNew";
   	window.showModalDialog(url,window);   
+  	
 }
 function editOne(id){
     var url="/cards/editNew/"+id;

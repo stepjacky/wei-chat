@@ -10,15 +10,12 @@
           </th>
         </tr>
         <tr>
-                <th>编号</th> 
                          
                 <th>名称</th> 
                          
                 <th>使用次数</th> 
                          
-                <th>所属卡类</th> 
                          
-                <th>所属用户</th> 
                          
             <th>管理</th>
         </tr>
@@ -31,23 +28,23 @@
             ?>
            <tr>
                 <td>
-              <?=val($id)?>             
+              <?=$id?>             
             </td>  
                       
                 <td>
-              <?=val($name)?>             
+              <?=$name?>             
             </td>  
                       
                 <td>
-              <?=val($times)?>             
+              <?=$times?>             
             </td>  
                       
                 <td>
-              <?=val($cardcatalog_id)?>             
+              <?=$cardcatalog_id?>             
             </td>  
                       
                 <td>
-              <?=val($member_id)?>             
+              <?=$member_id?>             
             </td>  
                       
            <td>

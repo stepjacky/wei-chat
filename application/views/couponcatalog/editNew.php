@@ -1,4 +1,3 @@
-
 <link href="/resources/styles/couponcatalog/style.css" media="screen" rel="stylesheet" type="text/css" />
 <form id="couponcatalogform" method="post">
 
@@ -38,7 +37,11 @@
      <tr>
    <td>优惠券图</td>
    <td>            
-        <input name="image" id="image" type="text" value="<?=val($image)?>" class="validate[required]" />
+        <div>
+ <img src="<?=val($image)?>" style="width:100px;height:55px" />
+ <input id="image" name="image" type="hidden" value="<?=val($image)?>" />
+ <button type="button" class=" btn btn-info" onclick="imageSelector()">选择图片</button>
+</div>
    </td>     
    
 </tr>
@@ -110,5 +113,7 @@
 </table>
 </fieldset>
 </form>
+
+<script type="text/javascript" src="/resources/scripts/picture/picture.js" charset="UTF-8"></script>
 <script type="text/javascript" src="/resources/bootstrap/js/locales/bootstrap-datepicker.zh-CN.js" charset="UTF-8"></script>
 <script type="text/javascript" src="/resources/scripts/couponcatalog/edit.js"></script>

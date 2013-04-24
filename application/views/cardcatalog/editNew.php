@@ -1,4 +1,3 @@
-
 <link href="/resources/styles/cardcatalog/style.css" media="screen" rel="stylesheet" type="text/css" />
 <form id="cardcatalogform" method="post">
 
@@ -17,6 +16,21 @@
    <td>名称</td>
    <td>            
         <input name="name" id="name" type="text" value="<?=val($name)?>" class="validate[required]" />
+   </td>     
+   
+</tr>
+  
+  
+     
+  
+     <tr>
+   <td>模板</td>
+   <td>            
+        <div>
+ <img src="<?=val($image)?>" style="width:100px;height:55px" />
+ <input id="image" name="image" type="hidden" value="<?=val($image)?>" />
+ <button type="button" class=" btn btn-info" onclick="imageSelector()">选择图片</button>
+</div>
    </td>     
    
 </tr>
@@ -55,5 +69,7 @@
 </table>
 </fieldset>
 </form>
+
+<script type="text/javascript" src="/resources/scripts/picture/picture.js" charset="UTF-8"></script>
 <script type="text/javascript" src="/resources/bootstrap/js/locales/bootstrap-datepicker.zh-CN.js" charset="UTF-8"></script>
 <script type="text/javascript" src="/resources/scripts/cardcatalog/edit.js"></script>
