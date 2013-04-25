@@ -7,7 +7,13 @@
 </legend>
 <table class="table table-hover table-bordered">
 <tbody>
-      <input name="id" id="id" type="text" value="<?=val($id)?>" class="validate[required]" />
+     <tr>
+   <td>用户名</td>
+   <td>            
+        <input name="id" id="id" type="text" value="<?=val($id)?>" class="validate[required]" />
+   </td>     
+   
+</tr>
   
   
      
@@ -26,7 +32,7 @@
      <tr>
    <td>名称</td>
    <td>            
-        <input name="name" id="name" type="text" value="<?=val($name)?>" class="validate[required] input-xxlarge" />
+        <input name="name" id="name" type="text" value="<?=val($name)?>" class="validate[required]" />
    </td>     
    
 </tr>
@@ -34,13 +40,7 @@
   
      
   
-     <tr>
-   <td>VIP级别</td>
-   <td>            
-        <input name="grade" id="grade" type="text" value="<?=val($grade)?>" class="validate[required]" />
-   </td>     
-   
-</tr>
+    
   
   
      

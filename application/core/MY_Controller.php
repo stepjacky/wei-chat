@@ -217,3 +217,103 @@ class Media_Controller extends MY_Controller{
     }
 
 }
+
+class Picture_Controller extends Media_Controller {
+
+    public function __construct(){
+
+        if(func_num_args()==1){
+            $mName=func_get_arg(0);
+            parent::__construct($mName);
+        }else{
+            parent::__construct();
+        }
+
+    }
+    public function index($id=FALSE){
+        $data = $this->dao->get($id);
+        //$this->load->view("admin/header-pure");
+        $this->load->view($this->dao->table()."/index",$data);
+        //$this->load->view("admin/footer-pure");
+    }
+    public function add_picture($ptype){
+
+        //echo $ptype;
+        if(!isset($ptype)) return;
+        if (!$this->upload->do_upload('Filedata'))
+        {
+            $error = array('error' => $this->upload->display_errors("<p>","</p>"));
+
+            //print_r($error);
+            $this->load->view('common/result', $error);
+        }
+        else
+        {
+            $fileData = $this->upload->data();
+            $data = array(
+                'name'=>$fileData['client_name'],
+                'width'=>$fileData['image_width'],
+                'height'=>$fileData['image_height'],
+                "path"=>"/resources/images/uploads/".$fileData['file_name'],
+                'ptype'=>$ptype
+            );
+
+            //$this->fireLog($fileData);
+            $this->dao->saveUpdate($data);
+            $data = array('Filedata' => $fileData);
+
+            $this->load->view('common/result', $data);
+        }
+    }
+
+
+
+
+    public function thumbnails($ptype,$page=1){
+        $data = array();
+        $data['ptype'] = $ptype;
+        $beans = $this->dao->find_by_type($ptype,$page);
+        $pagelink = $this->dao->create_page_link('ptype',$ptype,$page);
+
+        $data['beans']     = $beans;
+        $data['pagelink']  = $pagelink;
+        $this->load->view($this->dao->table()."/thumbnails",$data);
+    }
+
+    public function selector_thumbnails($ptype,$page=1){
+        $data = array();
+        $data['ptype'] = $ptype;
+        $beans = $this->dao->find_by_type($ptype,$page);
+        $pagelink = $this->dao->create_page_link('ptype',$ptype,$page);
+
+        $data['beans']     = $beans;
+        $data['pagelink']  = $pagelink;
+        $this->load->view($this->dao->table()."/selector-thumbnails",$data);
+    }
+
+
+
+    public function update_ptype($id,$ptype){
+        $data = array(
+            "id"=>$id,
+            "ptype"=>$ptype
+        );
+
+        $this->dao->update($data);
+    }
+
+    public function selector(){
+        $this->load->view('admin/header-pure');
+        $this->load->view($this->dao->table().'/selector');
+    }
+
+    public function input(){
+        $this->load->view('admin/header-pure');
+        $this->load->view($this->dao->table().'/input');
+    }
+    public function selector_list($page=1){
+        $data =  $this->dao->find_by_selector($page,10);
+        $this->load->view($this->dao->table().'/selector-list',$data);
+    }
+
+}

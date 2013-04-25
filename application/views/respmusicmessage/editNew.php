@@ -3,11 +3,12 @@
 
 <fieldset>
 <legend>
-<h4>编辑[新增]<span class="label label-info">消息发送</span></h4>
+<h4>编辑[新增]<span class="label label-info">音乐消息回复</span></h4>
 </legend>
 <table class="table table-hover table-bordered">
 <tbody>
-      <input id="MsgId" type="hidden" name="MsgId" value="<?=val($MsgId)?>" />
+      <input id="id" type="hidden" name="id" value="<?=val($id)?>" />
+      
   
   
      
@@ -23,42 +24,73 @@
   
      
   
-      <input id="ToUserName" type="hidden" name="ToUserName" value="<?=val($ToUserName)?>" />
+     <tr>
+   <td>接收用户</td>
+   <td>            
+        <input name="ToUserName" id="ToUserName" type="text" value="<?=val($ToUserName)?>" class="validate[required]" />
+   </td>     
+   
+</tr>
   
   
      
   
-      <input id="FromUserName" type="hidden" name="FromUserName" value="<?=val($FromUserName)?>" />
+    
   
   
      
   
-      <input id="CreateTime" type="hidden" name="CreateTime" value="<?=val($CreateTime)?>" />
+     <tr>
+   <td>创建时间</td>
+   <td>            
+        <input name="CreateTime" id="CreateTime" type="text" value="<?=val($CreateTime)?>" class="validate[required]" />
+   </td>     
+   
+</tr>
   
   
      
   
-      <input id="Title" type="hidden" name="Title" value="<?=val($Title)?>" />
+     <tr>
+   <td>标题</td>
+   <td>            
+        <input name="Title" id="Title" type="text" value="<?=val($Title)?>" class="validate[required]" />
+   </td>     
+   
+</tr>
   
   
      
   
-      <input id="Description" type="hidden" name="Description" value="<?=val($Description)?>" />
+     <tr>
+   <td>描述</td>
+   <td>            
+        <textarea id="Description" name="Description" class="validate[required]"><?=val($Description)?></textarea>
+   </td>     
+   
+</tr>
   
   
      
   
       <input id="MusicUrl" type="hidden" name="MusicUrl" value="<?=val($MusicUrl)?>" />
+      
   
   
      
   
-      <input id="HQMusicUrl" type="hidden" name="HQMusicUrl" value="<?=val($HQMusicUrl)?>" />
+     <tr>
+   <td>高品质语音链接</td>
+   <td>            
+        <input name="HQMusicUrl" id="HQMusicUrl" type="text" value="<?=val($HQMusicUrl)?>" class="validate[required] input-xxlarge" />
+   </td>     
+   
+</tr>
   
   
      
   
-      <input id="FuncFlag" type="hidden" name="FuncFlag" value="<?=val($FuncFlag)?>" />
+    
   
   
      

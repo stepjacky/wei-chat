@@ -20,7 +20,7 @@
  * User: qujiakang
  * QQ:myqq_postor@qq.com
  * Email: qujiakang@gmail.com  
- * Date: Wed Apr 24 23:46:45 CST 2013
+ * Date: Thu Apr 25 21:40:09 CST 2013
  *    
  */
 
@@ -46,9 +46,9 @@ class Merchant extends MY_Controller {
              
      
         
-        $this->load->view("admin/header-pure");
+        //$this->load->view("admin/header-pure");
         $this->load->view($this->dao->table()."/editNew",$data);
-        $this->load->view("admin/footer-pure");
+        //$this->load->view("admin/footer-pure");
     }
     
     

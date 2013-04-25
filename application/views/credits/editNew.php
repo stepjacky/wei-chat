@@ -7,7 +7,8 @@
 </legend>
 <table class="table table-hover table-bordered">
 <tbody>
-      <input id="id" type="hidden" name="id" value="<?=val($id)?>" />
+      <input type="hidden" name="id" id="id" value="<?=val($id)?>" />
+      
   
   
      
@@ -34,12 +35,12 @@
   
      
   
-      <input type="hidden" name="member_id" id="member_id" value="<?=val($member_id)?>" />
+    
   
   
      
   
-      <input type="hidden" name="catalog_id" id="catalog_id" value="<?=val($catalog_id)?>" />
+    
   
   
      

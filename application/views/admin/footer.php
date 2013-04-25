@@ -94,13 +94,14 @@
 <script src="/resources/bootstrap/charisma/js/jquery.iphone.toggle.js"></script>
 <!-- autogrowing textarea plugin -->
 <script src="/resources/bootstrap/charisma/js/jquery.autogrow-textarea.js"></script>
-<!-- multiple file upload plugin -->
-<script src="/resources/bootstrap/charisma/js/jquery.uploadify-3.1.min.js"></script>
+
 <!-- history.js for cross-browser state change on ajax -->
 <script src="/resources/bootstrap/charisma/js/jquery.history.js"></script>
 <!-- application script for Charisma demo -->
 <script src="/resources/bootstrap/charisma/js/charisma.js"></script>
-
+<script type="text/javascript" src="/resources/bootstrap/js/bootstrap-datepicker.js"></script>
+    <script src="/resources/jquery-validation/js/languages/jquery.validationEngine-zh_CN.js" type="text/javascript" charset="utf-8"></script>
+    <script src="/resources/jquery-validation/js/jquery.validationEngine.js" type="text/javascript" charset="utf-8"></script>
 <script src="/resources/scripts/admin/index.js" type="text/javascript"></script>
 </body>
 </html>

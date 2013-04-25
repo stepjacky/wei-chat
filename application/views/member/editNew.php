@@ -7,15 +7,16 @@
 </legend>
 <table class="table table-hover table-bordered">
 <tbody>
-      <input id="id" type="hidden" name="id" value="<?=val($id)?>" />
+      <input type="hidden" name="id" id="id" value="<?=val($id)?>" />
+      
   
   
      
   
      <tr>
-   <td>微信</td>
+   <td>昵称</td>
    <td>            
-        <input name="weixin" id="weixin" type="text" value="<?=val($weixin)?>" class="validate[required]" />
+        <input name="name" id="name" type="text" value="<?=val($name)?>" class="validate[required]" />
    </td>     
    
 </tr>
@@ -24,9 +25,9 @@
      
   
      <tr>
-   <td>昵称</td>
+   <td>微信</td>
    <td>            
-        <input name="nick" id="nick" type="text" value="<?=val($nick)?>" class="validate[required]" />
+        <input name="weixin" id="weixin" type="text" value="<?=val($weixin)?>" class="validate[required]" />
    </td>     
    
 </tr>
@@ -45,18 +46,7 @@
   
      
   
-     <tr>
-   <td>会员卡号</td>
-   <td>            
-        <input name="vip" id="vip" type="text" value="<?=val($vip)?>" class="validate[required]" />
-   </td>     
-   
-</tr>
-  
-  
-     
-  
-      <input type="hidden" name="merchant_id" id="merchant_id" value="<?=val($merchant_id)?>" />
+    
   
   
      

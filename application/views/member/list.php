@@ -3,7 +3,7 @@
 <table id="list" class="table table-striped table-bordered table-hover">
         <thead>
         <tr>
-          <th colspan="7">
+          <th colspan="6">
             <button type="button" class="btn btn-info" onclick="newOne();">
              <i class="icon-plus"></i>新增会员
             </button>
@@ -11,14 +11,13 @@
         </tr>
         <tr>
                          
-                <th>微信</th> 
-                         
                 <th>昵称</th> 
+                         
+                <th>微信</th> 
                          
                 <th>电邮</th> 
                          
-                <th>会员卡号</th> 
-                         
+                <th>所属商户</th> 
                          
             <th>管理</th>
         </tr>
@@ -35,19 +34,15 @@
             </td>  
                       
                 <td>
+              <?=$name?>             
+            </td>  
+                      
+                <td>
               <?=$weixin?>             
             </td>  
                       
                 <td>
-              <?=$nick?>             
-            </td>  
-                      
-                <td>
               <?=$email?>             
-            </td>  
-                      
-                <td>
-              <?=$vip?>             
             </td>  
                       
                 <td>
@@ -69,7 +64,7 @@
         </tbody>
         <tfoot>
         <tr>          
-            <td colspan="7">
+            <td colspan="6">
                 <?=$pagelink;?>
             </td>
         </tr>

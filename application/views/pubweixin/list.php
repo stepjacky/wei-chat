@@ -3,7 +3,7 @@
 <table id="list" class="table table-striped table-bordered table-hover">
         <thead>
         <tr>
-          <th colspan="11">
+          <th colspan="12">
             <button type="button" class="btn btn-info" onclick="newOne();">
              <i class="icon-plus"></i>新增公众账号
             </button>
@@ -13,6 +13,8 @@
                 <th>原始微信号</th> 
                          
                 <th>令牌</th> 
+                         
+                <th>接口地址</th> 
                          
                 <th>公众号名称</th> 
                          
@@ -28,6 +30,7 @@
                          
                 <th>公众账号QQ</th> 
                          
+                <th>所属商户</th> 
                          
             <th>管理</th>
         </tr>
@@ -45,6 +48,10 @@
                       
                 <td>
               <?=$token?>             
+            </td>  
+                      
+                <td>
+              <?=$desturl?>             
             </td>  
                       
                 <td>
@@ -94,7 +101,7 @@
         </tbody>
         <tfoot>
         <tr>          
-            <td colspan="11">
+            <td colspan="12">
                 <?=$pagelink;?>
             </td>
         </tr>

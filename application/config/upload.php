@@ -14,4 +14,6 @@ $config['max_size'] = '2048';//KB
 $config['max_width'] = '3000';
 $config['max_height'] = '3000';
 $config['encrypt_name'] = TRUE;
-?>
+
+
+

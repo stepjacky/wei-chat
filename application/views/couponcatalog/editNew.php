@@ -7,7 +7,8 @@
 </legend>
 <table class="table table-hover table-bordered">
 <tbody>
-      <input id="id" type="hidden" name="id" value="<?=val($id)?>" />
+      <input type="hidden" name="id" id="id" value="<?=val($id)?>" />
+      
   
   
      
@@ -37,11 +38,7 @@
      <tr>
    <td>优惠券图</td>
    <td>            
-        <div>
- <img src="<?=val($image)?>" style="width:100px;height:55px" />
- <input id="image" name="image" type="hidden" value="<?=val($image)?>" />
- <button type="button" class=" btn btn-info" onclick="imageSelector()">选择图片</button>
-</div>
+        <i></i>
    </td>     
    
 </tr>
@@ -71,7 +68,7 @@
   
      
   
-      <input type="hidden" name="merchant_id" id="merchant_id" value="<?=val($merchant_id)?>" />
+    
   
   
      

@@ -1,11 +1,11 @@
 <link href="/resources/styles/respmusicmessage/style.css" media="screen" rel="stylesheet" type="text/css" />
-<h3>消息发送列表</h3>
+<h3>音乐消息回复列表</h3>
 <table id="list" class="table table-striped table-bordered table-hover">
         <thead>
         <tr>
           <th colspan="11">
             <button type="button" class="btn btn-info" onclick="newOne();">
-             <i class="icon-plus"></i>新增消息发送
+             <i class="icon-plus"></i>新增音乐消息回复
             </button>
           </th>
         </tr>
@@ -13,13 +13,20 @@
                          
                 <th>消息类型</th> 
                          
+                <th>接收用户</th> 
+                         
+                <th>发送方</th> 
+                         
+                <th>创建时间</th> 
+                         
+                <th>标题</th> 
+                         
+                <th>描述</th> 
                          
                          
+                <th>高品质语音链接</th> 
                          
-                         
-                         
-                         
-                         
+                <th>标志位</th> 
                          
             <th>管理</th>
         </tr>
@@ -32,7 +39,7 @@
             ?>
            <tr>
                 <td>
-              <?=$MsgId?>             
+              <?=$id?>             
             </td>  
                       
                 <td>

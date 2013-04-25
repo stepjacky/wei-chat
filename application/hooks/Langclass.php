@@ -20,9 +20,10 @@ class LangClass extends CI_Controller {
         $my_lang = $this->nsession->userdata('locale');
         if (!$my_lang && isset($_SERVER['HTTP_ACCEPT_LANGUAGE'])) {
             $my_lang =  strtolower(substr($_SERVER['HTTP_ACCEPT_LANGUAGE'], 0, 5));
+            if(!$my_lang)$my_lang='zh-cn';
             $this->nsession->set_userdata('locale',$my_lang);
         }
-
+        if(!$my_lang)$my_lang='zh-cn';
         $this->config->set_item('language',$my_lang);
         $this->load->helper('language');
         $this->lang->load($my_lang);

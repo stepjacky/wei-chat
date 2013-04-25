@@ -29,6 +29,11 @@
   
      
   
+    
+  
+  
+     
+  
      <tr>
    <td>公众号名称</td>
    <td>            
@@ -106,7 +111,7 @@
   
      
   
-      <input id="merchant_id" type="hidden" name="merchant_id" value="<?=val($merchant_id)?>" />
+    
   
   
      

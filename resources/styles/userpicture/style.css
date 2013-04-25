@@ -1,0 +1,14 @@
+
+[class*="span"] {
+    float: left;
+    margin-left: 0px;
+    min-height: 1px;
+}
+.pic-border{
+    border: #919191 1px  dotted;
+    min-height: 650px;
+    height: auto;
+}
+.local-row{
+    margin-left: 10px;
+}
