@@ -3,11 +3,11 @@
 <table id="list" class="table table-striped table-bordered table-hover">
         <thead>
         <tr>
-          <th colspan="2">
-            <button type="button" class="btn btn-info" onclick="newOne();">
-             <i class="icon-plus"></i>新增消息
-            </button>
-          </th>
+            <th colspan="2">
+                <!--<button type="button" class="btn btn-info" onclick="newOne();">
+                    <i class="icon-plus"></i>新增消息
+                </button>-->
+            </th>
         </tr>
         <tr>
                 <th>编号</th> 

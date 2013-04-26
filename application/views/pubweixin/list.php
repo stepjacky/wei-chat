@@ -10,27 +10,12 @@
           </th>
         </tr>
         <tr>
-                <th>原始微信号</th> 
+                <th>公众号名称</th>
                          
-                <th>令牌</th> 
-                         
-                <th>接口地址</th> 
-                         
-                <th>公众号名称</th> 
-                         
-                <th>微信号</th> 
-                         
-                <th>头像</th> 
-                         
-                <th>AppId</th> 
-                         
-                <th>AppSecret</th> 
-                         
-                <th>图文页统计代码</th> 
-                         
-                <th>公众账号QQ</th> 
-                         
-                <th>所属商户</th> 
+                <th>微信号</th>
+
+                <th>公众账号QQ</th>
+
                          
             <th>管理</th>
         </tr>
@@ -43,56 +28,35 @@
             ?>
            <tr>
                 <td>
-              <?=$weixin_id?>             
-            </td>  
-                      
-                <td>
-              <?=$token?>             
-            </td>  
-                      
-                <td>
-              <?=$desturl?>             
-            </td>  
-                      
-                <td>
-              <?=$name?>             
-            </td>  
+             <img src="<?=$avatar?>" width="24px" height="24px" />
+                    <?=$name?>
+                </td>
+
                       
                 <td>
               <?=$weixin?>             
-            </td>  
-                      
-                <td>
-              <?=$avatar?>             
-            </td>  
-                      
-                <td>
-              <?=$appid?>             
-            </td>  
-                      
-                <td>
-              <?=$appsecret?>             
-            </td>  
-                      
-                <td>
-              <?=$statlink?>             
-            </td>  
+            </td>
+
                       
                 <td>
               <?=$qq?>             
             </td>  
                       
-                <td>
-              <?=$merchant_id?>             
-            </td>  
+
                       
-           <td>
-             <button class="btn btn-success" type="button" onclick="editOne('<?=$id;?>');">
-               <i class="icon-edit"></i>
+           <td class="btn-group">
+             <button class="btn btn-success" type="button" onclick="editOne('<?=$weixin_id;?>');">
+               <i class="icon-edit"></i>编辑
              </button>
-             <button class="btn btn-danger" type="button" onclick="removeOne('<?=$id;?>');">
-               <i class="icon-remove"></i>
+             <button class="btn btn-danger" type="button" onclick="removeOne('<?=$weixin_id;?>');">
+               <i class="icon-remove"></i>删除
              </button>
+             <a data-toggle="modal"
+                  class="btn  btn-primary"
+                  href="/pubweixin/connector/<?=$weixin_id?>" data-target="#myModal">
+                 <i class="icon-tags"></i>
+                 接口
+             </a>
            </td>
            </tr>
         <?php endforeach; ?>

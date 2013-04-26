@@ -27,9 +27,15 @@ class MY_Model extends CI_Model
     }
 
 
-    public function gets($page = 1, $rows = 10) {
+    public function gets($page = 1, $rows = 10,$where=array()) {
         $start = $rows*$page - $rows; //
         if ($start<0) $start = 0;
+        $this->firelog($where);
+        if(!empty($where)){
+            foreach($where as $field=>$value){
+                $this->db->where($field,$value);
+            }
+        }
         $this->db->limit($rows,$start);
         $query = $this->db->get($this->table());
         $result = $query->result_array();
@@ -86,7 +92,7 @@ class MY_Model extends CI_Model
         return $pagelink;
     }
 
-    public function saveUpdate($data,$pk='id'){
+    public function saveUpdate($data,$pk='id',$gen=TRUE){
        $pk = urldecode($pk);
        if(!isset($data[$pk]) || $data[$pk]==''){
            $this->save($data,$pk);
@@ -94,6 +100,22 @@ class MY_Model extends CI_Model
            $this->update($data,$pk);
        }
     }
+
+
+    public function persiste($data,$gen=TRUE,$pk='id'){
+        $pk = urldecode($pk);
+
+        if(!isset($data[$pk]) || empty($data[$pk])){
+            $this->save($data,$pk);
+        }else{
+            if(!$this->get($data[$pk])){
+                $this->save2($data,$gen,$pk);
+            }else{
+                $this->update($data,$pk);
+            }
+        }
+    }
+
 
     /**
      * @param array;
@@ -112,11 +134,25 @@ class MY_Model extends CI_Model
     }
 
 
+    public function save2($data,$gen=TRUE,$pk='id')
+    {
+
+
+        if($gen)
+            $data[$pk]=getGUID();
+
+        $str = $this->db->insert_string($this->table(), $data);
+        $this->firelog($str);
+        $this->db->insert($this->table, $data);
+
+    }
+
+
     public function update($data,$pk='id'){
 
 
         $pk = urldecode($pk);
-        $id = isset($data[$pk])?$data[$pk]:false;
+        $id = isset($data[$pk])?$data[$pk]:FALSE;
         if(!$id){
             $this->firelog("primary key ".$pk." for  update action  is required  of table ".$this->table());
             return;
@@ -170,6 +206,25 @@ class MY_Model extends CI_Model
         $query = $this->db->get_where($this->table(), array($pk => $id));
         $bean =   $query->row_array();
         return empty($bean)?$this->emptyObject():$bean;
+    }
+
+    public function count_all($where=array()){
+
+        foreach($where as $field=>$value){
+            $this->db->where($field,$value);
+        }
+        $rst  =  $this->db->count_all_results($this->table());
+        return $rst;
+    }
+
+    public function toggle_prop($prop,$id,$pk="id"){
+        $this->update(
+            array(
+              $prop=>"!".$prop,
+              $pk=>$id
+            )
+        );
+
     }
 
     public function table(){
@@ -269,4 +324,67 @@ class PK_Model extends Media_Model{
             $this->update($data,$pk);
         }
     }
+}
+
+
+class Image_Model extends MY_Model {
+
+    public function __construct()
+    {
+
+        if (func_num_args() == 1) {
+            $mname = func_get_arg(0);
+            parent::__construct($mname);
+        }else{
+            parent::__construct();
+        }
+
+    }
+
+
+    public function find_by_type($ptype,$where=array(),$page=1){
+
+        $mywhere = array_merge(array(
+            "ptype"=>$ptype
+        ),$where);
+
+        $beans = $this->gets($page,10,$mywhere);
+
+        return $beans;
+    }
+
+
+    public function create_page_link($pname,$pval,$where=array(),$page=1){
+        $config['base_url'] = "";
+        $mywhere = array_merge(array(
+            $pname=>$pval
+        ),$where);
+
+        $config['total_rows'] = $this->count_all($mywhere);
+        $config['per_page'] = 9;
+        //$this->firelog($config);
+        $this->pagination->initialize($config);
+        $pagelink = $this->pagination->create_links($page);
+        //$this->firelog($pagelink);
+        return $pagelink;
+    }
+
+    public function find_by_selector($page,$row=12,$where=array()){
+
+
+        $beans = $this->gets($page,$row,$where);
+        $config['base_url'] = "";
+        $config['total_rows'] = $this->count_all($where);
+        $config['per_page'] = 12;
+        //$this->firelog($config);
+        $this->pagination->initialize($config);
+        $pagelink = $this->pagination->create_links($page);
+        $data =  array(
+            "beans"=>$beans,
+            "pagelink"=>$pagelink
+
+        );
+        return $data;
+    }
+
 }

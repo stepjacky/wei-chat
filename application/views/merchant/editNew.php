@@ -10,7 +10,7 @@
      <tr>
    <td>用户名</td>
    <td>            
-        <input name="id" id="id" type="text" value="<?=val($id)?>" class="validate[required]" />
+        <input name="id" id="id" type="text" value="<?=val($id)?>" class="validate[required]" readonly="readOnly" />
    </td>     
    
 </tr>

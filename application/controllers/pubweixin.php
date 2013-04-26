@@ -50,6 +50,15 @@ class Pubweixin extends MY_Controller {
         $this->load->view($this->dao->table()."/editNew",$data);
         $this->load->view("admin/footer-pure");
     }
-    
-    
+
+
+    public function saveUpdate($pk="weixin_id"){
+        parent::saveUpdate($pk);
+    }
+
+
+    public function connector(){
+        $bean = $this->dao->connector();
+        $this->load->view($this->dao->table()."/connector",$bean);
+    }
 }   

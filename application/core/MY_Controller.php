@@ -104,6 +104,13 @@ class MY_Controller extends CI_Controller
         $this->load->view('admin/footer');
     }
 
+
+    public function toggle($prop,$id){
+        $this->dao->toggle_prop($prop,$id);
+    }
+
+
+
     public function update_picture($pname,$id){
 
         $data = array(
@@ -220,6 +227,8 @@ class Media_Controller extends MY_Controller{
 
 class Picture_Controller extends Media_Controller {
 
+    private $userid = '';
+
     public function __construct(){
 
         if(func_num_args()==1){
@@ -229,6 +238,9 @@ class Picture_Controller extends Media_Controller {
             parent::__construct();
         }
 
+        $user = $this->nsession->userdata('user');
+        $this->userid = $user?$user['id']:NULL;
+
     }
     public function index($id=FALSE){
         $data = $this->dao->get($id);
@@ -236,7 +248,7 @@ class Picture_Controller extends Media_Controller {
         $this->load->view($this->dao->table()."/index",$data);
         //$this->load->view("admin/footer-pure");
     }
-    public function add_picture($ptype){
+    public function add_picture($ptype,$merch=FALSE){
 
         //echo $ptype;
         if(!isset($ptype)) return;
@@ -250,13 +262,19 @@ class Picture_Controller extends Media_Controller {
         else
         {
             $fileData = $this->upload->data();
+
             $data = array(
                 'name'=>$fileData['client_name'],
                 'width'=>$fileData['image_width'],
                 'height'=>$fileData['image_height'],
                 "path"=>"/resources/images/uploads/".$fileData['file_name'],
                 'ptype'=>$ptype
+
             );
+
+            if($merch){
+                $data["merchant_id"]=$this->userid;
+            }
 
             //$this->fireLog($fileData);
             $this->dao->saveUpdate($data);
@@ -269,22 +287,30 @@ class Picture_Controller extends Media_Controller {
 
 
 
-    public function thumbnails($ptype,$page=1){
+    public function thumbnails($ptype,$merch=FALSE,$page=1){
         $data = array();
         $data['ptype'] = $ptype;
-        $beans = $this->dao->find_by_type($ptype,$page);
-        $pagelink = $this->dao->create_page_link('ptype',$ptype,$page);
+        $where = array();
+        if($merch){
+            $where['merchant_id'] = $this->userid;
+        }
+        $beans = $this->dao->find_by_type($ptype,$where,$page);
+        $pagelink = $this->dao->create_page_link('ptype',$ptype,$where,$page);
 
         $data['beans']     = $beans;
         $data['pagelink']  = $pagelink;
         $this->load->view($this->dao->table()."/thumbnails",$data);
     }
 
-    public function selector_thumbnails($ptype,$page=1){
+    public function selector_thumbnails($ptype,$merch=FALSE,$page=1){
         $data = array();
         $data['ptype'] = $ptype;
-        $beans = $this->dao->find_by_type($ptype,$page);
-        $pagelink = $this->dao->create_page_link('ptype',$ptype,$page);
+        $where = array();
+        if($merch){
+            $where['merchant_id'] = $this->userid;
+        }
+        $beans = $this->dao->find_by_type($ptype,$where,$page);
+        $pagelink = $this->dao->create_page_link('ptype',$ptype,$where,$page);
 
         $data['beans']     = $beans;
         $data['pagelink']  = $pagelink;

@@ -23,3 +23,12 @@ function getGUID(){
 function getGuidId(){
    return getGUID();
 }
+
+function create_random_string($random_length) {
+    $chars = "abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ0123456789";
+    $random_string = '';
+    for ($i = 0; $i < $random_length; $i++) {
+        $random_string .= $chars [mt_rand(0, strlen($chars) - 1)];
+    }
+    return $random_string;
+}

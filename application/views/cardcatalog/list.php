@@ -3,7 +3,7 @@
 <table id="list" class="table table-striped table-bordered table-hover">
         <thead>
         <tr>
-          <th colspan="6">
+          <th colspan="7">
             <button type="button" class="btn btn-info" onclick="newOne();">
              <i class="icon-plus"></i>新增会员卡
             </button>
@@ -12,11 +12,15 @@
         <tr>
                          
                 <th>名称</th> 
+                
                          
                 <th>模板</th> 
+                
                          
                          
-                <th>所属商家</th> 
+                         
+                <th>启用</th> 
+                
                          
             <th>管理</th>
         </tr>
@@ -28,22 +32,23 @@
                extract($bean);
             ?>
            <tr>
-                <td>
-              <?=$id?>             
-            </td>  
                       
                 <td>
               <?=$name?>             
-            </td>  
+            </td> 
                       
                 <td>
               <?=$image?>             
-            </td>  
+            </td> 
                       
                       
-                <td>
-              <?=$merchant_id?>             
-            </td>  
+                      
+             <td>
+              <button class=" btn btn-inverse btn-small" type="button"
+                      onclick="toggleProp('cardcatalog','defed','<?=$id?>')">
+                  <span class="icon icon-color icon-wrench"></span>切換
+              </button>
+             </td>
                       
            <td>
              <button class="btn btn-success" type="button" onclick="editOne('<?=$id;?>');">
@@ -60,7 +65,7 @@
         </tbody>
         <tfoot>
         <tr>          
-            <td colspan="6">
+            <td colspan="7">
                 <?=$pagelink;?>
             </td>
         </tr>

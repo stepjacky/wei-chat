@@ -15,25 +15,18 @@
    
 </tr>
   
-  
+  <!--
      
   
      <tr>
    <td>令牌</td>
    <td>            
-        <input name="token" id="token" type="text" value="<?=val($token)?>" class="validate[required]" />
+        <input name="token" id="token" type="text" value="<?/*=val($token)*/?>" class="validate[required]" />
+       [请与微信官方一致]
    </td>     
    
-</tr>
-  
-  
-     
-  
-    
-  
-  
-     
-  
+</tr>-->
+
      <tr>
    <td>公众号名称</td>
    <td>            
@@ -59,7 +52,7 @@
      <tr>
    <td>头像</td>
    <td>            
-        <input name="avatar" id="avatar" type="text" value="<?=val($avatar)?>" class="validate[required] input-xxlarge" />
+        <input name="avatar" id="avatar" type="text" value="<?=val($avatar)?>" class="validate[custom[url]] input-xxlarge" />
    </td>     
    
 </tr>
@@ -70,7 +63,7 @@
      <tr>
    <td>AppId</td>
    <td>            
-        <input name="appid" id="appid" type="text" value="<?=val($appid)?>" class="validate[required]" />
+        <input name="appid" id="appid" type="text" value="<?=val($appid)?>"  />
    </td>     
    
 </tr>
@@ -81,7 +74,7 @@
      <tr>
    <td>AppSecret</td>
    <td>            
-        <input name="appsecret" id="appsecret" type="text" value="<?=val($appsecret)?>" class="validate[required]" />
+        <input name="appsecret" id="appsecret" type="text" value="<?=val($appsecret)?>"  />
    </td>     
    
 </tr>
@@ -92,7 +85,7 @@
      <tr>
    <td>图文页统计代码</td>
    <td>            
-        <textarea id="statlink" name="statlink" class="validate[required]"><?=val($statlink)?></textarea>
+        <textarea id="statlink" name="statlink"><?=val($statlink)?></textarea>
    </td>     
    
 </tr>
@@ -103,7 +96,7 @@
      <tr>
    <td>公众账号QQ</td>
    <td>            
-        <input name="qq" id="qq" type="text" value="<?=val($qq)?>" class="validate[required]" />
+        <input name="qq" id="qq" type="text" value="<?=val($qq)?>" />
    </td>     
    
 </tr>

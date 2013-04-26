@@ -12,12 +12,14 @@
         <tr>
                          
                 <th>昵称</th> 
+                
                          
                 <th>微信</th> 
+                
                          
                 <th>电邮</th> 
+                
                          
-                <th>所属商户</th> 
                          
             <th>管理</th>
         </tr>
@@ -29,25 +31,19 @@
                extract($bean);
             ?>
            <tr>
-                <td>
-              <?=$id?>             
-            </td>  
                       
                 <td>
               <?=$name?>             
-            </td>  
+            </td> 
                       
                 <td>
               <?=$weixin?>             
-            </td>  
+            </td> 
                       
                 <td>
               <?=$email?>             
-            </td>  
+            </td> 
                       
-                <td>
-              <?=$merchant_id?>             
-            </td>  
                       
            <td>
              <button class="btn btn-success" type="button" onclick="editOne('<?=$id;?>');">

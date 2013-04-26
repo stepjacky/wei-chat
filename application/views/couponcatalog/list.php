@@ -19,9 +19,8 @@
                          
                 <th>起始日期</th> 
                          
-                <th>结束日期</th> 
-                         
-                <th>商家</th> 
+                <th>结束日期</th>
+
                          
                 <th>日领取数</th> 
                          
@@ -59,10 +58,7 @@
                 <td>
               <?=$enddate?>             
             </td>  
-                      
-                <td>
-              <?=$merchant_id?>             
-            </td>  
+
                       
                 <td>
               <?=$daily_limit?>             

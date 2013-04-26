@@ -42,7 +42,7 @@ $(document).ready(function(){
         'swf'      : '/resources/uploadify/uploadify.swf',
         'fileTypeDesc' : '图片文件',
         'fileTypeExts' : '*.gif; *.jpg; *.png',
-        'debug':true,
+        // 'debug':true,
         'onUploadStart' : function(file) {
             if(ptype==null){
                 $('#file_upload').uploadify("stop");
@@ -60,6 +60,6 @@ $(document).ready(function(){
 function onClick(event, treeId, treeNode, clickFlag) {
     if(treeNode.isParent) return;
     ptype = treeNode.id;
-    $('#file_upload').uploadify('settings','uploader','/userpicture/add_picture/'+ptype);
-    $("#mythumb").load("/userpicture/thumbnails/"+ptype);
+    $('#file_upload').uploadify('settings','uploader','/userpicture/add_picture/'+ptype+"/1");
+    $("#mythumb").load("/userpicture/thumbnails/"+ptype+"/1");
 }

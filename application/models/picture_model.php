@@ -24,62 +24,11 @@
  *    
  */
 
-class Picture_model extends MY_Model {
+class Picture_model extends Image_Model {
      
     public  function __construct(){
         parent::__construct("Picture_model");
-    }  
-
-    public function find_by_phone($phoneId,$page=1){
-        $this->db->select("id,name,path,ptype");
-        $this->db->where("phone_id",$phoneId);
-        $this->db->limit(9,($page-1)*9);
-        $query =$this->db->get($this->table());
-
-        $beans = $query->result_array();
-        return $beans;
     }
 
-    public function find_by_type($ptype,$page=1){
-        $this->db->where("ptype",$ptype);
-        $this->db->limit(9,($page-1)*9);
-        $query = $this->db->get($this->table());
-        $beans = $query->result_array();
+}
 
-
-        return $beans;
-    }
-
-
-    public function create_page_link($pname,$pval,$page=1){
-        $config['base_url'] = "";
-        $this->db->where($pname, $pval);
-        $this->db->from($this->table());
-        $config['total_rows'] = $this->db->count_all_results();;
-        $config['per_page'] = 9;
-        //$this->firelog($config);
-        $this->pagination->initialize($config);
-        $pagelink = $this->pagination->create_links($page);
-        //$this->firelog($pagelink);
-        return $pagelink;
-    }
-
-    public function find_by_selector($page){
-        $beans = $this->gets($page);
-
-
-        $config['base_url'] = "";
-        $config['total_rows'] = $this->db->count_all_results();;
-        $config['per_page'] = 12;
-        //$this->firelog($config);
-        $this->pagination->initialize($config);
-        $pagelink = $this->pagination->create_links($page);
-        $data =  array(
-            "beans"=>$beans,
-            "pagelink"=>$pagelink
-
-        );
-        return $data;
-    }
-    
-}   

@@ -26,8 +26,12 @@
   
      <tr>
    <td>模板</td>
-   <td>            
-        <i></i>
+   <td>
+       <div>
+           <img src="<?=val($image)?>" style="width:100px;height:55px" />
+           <input id="image" name="image" type="hidden" value="<?=val($image)?>" />
+           <button type="button" class=" btn btn-info" onclick="imageSelector()">选择图片</button>
+       </div>
    </td>     
    
 </tr>

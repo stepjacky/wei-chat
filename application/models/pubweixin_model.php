@@ -29,6 +29,43 @@ class Pubweixin_model extends MY_Model {
     public  function __construct(){
         parent::__construct("Pubweixin_model");
     }  
-    
+
+
+    public function get_token($oid){
+        $this->db->select("token");
+        $this->db->where("weixin_id",$oid);
+        $query = $this->db->get($this->table());
+        $result = $query->first_row('array');
+        return $result['token'];
+    }
+
+    public function saveUpdate($data,$pk='weixin_id'){
+        if(!isset($data[$pk]) || empty($data[$pk])){
+            $this->save2($data);
+        }else{
+            $this->update($data,$pk);
+        }
+    }
+
+    public function save2($data)
+    {
+
+        $tdata = array_merge($data,array(
+            "token"=>create_random_string(5),
+            'desturl'=>base_url("/message/".strtr($data['wenxin_id'],array("_"=>"at")))
+        ));
+
+        parent::save2($tdata,FALSE);
+
+    }
+
+    public function connector($oid){
+        $this->db->select("desturl,token");
+        $this->db->where('wenxin_id',$oid);
+        $query = $this->db->get($this->table());
+        $result = $query->first_row('array');
+        return $result;
+    }
+
     
 }   

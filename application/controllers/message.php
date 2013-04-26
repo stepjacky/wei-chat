@@ -28,6 +28,8 @@ class Message extends MY_Controller {
      
     public  function __construct(){
         parent::__construct("Message_model");
+        $this->load->library("wechat");
+        $this->load->model("Pubweixin_model","pwDao");
     }
 
     public function index($id=FALSE){
@@ -44,11 +46,14 @@ class Message extends MY_Controller {
         
        $data = $this->dao->get($id);
              
-     
-        
-        $this->load->view("admin/header-pure");
-        $this->load->view($this->dao->table()."/editNew",$data);
-        $this->load->view("admin/footer-pure");
+       $this->load->view("admin/header-pure");
+       $this->load->view($this->dao->table()."/editNew",$data);
+       $this->load->view("admin/footer-pure");
+    }
+
+    public function fireware($oldwweixin){
+       $token = $this->pwDao->get_token($oldwweixin);
+       $this->weichat->valid($token);
     }
     
     

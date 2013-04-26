@@ -15,3 +15,7 @@ function removeOne(id){
         $(that).parent().parent().remove();
     });
 }
+
+function showInterface(weixin_id){
+
+}

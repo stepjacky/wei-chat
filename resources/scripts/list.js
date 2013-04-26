@@ -46,3 +46,8 @@ function setPictureExtra(domain,pkname,pkval,field){
         alert('配图更新完毕!');
     })
 }
+
+function toggleProp(domain,prop,id){
+    var url = '/'+domain+'/toggle/'+prop+'/'+id;
+    $.post(url);
+}
