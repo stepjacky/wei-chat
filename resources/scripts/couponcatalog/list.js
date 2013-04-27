@@ -15,3 +15,12 @@ function removeOne(id){
         $(that).parent().parent().remove();
     });
 }
+
+function startValidate(coupid){
+   var url='/couponcatalog/startvalidate/'+coupid;
+   //console.log(url);
+   $("#modalBody").load(url,{},function(){
+        //console.log(this);
+        $("#myModal").modal("show");
+   });
+}

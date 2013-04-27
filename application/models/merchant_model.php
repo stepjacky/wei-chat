@@ -28,7 +28,30 @@ class Merchant_model extends MY_Model {
      
     public  function __construct(){
         parent::__construct("Merchant_model");
-    }  
-    
+    }
+
+
+    public function login($username,$password){
+
+        $this->db->where('id', $username);
+        $this->db->where('pword', $password);
+        $query = $this->db->get($this->table());
+        $user =  $query->first_row('array');
+        if(empty($user)) return FALSE;
+        return $user;
+
+    }
+
+    public function register($data){
+        $bean =  $this->get($data['id']);
+        $this->firelog($bean);
+        if($bean['empty'])
+            return FALSE;
+        else{
+            $this->persiste($data,FALSE);
+            return TRUE;
+        }
+
+    }
     
 }   

@@ -30,9 +30,9 @@
      
   
      <tr>
-   <td>名称</td>
+   <td>邮件</td>
    <td>            
-        <input name="name" id="name" type="text" value="<?=val($name)?>" class="validate[required]" />
+        <input name="email" id="email" type="text" value="<?=val($email)?>" class="validate[required,custom[email]]" />
    </td>     
    
 </tr>

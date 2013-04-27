@@ -10,11 +10,13 @@ $(function(){
 function saveData(){
     var vadrst = $("#merchantform").validationEngine('validate');
     if(!vadrst)return;
-    var sform = document.getElementById("merchantform");
-    sform.action = "/merchant/saveupdate";
-    sform.enctype="multipart/form-data";
-    sform.target="dataFrame";
-    sform.submit();
+    var data  = $("#merchantform").serialize();
+    var url = "/merchant/saveUpdate";
+    $.post(url,data,function(){
+        confirm("用户资料已更新!");
+    });
+
+
 }
 
 function validationCmp(form, status){

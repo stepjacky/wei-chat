@@ -1,6 +1,6 @@
 <?php if (!defined('BASEPATH')) exit('No direct script access allowed');
 
-class System extends MY_Controller
+class Sysadmin extends MY_Controller
 {
 
     public function __construct()
@@ -26,4 +26,4 @@ class System extends MY_Controller
 }
 
 /* End of file welcome.php */
-/* Location: ./application/controllers/system.php */
+/* Location: ./application/controllers/sysadmin.php */

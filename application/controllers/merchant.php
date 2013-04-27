@@ -31,7 +31,7 @@ class Merchant extends MY_Controller {
     }
 
     public function index($id=FALSE){
-         $data = $this->dao->get($id);        
+         $data = $this->dao->get($id);
         //$this->load->view("admin/header-pure");
         $this->load->view("merchant/index",$data);
         //$this->load->view("admin/footer-pure");
@@ -41,11 +41,9 @@ class Merchant extends MY_Controller {
       * 新增编辑
       */
     public function editNew($id=FALSE){
-        
-       $data = $this->dao->get($id);
-             
-     
-        
+
+        $id=$this->userid;
+        $data = $this->dao->get($id);
         //$this->load->view("admin/header-pure");
         $this->load->view($this->dao->table()."/editNew",$data);
         //$this->load->view("admin/footer-pure");

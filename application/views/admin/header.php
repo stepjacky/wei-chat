@@ -1,16 +1,6 @@
 <!DOCTYPE html>
 <html>
 <head>
-    <!--
-        Charisma v1.0.0
-
-        Copyright 2012 Muhammad Usman
-        Licensed under the Apache License v2.0
-        http://www.apache.org/licenses/LICENSE-2.0
-
-        http://usman.it
-        http://twitter.com/halalit_usman
-    -->
     <meta charset="utf-8">
     <title>微信会员卡管理</title>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -30,17 +20,10 @@
     <link href="/resources/bootstrap/charisma/css/bootstrap-responsive.css" rel="stylesheet">
     <link href="/resources/bootstrap/charisma/css/charisma-app.css" rel="stylesheet">
     <link href="/resources/bootstrap/charisma/css/jquery-ui-1.8.21.custom.css" rel="stylesheet">
-    <link href='/resources/bootstrap/charisma/css/fullcalendar.css' rel='stylesheet'>
-    <link href='/resources/bootstrap/charisma/css/fullcalendar.print.css' rel='stylesheet'  media='print'>
-    <link href='/resources/bootstrap/charisma/css/chosen.css' rel='stylesheet'>
-    <link href='/resources/bootstrap/charisma/css/uniform.default.css' rel='stylesheet'>
-    <link href='/resources/bootstrap/charisma/css/colorbox.css' rel='stylesheet'>
-    <link href='/resources/bootstrap/charisma/css/jquery.cleditor.css' rel='stylesheet'>
+
     <link href='/resources/bootstrap/charisma/css/jquery.noty.css' rel='stylesheet'>
     <link href='/resources/bootstrap/charisma/css/noty_theme_default.css' rel='stylesheet'>
-    <link href='/resources/bootstrap/charisma/css/elfinder.min.css' rel='stylesheet'>
-    <link href='/resources/bootstrap/charisma/css/elfinder.theme.css' rel='stylesheet'>
-    <link href='/resources/bootstrap/charisma/css/jquery.iphone.toggle.css' rel='stylesheet'>
+
     <link href='/resources/bootstrap/charisma/css/opa-icons.css' rel='stylesheet'>
     <link type="text/css" href="/resources/bootstrap/css/datepicker.css" media="screen" rel="stylesheet" />
     <link rel="stylesheet" href="/resources/jquery-validation/css/validationEngine.jquery.css" type="text/css"/>
@@ -48,6 +31,50 @@
     <!--[if lt IE 9]>
     <script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
     <![endif]-->
+
+    <!-- jQuery -->
+    <script src="/resources/jquery-1.8.2.js"></script>
+
+    <!-- jQuery UI -->
+    <script src="/resources/bootstrap/charisma/js/jquery-ui-1.8.21.custom.min.js"></script>
+    <!-- transition / effect library -->
+    <script src="/resources/bootstrap/charisma/js/bootstrap-transition.js"></script>
+    <!-- alert enhancer library -->
+    <script src="/resources/bootstrap/charisma/js/bootstrap-alert.js"></script>
+    <!-- modal / dialog library -->
+    <script src="/resources/bootstrap/charisma/js/bootstrap-modal.js"></script>
+    <!-- custom dropdown library -->
+    <script src="/resources/bootstrap/charisma/js/bootstrap-dropdown.js"></script>
+    <!-- scrolspy library -->
+    <script src="/resources/bootstrap/charisma/js/bootstrap-scrollspy.js"></script>
+    <!-- library for creating tabs -->
+    <script src="/resources/bootstrap/charisma/js/bootstrap-tab.js"></script>
+    <!-- library for advanced tooltip -->
+    <script src="/resources/bootstrap/charisma/js/bootstrap-tooltip.js"></script>
+    <!-- popover effect library -->
+    <script src="/resources/bootstrap/charisma/js/bootstrap-popover.js"></script>
+    <!-- button enhancer library -->
+    <script src="/resources/bootstrap/charisma/js/bootstrap-button.js"></script>
+    <!-- accordion library (optional, not used in demo) -->
+    <script src="/resources/bootstrap/charisma/js/bootstrap-collapse.js"></script>
+
+
+
+    <!-- library for cookie management -->
+    <script src="/resources/bootstrap/charisma/js/jquery.cookie.js"></script>
+
+
+
+
+    <!-- notification plugin -->
+    <script src="/resources/bootstrap/charisma/js/jquery.noty.js"></script>
+
+
+    <!-- application script for Charisma demo -->
+    <script src="/resources/bootstrap/charisma/js/charisma.js"></script>
+    <script type="text/javascript" src="/resources/bootstrap/js/bootstrap-datepicker.js"></script>
+    <script src="/resources/jquery-validation/js/languages/jquery.validationEngine-zh_CN.js" type="text/javascript" charset="utf-8"></script>
+    <script src="/resources/jquery-validation/js/jquery.validationEngine.js" type="text/javascript" charset="utf-8"></script>
 
     <!-- The fav icon -->
     <link rel="shortcut icon" href="/resources/bootstrap/charisma/img/favicon.ico">

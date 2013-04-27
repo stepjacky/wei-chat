@@ -60,6 +60,6 @@ $(document).ready(function(){
 function onClick(event, treeId, treeNode, clickFlag) {
     if(treeNode.isParent) return;
     ptype = treeNode.id;
-    $('#file_upload').uploadify('settings','uploader','/userpicture/add_picture/'+ptype+"/1");
-    $("#mythumb").load("/userpicture/thumbnails/"+ptype+"/1");
+    $('#file_upload').uploadify('settings','uploader','/userpicture/add_picture/'+ptype+"/"+mert);
+    $("#mythumb").load("/userpicture/thumbnails/"+ptype+"/"+mert);
 }

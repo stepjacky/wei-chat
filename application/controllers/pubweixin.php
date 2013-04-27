@@ -42,7 +42,7 @@ class Pubweixin extends MY_Controller {
       */
     public function editNew($id=FALSE){
         
-       $data = $this->dao->get($id);
+       $data = $this->dao->get($id,'weixin_id');
              
      
         
@@ -53,12 +53,16 @@ class Pubweixin extends MY_Controller {
 
 
     public function saveUpdate($pk="weixin_id"){
-        parent::saveUpdate($pk);
+
+        $data =  $this->_xsl_post();
+        $data['merchant_id'] = $this->userid;
+        $this->dao->saveUpdate($data,$pk);
+        $this->_end();
     }
 
 
-    public function connector(){
-        $bean = $this->dao->connector();
+    public function connector($weixin_id){
+        $bean = $this->dao->connector($weixin_id);
         $this->load->view($this->dao->table()."/connector",$bean);
     }
 }   

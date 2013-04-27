@@ -16,6 +16,9 @@ function removeOne(id){
     });
 }
 
-function showInterface(weixin_id){
-
+function showConnector(weixin_id){
+    var url = '/pubweixin/connector/'+weixin_id;
+    $("#modalBody").load(url,{},function(){
+        $("#myModal").modal("show");
+    })
 }

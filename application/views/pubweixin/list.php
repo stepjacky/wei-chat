@@ -51,12 +51,14 @@
              <button class="btn btn-danger" type="button" onclick="removeOne('<?=$weixin_id;?>');">
                <i class="icon-remove"></i>删除
              </button>
-             <a data-toggle="modal"
+             <button
                   class="btn  btn-primary"
-                  href="/pubweixin/connector/<?=$weixin_id?>" data-target="#myModal">
+                  type="button"
+                  onclick="showConnector('<?=$weixin_id?>');"
+                 >
                  <i class="icon-tags"></i>
                  接口
-             </a>
+             </button>
            </td>
            </tr>
         <?php endforeach; ?>

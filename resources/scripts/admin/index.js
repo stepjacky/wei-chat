@@ -13,8 +13,11 @@ $(document).ready(function(){
 });
 
 function leftNavClick(){
+
+   if(!$(this).hasClass("ajax-link")) return true;
    var url =  $(this).attr("link");
-    loadContent("content",url);
+
+   loadContent("content",url);
 }
 
 function loadContent(pid,url){

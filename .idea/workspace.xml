@@ -2,39 +2,61 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="9c42f37f-b41b-40a5-884c-3813c2511426" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/application/libraries/Wechat.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/application/views/pubweixin/connector.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/application/views/admin/bizlogin.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/application/views/admin/bizregister.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/application/views/couponcatalog/startvalidate.php" />
+      <change type="DELETED" beforePath="G:\webroot\wei-chat\application\views\admin\openlogin.php" afterPath="" />
+      <change type="DELETED" beforePath="G:\webroot\wei-chat\resources\images\uploads\0672b006afd9db0c8f484735b1673c81.jpg" afterPath="" />
+      <change type="DELETED" beforePath="G:\webroot\wei-chat\resources\images\uploads\17c45357fb939d8fec9d3b313a4dad17.jpg" afterPath="" />
+      <change type="DELETED" beforePath="G:\webroot\wei-chat\resources\images\uploads\2259c716e09609b467257570ad9a47b0.jpg" afterPath="" />
+      <change type="DELETED" beforePath="G:\webroot\wei-chat\resources\images\uploads\23373ee2afd88b39cba413c4d1a45bba.jpg" afterPath="" />
+      <change type="DELETED" beforePath="G:\webroot\wei-chat\resources\images\uploads\38c6c80037c58ba112f4ae029f82ee77.jpg" afterPath="" />
+      <change type="DELETED" beforePath="G:\webroot\wei-chat\resources\images\uploads\4cf27f7419e14c46ac7fcefcbd367f5c.jpg" afterPath="" />
+      <change type="DELETED" beforePath="G:\webroot\wei-chat\resources\images\uploads\752c37345f660928edc0a0b3ff099002.jpg" afterPath="" />
+      <change type="DELETED" beforePath="G:\webroot\wei-chat\resources\images\uploads\766031f683a8ac8fb6c7a9f7d842a9e3.jpg" afterPath="" />
+      <change type="DELETED" beforePath="G:\webroot\wei-chat\resources\images\uploads\a08b0bd0eee084daa221fdb950440222.jpg" afterPath="" />
+      <change type="DELETED" beforePath="G:\webroot\wei-chat\resources\images\uploads\af8c31ac76ad891ff2695776d830f618.jpg" afterPath="" />
+      <change type="DELETED" beforePath="G:\webroot\wei-chat\resources\images\uploads\c517c00018359ba14a14a0a7ee9c09cf.jpg" afterPath="" />
+      <change type="DELETED" beforePath="G:\webroot\wei-chat\resources\images\uploads\c9f40b58f5c35c8f8775e28863353758.jpg" afterPath="" />
+      <change type="DELETED" beforePath="G:\webroot\wei-chat\resources\images\uploads\cd2da3161285f26eab19955ddd010467.jpg" afterPath="" />
+      <change type="DELETED" beforePath="G:\webroot\wei-chat\resources\images\uploads\d2122983ed3162e1ac26e7b01eb3feb9.jpg" afterPath="" />
+      <change type="DELETED" beforePath="G:\webroot\wei-chat\resources\images\uploads\e989ea186ae3a56fe29c4e97984f0190.jpg" afterPath="" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/application/third_party/weichat.mwb" afterPath="$PROJECT_DIR$/application/third_party/weichat.mwb" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/application/core/MY_Controller.php" afterPath="$PROJECT_DIR$/application/core/MY_Controller.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/application/core/MY_Model.php" afterPath="$PROJECT_DIR$/application/core/MY_Model.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/application/models/cardcatalog_model.php" afterPath="$PROJECT_DIR$/application/models/cardcatalog_model.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/application/views/cardcatalog/editNew.php" afterPath="$PROJECT_DIR$/application/views/cardcatalog/editNew.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/application/views/couponcatalog/editNew.php" afterPath="$PROJECT_DIR$/application/views/couponcatalog/editNew.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/application/controllers/admin.php" afterPath="$PROJECT_DIR$/application/controllers/admin.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/application/views/admin/body-start.php" afterPath="$PROJECT_DIR$/application/views/admin/body-start.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/application/controllers/coupon.php" afterPath="$PROJECT_DIR$/application/controllers/coupon.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/application/models/coupon_model.php" afterPath="$PROJECT_DIR$/application/models/coupon_model.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/application/controllers/couponcatalog.php" afterPath="$PROJECT_DIR$/application/controllers/couponcatalog.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/scripts/merchant/edit.js" afterPath="$PROJECT_DIR$/resources/scripts/merchant/edit.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/application/views/merchant/editNew.php" afterPath="$PROJECT_DIR$/application/views/merchant/editNew.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/application/views/pubweixin/editNew.php" afterPath="$PROJECT_DIR$/application/views/pubweixin/editNew.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/application/views/admin/footer-pure.php" afterPath="$PROJECT_DIR$/application/views/admin/footer-pure.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/application/views/admin/footer.php" afterPath="$PROJECT_DIR$/application/views/admin/footer.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/application/helpers/guid_helper.php" afterPath="$PROJECT_DIR$/application/helpers/guid_helper.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/application/views/admin/header.php" afterPath="$PROJECT_DIR$/application/views/admin/header.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/scripts/admin/index.js" afterPath="$PROJECT_DIR$/resources/scripts/admin/index.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/scripts/userpicture/index.js" afterPath="$PROJECT_DIR$/resources/scripts/userpicture/index.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/scripts/list.js" afterPath="$PROJECT_DIR$/resources/scripts/list.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/application/views/userpicture/index.php" afterPath="$PROJECT_DIR$/application/views/userpicture/index.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/scripts/couponcatalog/list.js" afterPath="$PROJECT_DIR$/resources/scripts/couponcatalog/list.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/scripts/pubweixin/list.js" afterPath="$PROJECT_DIR$/resources/scripts/pubweixin/list.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/application/views/cardcatalog/list.php" afterPath="$PROJECT_DIR$/application/views/cardcatalog/list.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/application/views/couponcatalog/list.php" afterPath="$PROJECT_DIR$/application/views/couponcatalog/list.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/application/views/member/list.php" afterPath="$PROJECT_DIR$/application/views/member/list.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/application/views/message/list.php" afterPath="$PROJECT_DIR$/application/views/message/list.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/application/views/pubweixin/list.php" afterPath="$PROJECT_DIR$/application/views/pubweixin/list.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/application/controllers/message.php" afterPath="$PROJECT_DIR$/application/controllers/message.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/application/models/picture_model.php" afterPath="$PROJECT_DIR$/application/models/picture_model.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/application/controllers/merchant.php" afterPath="$PROJECT_DIR$/application/controllers/merchant.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/application/models/merchant_model.php" afterPath="$PROJECT_DIR$/application/models/merchant_model.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/application/controllers/pubweixin.php" afterPath="$PROJECT_DIR$/application/controllers/pubweixin.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/application/models/pubweixin_model.php" afterPath="$PROJECT_DIR$/application/models/pubweixin_model.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/application/models/userpicture_model.php" afterPath="$PROJECT_DIR$/application/models/userpicture_model.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/application/views/common/result.php" afterPath="$PROJECT_DIR$/application/views/common/result.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/application/views/userpicture/thumbnails.php" afterPath="$PROJECT_DIR$/application/views/userpicture/thumbnails.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/application/controllers/welcome.php" afterPath="$PROJECT_DIR$/application/controllers/welcome.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MOVED" beforePath="G:\webroot\wei-chat\application\controllers\system.php" afterPath="$PROJECT_DIR$/application/controllers/sysadmin.php" />
     </list>
     <ignored path="weixin.iws" />
     <ignored path=".idea/workspace.xml" />
     <file path="/header.php" changelist="9c42f37f-b41b-40a5-884c-3813c2511426" time="1366883761530" ignored="false" />
-    <file path="/index.php" changelist="9c42f37f-b41b-40a5-884c-3813c2511426" time="1366899324084" ignored="false" />
-    <file path="/Dummy.txt" changelist="9c42f37f-b41b-40a5-884c-3813c2511426" time="1366964247526" ignored="false" />
-    <file path="/footer.php" changelist="9c42f37f-b41b-40a5-884c-3813c2511426" time="1366983108671" ignored="false" />
+    <file path="/index.php" changelist="9c42f37f-b41b-40a5-884c-3813c2511426" time="1367083342584" ignored="false" />
+    <file path="/Dummy.txt" changelist="9c42f37f-b41b-40a5-884c-3813c2511426" time="1367052614670" ignored="false" />
+    <file path="/footer.php" changelist="9c42f37f-b41b-40a5-884c-3813c2511426" time="1367083827161" ignored="false" />
     <file path="/charisma-app.css" changelist="9c42f37f-b41b-40a5-884c-3813c2511426" time="1366641995464" ignored="false" />
     <file path="/bootstrap-cerulean.css" changelist="9c42f37f-b41b-40a5-884c-3813c2511426" time="1366641664395" ignored="false" />
     <file path="/karla-ubuntu.css" changelist="9c42f37f-b41b-40a5-884c-3813c2511426" time="1366642196156" ignored="false" />
@@ -46,36 +68,48 @@
     <file path="/bootstrap-united.css" changelist="9c42f37f-b41b-40a5-884c-3813c2511426" time="1366643127786" ignored="false" />
     <file path="/bootstrap-redy.css" changelist="9c42f37f-b41b-40a5-884c-3813c2511426" time="1366643809179" ignored="false" />
     <file path="/member.php" changelist="9c42f37f-b41b-40a5-884c-3813c2511426" time="1366644810053" ignored="false" />
-    <file path="/index.js" changelist="9c42f37f-b41b-40a5-884c-3813c2511426" time="1366898958647" ignored="false" />
+    <file path="/index.js" changelist="9c42f37f-b41b-40a5-884c-3813c2511426" time="1367084330703" ignored="false" />
     <file path="/header-pure.php" changelist="9c42f37f-b41b-40a5-884c-3813c2511426" time="1366732487326" ignored="false" />
     <file path="/footer-pure.php" changelist="9c42f37f-b41b-40a5-884c-3813c2511426" time="1366773671894" ignored="false" />
     <file path="/validationEngine.jquery.css" changelist="9c42f37f-b41b-40a5-884c-3813c2511426" time="1366734744129" ignored="false" />
     <file path="/result-close.php" changelist="9c42f37f-b41b-40a5-884c-3813c2511426" time="1366735739021" ignored="false" />
     <file path="/system.php" changelist="9c42f37f-b41b-40a5-884c-3813c2511426" time="1366735854776" ignored="false" />
     <file path="/util.js" changelist="9c42f37f-b41b-40a5-884c-3813c2511426" time="1366772165703" ignored="false" />
-    <file path="/thumbnails.php" changelist="9c42f37f-b41b-40a5-884c-3813c2511426" time="1366899114771" ignored="false" />
+    <file path="/thumbnails.php" changelist="9c42f37f-b41b-40a5-884c-3813c2511426" time="1367083726222" ignored="false" />
     <file path="/input.php" changelist="9c42f37f-b41b-40a5-884c-3813c2511426" time="1366774245128" ignored="false" />
     <file path="/couponpolicy.php" changelist="9c42f37f-b41b-40a5-884c-3813c2511426" time="1366787564747" ignored="false" />
-    <file path="/merchant.php" changelist="9c42f37f-b41b-40a5-884c-3813c2511426" time="1366817862492" ignored="false" />
-    <file path="/MY_Model.php" changelist="9c42f37f-b41b-40a5-884c-3813c2511426" time="1366988806089" ignored="false" />
+    <file path="/merchant.php" changelist="9c42f37f-b41b-40a5-884c-3813c2511426" time="1367082266794" ignored="false" />
+    <file path="/MY_Model.php" changelist="9c42f37f-b41b-40a5-884c-3813c2511426" time="1367081319558" ignored="false" />
     <file path="/vcode_model.php" changelist="9c42f37f-b41b-40a5-884c-3813c2511426" time="1366818551986" ignored="false" />
-    <file path="/body-start.php" changelist="9c42f37f-b41b-40a5-884c-3813c2511426" time="1366897522065" ignored="false" />
+    <file path="/body-start.php" changelist="9c42f37f-b41b-40a5-884c-3813c2511426" time="1367078671159" ignored="false" />
     <file path="/picture.php" changelist="9c42f37f-b41b-40a5-884c-3813c2511426" time="1366899887651" ignored="false" />
-    <file path="/MY_Controller.php" changelist="9c42f37f-b41b-40a5-884c-3813c2511426" time="1366988903892" ignored="false" />
+    <file path="/MY_Controller.php" changelist="9c42f37f-b41b-40a5-884c-3813c2511426" time="1367083274208" ignored="false" />
     <file path="/test.php" changelist="9c42f37f-b41b-40a5-884c-3813c2511426" time="1366901912834" ignored="false" />
-    <file path="/result.php" changelist="9c42f37f-b41b-40a5-884c-3813c2511426" time="1366902795394" ignored="false" />
+    <file path="/result.php" changelist="9c42f37f-b41b-40a5-884c-3813c2511426" time="1367083129554" ignored="false" />
     <file path="/Langclass.php" changelist="9c42f37f-b41b-40a5-884c-3813c2511426" time="1366904205522" ignored="false" />
     <file path="/picture_model.php" changelist="9c42f37f-b41b-40a5-884c-3813c2511426" time="1366964742814" ignored="false" />
-    <file path="/editNew.php" changelist="9c42f37f-b41b-40a5-884c-3813c2511426" time="1366971151849" ignored="false" />
-    <file path="/list.php" changelist="9c42f37f-b41b-40a5-884c-3813c2511426" time="1366983238214" ignored="false" />
-    <file path="/pubweixin.php" changelist="9c42f37f-b41b-40a5-884c-3813c2511426" time="1366982491977" ignored="false" />
+    <file path="/editNew.php" changelist="9c42f37f-b41b-40a5-884c-3813c2511426" time="1367082180344" ignored="false" />
+    <file path="/list.php" changelist="9c42f37f-b41b-40a5-884c-3813c2511426" time="1367081799554" ignored="false" />
+    <file path="/pubweixin.php" changelist="9c42f37f-b41b-40a5-884c-3813c2511426" time="1367081952702" ignored="false" />
     <file path="/message.php" changelist="9c42f37f-b41b-40a5-884c-3813c2511426" time="1366980678685" ignored="false" />
     <file path="/WechatCallbackapiTest.php" changelist="9c42f37f-b41b-40a5-884c-3813c2511426" time="1366980045307" ignored="false" />
-    <file path="/a.dummy" changelist="9c42f37f-b41b-40a5-884c-3813c2511426" time="1366980487979" ignored="false" />
-    <file path="/pubweixin_model.php" changelist="9c42f37f-b41b-40a5-884c-3813c2511426" time="1366982261004" ignored="false" />
+    <file path="/a.dummy" changelist="9c42f37f-b41b-40a5-884c-3813c2511426" time="1367071241965" ignored="false" />
+    <file path="/pubweixin_model.php" changelist="9c42f37f-b41b-40a5-884c-3813c2511426" time="1367081223953" ignored="false" />
     <file path="/connector.php" changelist="9c42f37f-b41b-40a5-884c-3813c2511426" time="1366982702246" ignored="false" />
-    <file path="/list.js" changelist="9c42f37f-b41b-40a5-884c-3813c2511426" time="1366989022993" ignored="false" />
+    <file path="/list.js" changelist="9c42f37f-b41b-40a5-884c-3813c2511426" time="1367081900669" ignored="false" />
     <file path="/cardcatalog_model.php" changelist="9c42f37f-b41b-40a5-884c-3813c2511426" time="1366991881293" ignored="false" />
+    <file path="/couponcatalog.php" changelist="9c42f37f-b41b-40a5-884c-3813c2511426" time="1367079335556" ignored="false" />
+    <file path="/startvalidate.php" changelist="9c42f37f-b41b-40a5-884c-3813c2511426" time="1367080467538" ignored="false" />
+    <file path="/coupon.php" changelist="9c42f37f-b41b-40a5-884c-3813c2511426" time="1367080569098" ignored="false" />
+    <file path="/welcome.php" changelist="9c42f37f-b41b-40a5-884c-3813c2511426" time="1367076687382" ignored="false" />
+    <file path="/openlogin.php" changelist="9c42f37f-b41b-40a5-884c-3813c2511426" time="1367071023781" ignored="false" />
+    <file path="/sysadmin.php" changelist="9c42f37f-b41b-40a5-884c-3813c2511426" time="1367071254998" ignored="false" />
+    <file path="/bizlogin.php" changelist="9c42f37f-b41b-40a5-884c-3813c2511426" time="1367071578510" ignored="false" />
+    <file path="/merchant_model.php" changelist="9c42f37f-b41b-40a5-884c-3813c2511426" time="1367078984915" ignored="false" />
+    <file path="/admin.php" changelist="9c42f37f-b41b-40a5-884c-3813c2511426" time="1367078512704" ignored="false" />
+    <file path="/bizregister.php" changelist="9c42f37f-b41b-40a5-884c-3813c2511426" time="1367078425224" ignored="false" />
+    <file path="/coupon_model.php" changelist="9c42f37f-b41b-40a5-884c-3813c2511426" time="1367080702024" ignored="false" />
+    <file path="/edit.js" changelist="9c42f37f-b41b-40a5-884c-3813c2511426" time="1367082533412" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -95,91 +129,28 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="picture.php" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/application/controllers/picture.php">
+      <file leaf-file-name="header.php" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/application/views/admin/header.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="26" column="26" selection-start="1107" selection-end="1107" vertical-scroll-proportion="-15.606061">
+            <state line="17" column="9" selection-start="601" selection-end="601" vertical-scroll-proportion="8.0">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="MY_Controller.php" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/application/core/MY_Controller.php">
+      <file leaf-file-name="body-start.php" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/application/views/admin/body-start.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="108" column="41" selection-start="2945" selection-end="2945" vertical-scroll-proportion="-15.272727">
+            <state line="76" column="28" selection-start="3429" selection-end="3429" vertical-scroll-proportion="0.6236429">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="list.js" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/resources/scripts/list.js">
+      <file leaf-file-name="index.js" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/resources/scripts/admin/index.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="50" column="0" selection-start="1292" selection-end="1292" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="MY_Model.php" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/application/core/MY_Model.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="227" column="5" selection-start="5974" selection-end="6152" vertical-scroll-proportion="-20.454546">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="cardcatalog_model.php" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/application/models/cardcatalog_model.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="39" column="10" selection-start="1401" selection-end="1401" vertical-scroll-proportion="-13.424242">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="index.php" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/application/views/member/index.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="-0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="editNew.php" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/application/views/member/editNew.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="-0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="list.php" pinned="false" current="true" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/application/views/message/list.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="9" column="17" selection-start="425" selection-end="425" vertical-scroll-proportion="0.2689913">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="list.php" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/application/views/couponcatalog/list.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="60" column="0" selection-start="1629" selection-end="1629" vertical-scroll-proportion="-13.090909">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="list.php" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/application/views/cardcatalog/list.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="52" column="15" selection-start="1520" selection-end="1520" vertical-scroll-proportion="-33.454544">
+            <state line="16" column="50" selection-start="330" selection-end="330" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -203,22 +174,22 @@
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
       <list>
-        <option value="$PROJECT_DIR$/application/helpers/guid_helper.php" />
         <option value="$PROJECT_DIR$/application/models/pubweixin_model.php" />
-        <option value="$PROJECT_DIR$/application/controllers/pubweixin.php" />
-        <option value="$PROJECT_DIR$/application/views/pubweixin/connector.php" />
-        <option value="$PROJECT_DIR$/resources/scripts/pubweixin/list.js" />
-        <option value="$PROJECT_DIR$/application/views/admin/footer.php" />
         <option value="$PROJECT_DIR$/application/views/pubweixin/list.php" />
-        <option value="$PROJECT_DIR$/application/views/couponcatalog/editNew.php" />
-        <option value="$PROJECT_DIR$/application/views/cardcatalog/editNew.php" />
-        <option value="$PROJECT_DIR$/application/views/couponcatalog/list.php" />
-        <option value="$PROJECT_DIR$/application/core/MY_Model.php" />
+        <option value="$PROJECT_DIR$/resources/scripts/pubweixin/list.js" />
+        <option value="$PROJECT_DIR$/application/controllers/pubweixin.php" />
+        <option value="$PROJECT_DIR$/application/views/merchant/editNew.php" />
+        <option value="$PROJECT_DIR$/application/controllers/merchant.php" />
+        <option value="$PROJECT_DIR$/resources/scripts/merchant/edit.js" />
+        <option value="$PROJECT_DIR$/application/views/common/result.php" />
+        <option value="$PROJECT_DIR$/application/views/userpicture/index.php" />
+        <option value="$PROJECT_DIR$/resources/scripts/userpicture/index.js" />
         <option value="$PROJECT_DIR$/application/core/MY_Controller.php" />
-        <option value="$PROJECT_DIR$/resources/scripts/list.js" />
-        <option value="$PROJECT_DIR$/application/views/cardcatalog/list.php" />
-        <option value="$PROJECT_DIR$/application/models/cardcatalog_model.php" />
-        <option value="$PROJECT_DIR$/application/views/message/list.php" />
+        <option value="$PROJECT_DIR$/application/views/userpicture/thumbnails.php" />
+        <option value="$PROJECT_DIR$/application/views/admin/footer.php" />
+        <option value="$PROJECT_DIR$/application/views/admin/header.php" />
+        <option value="$PROJECT_DIR$/resources/scripts/admin/index.js" />
+        <option value="$PROJECT_DIR$/application/views/admin/body-start.php" />
       </list>
     </option>
   </component>
@@ -324,7 +295,7 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="pubweixin" />
+              <option name="myItemId" value="admin" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -378,95 +349,7 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="pubweixin" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="weixin" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="wei-chat" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="application" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="views" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="message" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="weixin" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="wei-chat" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="application" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="views" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="member" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="weixin" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="wei-chat" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="application" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="views" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="couponcatalog" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="weixin" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="wei-chat" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="application" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="views" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="cardcatalog" />
+              <option name="myItemId" value="common" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -506,60 +389,6 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="models" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="weixin" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="wei-chat" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="application" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="helpers" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="weixin" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="wei-chat" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="application" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="core" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="weixin" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="wei-chat" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="application" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
               <option name="myItemId" value="controllers" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
@@ -574,16 +403,16 @@
     <property name="options.lastSelected" value="project.propVCSSupport.Mappings" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="FullScreen" value="false" />
-    <property name="options.splitter.details.proportions" value="0.2" />
     <property name="options.searchVisible" value="true" />
+    <property name="options.splitter.details.proportions" value="0.2" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="G:\webroot\wei-chat\application\views\admin" />
       <recent name="G:\webroot\wei-chat\application\views\member" />
       <recent name="G:\webroot\wei-chat\application\views\cardcatalog" />
       <recent name="G:\webroot\wei-chat\application\views\userpicture" />
       <recent name="G:\webroot\wei-chat\resources\styles\userpicture" />
-      <recent name="G:\webroot\wei-chat\resources\scripts\picture" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="G:\webroot\wei-chat\resources\styles\images" />
@@ -640,9 +469,10 @@
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3281075" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.21948609" sideWeight="0.6708075" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.20663811" sideWeight="0.6718925" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
@@ -651,7 +481,6 @@
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32919255" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
@@ -718,118 +547,114 @@
     <breakpoint-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/application/models/pubweixin_model.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="66" column="23" selection-start="2199" selection-end="2199" vertical-scroll-proportion="-22.878788">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/resources/scripts/pubweixin/list.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="19" column="0" selection-start="452" selection-end="452" vertical-scroll-proportion="0.0">
+        <state line="16" column="1" selection-start="415" selection-end="415" vertical-scroll-proportion="0.44547564">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/application/views/admin/footer.php">
+    <entry file="file://$PROJECT_DIR$/application/controllers/pubweixin.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="15" column="34" selection-start="378" selection-end="378" vertical-scroll-proportion="-10.909091">
+        <state line="64" column="48" selection-start="2093" selection-end="2093" vertical-scroll-proportion="-17.787878">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/application/views/pubweixin/list.php">
+    <entry file="file://$PROJECT_DIR$/application/controllers/merchant.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="17" column="0" selection-start="553" selection-end="553" vertical-scroll-proportion="-12.363636">
+        <state line="37" column="5" selection-start="1450" selection-end="1450" vertical-scroll-proportion="-9.848485">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/application/views/couponcatalog/editNew.php">
+    <entry file="file://$PROJECT_DIR$/application/views/merchant/editNew.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="44" column="13" selection-start="811" selection-end="1083" vertical-scroll-proportion="-14.545455">
-          <folding>
-            <element signature="n#style#0;n#img#0;n#div#0;n#td#1;n#tr#2;n#tbody#0;n#table#0;n#fieldset#0;n#form#0;n#!!top" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/application/views/cardcatalog/editNew.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="33" column="13" selection-start="882" selection-end="882" vertical-scroll-proportion="-13.090909">
-          <folding>
-            <element signature="n#style#0;n#img#0;n#div#0;n#td#1;n#tr#1;n#tbody#0;n#table#0;n#fieldset#0;n#form#0;n#!!top" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/application/controllers/picture.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="26" column="26" selection-start="1107" selection-end="1107" vertical-scroll-proportion="-15.606061">
+        <state line="26" column="5" selection-start="664" selection-end="664" vertical-scroll-proportion="31.60606">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/application/views/couponcatalog/list.php">
+    <entry file="file://$PROJECT_DIR$/resources/scripts/merchant/edit.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="60" column="0" selection-start="1629" selection-end="1629" vertical-scroll-proportion="-13.090909">
+        <state line="17" column="0" selection-start="522" selection-end="522" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/application/views/common/result.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="2" column="19" selection-start="33" selection-end="33" vertical-scroll-proportion="0.057901084">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/application/controllers/userpicture.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="26" column="39" selection-start="1124" selection-end="1124" vertical-scroll-proportion="-17.121212">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/application/views/userpicture/index.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="24" column="30" selection-start="530" selection-end="530" vertical-scroll-proportion="0.694813">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/scripts/userpicture/index.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="63" column="64" selection-start="1499" selection-end="1499" vertical-scroll-proportion="0.80510443">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/application/core/MY_Controller.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="108" column="41" selection-start="2945" selection-end="2945" vertical-scroll-proportion="-15.272727">
+        <state line="283" column="0" selection-start="7257" selection-end="7257" vertical-scroll-proportion="-19.60606">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/resources/scripts/list.js">
+    <entry file="file://$PROJECT_DIR$/application/views/userpicture/thumbnails.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="50" column="0" selection-start="1292" selection-end="1292" vertical-scroll-proportion="0.0">
+        <state line="26" column="84" selection-start="1042" selection-end="1042" vertical-scroll-proportion="-14.151515">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/application/views/cardcatalog/list.php">
+    <entry file="file://$PROJECT_DIR$/resources/scripts/util.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="52" column="15" selection-start="1520" selection-end="1520" vertical-scroll-proportion="-33.454544">
+        <state line="17" column="0" selection-start="410" selection-end="410" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/application/core/MY_Model.php">
+    <entry file="file://$PROJECT_DIR$/application/views/admin/footer.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="227" column="5" selection-start="5974" selection-end="6152" vertical-scroll-proportion="-20.454546">
+        <state line="29" column="39" selection-start="900" selection-end="900" vertical-scroll-proportion="0.7104946">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/application/models/cardcatalog_model.php">
+    <entry file="file://$PROJECT_DIR$/application/views/admin/header.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="39" column="10" selection-start="1401" selection-end="1401" vertical-scroll-proportion="-13.424242">
+        <state line="17" column="9" selection-start="601" selection-end="601" vertical-scroll-proportion="8.0">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/application/views/member/index.php">
+    <entry file="file://$PROJECT_DIR$/resources/scripts/admin/index.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
+        <state line="16" column="50" selection-start="330" selection-end="330" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/application/views/member/editNew.php">
+    <entry file="file://$PROJECT_DIR$/application/views/admin/body-start.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/application/views/message/list.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="9" column="17" selection-start="425" selection-end="425" vertical-scroll-proportion="0.2689913">
+        <state line="76" column="28" selection-start="3429" selection-end="3429" vertical-scroll-proportion="0.6236429">
           <folding />
         </state>
       </provider>

@@ -28,16 +28,17 @@ class Admin extends MY_Controller {
      
     public  function __construct(){
         parent::__construct();
-        $this->load->model('Myuser_model','usrDao');
+        $this->load->model('Merchant_model','usrDao');
     }
 
     public function index(){
 
-       // (!$this->nsession->userdata('user')) AND redirect('admin/openlogin');
+        $user = $this->nsession->userdata('user');
+        (!$user) AND redirect('welcome/bizlogin');
 
 
         $this->load->view("admin/header");
-        $this->load->view("admin/body-start");
+        $this->load->view("admin/body-start",$user);
         $this->load->view("admin/index");
         $this->load->view("admin/footer");
     }
@@ -50,18 +51,45 @@ class Admin extends MY_Controller {
 
     public function login(){
 
+
         $id  =$this->_post("id");
-        $password  =$this->_post('password');
+        $password  =$this->_post('pword');
         $user = $this->usrDao->login($id,$password);
         $this->fireLog($user);
-        !$user  AND redirect('/admin/openlogin');
+        !$user  AND redirect('/welcome/bizlogin');
         $this->nsession->set_userdata('user',$user);
-        redirect('/admin/');
+        redirect('/admin');
 
     }
 
+    public function register(){
+        $data = $this->_no_xsl_post();
+        $cap = $this->nsession->userdata("capword");
+        if(!$cap OR strtolower($cap)!=strtolower($data['capcode'])) {
+
+            redirect('/welcome/start_register?info=验证码错误');
+
+
+        }
+        $udata = array(
+            "id"    =>$data['id'],
+            'pword' =>$data['pword'],
+            'email' =>urldecode($data['email'])
+         );
+        $this->fireLog($udata);
+        $rst  = $this->usrDao->register($udata,FALSE);
+        $info = !$rst?"相同用户已存在":'';
+        if(!$rst){
+            redirect('/welcome/start_register?info='.$info);
+        }else{
+            redirect('/welcome/bizlogin');
+        }
+    }
+
+
+
     public function logout(){
         $this->nsession->sess_destroy();
-        redirect('/admin/openlogin');
+        redirect('/welcome/bizlogin');
     }
 }   

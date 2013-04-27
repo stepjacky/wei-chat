@@ -10,6 +10,7 @@ class MY_Controller extends CI_Controller
 {
 
     protected $data = array();
+    protected $userid = '';
     public function __construct(){
          parent::__construct();
 
@@ -30,6 +31,11 @@ class MY_Controller extends CI_Controller
             $mName=func_get_arg(0);
             $this->load->model($mName,"dao");
         }
+
+
+
+        $user = $this->nsession->userdata('user');
+        $this->userid = $user?$user['id']:NULL;
 
     }
 
@@ -157,10 +163,9 @@ class MY_Controller extends CI_Controller
 
     }
 
-    protected  function _end($msg="")
-    {
-        $vdata['message'] = (!$msg)?"操作完成":$msg;
-        $this->load->view("common/result", $vdata);
+    protected  function _end()    {
+
+        $this->load->view("common/result-close");
     }
 
     public   function __user_header(&$data){
@@ -227,8 +232,6 @@ class Media_Controller extends MY_Controller{
 
 class Picture_Controller extends Media_Controller {
 
-    private $userid = '';
-
     public function __construct(){
 
         if(func_num_args()==1){
@@ -238,12 +241,14 @@ class Picture_Controller extends Media_Controller {
             parent::__construct();
         }
 
-        $user = $this->nsession->userdata('user');
-        $this->userid = $user?$user['id']:NULL;
+
 
     }
     public function index($id=FALSE){
-        $data = $this->dao->get($id);
+        //$data = $this->dao->get($id);
+        $data = array(
+            "merchant"=>$this->userid
+        );
         //$this->load->view("admin/header-pure");
         $this->load->view($this->dao->table()."/index",$data);
         //$this->load->view("admin/footer-pure");
@@ -272,13 +277,14 @@ class Picture_Controller extends Media_Controller {
 
             );
 
+
             if($merch){
-                $data["merchant_id"]=$this->userid;
+                $data["merchant_id"]=$merch;
             }
 
-            //$this->fireLog($fileData);
+            $this->fireLog($fileData);
             $this->dao->saveUpdate($data);
-            $data = array('Filedata' => $fileData);
+            $data = array('Filedata' => $fileData,"code"=>"success","edata"=>$data);
 
             $this->load->view('common/result', $data);
         }

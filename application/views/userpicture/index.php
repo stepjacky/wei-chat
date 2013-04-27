@@ -21,7 +21,9 @@
 </div>
 </div>
 
-
+<script type="text/javascript">
+    var mert = '<?=$merchant?>';
+</script>
 <link rel="stylesheet" type="text/css" href="/resources/uploadify/uploadify.css" />
 <link rel="stylesheet" href="/resources/zTree/css/zTreeStyle/zTreeStyle.css" type="text/css" />
 <script type="text/javascript" src="/resources/zTree/js/jquery.ztree.core-3.5.js"></script>

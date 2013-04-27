@@ -3,10 +3,11 @@
 <table id="list" class="table table-striped table-bordered table-hover">
         <thead>
         <tr>
-          <th colspan="10">
+          <th colspan="10" class="btn-group">
             <button type="button" class="btn btn-info" onclick="newOne();">
              <i class="icon-plus"></i>新增优惠券
             </button>
+
           </th>
         </tr>
         <tr>
@@ -21,7 +22,6 @@
                          
                 <th>结束日期</th>
 
-                         
                 <th>日领取数</th> 
                          
                          
@@ -35,10 +35,7 @@
                extract($bean);
             ?>
            <tr>
-                <td>
-              <?=$id?>             
-            </td>  
-                      
+
                 <td>
               <?=$name?>             
             </td>  
@@ -65,13 +62,21 @@
             </td>  
                       
                       
-           <td>
+           <td class="btn btn-group">
              <button class="btn btn-success" type="button" onclick="editOne('<?=$id;?>');">
                <i class="icon-edit"></i>
              </button>
              <button class="btn btn-danger" type="button" onclick="removeOne('<?=$id;?>');">
                <i class="icon-remove"></i>
              </button>
+               <button
+                   type="button"
+                   class="btn btn-success"
+                   onclick="startValidate('<?=$id?>')"
+                   >
+                   <span class="icon icon-color icon-link"/>
+                   验证
+               </button>
            </td>
            </tr>
         <?php endforeach; ?>

@@ -20,6 +20,6 @@
     </footer>
 
 </div><!--/.fluid-container-->
-<iframe name="dataFrame" style="display: none" src="<?=base_url('/system/submited')?>"></iframe>
+<iframe name="dataFrame" style="display: none" ></iframe>
 </body>
 </html>

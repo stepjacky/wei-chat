@@ -1,4 +1,6 @@
-<?php
+<?=$code?>
+<?
+   print_r($edata);
 
-   print_r($Filedata);
+?>
 

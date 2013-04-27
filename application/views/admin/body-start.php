@@ -15,7 +15,9 @@
             <!-- user dropdown starts -->
             <div class="btn-group pull-right" >
                 <a class="btn dropdown-toggle" data-toggle="dropdown" href="#">
-                    <i class="icon-user"></i><span class="hidden-phone"> admin</span>
+                    <i class="icon-user"></i><span class="hidden-phone">
+                        <?=$id?>
+                    </span>
                     <span class="caret"></span>
                 </a>
                 <ul class="dropdown-menu">
@@ -72,7 +74,7 @@
                             <i class="icon-picture"></i>
                             <span class="hidden-tablet">商户资料</span></a></li>
 
-                    <li><a link="/system/logout" href="###">
+                    <li><a  href="/admin/logout">
                             <i class="icon-globe"></i>
                             <span class="hidden-tablet">退出</span></a></li>
                 </ul>

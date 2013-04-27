@@ -28,15 +28,23 @@ class Couponcatalog extends MY_Controller {
      
     public  function __construct(){
         parent::__construct("Couponcatalog_model");
-               $this->load->library('create_ckeditor');
+        $this->load->library('create_ckeditor');
                 
     }
 
     public function index($id=FALSE){
-         $data = $this->dao->get($id);        
-        //$this->load->view("admin/header-pure");
+        $code = create_random_string(5);
+        $enc  = md5($code);
+        $vi   = rand(0,strlen($enc));
+        $vc   = substr($enc,$vi,1);
+        $code = $code.$vi.$vc;
+        $data = array(
+            "code"=>$code,
+            "catalog_id"=>$id
+        );
+        $this->load->view('front/header');
         $this->load->view("couponcatalog/index",$data);
-        //$this->load->view("admin/footer-pure");
+        $this->load->view("front/footer");
     }
     
      /**
@@ -44,19 +52,32 @@ class Couponcatalog extends MY_Controller {
       */
     public function editNew($id=FALSE){
         
-       $data = $this->dao->get($id);
+        $data = $this->dao->get($id);
              
-               $ckcfg = array();
-               $ckcfg["name"]  ="remark";          
+        $ckcfg = array();
+
+        $ckcfg["name"]  ="remark";
              
-              $ckcfg["value"] = $data["remark"];       
-     
-        
-             $data['my_editor'] = $this->create_ckeditor->createEditor( $ckcfg);        
+        $ckcfg["value"] = $data["remark"];
+
+        $data['my_editor'] = $this->create_ckeditor->createEditor( $ckcfg);
         $this->load->view("admin/header-pure");
         $this->load->view($this->dao->table()."/editNew",$data);
         $this->load->view("admin/footer-pure");
     }
+
+    public function startvalidate($cataid){
+        $data = array("catalog_id"=>$cataid);
+        $this->load->view($this->dao->table()."/startvalidate",$data);
+    }
+
+    public function saveUpdate(){
+        $data = $this->_no_xsl_post();
+        $data['merchant_id'] = $this->userid;
+        $this->dao->saveUpdate($data);
+        $this->_end();
+    }
+
     
     
 }   

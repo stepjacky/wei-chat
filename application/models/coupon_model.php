@@ -28,7 +28,22 @@ class Coupon_model extends MY_Model {
      
     public  function __construct(){
         parent::__construct("Coupon_model");
+        $this->load->model("Member_model","mdao");
     }  
-    
+
+    public function save($data){
+
+        $member = $this->mdao->get($data['member_id']);
+        if($member['empty']){
+            $mdata = array(
+                "id"=>$data['member_id'],
+                'weixin'=>$data['member_id'],
+                'merchant_id'=>$data['merchant_id']
+            );
+            $this->mdao->save($mdata);
+        }
+        unset($data['merchant_id']);
+        parent::save($data);
+    }
     
 }   

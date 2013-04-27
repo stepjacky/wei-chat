@@ -93,12 +93,7 @@ class MY_Model extends CI_Model
     }
 
     public function saveUpdate($data,$pk='id',$gen=TRUE){
-       $pk = urldecode($pk);
-       if(!isset($data[$pk]) || $data[$pk]==''){
-           $this->save($data,$pk);
-       }else{
-           $this->update($data,$pk);
-       }
+        $this->persiste($data,$gen,$pk);
     }
 
 
@@ -108,7 +103,8 @@ class MY_Model extends CI_Model
         if(!isset($data[$pk]) || empty($data[$pk])){
             $this->save($data,$pk);
         }else{
-            if(!$this->get($data[$pk])){
+            $bean = $this->get($data[$pk],$pk);
+            if($bean['empty']){
                 $this->save2($data,$gen,$pk);
             }else{
                 $this->update($data,$pk);
@@ -202,9 +198,8 @@ class MY_Model extends CI_Model
     public function get($id=FALSE,$pk='id'){
         if(!$id) return $this->emptyObject();
         $id = urldecode($id);
-
         $query = $this->db->get_where($this->table(), array($pk => $id));
-        $bean =   $query->row_array();
+        $bean =   $query->first_row('array');
         return empty($bean)?$this->emptyObject():$bean;
     }
 

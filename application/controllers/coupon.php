@@ -43,12 +43,22 @@ class Coupon extends MY_Controller {
     public function editNew($id=FALSE){
         
        $data = $this->dao->get($id);
-             
-     
-        
-        $this->load->view("admin/header-pure");
-        $this->load->view($this->dao->table()."/editNew",$data);
-        $this->load->view("admin/footer-pure");
+       $this->load->view("admin/header-pure");
+       $this->load->view($this->dao->table()."/editNew",$data);
+       $this->load->view("admin/footer-pure");
+    }
+
+    public function validate(){
+       $data  =  $this->_xsl_post();
+
+       $code  =  $data['cvcode'];
+
+       $data['merchant_id'] = $this->userid;
+
+       $this->dao->save($data);
+
+       $tdata = array("code"=>"success");
+       $this->load->view('common/result',$tdata);
     }
     
     
