@@ -48,7 +48,7 @@ class Pubweixin_model extends MY_Model {
 
         $tdata = array_merge($data,array(
             "token"=>create_random_string(5),
-            'desturl'=>base_url("/message/".strtr($data['weixin_id'],array("_"=>"at")))
+            'desturl'=>base_url("/message/index/".strtr($data['weixin_id'],array("_"=>"at")))
         ));
 
         parent::save2($tdata,FALSE);

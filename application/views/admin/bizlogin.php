@@ -25,18 +25,19 @@
                     <fieldset>
                         <div class="input-prepend" title="Username" data-rel="tooltip">
                             <span class="add-on"><i class="icon-user"></i></span>
-                            <input autofocus class="input-xxlarge" name="id" id="username" type="text"  />
+                            <input autofocus class="input-xlarge" name="id" id="username" type="text"  />
                         </div>
                         <div class="clearfix"></div>
 
                         <div class="input-prepend" title="Password" data-rel="tooltip">
                             <span class="add-on"><i class="icon-lock"></i></span>
-                            <input class="input-xxlarge" name="pword" id="password" type="password"  />
+                            <input class="input-xlarge" name="pword" id="password" type="password"  />
                         </div>
                         <div class="clearfix"></div>
 
                         <p class="center span5">
                             <button type="submit" class="btn btn-primary">登录</button>
+
                         </p>
                     </fieldset>
                 </form>

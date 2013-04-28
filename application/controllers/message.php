@@ -29,14 +29,39 @@ class Message extends MY_Controller {
     public  function __construct(){
         parent::__construct("Message_model");
         $this->load->library("wechat");
-        $this->load->model("Pubweixin_model","pwDao");
+        $this->load->model("Pubweixin_model","pubdao");
     }
 
     public function index($id=FALSE){
+        if(@$GLOBALS["HTTP_RAW_POST_DATA"]){
+            $this->responseMsg();
+        }else{
 
-        $this->load->view("message/index");
 
-
+            if(@$_GET["timestamp"]){
+                $token = $this->pubdao->get_token($id);
+                $this->valid($token);
+            }else{
+                echo "php is ok this is new 2013-3-6<br>";
+                if(function_exists('curl_init')){
+                    echo "curl_init is ok<br>";
+                }else{
+                    echo "no curl_init <br>";
+                }
+                if(function_exists('fsockopen')){
+                    echo "fsockopen is ok<br>";
+                }
+                else{
+                    echo "fsockopen is no<br>>";
+                }
+                if(function_exists('file_get_contents')){
+                    echo "file_get_contents is ok <br>";
+                }
+                else{
+                    echo "file_get_contents is not ok<br>";
+                }
+            }
+        }
 
     }
     
@@ -56,6 +81,73 @@ class Message extends MY_Controller {
        $token = $this->pwDao->get_token($oldwweixin);
        $this->weichat->valid($token);
     }
-    
+
+
+    public function valid($token)
+    {
+        $echoStr = $_GET["echostr"];
+
+        //valid signature , option
+        if($this->checkSignature($token)){
+            echo $echoStr;
+            exit;
+        }
+    }
+
+    public function responseMsg()
+    {
+        //get post data, May be due to the different environments
+        $postStr = $GLOBALS["HTTP_RAW_POST_DATA"];
+
+        //extract post data
+        if (!empty($postStr)){
+
+            $postObj = simplexml_load_string($postStr, 'SimpleXMLElement', LIBXML_NOCDATA);
+            $fromUsername = $postObj->FromUserName;
+            $toUsername = $postObj->ToUserName;
+            $keyword = trim($postObj->Content);
+            $time = time();
+            $textTpl = "<xml>
+							<ToUserName><![CDATA[%s]]></ToUserName>
+							<FromUserName><![CDATA[%s]]></FromUserName>
+							<CreateTime>%s</CreateTime>
+							<MsgType><![CDATA[%s]]></MsgType>
+							<Content><![CDATA[%s]]></Content>
+							<FuncFlag>0</FuncFlag>
+							</xml>";
+            if(!empty( $keyword ))
+            {
+                $msgType = "text";
+                $contentStr = "Welcome to wechat world!";
+                $resultStr = sprintf($textTpl, $fromUsername, $toUsername, $time, $msgType, $contentStr);
+                echo $resultStr;
+            }else{
+                echo "Input something...";
+            }
+
+        }else {
+            echo "";
+            exit;
+        }
+    }
+
+    private function checkSignature($token)
+    {
+        $signature = $_GET["signature"];
+        $timestamp = $_GET["timestamp"];
+        $nonce = $_GET["nonce"];
+        $tmpArr = array($token, $timestamp, $nonce);
+        sort($tmpArr);
+        $tmpStr = implode( $tmpArr );
+        $tmpStr = sha1( $tmpStr );
+
+        if( $tmpStr == $signature ){
+            return true;
+        }else{
+            return false;
+        }
+    }
+
+
     
 }   

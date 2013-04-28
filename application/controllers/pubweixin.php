@@ -31,7 +31,8 @@ class Pubweixin extends MY_Controller {
     }
 
     public function index($id=FALSE){
-         $data = $this->dao->get($id);        
+
+        $data = $this->dao->get($id);
         //$this->load->view("admin/header-pure");
         $this->load->view("pubweixin/index",$data);
         //$this->load->view("admin/footer-pure");
@@ -64,5 +65,9 @@ class Pubweixin extends MY_Controller {
     public function connector($weixin_id){
         $bean = $this->dao->connector($weixin_id);
         $this->load->view($this->dao->table()."/connector",$bean);
+    }
+
+    public function remove($id,$pk='weixin_id'){
+        parent::remove($id,$pk);
     }
 }   
