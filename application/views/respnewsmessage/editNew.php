@@ -8,92 +8,44 @@
 <table class="table table-hover table-bordered">
 <tbody>
       <input type="hidden" name="id" id="id" value="<?=val($id)?>" />
-      
-  
-  
-     
-  
-    
-  
-  
-     
-  
-     <tr>
-   <td>接收用户</td>
+
+
+
+           <tr>
+   <td>关键字</td>
    <td>            
-        <input name="ToUserName" id="ToUserName" type="text" value="<?=val($ToUserName)?>" class="validate[required]" />
-   </td>     
+        <input name="keywords"
+               type="text"
+               class="validate[required] input-xxlarge"
+               value="<?=val($keywords)?>"    />
+       <span class="label label-info">多个关键字请用半角逗号隔开,例如:  天气,气温</span>
+   </td>
    
 </tr>
   
-  
-     
-  
-    
-  
-  
-     
-  
-     <tr>
-   <td>发送时间</td>
-   <td>            
-        <input name="CreateTime" id="CreateTime" type="text" value="<?=val($CreateTime)?>" class="validate[required]" />
-   </td>     
-   
-</tr>
-  
-  
-     
-  
-     <tr>
-   <td>标题</td>
-   <td>            
-        <input name="Title" id="Title" type="text" value="<?=val($Title)?>" class="validate[required]" />
-   </td>     
-   
-</tr>
-  
-  
-     
-  
-     <tr>
-   <td>描述</td>
-   <td>            
-        <textarea id="Description" name="Description" class="validate[required] input-xxlarge"><?=val($Description)?></textarea>
-   </td>     
-   
-</tr>
-  
-  
-     
-  
-     <tr>
-   <td>图片链接</td>
-   <td>            
-        <input name="PicUrl" id="PicUrl" type="text" value="<?=val($PicUrl)?>" class="validate[required] input-xxlarge" />
-   </td>     
-   
-</tr>
-  
-  
-     
-  
-     <tr>
-   <td>点击链接</td>
-   <td>            
-        <input name="Url" id="Url" type="text" value="<?=val($Url)?>" class="validate[required] input-xxlarge" />
-   </td>     
-   
-</tr>
-  
-  
-     
-  
-      <input type="hidden" name="parent" id="parent" value="<?=val($parent)?>" />
-      
-  
-  
-     
+   <tr>
+      <td>
+        消息列表
+      </td>
+      <td>
+        <button class="btn btn-info" type="button" onclick="selectNews('newslist')">选择消息</button>
+        <br />
+        <span class="label label"
+          <hr/>
+        <div id="newslist">
+           <?php foreach($newslist as $news):?>
+              <div>
+                  <input type='hidden' name='newslist[]' value="<?$news['id']?>" />
+                  <button type='button' onclick='removeNews(this)' class='btn btn-danger'>
+                      <?=$news['name']?>
+                  </button>
+              </div>
+               <br/>
+
+           <?php endforeach;?>
+        </div>
+      </td>
+   </tr>
   
 </tbody>
 <tfoot>

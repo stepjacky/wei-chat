@@ -33,10 +33,11 @@ class Message extends MY_Controller {
     }
 
     public function index($id=FALSE){
-         $data = $this->dao->get($id);        
-        //$this->load->view("admin/header-pure");
-        $this->load->view("message/index",$data);
-        //$this->load->view("admin/footer-pure");
+
+        $this->load->view("message/index");
+
+
+
     }
     
      /**

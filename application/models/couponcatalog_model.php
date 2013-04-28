@@ -29,6 +29,14 @@ class Couponcatalog_model extends MY_Model {
     public  function __construct(){
         parent::__construct("Couponcatalog_model");
     }  
-    
+
+    public function find_by_merchant($merc){
+        $merc = urldecode($merc);
+        $this->db->select("id,name");
+        $this->db->where("merchant_id",$merc);
+        $query = $this->db->get($this->table());
+        $beans = $query->result_array();
+        return $beans;
+    }
     
 }   

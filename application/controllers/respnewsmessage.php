@@ -31,9 +31,9 @@ class Respnewsmessage extends MY_Controller {
     }
 
     public function index($id=FALSE){
-         $data = $this->dao->get($id);        
+        //$data = $this->dao->get($id);
         //$this->load->view("admin/header-pure");
-        $this->load->view("respnewsmessage/index",$data);
+        $this->load->view("respnewsmessage/index");
         //$this->load->view("admin/footer-pure");
     }
     
@@ -42,14 +42,21 @@ class Respnewsmessage extends MY_Controller {
       */
     public function editNew($id=FALSE){
         
-       $data = $this->dao->get($id);
-             
-     
+        $data = $this->dao->get($id);
+
+        $this->fireLog($data);
         
         $this->load->view("admin/header-pure");
         $this->load->view($this->dao->table()."/editNew",$data);
         $this->load->view("admin/footer-pure");
     }
-    
+
+
+    public function saveUpdate(){
+        $data =  $this->_xsl_post();
+        $data['fromusername']=$this->userid;
+        $this->dao->saveUpdate($data);
+        $this->_end();
+    }
     
 }   

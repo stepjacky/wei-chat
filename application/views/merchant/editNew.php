@@ -14,6 +14,14 @@
    </td>     
    
 </tr>
+
+ <tr>
+   <td>商户名称</td>
+   <td>
+        <input name="name" id="name" type="text" value="<?=val($name)?>" class="validate[required]" />
+   </td>
+
+ </tr>
   
   
      
@@ -26,7 +34,12 @@
    
 </tr>
   
-  
+  <tr>
+     <td>头像</td>
+      <td>
+         <input name="avator" type="text" value="<?=$avator?>" class="input-xxlarge validate[required]"   />
+      </td>
+  </tr>
      
   
      <tr>
@@ -73,6 +86,13 @@
         <textarea id="address" name="address" class="validate[required]"><?=val($address)?></textarea>
    </td>     
    
+</tr>
+ <tr>
+   <td>简介</td>
+   <td>
+        <textarea id="info" name="info" class="validate[required]"><?=val($info)?></textarea>
+   </td>
+
 </tr>
   
   

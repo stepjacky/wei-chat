@@ -1,26 +1,40 @@
-
-<div data-role="page" data-theme="a">
-    <div data-role="header" data-position="inline">
-        <h1>为生活会员卡</h1>
-        <div data-role="navbar">
-            <ul>
-                <li><a href="#" data-icon="home" class="ui-btn-active">主页</a></li>
-                <li><a href="#" data-icon="th-large">优惠券</a></li>
-                <li><a href="#" data-icon="list">我的会员卡</a></li>
-                <li><a href="#" data-icon="cogs">帮助</a></li>
-                <li><a href="#" data-icon="file">关于</a></li>
-            </ul>
-        </div>
+<!-- Home -->
+<div data-role="page" id="page1">
+    <div data-theme="a" data-role="header">
+        <h3>
+            台州微生活
+        </h3>
     </div>
-    <div data-role="content" data-theme="d">
+    <div data-role="content">
+        <a href="#page1">
+            <div style="width: 100%; height: 100px; position: relative; background-color: #fbfbfb; border: 1px solid #b8b8b8;">
+                <img src="http://codiqa.com/static/images/v2/image.png" alt="image" style="position: absolute; top: 50%; left: 50%; margin-left: -16px; margin-top: -18px">
+            </div>
+        </a>
+        <h5>
+            商户
+        </h5>
+        <div class="ui-grid-c">
 
-        <a href="#" data-role="button" data-icon="star">关注我们</a>
+            <?php
+                $idx = range('a','z');
+                $i=0;
+            ?>
 
-        <h2>介绍</h2>
+            <?php foreach($beans as $merc):
 
-        <p>
-           为生活会员卡,让你的生活更有味!
-        </p>
+                extract($merc);
+                ?>
 
+                <div class="ui-block-<?=$idx[$i++]?>">
+                    <a href="/merchant/index/<?=$id?>">
+                        <img src="<?=$avator?>" width="50px" height="50px" />
+
+                    </a>
+                </div>
+
+            <?php endforeach;?>
+
+        </div>
     </div>
 </div>

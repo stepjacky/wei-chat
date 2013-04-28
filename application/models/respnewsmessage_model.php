@@ -29,6 +29,67 @@ class Respnewsmessage_model extends MY_Model {
     public  function __construct(){
         parent::__construct("Respnewsmessage_model");
     }  
-    
+
+
+    public function save($data,$pk="id",$gen=TRUE){
+
+        $this->db->trans_start();
+        $newslist = $data['newslist'];
+        unset($data['newslist']);
+
+        if($gen)$data[$pk]=getGuidId();
+
+        $str = $this->db->insert_string($this->table(), $data);
+        $this->firelog($str);
+        $this->db->insert($this->table, $data);
+
+        $udata = array();
+        foreach ($newslist as $key=>$news){
+            array_push(
+                $udata,
+                array(
+                "respnewsid"=>$data['id'],
+                "newsid"=>$news
+            ));
+        }
+        $this->firelog($udata);
+        $this->db->insert_batch("respnewslist",$udata);
+        $this->db->trans_complete();
+    }
+
+    public function update($data,$pk="id"){
+        $this->db->trans_start();
+        $newslist = $data['newslist'];
+        unset($data['newslist']);
+        parent::update($data);
+        $udata = array();
+        foreach ($newslist as $key=>$news){
+            array_push(
+                $udata,
+                array(
+                    "respnewsid"=>$data['id'],
+                    "newsid"=>$news
+                ));
+        }
+        $this->db->truncate("respnewslist");
+        $this->db->insert("respnewslist",$udata);
+        $this->db->trans_complete();
+    }
+
+    public function get_newslist($respid){
+        $SQL = "select n.id id,n.name name from respnewslist rn
+                right join news n on n.id=rn.newsid
+                where rn.respnewsid=?";
+        $query =  $this->db->query($SQL,array($respid));
+        $beans = $query->result_array();
+        return $beans;
+    }
+
+    public function get($id=FALSE,$pk="id"){
+        $data = parent::get($id,$pk);
+        $data['newslist'] = $this->get_newslist($id);
+        return $data;
+    }
+
     
 }   

@@ -119,10 +119,7 @@ class MY_Model extends CI_Model
     public function save($data,$pk='id',$genId=TRUE)
     {
 
-
-        if($pk=='id' && $genId)
-           $data[$pk]=getGuidId();
-
+        if($genId)$data[$pk]=getGuidId();
         $str = $this->db->insert_string($this->table(), $data);
         $this->firelog($str);
         $this->db->insert($this->table, $data);
@@ -133,13 +130,7 @@ class MY_Model extends CI_Model
     public function save2($data,$gen=TRUE,$pk='id')
     {
 
-
-        if($gen)
-            $data[$pk]=getGUID();
-
-        $str = $this->db->insert_string($this->table(), $data);
-        $this->firelog($str);
-        $this->db->insert($this->table, $data);
+          $this->save($data,$pk,$gen);
 
     }
 

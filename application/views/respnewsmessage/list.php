@@ -10,73 +10,20 @@
           </th>
         </tr>
         <tr>
-                         
-                <th>消息类型</th> 
-                         
-                <th>接收用户</th> 
-                         
-                <th>发送者</th> 
-                         
-                <th>发送时间</th> 
-                         
-                <th>标题</th> 
-                         
-                <th>描述</th> 
-                         
-                <th>图片链接</th> 
-                         
-                <th>点击链接</th> 
-                         
-                         
+                <th>关键字</th>
             <th>管理</th>
         </tr>
         </thead>
         <tbody>
-
             <?php foreach($datasource as $bean):?>
             <?php
                extract($bean);
             ?>
            <tr>
-                <td>
-              <?=$id?>             
-            </td>  
-                      
-                <td>
-              <?=$msgType?>             
-            </td>  
-                      
-                <td>
-              <?=$ToUserName?>             
-            </td>  
-                      
-                <td>
-              <?=$FromUserName?>             
-            </td>  
-                      
-                <td>
-              <?=$CreateTime?>             
-            </td>  
-                      
-                <td>
-              <?=$Title?>             
-            </td>  
-                      
-                <td>
-              <?=$Description?>             
-            </td>  
-                      
-                <td>
-              <?=$PicUrl?>             
-            </td>  
-                      
-                <td>
-              <?=$Url?>             
-            </td>  
-                      
-                <td>
-              <?=$parent?>             
-            </td>  
+
+            <td>
+              <?=$keywords?>
+            </td>
                       
            <td>
              <button class="btn btn-success" type="button" onclick="editOne('<?=$id;?>');">

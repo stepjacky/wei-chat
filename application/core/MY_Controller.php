@@ -105,9 +105,9 @@ class MY_Controller extends CI_Controller
     }
 
     public function selector(){
-        $this->load->view('admin/res-head');
+        $this->load->view('admin/header-pure');
         $this->load->view($this->dao->table()."/selector");
-        $this->load->view('admin/footer');
+        $this->load->view('admin/footer-pure');
     }
 
 
@@ -348,4 +348,23 @@ class Picture_Controller extends Media_Controller {
         $this->load->view($this->dao->table().'/selector-list',$data);
     }
 
+}
+
+class Respmessage_Controller extends MY_Controller{
+    public function __construct(){
+
+        if(func_num_args()==1){
+            $mName=func_get_arg(0);
+            parent::__construct($mName);
+        }else{
+            parent::__construct();
+        }
+    }
+
+    public function saveUpdate(){
+        $data =  $this->_xsl_post();
+        $data['fromusername']=$this->userid;
+        $this->dao->saveUpdate($data);
+        $this->_end();
+    }
 }

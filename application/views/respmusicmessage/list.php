@@ -10,24 +10,16 @@
           </th>
         </tr>
         <tr>
-                         
-                <th>消息类型</th> 
-                         
-                <th>接收用户</th> 
-                         
-                <th>发送方</th> 
-                         
-                <th>创建时间</th> 
-                         
+                <th>关键字</th>
+
                 <th>标题</th> 
                          
-                <th>描述</th> 
+                <th>描述</th>
                          
-                         
-                <th>高品质语音链接</th> 
-                         
-                <th>标志位</th> 
-                         
+                <th>语音链接</th>
+
+                <th>高品质语音链接</th>
+
             <th>管理</th>
         </tr>
         </thead>
@@ -38,27 +30,11 @@
                extract($bean);
             ?>
            <tr>
-                <td>
-              <?=$id?>             
+            <td>
+              <?=$keywords?>
             </td>  
-                      
-                <td>
-              <?=$msgType?>             
-            </td>  
-                      
-                <td>
-              <?=$ToUserName?>             
-            </td>  
-                      
-                <td>
-              <?=$FromUserName?>             
-            </td>  
-                      
-                <td>
-              <?=$CreateTime?>             
-            </td>  
-                      
-                <td>
+
+            <td>
               <?=$Title?>             
             </td>  
                       
@@ -67,16 +43,16 @@
             </td>  
                       
                 <td>
-              <?=$MusicUrl?>             
+
+                    <?=$MusicUrl?>
+
             </td>  
                       
                 <td>
-              <?=$HQMusicUrl?>             
-            </td>  
-                      
-                <td>
-              <?=$FuncFlag?>             
-            </td>  
+                    <?=$HQMusicUrl?>
+
+
+                </td>
                       
            <td>
              <button class="btn btn-success" type="button" onclick="editOne('<?=$id;?>');">

@@ -19,4 +19,27 @@ function saveData(){
 
 function validationCmp(form, status){
     return status;   
-}       
+}
+
+
+
+
+function selectNews(ulid){
+    var selurl = '/news/selector';
+    var news = window.showModalDialog(selurl);
+    if(news==null)return;
+    $.each(news,function(i,item){
+        if(item){
+            var dcnt    = $("<div></div>");
+            var field   = $("<input type='hidden' name='newslist[]' />").val(item.id);
+            var btn   = $("<button type='button' onclick='removeNews(this)' class='btn btn-danger'></button>").text(item.name+"X");
+            dcnt.append(field).append(btn).append("<br/>");
+            $("#"+ulid).append(dcnt);
+        }
+    })
+}
+
+
+function removeNews(self){
+    $(self).parent().remove();
+}

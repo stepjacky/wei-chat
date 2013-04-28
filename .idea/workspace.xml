@@ -2,60 +2,64 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="9c42f37f-b41b-40a5-884c-3813c2511426" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/application/views/admin/bizlogin.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/application/views/admin/bizregister.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/application/views/couponcatalog/startvalidate.php" />
-      <change type="DELETED" beforePath="G:\webroot\wei-chat\application\views\admin\openlogin.php" afterPath="" />
-      <change type="DELETED" beforePath="G:\webroot\wei-chat\resources\images\uploads\0672b006afd9db0c8f484735b1673c81.jpg" afterPath="" />
-      <change type="DELETED" beforePath="G:\webroot\wei-chat\resources\images\uploads\17c45357fb939d8fec9d3b313a4dad17.jpg" afterPath="" />
-      <change type="DELETED" beforePath="G:\webroot\wei-chat\resources\images\uploads\2259c716e09609b467257570ad9a47b0.jpg" afterPath="" />
-      <change type="DELETED" beforePath="G:\webroot\wei-chat\resources\images\uploads\23373ee2afd88b39cba413c4d1a45bba.jpg" afterPath="" />
-      <change type="DELETED" beforePath="G:\webroot\wei-chat\resources\images\uploads\38c6c80037c58ba112f4ae029f82ee77.jpg" afterPath="" />
-      <change type="DELETED" beforePath="G:\webroot\wei-chat\resources\images\uploads\4cf27f7419e14c46ac7fcefcbd367f5c.jpg" afterPath="" />
-      <change type="DELETED" beforePath="G:\webroot\wei-chat\resources\images\uploads\752c37345f660928edc0a0b3ff099002.jpg" afterPath="" />
-      <change type="DELETED" beforePath="G:\webroot\wei-chat\resources\images\uploads\766031f683a8ac8fb6c7a9f7d842a9e3.jpg" afterPath="" />
-      <change type="DELETED" beforePath="G:\webroot\wei-chat\resources\images\uploads\a08b0bd0eee084daa221fdb950440222.jpg" afterPath="" />
-      <change type="DELETED" beforePath="G:\webroot\wei-chat\resources\images\uploads\af8c31ac76ad891ff2695776d830f618.jpg" afterPath="" />
-      <change type="DELETED" beforePath="G:\webroot\wei-chat\resources\images\uploads\c517c00018359ba14a14a0a7ee9c09cf.jpg" afterPath="" />
-      <change type="DELETED" beforePath="G:\webroot\wei-chat\resources\images\uploads\c9f40b58f5c35c8f8775e28863353758.jpg" afterPath="" />
-      <change type="DELETED" beforePath="G:\webroot\wei-chat\resources\images\uploads\cd2da3161285f26eab19955ddd010467.jpg" afterPath="" />
-      <change type="DELETED" beforePath="G:\webroot\wei-chat\resources\images\uploads\d2122983ed3162e1ac26e7b01eb3feb9.jpg" afterPath="" />
-      <change type="DELETED" beforePath="G:\webroot\wei-chat\resources\images\uploads\e989ea186ae3a56fe29c4e97984f0190.jpg" afterPath="" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/jquery-mobile/images/ajax-loader.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/images/avator/cards.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/jquery-mobile/images/icons-18-black.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/jquery-mobile/images/icons-18-white.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/jquery-mobile/images/icons-36-black.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/jquery-mobile/images/icons-36-white.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/images/shopbk.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/images/avator/webwxgeticon.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/application/views/couponcatalog/get-code.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/jquery-mobile/jquery.mobile.structure-1.3.1.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/jquery-mobile/jquery.mobile.theme-1.3.1.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/scripts/userpicture/picture.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/application/views/news/selector-list.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/application/views/news/selector.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/application/third_party/weichat.mwb" afterPath="$PROJECT_DIR$/application/third_party/weichat.mwb" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/application/core/MY_Controller.php" afterPath="$PROJECT_DIR$/application/core/MY_Controller.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/application/core/MY_Model.php" afterPath="$PROJECT_DIR$/application/core/MY_Model.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/application/controllers/admin.php" afterPath="$PROJECT_DIR$/application/controllers/admin.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/application/views/admin/body-start.php" afterPath="$PROJECT_DIR$/application/views/admin/body-start.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/application/controllers/coupon.php" afterPath="$PROJECT_DIR$/application/controllers/coupon.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/application/models/coupon_model.php" afterPath="$PROJECT_DIR$/application/models/coupon_model.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/application/controllers/artitle.php" afterPath="$PROJECT_DIR$/application/controllers/artitle.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/application/controllers/couponcatalog.php" afterPath="$PROJECT_DIR$/application/controllers/couponcatalog.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/scripts/merchant/edit.js" afterPath="$PROJECT_DIR$/resources/scripts/merchant/edit.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/application/models/couponcatalog_model.php" afterPath="$PROJECT_DIR$/application/models/couponcatalog_model.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/scripts/respnewsmessage/edit.js" afterPath="$PROJECT_DIR$/resources/scripts/respnewsmessage/edit.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/application/views/merchant/editNew.php" afterPath="$PROJECT_DIR$/application/views/merchant/editNew.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/application/views/admin/footer-pure.php" afterPath="$PROJECT_DIR$/application/views/admin/footer-pure.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/application/views/admin/footer.php" afterPath="$PROJECT_DIR$/application/views/admin/footer.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/application/views/admin/header.php" afterPath="$PROJECT_DIR$/application/views/admin/header.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/scripts/admin/index.js" afterPath="$PROJECT_DIR$/resources/scripts/admin/index.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/scripts/userpicture/index.js" afterPath="$PROJECT_DIR$/resources/scripts/userpicture/index.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/application/views/userpicture/index.php" afterPath="$PROJECT_DIR$/application/views/userpicture/index.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/scripts/couponcatalog/list.js" afterPath="$PROJECT_DIR$/resources/scripts/couponcatalog/list.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/scripts/pubweixin/list.js" afterPath="$PROJECT_DIR$/resources/scripts/pubweixin/list.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/application/views/couponcatalog/list.php" afterPath="$PROJECT_DIR$/application/views/couponcatalog/list.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/application/views/pubweixin/list.php" afterPath="$PROJECT_DIR$/application/views/pubweixin/list.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/application/views/respmusicmessage/editNew.php" afterPath="$PROJECT_DIR$/application/views/respmusicmessage/editNew.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/application/views/respnewsmessage/editNew.php" afterPath="$PROJECT_DIR$/application/views/respnewsmessage/editNew.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/application/views/resptextmessage/editNew.php" afterPath="$PROJECT_DIR$/application/views/resptextmessage/editNew.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/application/views/front/header.php" afterPath="$PROJECT_DIR$/application/views/front/header.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/application/views/couponcatalog/index.php" afterPath="$PROJECT_DIR$/application/views/couponcatalog/index.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/application/views/index/index.php" afterPath="$PROJECT_DIR$/application/views/index/index.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/application/views/merchant/index.php" afterPath="$PROJECT_DIR$/application/views/merchant/index.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/application/views/message/index.php" afterPath="$PROJECT_DIR$/application/views/message/index.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/application/views/respmusicmessage/list.php" afterPath="$PROJECT_DIR$/application/views/respmusicmessage/list.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/application/views/respnewsmessage/list.php" afterPath="$PROJECT_DIR$/application/views/respnewsmessage/list.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/application/views/resptextmessage/list.php" afterPath="$PROJECT_DIR$/application/views/resptextmessage/list.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/application/controllers/merchant.php" afterPath="$PROJECT_DIR$/application/controllers/merchant.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/application/models/merchant_model.php" afterPath="$PROJECT_DIR$/application/models/merchant_model.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/application/controllers/pubweixin.php" afterPath="$PROJECT_DIR$/application/controllers/pubweixin.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/application/models/pubweixin_model.php" afterPath="$PROJECT_DIR$/application/models/pubweixin_model.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/application/views/common/result.php" afterPath="$PROJECT_DIR$/application/views/common/result.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/application/views/userpicture/thumbnails.php" afterPath="$PROJECT_DIR$/application/views/userpicture/thumbnails.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/application/controllers/message.php" afterPath="$PROJECT_DIR$/application/controllers/message.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/application/controllers/respmusicmessage.php" afterPath="$PROJECT_DIR$/application/controllers/respmusicmessage.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/application/controllers/respnewsmessage.php" afterPath="$PROJECT_DIR$/application/controllers/respnewsmessage.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/application/models/respnewsmessage_model.php" afterPath="$PROJECT_DIR$/application/models/respnewsmessage_model.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/application/controllers/resptextmessage.php" afterPath="$PROJECT_DIR$/application/controllers/resptextmessage.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/application/views/artitle/selector.php" afterPath="$PROJECT_DIR$/application/views/artitle/selector.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/application/controllers/welcome.php" afterPath="$PROJECT_DIR$/application/controllers/welcome.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MOVED" beforePath="G:\webroot\wei-chat\application\controllers\system.php" afterPath="$PROJECT_DIR$/application/controllers/sysadmin.php" />
+      <change type="MOVED" beforePath="G:\webroot\wei-chat\resources\QuickFlip2\README" afterPath="$PROJECT_DIR$/resources/quickflip/README" />
+      <change type="MOVED" beforePath="G:\webroot\wei-chat\resources\QuickFlip2\demo\css\basic-quickflips.css" afterPath="$PROJECT_DIR$/resources/quickflip/demo/css/basic-quickflips.css" />
+      <change type="MOVED" beforePath="G:\webroot\wei-chat\resources\QuickFlip2\demo\css\hover-quickflips.css" afterPath="$PROJECT_DIR$/resources/quickflip/demo/css/hover-quickflips.css" />
+      <change type="MOVED" beforePath="G:\webroot\wei-chat\resources\QuickFlip2\demo\hover-quickflips.html" afterPath="$PROJECT_DIR$/resources/quickflip/demo/hover-quickflips.html" />
+      <change type="MOVED" beforePath="G:\webroot\wei-chat\resources\QuickFlip2\demo\index.html" afterPath="$PROJECT_DIR$/resources/quickflip/demo/index.html" />
+      <change type="MOVED" beforePath="G:\webroot\wei-chat\resources\QuickFlip2\jquery.js" afterPath="$PROJECT_DIR$/resources/quickflip/jquery.js" />
+      <change type="MOVED" beforePath="G:\webroot\wei-chat\resources\QuickFlip2\jquery.quickflip.min.js" afterPath="$PROJECT_DIR$/resources/quickflip/jquery.quickflip.min.js" />
+      <change type="MOVED" beforePath="G:\webroot\wei-chat\resources\QuickFlip2\jquery.quickflip.source.js" afterPath="$PROJECT_DIR$/resources/quickflip/jquery.quickflip.source.js" />
+      <change type="MOVED" beforePath="G:\webroot\wei-chat\resources\jquery.mobile-1.3.0.js" afterPath="$PROJECT_DIR$/resources/jquery-mobile/jquery.mobile-1.3.1.js" />
+      <change type="MOVED" beforePath="G:\webroot\wei-chat\resources\styles\jquery.mobile-1.3.0.css" afterPath="$PROJECT_DIR$/resources/jquery-mobile/jquery.mobile-1.3.1.css" />
     </list>
     <ignored path="weixin.iws" />
     <ignored path=".idea/workspace.xml" />
-    <file path="/header.php" changelist="9c42f37f-b41b-40a5-884c-3813c2511426" time="1366883761530" ignored="false" />
-    <file path="/index.php" changelist="9c42f37f-b41b-40a5-884c-3813c2511426" time="1367083342584" ignored="false" />
-    <file path="/Dummy.txt" changelist="9c42f37f-b41b-40a5-884c-3813c2511426" time="1367052614670" ignored="false" />
+    <file path="/header.php" changelist="9c42f37f-b41b-40a5-884c-3813c2511426" time="1367157774373" ignored="false" />
+    <file path="/index.php" changelist="9c42f37f-b41b-40a5-884c-3813c2511426" time="1367167512894" ignored="false" />
+    <file path="/Dummy.txt" changelist="9c42f37f-b41b-40a5-884c-3813c2511426" time="1367130778429" ignored="false" />
     <file path="/footer.php" changelist="9c42f37f-b41b-40a5-884c-3813c2511426" time="1367083827161" ignored="false" />
     <file path="/charisma-app.css" changelist="9c42f37f-b41b-40a5-884c-3813c2511426" time="1366641995464" ignored="false" />
     <file path="/bootstrap-cerulean.css" changelist="9c42f37f-b41b-40a5-884c-3813c2511426" time="1366641664395" ignored="false" />
@@ -78,18 +82,18 @@
     <file path="/thumbnails.php" changelist="9c42f37f-b41b-40a5-884c-3813c2511426" time="1367083726222" ignored="false" />
     <file path="/input.php" changelist="9c42f37f-b41b-40a5-884c-3813c2511426" time="1366774245128" ignored="false" />
     <file path="/couponpolicy.php" changelist="9c42f37f-b41b-40a5-884c-3813c2511426" time="1366787564747" ignored="false" />
-    <file path="/merchant.php" changelist="9c42f37f-b41b-40a5-884c-3813c2511426" time="1367082266794" ignored="false" />
-    <file path="/MY_Model.php" changelist="9c42f37f-b41b-40a5-884c-3813c2511426" time="1367081319558" ignored="false" />
+    <file path="/merchant.php" changelist="9c42f37f-b41b-40a5-884c-3813c2511426" time="1367159072197" ignored="false" />
+    <file path="/MY_Model.php" changelist="9c42f37f-b41b-40a5-884c-3813c2511426" time="1367140952410" ignored="false" />
     <file path="/vcode_model.php" changelist="9c42f37f-b41b-40a5-884c-3813c2511426" time="1366818551986" ignored="false" />
     <file path="/body-start.php" changelist="9c42f37f-b41b-40a5-884c-3813c2511426" time="1367078671159" ignored="false" />
     <file path="/picture.php" changelist="9c42f37f-b41b-40a5-884c-3813c2511426" time="1366899887651" ignored="false" />
-    <file path="/MY_Controller.php" changelist="9c42f37f-b41b-40a5-884c-3813c2511426" time="1367083274208" ignored="false" />
+    <file path="/MY_Controller.php" changelist="9c42f37f-b41b-40a5-884c-3813c2511426" time="1367134311966" ignored="false" />
     <file path="/test.php" changelist="9c42f37f-b41b-40a5-884c-3813c2511426" time="1366901912834" ignored="false" />
     <file path="/result.php" changelist="9c42f37f-b41b-40a5-884c-3813c2511426" time="1367083129554" ignored="false" />
     <file path="/Langclass.php" changelist="9c42f37f-b41b-40a5-884c-3813c2511426" time="1366904205522" ignored="false" />
     <file path="/picture_model.php" changelist="9c42f37f-b41b-40a5-884c-3813c2511426" time="1366964742814" ignored="false" />
-    <file path="/editNew.php" changelist="9c42f37f-b41b-40a5-884c-3813c2511426" time="1367082180344" ignored="false" />
-    <file path="/list.php" changelist="9c42f37f-b41b-40a5-884c-3813c2511426" time="1367081799554" ignored="false" />
+    <file path="/editNew.php" changelist="9c42f37f-b41b-40a5-884c-3813c2511426" time="1367160816797" ignored="false" />
+    <file path="/list.php" changelist="9c42f37f-b41b-40a5-884c-3813c2511426" time="1367147277235" ignored="false" />
     <file path="/pubweixin.php" changelist="9c42f37f-b41b-40a5-884c-3813c2511426" time="1367081952702" ignored="false" />
     <file path="/message.php" changelist="9c42f37f-b41b-40a5-884c-3813c2511426" time="1366980678685" ignored="false" />
     <file path="/WechatCallbackapiTest.php" changelist="9c42f37f-b41b-40a5-884c-3813c2511426" time="1366980045307" ignored="false" />
@@ -98,10 +102,10 @@
     <file path="/connector.php" changelist="9c42f37f-b41b-40a5-884c-3813c2511426" time="1366982702246" ignored="false" />
     <file path="/list.js" changelist="9c42f37f-b41b-40a5-884c-3813c2511426" time="1367081900669" ignored="false" />
     <file path="/cardcatalog_model.php" changelist="9c42f37f-b41b-40a5-884c-3813c2511426" time="1366991881293" ignored="false" />
-    <file path="/couponcatalog.php" changelist="9c42f37f-b41b-40a5-884c-3813c2511426" time="1367079335556" ignored="false" />
+    <file path="/couponcatalog.php" changelist="9c42f37f-b41b-40a5-884c-3813c2511426" time="1367165377080" ignored="false" />
     <file path="/startvalidate.php" changelist="9c42f37f-b41b-40a5-884c-3813c2511426" time="1367080467538" ignored="false" />
     <file path="/coupon.php" changelist="9c42f37f-b41b-40a5-884c-3813c2511426" time="1367080569098" ignored="false" />
-    <file path="/welcome.php" changelist="9c42f37f-b41b-40a5-884c-3813c2511426" time="1367076687382" ignored="false" />
+    <file path="/welcome.php" changelist="9c42f37f-b41b-40a5-884c-3813c2511426" time="1367150189510" ignored="false" />
     <file path="/openlogin.php" changelist="9c42f37f-b41b-40a5-884c-3813c2511426" time="1367071023781" ignored="false" />
     <file path="/sysadmin.php" changelist="9c42f37f-b41b-40a5-884c-3813c2511426" time="1367071254998" ignored="false" />
     <file path="/bizlogin.php" changelist="9c42f37f-b41b-40a5-884c-3813c2511426" time="1367071578510" ignored="false" />
@@ -109,7 +113,15 @@
     <file path="/admin.php" changelist="9c42f37f-b41b-40a5-884c-3813c2511426" time="1367078512704" ignored="false" />
     <file path="/bizregister.php" changelist="9c42f37f-b41b-40a5-884c-3813c2511426" time="1367078425224" ignored="false" />
     <file path="/coupon_model.php" changelist="9c42f37f-b41b-40a5-884c-3813c2511426" time="1367080702024" ignored="false" />
-    <file path="/edit.js" changelist="9c42f37f-b41b-40a5-884c-3813c2511426" time="1367082533412" ignored="false" />
+    <file path="/edit.js" changelist="9c42f37f-b41b-40a5-884c-3813c2511426" time="1367140445197" ignored="false" />
+    <file path="/selector.php" changelist="9c42f37f-b41b-40a5-884c-3813c2511426" time="1367138532216" ignored="false" />
+    <file path="/picture.js" changelist="9c42f37f-b41b-40a5-884c-3813c2511426" time="1367139263842" ignored="false" />
+    <file path="/respnewsmessage.php" changelist="9c42f37f-b41b-40a5-884c-3813c2511426" time="1367144680695" ignored="false" />
+    <file path="/respnewsmessage_model.php" changelist="9c42f37f-b41b-40a5-884c-3813c2511426" time="1367144837322" ignored="false" />
+    <file path="/respmusicmessage.php" changelist="9c42f37f-b41b-40a5-884c-3813c2511426" time="1367147057202" ignored="false" />
+    <file path="/couponcatalog_model.php" changelist="9c42f37f-b41b-40a5-884c-3813c2511426" time="1367150870353" ignored="false" />
+    <file path="/get-code.php" changelist="9c42f37f-b41b-40a5-884c-3813c2511426" time="1367167471607" ignored="false" />
+    <file path="/style.css" changelist="9c42f37f-b41b-40a5-884c-3813c2511426" time="1367163004298" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -129,28 +141,62 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="header.php" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/application/views/admin/header.php">
+      <file leaf-file-name="get-code.php" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/application/views/couponcatalog/get-code.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="17" column="9" selection-start="601" selection-end="601" vertical-scroll-proportion="8.0">
+            <state line="70" column="38" selection-start="1761" selection-end="1791" vertical-scroll-proportion="-17.121212">
+              <folding>
+                <element signature="n#style#0;n#div#0;n#div#1;n#div#2;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#div#0;n#div#0;n#div#1;n#div#2;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#div#0;n#div#0;n#div#0;n#div#1;n#div#2;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#div#1;n#div#0;n#div#0;n#div#1;n#div#2;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#div#1;n#div#1;n#div#2;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#div#0;n#div#1;n#div#1;n#div#2;n#!!top" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="index.php" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/application/views/merchant/index.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="4" column="22" selection-start="226" selection-end="226" vertical-scroll-proportion="-2.909091">
+              <folding>
+                <element signature="n#style#0;n#img#0;n#figure#0;n#div#0;n#div#0;n#div#1;n#section#0;n#div#1;n#div#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#span#1;n#figcaption#0;n#figure#0;n#div#0;n#div#0;n#div#1;n#section#0;n#div#1;n#div#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#span#2;n#figcaption#0;n#figure#0;n#div#0;n#div#0;n#div#1;n#section#0;n#div#1;n#div#0;n#!!top" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="style.css" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/resources/front/style.css">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="354" column="55" selection-start="7572" selection-end="7588" vertical-scroll-proportion="-9.379311">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="body-start.php" pinned="false" current="true" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/application/views/admin/body-start.php">
+      <file leaf-file-name="index.php" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/application/views/couponcatalog/index.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="76" column="28" selection-start="3429" selection-end="3429" vertical-scroll-proportion="0.6236429">
-              <folding />
+            <state line="25" column="29" selection-start="867" selection-end="867" vertical-scroll-proportion="0.305187">
+              <folding>
+                <element signature="n#style#0;n#div#0;n#div#1;n#div#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#div#0;n#div#0;n#div#1;n#div#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#div#0;n#div#0;n#div#0;n#div#1;n#div#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#div#1;n#div#0;n#div#0;n#div#1;n#div#0;n#!!top" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="index.js" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/resources/scripts/admin/index.js">
+      <file leaf-file-name="couponcatalog.php" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/application/controllers/couponcatalog.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="16" column="50" selection-start="330" selection-end="330" vertical-scroll-proportion="0.0">
+            <state line="55" column="43" selection-start="1944" selection-end="1944" vertical-scroll-proportion="-18.181818">
               <folding />
             </state>
           </provider>
@@ -174,22 +220,22 @@
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
       <list>
-        <option value="$PROJECT_DIR$/application/models/pubweixin_model.php" />
-        <option value="$PROJECT_DIR$/application/views/pubweixin/list.php" />
-        <option value="$PROJECT_DIR$/resources/scripts/pubweixin/list.js" />
-        <option value="$PROJECT_DIR$/application/controllers/pubweixin.php" />
-        <option value="$PROJECT_DIR$/application/views/merchant/editNew.php" />
+        <option value="$PROJECT_DIR$/application/views/respnewsmessage/editNew.php" />
+        <option value="$PROJECT_DIR$/application/views/respmusicmessage/editNew.php" />
+        <option value="$PROJECT_DIR$/application/controllers/respmusicmessage.php" />
+        <option value="$PROJECT_DIR$/application/views/respmusicmessage/list.php" />
+        <option value="$PROJECT_DIR$/application/controllers/welcome.php" />
+        <option value="$PROJECT_DIR$/application/models/couponcatalog_model.php" />
+        <option value="$PROJECT_DIR$/application/views/front/header.php" />
+        <option value="$PROJECT_DIR$/application/views/front/footer.php" />
+        <option value="$PROJECT_DIR$/application/views/index/index.php" />
         <option value="$PROJECT_DIR$/application/controllers/merchant.php" />
-        <option value="$PROJECT_DIR$/resources/scripts/merchant/edit.js" />
-        <option value="$PROJECT_DIR$/application/views/common/result.php" />
-        <option value="$PROJECT_DIR$/application/views/userpicture/index.php" />
-        <option value="$PROJECT_DIR$/resources/scripts/userpicture/index.js" />
-        <option value="$PROJECT_DIR$/application/core/MY_Controller.php" />
-        <option value="$PROJECT_DIR$/application/views/userpicture/thumbnails.php" />
-        <option value="$PROJECT_DIR$/application/views/admin/footer.php" />
-        <option value="$PROJECT_DIR$/application/views/admin/header.php" />
-        <option value="$PROJECT_DIR$/resources/scripts/admin/index.js" />
-        <option value="$PROJECT_DIR$/application/views/admin/body-start.php" />
+        <option value="$PROJECT_DIR$/application/views/merchant/editNew.php" />
+        <option value="$PROJECT_DIR$/resources/front/style.css" />
+        <option value="$PROJECT_DIR$/application/controllers/couponcatalog.php" />
+        <option value="$PROJECT_DIR$/application/views/merchant/index.php" />
+        <option value="$PROJECT_DIR$/application/views/couponcatalog/get-code.php" />
+        <option value="$PROJECT_DIR$/application/views/couponcatalog/index.php" />
       </list>
     </option>
   </component>
@@ -273,7 +319,7 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="scripts" />
+              <option name="myItemId" value="quickflip" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -291,11 +337,65 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="scripts" />
+              <option name="myItemId" value="quickflip" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="admin" />
+              <option name="myItemId" value="demo" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="weixin" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="wei-chat" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="resources" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="jquery-mobile" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="weixin" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="wei-chat" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="resources" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="images" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="weixin" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="wei-chat" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="resources" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="front" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -349,29 +449,7 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="common" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="weixin" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="wei-chat" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="application" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="views" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="admin" />
+              <option name="myItemId" value="merchant" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -408,11 +486,11 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
-      <recent name="G:\webroot\wei-chat\application\views\admin" />
-      <recent name="G:\webroot\wei-chat\application\views\member" />
-      <recent name="G:\webroot\wei-chat\application\views\cardcatalog" />
-      <recent name="G:\webroot\wei-chat\application\views\userpicture" />
-      <recent name="G:\webroot\wei-chat\resources\styles\userpicture" />
+      <recent name="G:\webroot\wei-chat\resources\images" />
+      <recent name="G:\webroot\wei-chat\resources\jquery-mobile" />
+      <recent name="G:\webroot\wei-chat\resources\images\avator" />
+      <recent name="G:\webroot\wei-chat\application\views\couponcatalog" />
+      <recent name="G:\webroot\wei-chat\resources\dewplayer" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="G:\webroot\wei-chat\resources\styles\images" />
@@ -464,7 +542,7 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
+    <frame x="-8" y="-8" width="1936" height="1056" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
@@ -472,7 +550,7 @@
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3281075" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.20663811" sideWeight="0.6718925" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.20074947" sideWeight="0.6718925" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
@@ -547,115 +625,136 @@
     <breakpoint-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/resources/scripts/pubweixin/list.js">
+    <entry file="file://$PROJECT_DIR$/resources/jquery-mobile/jquery.mobile-1.3.1.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="16" column="1" selection-start="415" selection-end="415" vertical-scroll-proportion="0.44547564">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/application/controllers/pubweixin.php">
+    <entry file="file://$PROJECT_DIR$/resources/jquery-mobile/jquery.mobile.structure-1.3.1.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="64" column="48" selection-start="2093" selection-end="2093" vertical-scroll-proportion="-17.787878">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="-0.6123937">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/application/views/front/header.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="8" column="65" selection-start="396" selection-end="396" vertical-scroll-proportion="-5.818182">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/application/views/front/footer.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/quickflip/jquery.quickflip.source.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="-1.2247874">
+          <folding>
+            <element signature="n#!!doc" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/application/views/merchant/editNew.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="92" column="79" selection-start="1868" selection-end="1868" vertical-scroll-proportion="0.6658625">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/application/controllers/merchant.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="37" column="5" selection-start="1450" selection-end="1450" vertical-scroll-proportion="-9.848485">
+        <state line="38" column="26" selection-start="1468" selection-end="1468" vertical-scroll-proportion="0.4185766">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/application/views/merchant/editNew.php">
+    <entry file="file://$PROJECT_DIR$/application/controllers/welcome.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="26" column="5" selection-start="664" selection-end="664" vertical-scroll-proportion="31.60606">
+        <state line="21" column="27" selection-start="456" selection-end="456" vertical-scroll-proportion="0.26055488">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/resources/scripts/merchant/edit.js">
+    <entry file="file://$PROJECT_DIR$/application/views/index/index.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="17" column="0" selection-start="522" selection-end="522" vertical-scroll-proportion="0.0">
+        <state line="26" column="18" selection-start="801" selection-end="801" vertical-scroll-proportion="0.7527141">
+          <folding>
+            <element signature="n#style#0;n#div#0;n#a#0;n#div#1;n#div#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#img#0;n#div#0;n#a#0;n#div#1;n#div#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/quickflip/README">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="28" column="9" selection-start="985" selection-end="985" vertical-scroll-proportion="-0.9893993">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/application/views/common/result.php">
+    <entry file="file://$PROJECT_DIR$/resources/quickflip/demo/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="2" column="19" selection-start="33" selection-end="33" vertical-scroll-proportion="0.057901084">
+        <state line="13" column="10" selection-start="472" selection-end="481" vertical-scroll-proportion="0.20588236">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/application/controllers/userpicture.php">
+    <entry file="file://$PROJECT_DIR$/resources/front/style.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="26" column="39" selection-start="1124" selection-end="1124" vertical-scroll-proportion="-17.121212">
+        <state line="354" column="55" selection-start="7572" selection-end="7588" vertical-scroll-proportion="-9.379311">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/application/views/userpicture/index.php">
+    <entry file="file://$PROJECT_DIR$/application/controllers/couponcatalog.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="24" column="30" selection-start="530" selection-end="530" vertical-scroll-proportion="0.694813">
+        <state line="55" column="43" selection-start="1944" selection-end="1944" vertical-scroll-proportion="-18.181818">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/resources/scripts/userpicture/index.js">
+    <entry file="file://$PROJECT_DIR$/application/views/merchant/index.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="63" column="64" selection-start="1499" selection-end="1499" vertical-scroll-proportion="0.80510443">
-          <folding />
+        <state line="4" column="22" selection-start="226" selection-end="226" vertical-scroll-proportion="-2.909091">
+          <folding>
+            <element signature="n#style#0;n#img#0;n#figure#0;n#div#0;n#div#0;n#div#1;n#section#0;n#div#1;n#div#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#span#1;n#figcaption#0;n#figure#0;n#div#0;n#div#0;n#div#1;n#section#0;n#div#1;n#div#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#span#2;n#figcaption#0;n#figure#0;n#div#0;n#div#0;n#div#1;n#section#0;n#div#1;n#div#0;n#!!top" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/application/core/MY_Controller.php">
+    <entry file="file://$PROJECT_DIR$/application/views/couponcatalog/get-code.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="283" column="0" selection-start="7257" selection-end="7257" vertical-scroll-proportion="-19.60606">
-          <folding />
+        <state line="70" column="38" selection-start="1761" selection-end="1791" vertical-scroll-proportion="-17.121212">
+          <folding>
+            <element signature="n#style#0;n#div#0;n#div#1;n#div#2;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#0;n#div#0;n#div#1;n#div#2;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#0;n#div#0;n#div#0;n#div#1;n#div#2;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#1;n#div#0;n#div#0;n#div#1;n#div#2;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#1;n#div#1;n#div#2;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#0;n#div#1;n#div#1;n#div#2;n#!!top" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/application/views/userpicture/thumbnails.php">
+    <entry file="file://$PROJECT_DIR$/application/views/couponcatalog/index.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="26" column="84" selection-start="1042" selection-end="1042" vertical-scroll-proportion="-14.151515">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/resources/scripts/util.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="17" column="0" selection-start="410" selection-end="410" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/application/views/admin/footer.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="29" column="39" selection-start="900" selection-end="900" vertical-scroll-proportion="0.7104946">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/application/views/admin/header.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="17" column="9" selection-start="601" selection-end="601" vertical-scroll-proportion="8.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/resources/scripts/admin/index.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="16" column="50" selection-start="330" selection-end="330" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/application/views/admin/body-start.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="76" column="28" selection-start="3429" selection-end="3429" vertical-scroll-proportion="0.6236429">
-          <folding />
+        <state line="25" column="29" selection-start="867" selection-end="867" vertical-scroll-proportion="0.305187">
+          <folding>
+            <element signature="n#style#0;n#div#0;n#div#1;n#div#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#0;n#div#0;n#div#1;n#div#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#0;n#div#0;n#div#0;n#div#1;n#div#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#1;n#div#0;n#div#0;n#div#1;n#div#0;n#!!top" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>

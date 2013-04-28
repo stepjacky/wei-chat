@@ -26,8 +26,6 @@
 
         $("#selphones").empty();
 
-
-        console.log(phones);
         $.each(phones,function(pid,item){
             var checked = item.checked;
             if(checked){

@@ -9,51 +9,35 @@
 <tbody>
       <input type="hidden" name="id" id="id" value="<?=val($id)?>" />
       
-  
-  
-     
-  
-    
-  
-  
+
+
      
   
      <tr>
-   <td>接收用户</td>
+   <td>关键字</td>
    <td>            
-        <input name="ToUserName" id="ToUserName" type="text" value="<?=val($ToUserName)?>" class="validate[required]" />
+        <input id="keywords"
+               type="text"
+               name="keywords"
+               class="validate[required] input-xlarge"
+               value="<?=val($keywords)?>" />
+
+        <span class="label label-info">多个关键字请用半角逗号隔开,例如:  天气,气温</span>
    </td>     
    
 </tr>
-  
-  
-     
-  
-    
-  
-  
-     
-  
-    
-  
-  
-     
-  
-     <tr>
+
+ <tr>
    <td>内容</td>
-   <td>            
-        <textarea id="Content" name="Content" class="validate[required] input-xlarge"><?=val($Content)?></textarea>
-   </td>     
-   
+   <td>
+        <textarea id="Content" name="Content" class="validate[required] input-xxlarge"
+            style="height: 200px"
+            ><?=val($Content)?></textarea>
+   </td>
+
 </tr>
-  
-  
-     
-  
-    
-  
-  
-     
+
+
   
 </tbody>
 <tfoot>

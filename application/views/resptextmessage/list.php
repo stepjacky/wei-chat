@@ -11,18 +11,9 @@
         </tr>
         <tr>
                          
-                <th>消息类型</th> 
-                         
-                <th>接收用户</th> 
-                         
-                <th>发送方</th> 
-                         
-                <th>回复时间</th> 
-                         
-                <th>内容</th> 
-                         
-                <th>标志</th> 
-                         
+                <th>关键字</th>
+                <th>内容</th>
+
             <th>管理</th>
         </tr>
         </thead>
@@ -33,34 +24,9 @@
                extract($bean);
             ?>
            <tr>
-                <td>
-              <?=$id?>             
-            </td>  
-                      
-                <td>
-              <?=$msgType?>             
-            </td>  
-                      
-                <td>
-              <?=$ToUserName?>             
-            </td>  
-                      
-                <td>
-              <?=$FromUserName?>             
-            </td>  
-                      
-                <td>
-              <?=$CreateTime?>             
-            </td>  
-                      
-                <td>
-              <?=$Content?>             
-            </td>  
-                      
-                <td>
-              <?=$FuncFlag?>             
-            </td>  
-                      
+             <td><?=$keywords?></td>
+             <td><?=$Content?></td>
+
            <td>
              <button class="btn btn-success" type="button" onclick="editOne('<?=$id;?>');">
                <i class="icon-edit"></i>

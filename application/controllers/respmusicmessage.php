@@ -50,6 +50,12 @@ class Respmusicmessage extends MY_Controller {
         $this->load->view($this->dao->table()."/editNew",$data);
         $this->load->view("admin/footer-pure");
     }
-    
+
+    public function saveUpdate($pk="id"){
+        $data =  $this->_xsl_post();
+        $data['fromusername']=$this->userid;
+        $this->dao->saveUpdate($data,$pk);
+        $this->_end();
+    }
     
 }   

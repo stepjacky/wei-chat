@@ -29,24 +29,41 @@ class Couponcatalog extends MY_Controller {
     public  function __construct(){
         parent::__construct("Couponcatalog_model");
         $this->load->library('create_ckeditor');
-                
+        $this->load->model('Merchant_model',"mercdao");
     }
 
-    public function index($id=FALSE){
+    public function index($id=FALSE,$merc){
+
+
+        $bean = $this->dao->get($id);
+
+        $merc = $this->mercdao->get($merc);
+
+        $bean['merc']=  $merc;
+
+        $this->load->view('front/header');
+        $this->load->view("couponcatalog/index",$bean);
+        $this->load->view("front/footer");
+    }
+
+    public function get_code($id,$merc){
         $code = create_random_string(5);
         $enc  = md5($code);
         $vi   = rand(0,strlen($enc));
         $vc   = substr($enc,$vi,1);
         $code = $code.$vi.$vc;
-        $data = array(
-            "code"=>$code,
-            "catalog_id"=>$id
-        );
+        $bean = $this->dao->get($id);
+        $merc = $this->mercdao->get($merc);
+        $bean['merc']=  $merc;
+        $bean['vcode'] = $code;
+        $bean['id']    = $id;
         $this->load->view('front/header');
-        $this->load->view("couponcatalog/index",$data);
+        $this->load->view("couponcatalog/get-code",$bean);
         $this->load->view("front/footer");
+
     }
-    
+
+
      /**
       * 新增编辑
       */

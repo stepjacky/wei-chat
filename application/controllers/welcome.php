@@ -12,7 +12,16 @@ class Welcome extends MY_Controller
     //apparea
     public function index()
     {
-        $data = array("flag" => "index");
+
+        $this->load->model("Merchant_model","mercdao");
+        $mercs = $this->mercdao->find_all();
+
+        $this->fireLog($mercs);
+        $data = array(
+            "flag" => "index",
+            "beans"=>$mercs
+
+        );
 
         $this->load->view("front/header");
 

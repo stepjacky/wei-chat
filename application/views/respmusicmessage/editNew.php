@@ -3,7 +3,7 @@
 
 <fieldset>
 <legend>
-<h4>编辑[新增]<span class="label label-info">音乐消息回复</span></h4>
+<h4>编辑[新增]<span class="label label-info">语音消息回复</span></h4>
 </legend>
 <table class="table table-hover table-bordered">
 <tbody>
@@ -14,44 +14,14 @@
      
   
      <tr>
-   <td>消息类型</td>
+   <td>关键字</td>
    <td>            
-        <select name="msgType" id="msgType" class="validate[required]"></select>
+        <input name="keywords" id="keywords" type="text" value="<?=val($keywords)?>" class="validate[required] input-xxlarge" />
    </td>     
    
 </tr>
-  
-  
-     
-  
-     <tr>
-   <td>接收用户</td>
-   <td>            
-        <input name="ToUserName" id="ToUserName" type="text" value="<?=val($ToUserName)?>" class="validate[required]" />
-   </td>     
-   
-</tr>
-  
-  
-     
-  
-    
-  
-  
-     
-  
-     <tr>
-   <td>创建时间</td>
-   <td>            
-        <input name="CreateTime" id="CreateTime" type="text" value="<?=val($CreateTime)?>" class="validate[required]" />
-   </td>     
-   
-</tr>
-  
-  
-     
-  
-     <tr>
+
+ <tr>
    <td>标题</td>
    <td>            
         <input name="Title" id="Title" type="text" value="<?=val($Title)?>" class="validate[required]" />
@@ -73,8 +43,13 @@
   
      
   
-      <input id="MusicUrl" type="hidden" name="MusicUrl" value="<?=val($MusicUrl)?>" />
-      
+     <tr>
+   <td>语音链接</td>
+   <td>            
+        <input name="MusicUrl" id="MusicUrl" type="text" value="<?=val($MusicUrl)?>" class="validate[required] input-xxlarge" />
+   </td>     
+   
+</tr>
   
   
      
@@ -86,11 +61,6 @@
    </td>     
    
 </tr>
-  
-  
-     
-  
-    
   
   
      

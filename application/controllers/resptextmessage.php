@@ -50,6 +50,7 @@ class Resptextmessage extends MY_Controller {
         $this->load->view($this->dao->table()."/editNew",$data);
         $this->load->view("admin/footer-pure");
     }
-    
+
+
     
 }   

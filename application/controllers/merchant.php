@@ -28,13 +28,18 @@ class Merchant extends MY_Controller {
      
     public  function __construct(){
         parent::__construct("Merchant_model");
+        $this->load->model("Couponcatalog_model",'cpcdao');
     }
 
     public function index($id=FALSE){
-         $data = $this->dao->get($id);
-        //$this->load->view("admin/header-pure");
+
+        $merc = $this->dao->get($id);
+        $beans = $this->cpcdao->find_by_merchant($id);
+        $data['beans'] = $beans;
+        $data['bean'] = $merc;
+        $this->load->view("front/header");
         $this->load->view("merchant/index",$data);
-        //$this->load->view("admin/footer-pure");
+        $this->load->view("front/footer");
     }
     
      /**

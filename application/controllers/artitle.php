@@ -102,10 +102,4 @@ class Artitle extends Media_Controller {
         $this->load->view('common/result-close');
     }
 
-    public  function selector($page=1){
-
-        $this->load->view('admin/res-head');
-        $this->load->view('artitle/selector');
-    }
-
 }
