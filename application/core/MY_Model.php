@@ -395,9 +395,9 @@ class ResponseMessage_Model extends MY_Model {
         $this->conds = array('fromusername'=>$this->FromUserName);
     }
 
-    public function  saveUpdate($data){
+    public function  saveUpdate($data,$pk="id",$gen=TRUE){
         $data['fromusername'] = $this->FromUserName;
-        parent::saveUpdate($data,"id",TRUE);
+        parent::saveUpdate($data,$pk,$gen);
     }
 
     public function gets($page){
