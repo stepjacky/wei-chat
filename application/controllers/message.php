@@ -91,6 +91,7 @@ class Message extends MY_Controller
 
             $postObj = simplexml_load_string($postStr, 'SimpleXMLElement', LIBXML_NOCDATA);
             $msgType = trim($postObj->MsgType);
+            $resultStr="台州微生活,输入优惠券,显示优惠信息";
             switch ($msgType) {
                 case "text":
                     $resultStr = $this->receiveText($postObj);
@@ -150,7 +151,7 @@ class Message extends MY_Controller
 <ToUserName><![CDATA[%s]]></ToUserName>
 <FromUserName><![CDATA[%s]]></FromUserName>
 <CreateTime>%s</CreateTime>
-<MsgType><![CDATA[event]]></MsgType>
+<MsgType><![CDATA[text]]></MsgType>
 <Content><![CDATA[%s]]></Content>
 <FuncFlag>%d</FuncFlag>
 </xml>";
