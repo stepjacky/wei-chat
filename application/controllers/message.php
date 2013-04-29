@@ -69,12 +69,6 @@ class Message extends MY_Controller
         $this->load->view("admin/footer-pure");
     }
 
-    public function fireware($oldwweixin)
-    {
-        $token = $this->pwDao->get_token($oldwweixin);
-        $this->weichat->valid($token);
-    }
-
 
     public function valid($token)
     {

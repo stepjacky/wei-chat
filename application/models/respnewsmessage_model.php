@@ -97,7 +97,9 @@ class Respnewsmessage_model extends ResponseMessage_Model {
         $this->db->like('keywords',$keywords);
         $query =  $this->db->get($this->table());
         $bean = $query->row_array();
-        $SQL="select * from news n where n.respnewsid=? limit 1";
+        $SQL="select * from news n
+             join respnewslist rn on rn.respnewsid=?
+             where n.id=rn.newsid limit 1";
         $query = $this->db->query($SQL,array($bean['id']));
         $news = $query->row_array();
 
