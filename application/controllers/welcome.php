@@ -63,9 +63,9 @@ class Welcome extends MY_Controller
         $data = array(
             'word'=>$word
         );
-        $this->nsession->set_userdata("capword",$data);
+        $this->nsession->set_userdata("capword",$word);
         $this->load->view('admin/header');
-        $this->load->view("admin/bizregister",$cap);
+        $this->load->view("admin/bizregister",$data);
         $this->load->view("admin/footer");
     }
 

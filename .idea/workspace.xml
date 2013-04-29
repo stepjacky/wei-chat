@@ -2,8 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="9c42f37f-b41b-40a5-884c-3813c2511426" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/application/views/admin/bizregister.php" afterPath="$PROJECT_DIR$/application/views/admin/bizregister.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/application/controllers/welcome.php" afterPath="$PROJECT_DIR$/application/controllers/welcome.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="weixin.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -93,19 +93,28 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="welcome.php" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="welcome.php" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/application/controllers/welcome.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="65" column="53" selection-start="1606" selection-end="1606" vertical-scroll-proportion="-21.09091">
+            <state line="65" column="53" selection-start="1606" selection-end="1606" vertical-scroll-proportion="0.6658625">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="bizregister.php" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="admin.php" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/application/controllers/admin.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="67" column="14" selection-start="2217" selection-end="2217" vertical-scroll-proportion="-16.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="bizregister.php" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/application/views/admin/bizregister.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="48" column="25" selection-start="2017" selection-end="2017" vertical-scroll-proportion="0.5294118">
+            <state line="48" column="25" selection-start="2017" selection-end="2017" vertical-scroll-proportion="-13.090909">
               <folding />
             </state>
           </provider>
@@ -426,13 +435,6 @@
     <breakpoint-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/application/views/subscribemessage/editNew.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="18" column="14" selection-start="656" selection-end="656" vertical-scroll-proportion="-13.090909">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/application/controllers/resptextmessage.php">
       <provider selected="true" editor-type-id="text-editor">
         <state line="26" column="52" selection-start="1141" selection-end="1141" vertical-scroll-proportion="-15.606061">
@@ -530,16 +532,23 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/application/controllers/welcome.php">
+    <entry file="file://$PROJECT_DIR$/application/views/admin/bizregister.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="65" column="53" selection-start="1606" selection-end="1606" vertical-scroll-proportion="-21.09091">
+        <state line="48" column="25" selection-start="2017" selection-end="2017" vertical-scroll-proportion="-13.090909">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/application/views/admin/bizregister.php">
+    <entry file="file://$PROJECT_DIR$/application/controllers/admin.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="48" column="25" selection-start="2017" selection-end="2017" vertical-scroll-proportion="0.5294118">
+        <state line="67" column="14" selection-start="2217" selection-end="2217" vertical-scroll-proportion="-16.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/application/controllers/welcome.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="65" column="53" selection-start="1606" selection-end="1606" vertical-scroll-proportion="0.6658625">
           <folding />
         </state>
       </provider>
