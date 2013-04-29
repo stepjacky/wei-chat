@@ -2,23 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="9c42f37f-b41b-40a5-884c-3813c2511426" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/application/core/MY_Controller.php" afterPath="$PROJECT_DIR$/application/core/MY_Controller.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/application/core/MY_Model.php" afterPath="$PROJECT_DIR$/application/core/MY_Model.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/application/views/admin/body-start.php" afterPath="$PROJECT_DIR$/application/views/admin/body-start.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/application/views/message/index.php" afterPath="$PROJECT_DIR$/application/views/message/index.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/scripts/pubweixin/list.js" afterPath="$PROJECT_DIR$/resources/scripts/pubweixin/list.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/application/views/pubweixin/list.php" afterPath="$PROJECT_DIR$/application/views/pubweixin/list.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/application/models/member_model.php" afterPath="$PROJECT_DIR$/application/models/member_model.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/application/controllers/message.php" afterPath="$PROJECT_DIR$/application/controllers/message.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/application/models/news_model.php" afterPath="$PROJECT_DIR$/application/models/news_model.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/application/models/pubweixin_model.php" afterPath="$PROJECT_DIR$/application/models/pubweixin_model.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/application/controllers/respmusicmessage.php" afterPath="$PROJECT_DIR$/application/controllers/respmusicmessage.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/application/models/respmusicmessage_model.php" afterPath="$PROJECT_DIR$/application/models/respmusicmessage_model.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/application/controllers/respnewsmessage.php" afterPath="$PROJECT_DIR$/application/controllers/respnewsmessage.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/application/models/respnewsmessage_model.php" afterPath="$PROJECT_DIR$/application/models/respnewsmessage_model.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/application/controllers/resptextmessage.php" afterPath="$PROJECT_DIR$/application/controllers/resptextmessage.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/application/models/resptextmessage_model.php" afterPath="$PROJECT_DIR$/application/models/resptextmessage_model.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="DELETED" beforePath="G:\webroot\wei-chat\resources\images\uploads\1367167833.3047.jpg" afterPath="" />
+      <change type="DELETED" beforePath="G:\webroot\wei-chat\resources\images\uploads\1367167836.6463.jpg" afterPath="" />
+      <change type="DELETED" beforePath="G:\webroot\wei-chat\resources\images\uploads\1367168027.3685.jpg" afterPath="" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/application/controllers/welcome.php" afterPath="$PROJECT_DIR$/application/controllers/welcome.php" />
     </list>
     <ignored path="weixin.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -70,7 +57,7 @@
     <file path="/couponcatalog.php" changelist="9c42f37f-b41b-40a5-884c-3813c2511426" time="1367165377080" ignored="false" />
     <file path="/startvalidate.php" changelist="9c42f37f-b41b-40a5-884c-3813c2511426" time="1367080467538" ignored="false" />
     <file path="/coupon.php" changelist="9c42f37f-b41b-40a5-884c-3813c2511426" time="1367080569098" ignored="false" />
-    <file path="/welcome.php" changelist="9c42f37f-b41b-40a5-884c-3813c2511426" time="1367150189510" ignored="false" />
+    <file path="/welcome.php" changelist="9c42f37f-b41b-40a5-884c-3813c2511426" time="1367214129042" ignored="false" />
     <file path="/openlogin.php" changelist="9c42f37f-b41b-40a5-884c-3813c2511426" time="1367071023781" ignored="false" />
     <file path="/sysadmin.php" changelist="9c42f37f-b41b-40a5-884c-3813c2511426" time="1367071254998" ignored="false" />
     <file path="/bizlogin.php" changelist="9c42f37f-b41b-40a5-884c-3813c2511426" time="1367168061402" ignored="false" />
@@ -107,7 +94,26 @@
     <favorites_list name="weixin" />
   </component>
   <component name="FileEditorManager">
-    <leaf />
+    <leaf>
+      <file leaf-file-name="welcome.php" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/application/controllers/welcome.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="61" column="27" selection-start="1490" selection-end="1490" vertical-scroll-proportion="0.7237636">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="bizregister.php" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/application/views/admin/bizregister.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="21.818182">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
   </component>
   <component name="FindManager">
     <FindUsagesManager>
@@ -125,7 +131,6 @@
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
       <list>
-        <option value="$PROJECT_DIR$/application/views/pubweixin/list.php" />
         <option value="$PROJECT_DIR$/application/views/message/index.php" />
         <option value="$PROJECT_DIR$/application/views/subscribemessage/editNew.php" />
         <option value="$PROJECT_DIR$/application/controllers/respmusicmessage.php" />
@@ -141,6 +146,7 @@
         <option value="$PROJECT_DIR$/application/models/member_model.php" />
         <option value="$PROJECT_DIR$/application/controllers/message.php" />
         <option value="$PROJECT_DIR$/application/models/respnewsmessage_model.php" />
+        <option value="$PROJECT_DIR$/application/controllers/welcome.php" />
       </list>
     </option>
   </component>
@@ -193,6 +199,78 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="wei-chat" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="weixin" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="wei-chat" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="application" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="weixin" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="wei-chat" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="application" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="views" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="weixin" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="wei-chat" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="application" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="views" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="admin" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="weixin" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="wei-chat" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="application" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="controllers" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -267,14 +345,14 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1936" height="1056" extended-state="1" />
-    <editor active="false" />
+    <frame x="-8" y="-8" width="1936" height="1056" extended-state="0" />
+    <editor active="true" />
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.22002141" sideWeight="0.6718925" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.22002141" sideWeight="0.6718925" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
@@ -350,20 +428,6 @@
     <breakpoint-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/application/views/pubweixin/list.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="48" column="40" selection-start="1250" selection-end="1250" vertical-scroll-proportion="-33.454544">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/application/views/message/index.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="18" column="13" selection-start="760" selection-end="760" vertical-scroll-proportion="-13.090909">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/application/views/subscribemessage/editNew.php">
       <provider selected="true" editor-type-id="text-editor">
         <state line="18" column="14" selection-start="656" selection-end="656" vertical-scroll-proportion="-13.090909">
@@ -465,6 +529,20 @@
           <folding>
             <marker date="1367207291023" expanded="true" signature="-1:-1" placeholder="..." />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/application/views/admin/bizregister.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="21.818182">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/application/controllers/welcome.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="61" column="27" selection-start="1490" selection-end="1490" vertical-scroll-proportion="0.7237636">
+          <folding />
         </state>
       </provider>
     </entry>

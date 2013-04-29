@@ -57,8 +57,9 @@ class Welcome extends MY_Controller
             'word'=> $word,
             'expiration' => 7200
         );
-        $this->fireLog($vals);
+
         $cap = create_captcha($vals);
+        $this->fireLog($cap);
         $this->nsession->set_userdata("capword",$word);
         $this->load->view('admin/header');
         $this->load->view("admin/bizregister",$cap);
