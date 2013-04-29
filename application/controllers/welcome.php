@@ -60,7 +60,10 @@ class Welcome extends MY_Controller
 
         $cap = create_captcha($vals);
         $this->fireLog($cap);
-        $this->nsession->set_userdata("capword",$word);
+        $data = array(
+            'word'=>$word
+        );
+        $this->nsession->set_userdata("capword",$data);
         $this->load->view('admin/header');
         $this->load->view("admin/bizregister",$cap);
         $this->load->view("admin/footer");

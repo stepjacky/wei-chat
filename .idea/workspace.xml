@@ -2,9 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="9c42f37f-b41b-40a5-884c-3813c2511426" name="Default" comment="">
-      <change type="DELETED" beforePath="G:\webroot\wei-chat\resources\images\uploads\1367167833.3047.jpg" afterPath="" />
-      <change type="DELETED" beforePath="G:\webroot\wei-chat\resources\images\uploads\1367167836.6463.jpg" afterPath="" />
-      <change type="DELETED" beforePath="G:\webroot\wei-chat\resources\images\uploads\1367168027.3685.jpg" afterPath="" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/application/views/admin/bizregister.php" afterPath="$PROJECT_DIR$/application/views/admin/bizregister.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/application/controllers/welcome.php" afterPath="$PROJECT_DIR$/application/controllers/welcome.php" />
     </list>
     <ignored path="weixin.iws" />
@@ -57,13 +55,13 @@
     <file path="/couponcatalog.php" changelist="9c42f37f-b41b-40a5-884c-3813c2511426" time="1367165377080" ignored="false" />
     <file path="/startvalidate.php" changelist="9c42f37f-b41b-40a5-884c-3813c2511426" time="1367080467538" ignored="false" />
     <file path="/coupon.php" changelist="9c42f37f-b41b-40a5-884c-3813c2511426" time="1367080569098" ignored="false" />
-    <file path="/welcome.php" changelist="9c42f37f-b41b-40a5-884c-3813c2511426" time="1367214129042" ignored="false" />
+    <file path="/welcome.php" changelist="9c42f37f-b41b-40a5-884c-3813c2511426" time="1367215580448" ignored="false" />
     <file path="/openlogin.php" changelist="9c42f37f-b41b-40a5-884c-3813c2511426" time="1367071023781" ignored="false" />
     <file path="/sysadmin.php" changelist="9c42f37f-b41b-40a5-884c-3813c2511426" time="1367071254998" ignored="false" />
     <file path="/bizlogin.php" changelist="9c42f37f-b41b-40a5-884c-3813c2511426" time="1367168061402" ignored="false" />
     <file path="/merchant_model.php" changelist="9c42f37f-b41b-40a5-884c-3813c2511426" time="1367078984915" ignored="false" />
     <file path="/admin.php" changelist="9c42f37f-b41b-40a5-884c-3813c2511426" time="1367078512704" ignored="false" />
-    <file path="/bizregister.php" changelist="9c42f37f-b41b-40a5-884c-3813c2511426" time="1367078425224" ignored="false" />
+    <file path="/bizregister.php" changelist="9c42f37f-b41b-40a5-884c-3813c2511426" time="1367215532441" ignored="false" />
     <file path="/coupon_model.php" changelist="9c42f37f-b41b-40a5-884c-3813c2511426" time="1367080702024" ignored="false" />
     <file path="/edit.js" changelist="9c42f37f-b41b-40a5-884c-3813c2511426" time="1367198110437" ignored="false" />
     <file path="/selector.php" changelist="9c42f37f-b41b-40a5-884c-3813c2511426" time="1367138532216" ignored="false" />
@@ -95,19 +93,19 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="welcome.php" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="welcome.php" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/application/controllers/welcome.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="61" column="27" selection-start="1490" selection-end="1490" vertical-scroll-proportion="0.7237636">
+            <state line="65" column="53" selection-start="1606" selection-end="1606" vertical-scroll-proportion="-21.09091">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="bizregister.php" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="bizregister.php" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/application/views/admin/bizregister.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="21.818182">
+            <state line="48" column="25" selection-start="2017" selection-end="2017" vertical-scroll-proportion="0.5294118">
               <folding />
             </state>
           </provider>
@@ -131,7 +129,6 @@
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
       <list>
-        <option value="$PROJECT_DIR$/application/views/message/index.php" />
         <option value="$PROJECT_DIR$/application/views/subscribemessage/editNew.php" />
         <option value="$PROJECT_DIR$/application/controllers/respmusicmessage.php" />
         <option value="$PROJECT_DIR$/application/controllers/resptextmessage.php" />
@@ -146,6 +143,7 @@
         <option value="$PROJECT_DIR$/application/models/member_model.php" />
         <option value="$PROJECT_DIR$/application/controllers/message.php" />
         <option value="$PROJECT_DIR$/application/models/respnewsmessage_model.php" />
+        <option value="$PROJECT_DIR$/application/views/admin/bizregister.php" />
         <option value="$PROJECT_DIR$/application/controllers/welcome.php" />
       </list>
     </option>
@@ -532,16 +530,16 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/application/views/admin/bizregister.php">
+    <entry file="file://$PROJECT_DIR$/application/controllers/welcome.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="21.818182">
+        <state line="65" column="53" selection-start="1606" selection-end="1606" vertical-scroll-proportion="-21.09091">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/application/controllers/welcome.php">
+    <entry file="file://$PROJECT_DIR$/application/views/admin/bizregister.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="61" column="27" selection-start="1490" selection-end="1490" vertical-scroll-proportion="0.7237636">
+        <state line="48" column="25" selection-start="2017" selection-end="2017" vertical-scroll-proportion="0.5294118">
           <folding />
         </state>
       </provider>
