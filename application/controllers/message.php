@@ -128,10 +128,12 @@ class Message extends MY_Controller
             case "subscribe":{
                 $data = $this->subdao->get($object->ToUserName);
                 $contentStr = $data['content'];
+                $userwx = $object->FromUserName;
+                $pubwx  = $object->ToUserName;
                 $resultStr = $this->transmitText($object, $contentStr);
                 $mdata = array(
-                    'weixin'=>$object->FromUserName,
-                    'fromusername'=>$object->ToUserName
+                    'weixin'=>$userwx,
+                    'fromusername'=>$pubwx
                 );
                 $this->mbrdao->persiste($mdata);
                 break;
