@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="9c42f37f-b41b-40a5-884c-3813c2511426" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/application/models/respnewsmessage_model.php" afterPath="$PROJECT_DIR$/application/models/respnewsmessage_model.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/application/controllers/message.php" afterPath="$PROJECT_DIR$/application/controllers/message.php" />
     </list>
     <ignored path="weixin.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -44,7 +44,7 @@
     <file path="/editNew.php" changelist="9c42f37f-b41b-40a5-884c-3813c2511426" time="1367201594026" ignored="false" />
     <file path="/list.php" changelist="9c42f37f-b41b-40a5-884c-3813c2511426" time="1367201444004" ignored="false" />
     <file path="/pubweixin.php" changelist="9c42f37f-b41b-40a5-884c-3813c2511426" time="1367168313194" ignored="false" />
-    <file path="/message.php" changelist="9c42f37f-b41b-40a5-884c-3813c2511426" time="1367222681524" ignored="false" />
+    <file path="/message.php" changelist="9c42f37f-b41b-40a5-884c-3813c2511426" time="1367223178815" ignored="false" />
     <file path="/WechatCallbackapiTest.php" changelist="9c42f37f-b41b-40a5-884c-3813c2511426" time="1366980045307" ignored="false" />
     <file path="/a.dummy" changelist="9c42f37f-b41b-40a5-884c-3813c2511426" time="1367071241965" ignored="false" />
     <file path="/pubweixin_model.php" changelist="9c42f37f-b41b-40a5-884c-3813c2511426" time="1367219869471" ignored="false" />
@@ -110,21 +110,30 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="message.php" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="message.php" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/application/controllers/message.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="135" column="42" selection-start="4132" selection-end="4132" vertical-scroll-proportion="-17.09091">
+            <state line="140" column="13" selection-start="4235" selection-end="4235" vertical-scroll-proportion="0.6014944">
               <folding>
-                <marker date="1367222684809" expanded="true" signature="4377:4590" placeholder="..." />
+                <marker date="1367223922296" expanded="true" signature="4375:4588" placeholder="..." />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="respnewsmessage_model.php" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="member_model.php" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/application/models/member_model.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="26" column="31" selection-start="1106" selection-end="1106" vertical-scroll-proportion="-14.878788">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="respnewsmessage_model.php" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/application/models/respnewsmessage_model.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="120" column="12" selection-start="3913" selection-end="3913" vertical-scroll-proportion="0.49190536">
+            <state line="121" column="9" selection-start="3934" selection-end="3934" vertical-scroll-proportion="-30.151516">
               <folding>
                 <marker date="1367223034919" expanded="true" signature="3539:3931" placeholder="..." />
                 <marker date="1367223034919" expanded="true" signature="3735:3899" placeholder="..." />
@@ -146,7 +155,7 @@
       <file leaf-file-name="MY_Model.php" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/application/core/MY_Model.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="400" column="5" selection-start="10251" selection-end="10251" vertical-scroll-proportion="-37.484848">
+            <state line="123" column="29" selection-start="3467" selection-end="3467" vertical-scroll-proportion="-27.0">
               <folding />
             </state>
           </provider>
@@ -155,7 +164,7 @@
       <file leaf-file-name="pubweixin_model.php" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/application/models/pubweixin_model.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="41" column="5" selection-start="1545" selection-end="1545" vertical-scroll-proportion="-17.848484">
+            <state line="56" column="0" selection-start="1926" selection-end="1926" vertical-scroll-proportion="-36.696968">
               <folding />
             </state>
           </provider>
@@ -211,8 +220,8 @@
         <option value="$PROJECT_DIR$/application/models/pubweixin_model.php" />
         <option value="$PROJECT_DIR$/application/models/subscribemessage_model.php" />
         <option value="$PROJECT_DIR$/application/core/MY_Model.php" />
-        <option value="$PROJECT_DIR$/application/controllers/message.php" />
         <option value="$PROJECT_DIR$/application/models/respnewsmessage_model.php" />
+        <option value="$PROJECT_DIR$/application/controllers/message.php" />
       </list>
     </option>
   </component>
@@ -514,13 +523,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/application/models/member_model.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="26" column="18" selection-start="1081" selection-end="1093" vertical-scroll-proportion="-15.666667">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/application/views/admin/bizregister.php">
       <provider selected="true" editor-type-id="text-editor">
         <state line="48" column="25" selection-start="2017" selection-end="2017" vertical-scroll-proportion="-13.090909">
@@ -549,13 +551,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/application/models/pubweixin_model.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="41" column="5" selection-start="1545" selection-end="1545" vertical-scroll-proportion="-17.848484">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/application/models/subscribemessage_model.php">
       <provider selected="true" editor-type-id="text-editor">
         <state line="38" column="21" selection-start="1449" selection-end="1449" vertical-scroll-proportion="-21.484848">
@@ -563,29 +558,43 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/application/models/respnewsmessage_model.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="121" column="9" selection-start="3934" selection-end="3934" vertical-scroll-proportion="-30.151516">
+          <folding>
+            <marker date="1367223034919" expanded="true" signature="3539:3931" placeholder="..." />
+            <marker date="1367223034919" expanded="true" signature="3735:3899" placeholder="..." />
+            <marker date="1367223034919" expanded="true" signature="3743:3886" placeholder="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/application/models/member_model.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="26" column="31" selection-start="1106" selection-end="1106" vertical-scroll-proportion="-14.878788">
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/application/core/MY_Model.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="400" column="5" selection-start="10251" selection-end="10251" vertical-scroll-proportion="-37.484848">
+        <state line="123" column="29" selection-start="3467" selection-end="3467" vertical-scroll-proportion="-27.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/application/models/pubweixin_model.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="56" column="0" selection-start="1926" selection-end="1926" vertical-scroll-proportion="-36.696968">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/application/controllers/message.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="135" column="42" selection-start="4132" selection-end="4132" vertical-scroll-proportion="-17.09091">
+        <state line="140" column="13" selection-start="4235" selection-end="4235" vertical-scroll-proportion="0.6014944">
           <folding>
-            <marker date="1367222684809" expanded="true" signature="4377:4590" placeholder="..." />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/application/models/respnewsmessage_model.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="120" column="12" selection-start="3913" selection-end="3913" vertical-scroll-proportion="0.49190536">
-          <folding>
-            <marker date="1367223034919" expanded="true" signature="3539:3931" placeholder="..." />
-            <marker date="1367223034919" expanded="true" signature="3735:3899" placeholder="..." />
-            <marker date="1367223034919" expanded="true" signature="3743:3886" placeholder="..." />
+            <marker date="1367223922296" expanded="true" signature="4375:4588" placeholder="..." />
           </folding>
         </state>
       </provider>

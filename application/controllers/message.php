@@ -86,6 +86,7 @@ class Message extends MY_Controller
         //get post data, May be due to the different environments
         $postStr = $GLOBALS["HTTP_RAW_POST_DATA"];
         //extract post data
+
         if (!empty($postStr)) {
 
             $postObj = simplexml_load_string($postStr, 'SimpleXMLElement', LIBXML_NOCDATA);
@@ -123,7 +124,7 @@ class Message extends MY_Controller
 
     private function receiveEvent($object)
     {
-        $contentStr = "";
+        $resultStr="";
         switch ($object->Event) {
             case "subscribe":{
                 $data = $this->subdao->get($object->ToUserName);
