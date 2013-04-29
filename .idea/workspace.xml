@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="9c42f37f-b41b-40a5-884c-3813c2511426" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/application/models/pubweixin_model.php" afterPath="$PROJECT_DIR$/application/models/pubweixin_model.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/application/core/MY_Model.php" afterPath="$PROJECT_DIR$/application/core/MY_Model.php" />
     </list>
     <ignored path="weixin.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -110,13 +110,31 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="message.php" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="message.php" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/application/controllers/message.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="81" column="0" selection-start="2462" selection-end="2462" vertical-scroll-proportion="0.43908322">
+            <state line="79" column="5" selection-start="2424" selection-end="2424" vertical-scroll-proportion="-9.575758">
               <folding>
                 <marker date="1367219245180" expanded="true" signature="4457:4670" placeholder="..." />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="subscribemessage_model.php" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/application/models/subscribemessage_model.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="26" column="46" selection-start="1131" selection-end="1131" vertical-scroll-proportion="-12.757576">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="MY_Model.php" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/application/core/MY_Model.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="399" column="23" selection-start="10206" selection-end="10206" vertical-scroll-proportion="0.50784075">
+              <folding />
             </state>
           </provider>
         </entry>
@@ -171,7 +189,6 @@
         <option value="$PROJECT_DIR$/application/models/respmusicmessage_model.php" />
         <option value="$PROJECT_DIR$/application/models/resptextmessage_model.php" />
         <option value="$PROJECT_DIR$/application/models/news_model.php" />
-        <option value="$PROJECT_DIR$/application/core/MY_Model.php" />
         <option value="$PROJECT_DIR$/application/models/subscribemessage_model.php" />
         <option value="$PROJECT_DIR$/application/controllers/subscribemessage.php" />
         <option value="$PROJECT_DIR$/application/models/member_model.php" />
@@ -182,6 +199,7 @@
         <option value="$PROJECT_DIR$/application/controllers/admin.php" />
         <option value="$PROJECT_DIR$/application/controllers/message.php" />
         <option value="$PROJECT_DIR$/application/models/pubweixin_model.php" />
+        <option value="$PROJECT_DIR$/application/core/MY_Model.php" />
       </list>
     </option>
   </component>
@@ -483,13 +501,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/application/models/subscribemessage_model.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="33" column="24" selection-start="1304" selection-end="1304" vertical-scroll-proportion="-21.757576">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/application/models/member_model.php">
       <provider selected="true" editor-type-id="text-editor">
         <state line="26" column="18" selection-start="1081" selection-end="1093" vertical-scroll-proportion="-15.666667">
@@ -511,13 +522,6 @@
     <entry file="file://$PROJECT_DIR$/application/views/admin/bizregister.php">
       <provider selected="true" editor-type-id="text-editor">
         <state line="48" column="25" selection-start="2017" selection-end="2017" vertical-scroll-proportion="-13.090909">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/application/core/MY_Model.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="99" column="20" selection-start="2845" selection-end="2845" vertical-scroll-proportion="0.24607961">
           <folding />
         </state>
       </provider>
@@ -552,10 +556,24 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/application/controllers/message.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="81" column="0" selection-start="2462" selection-end="2462" vertical-scroll-proportion="0.43908322">
+        <state line="79" column="5" selection-start="2424" selection-end="2424" vertical-scroll-proportion="-9.575758">
           <folding>
             <marker date="1367219245180" expanded="true" signature="4457:4670" placeholder="..." />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/application/models/subscribemessage_model.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="26" column="46" selection-start="1131" selection-end="1131" vertical-scroll-proportion="-12.757576">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/application/core/MY_Model.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="399" column="23" selection-start="10206" selection-end="10206" vertical-scroll-proportion="0.50784075">
+          <folding />
         </state>
       </provider>
     </entry>
