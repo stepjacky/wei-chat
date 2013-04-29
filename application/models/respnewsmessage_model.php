@@ -118,7 +118,7 @@ class Respnewsmessage_model extends ResponseMessage_Model {
  <Url><![CDATA[%s]]></Url>
  </item>
  </Articles>
- <FuncFlag>1</FuncFlag>
+ <FuncFlag>0</FuncFlag>
  </xml>";
 
         $resultStr = sprintf(
