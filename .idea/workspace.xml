@@ -44,7 +44,7 @@
     <file path="/editNew.php" changelist="9c42f37f-b41b-40a5-884c-3813c2511426" time="1367201594026" ignored="false" />
     <file path="/list.php" changelist="9c42f37f-b41b-40a5-884c-3813c2511426" time="1367201444004" ignored="false" />
     <file path="/pubweixin.php" changelist="9c42f37f-b41b-40a5-884c-3813c2511426" time="1367168313194" ignored="false" />
-    <file path="/message.php" changelist="9c42f37f-b41b-40a5-884c-3813c2511426" time="1367223178815" ignored="false" />
+    <file path="/message.php" changelist="9c42f37f-b41b-40a5-884c-3813c2511426" time="1367224354502" ignored="false" />
     <file path="/WechatCallbackapiTest.php" changelist="9c42f37f-b41b-40a5-884c-3813c2511426" time="1366980045307" ignored="false" />
     <file path="/a.dummy" changelist="9c42f37f-b41b-40a5-884c-3813c2511426" time="1367071241965" ignored="false" />
     <file path="/pubweixin_model.php" changelist="9c42f37f-b41b-40a5-884c-3813c2511426" time="1367219869471" ignored="false" />
@@ -113,9 +113,9 @@
       <file leaf-file-name="message.php" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/application/controllers/message.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="140" column="13" selection-start="4235" selection-end="4235" vertical-scroll-proportion="0.6014944">
+            <state line="147" column="5" selection-start="4350" selection-end="4350" vertical-scroll-proportion="0.57160646">
               <folding>
-                <marker date="1367223922296" expanded="true" signature="4375:4588" placeholder="..." />
+                <marker date="1367224355189" expanded="true" signature="4375:4663" placeholder="..." />
               </folding>
             </state>
           </provider>
@@ -592,9 +592,9 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/application/controllers/message.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="140" column="13" selection-start="4235" selection-end="4235" vertical-scroll-proportion="0.6014944">
+        <state line="147" column="5" selection-start="4350" selection-end="4350" vertical-scroll-proportion="0.57160646">
           <folding>
-            <marker date="1367223922296" expanded="true" signature="4375:4588" placeholder="..." />
+            <marker date="1367224355189" expanded="true" signature="4375:4663" placeholder="..." />
           </folding>
         </state>
       </provider>

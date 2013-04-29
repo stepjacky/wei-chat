@@ -150,7 +150,9 @@ class Message extends MY_Controller
 <ToUserName><![CDATA[%s]]></ToUserName>
 <FromUserName><![CDATA[%s]]></FromUserName>
 <CreateTime>%s</CreateTime>
-<MsgType><![CDATA[text]]></MsgType>
+<MsgType><![CDATA[event]]></MsgType>
+<Event><![CDATA[subscribe]]></Event>
+<EventKey><![CDATA[key]]></EventKey>
 <Content><![CDATA[%s]]></Content>
 <FuncFlag>%d</FuncFlag>
 </xml>";
