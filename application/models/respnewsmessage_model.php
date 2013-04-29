@@ -92,7 +92,7 @@ class Respnewsmessage_model extends ResponseMessage_Model {
         return $data;
     }
 
-    public function response($keywords,$tousername){
+    public function response($keywords,$fromuser,$touser){
 
         $this->db->like('keywords',$keywords);
         $query =  $this->db->get($this->table());
@@ -123,8 +123,8 @@ class Respnewsmessage_model extends ResponseMessage_Model {
 
         $resultStr = sprintf(
             $msgtpl,
-            $tousername,
-            $this->FromUserName,
+            $touser,
+            $fromuser,
             time(),
             $news['name'],
             $news['info'],

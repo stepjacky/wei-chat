@@ -3,6 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="9c42f37f-b41b-40a5-884c-3813c2511426" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/application/controllers/message.php" afterPath="$PROJECT_DIR$/application/controllers/message.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/application/models/respnewsmessage_model.php" afterPath="$PROJECT_DIR$/application/models/respnewsmessage_model.php" />
     </list>
     <ignored path="weixin.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -44,7 +45,7 @@
     <file path="/editNew.php" changelist="9c42f37f-b41b-40a5-884c-3813c2511426" time="1367201594026" ignored="false" />
     <file path="/list.php" changelist="9c42f37f-b41b-40a5-884c-3813c2511426" time="1367201444004" ignored="false" />
     <file path="/pubweixin.php" changelist="9c42f37f-b41b-40a5-884c-3813c2511426" time="1367168313194" ignored="false" />
-    <file path="/message.php" changelist="9c42f37f-b41b-40a5-884c-3813c2511426" time="1367224354502" ignored="false" />
+    <file path="/message.php" changelist="9c42f37f-b41b-40a5-884c-3813c2511426" time="1367225330073" ignored="false" />
     <file path="/WechatCallbackapiTest.php" changelist="9c42f37f-b41b-40a5-884c-3813c2511426" time="1366980045307" ignored="false" />
     <file path="/a.dummy" changelist="9c42f37f-b41b-40a5-884c-3813c2511426" time="1367071241965" ignored="false" />
     <file path="/pubweixin_model.php" changelist="9c42f37f-b41b-40a5-884c-3813c2511426" time="1367219869471" ignored="false" />
@@ -66,7 +67,7 @@
     <file path="/selector.php" changelist="9c42f37f-b41b-40a5-884c-3813c2511426" time="1367138532216" ignored="false" />
     <file path="/picture.js" changelist="9c42f37f-b41b-40a5-884c-3813c2511426" time="1367139263842" ignored="false" />
     <file path="/respnewsmessage.php" changelist="9c42f37f-b41b-40a5-884c-3813c2511426" time="1367144680695" ignored="false" />
-    <file path="/respnewsmessage_model.php" changelist="9c42f37f-b41b-40a5-884c-3813c2511426" time="1367221932824" ignored="false" />
+    <file path="/respnewsmessage_model.php" changelist="9c42f37f-b41b-40a5-884c-3813c2511426" time="1367225382254" ignored="false" />
     <file path="/respmusicmessage.php" changelist="9c42f37f-b41b-40a5-884c-3813c2511426" time="1367147057202" ignored="false" />
     <file path="/couponcatalog_model.php" changelist="9c42f37f-b41b-40a5-884c-3813c2511426" time="1367150870353" ignored="false" />
     <file path="/get-code.php" changelist="9c42f37f-b41b-40a5-884c-3813c2511426" time="1367167471607" ignored="false" />
@@ -110,12 +111,12 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="message.php" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="message.php" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/application/controllers/message.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="147" column="5" selection-start="4350" selection-end="4350" vertical-scroll-proportion="0.57160646">
+            <state line="118" column="30" selection-start="3589" selection-end="3589" vertical-scroll-proportion="-10.272727">
               <folding>
-                <marker date="1367224355189" expanded="true" signature="4375:4663" placeholder="..." />
+                <marker date="1367225336781" expanded="true" signature="4401:4689" placeholder="..." />
               </folding>
             </state>
           </provider>
@@ -130,14 +131,14 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="respnewsmessage_model.php" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="respnewsmessage_model.php" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/application/models/respnewsmessage_model.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="121" column="9" selection-start="3934" selection-end="3934" vertical-scroll-proportion="-30.151516">
+            <state line="133" column="19" selection-start="4203" selection-end="4203" vertical-scroll-proportion="0.79078454">
               <folding>
-                <marker date="1367223034919" expanded="true" signature="3539:3931" placeholder="..." />
-                <marker date="1367223034919" expanded="true" signature="3735:3899" placeholder="..." />
-                <marker date="1367223034919" expanded="true" signature="3743:3886" placeholder="..." />
+                <marker date="1367225382413" expanded="true" signature="3545:3937" placeholder="..." />
+                <marker date="1367225382413" expanded="true" signature="3741:3905" placeholder="..." />
+                <marker date="1367225382413" expanded="true" signature="3749:3892" placeholder="..." />
               </folding>
             </state>
           </provider>
@@ -220,8 +221,8 @@
         <option value="$PROJECT_DIR$/application/models/pubweixin_model.php" />
         <option value="$PROJECT_DIR$/application/models/subscribemessage_model.php" />
         <option value="$PROJECT_DIR$/application/core/MY_Model.php" />
-        <option value="$PROJECT_DIR$/application/models/respnewsmessage_model.php" />
         <option value="$PROJECT_DIR$/application/controllers/message.php" />
+        <option value="$PROJECT_DIR$/application/models/respnewsmessage_model.php" />
       </list>
     </option>
   </component>
@@ -558,17 +559,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/application/models/respnewsmessage_model.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="121" column="9" selection-start="3934" selection-end="3934" vertical-scroll-proportion="-30.151516">
-          <folding>
-            <marker date="1367223034919" expanded="true" signature="3539:3931" placeholder="..." />
-            <marker date="1367223034919" expanded="true" signature="3735:3899" placeholder="..." />
-            <marker date="1367223034919" expanded="true" signature="3743:3886" placeholder="..." />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/application/models/member_model.php">
       <provider selected="true" editor-type-id="text-editor">
         <state line="26" column="31" selection-start="1106" selection-end="1106" vertical-scroll-proportion="-14.878788">
@@ -592,9 +582,20 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/application/controllers/message.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="147" column="5" selection-start="4350" selection-end="4350" vertical-scroll-proportion="0.57160646">
+        <state line="118" column="30" selection-start="3589" selection-end="3589" vertical-scroll-proportion="-10.272727">
           <folding>
-            <marker date="1367224355189" expanded="true" signature="4375:4663" placeholder="..." />
+            <marker date="1367225336781" expanded="true" signature="4401:4689" placeholder="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/application/models/respnewsmessage_model.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="133" column="19" selection-start="4203" selection-end="4203" vertical-scroll-proportion="0.79078454">
+          <folding>
+            <marker date="1367225382413" expanded="true" signature="3545:3937" placeholder="..." />
+            <marker date="1367225382413" expanded="true" signature="3741:3905" placeholder="..." />
+            <marker date="1367225382413" expanded="true" signature="3749:3892" placeholder="..." />
           </folding>
         </state>
       </provider>
