@@ -78,7 +78,7 @@ class Admin extends MY_Controller {
             'email' =>urldecode($data['email'])
          );
         $this->fireLog($udata);
-        $rst  = $this->usrDao->register($udata,FALSE);
+        $rst  = $this->usrDao->register($udata);
         $info = !$rst?"相同用户已存在":'';
         if(!$rst){
             redirect('/welcome/start_register?info='.$info);
