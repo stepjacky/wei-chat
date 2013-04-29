@@ -66,12 +66,12 @@ class Admin extends MY_Controller {
         $data = $this->_no_xsl_post();
         $cap = $this->nsession->userdata("capword");
         $this->fireLog("session cap is :"+$cap);
-        if(!$cap OR strtolower($cap)!=strtolower($data['capcode'])) {
+        /*if(!$cap OR strtolower($cap)!=strtolower($data['capcode'])) {
 
             redirect('/welcome/start_register?info=验证码错误');
 
 
-        }
+        }*/
         $udata = array(
             "id"    =>$data['id'],
             'pword' =>$data['pword'],
