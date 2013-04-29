@@ -3,6 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="9c42f37f-b41b-40a5-884c-3813c2511426" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/application/core/MY_Model.php" afterPath="$PROJECT_DIR$/application/core/MY_Model.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/application/models/subscribemessage_model.php" afterPath="$PROJECT_DIR$/application/models/subscribemessage_model.php" />
     </list>
     <ignored path="weixin.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -32,7 +33,7 @@
     <file path="/input.php" changelist="9c42f37f-b41b-40a5-884c-3813c2511426" time="1366774245128" ignored="false" />
     <file path="/couponpolicy.php" changelist="9c42f37f-b41b-40a5-884c-3813c2511426" time="1366787564747" ignored="false" />
     <file path="/merchant.php" changelist="9c42f37f-b41b-40a5-884c-3813c2511426" time="1367159072197" ignored="false" />
-    <file path="/MY_Model.php" changelist="9c42f37f-b41b-40a5-884c-3813c2511426" time="1367203640667" ignored="false" />
+    <file path="/MY_Model.php" changelist="9c42f37f-b41b-40a5-884c-3813c2511426" time="1367220635771" ignored="false" />
     <file path="/vcode_model.php" changelist="9c42f37f-b41b-40a5-884c-3813c2511426" time="1366818551986" ignored="false" />
     <file path="/body-start.php" changelist="9c42f37f-b41b-40a5-884c-3813c2511426" time="1367196146611" ignored="false" />
     <file path="/picture.php" changelist="9c42f37f-b41b-40a5-884c-3813c2511426" time="1366899887651" ignored="false" />
@@ -72,7 +73,7 @@
     <file path="/get-code.php" changelist="9c42f37f-b41b-40a5-884c-3813c2511426" time="1367167471607" ignored="false" />
     <file path="/style.css" changelist="9c42f37f-b41b-40a5-884c-3813c2511426" time="1367163004298" ignored="false" />
     <file path="/subscribemessage.php" changelist="9c42f37f-b41b-40a5-884c-3813c2511426" time="1367201688939" ignored="false" />
-    <file path="/subscribemessage_model.php" changelist="9c42f37f-b41b-40a5-884c-3813c2511426" time="1367204010048" ignored="false" />
+    <file path="/subscribemessage_model.php" changelist="9c42f37f-b41b-40a5-884c-3813c2511426" time="1367220686425" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -121,19 +122,19 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="subscribemessage_model.php" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="subscribemessage_model.php" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/application/models/subscribemessage_model.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="26" column="46" selection-start="1131" selection-end="1131" vertical-scroll-proportion="-12.757576">
+            <state line="38" column="53" selection-start="1481" selection-end="1481" vertical-scroll-proportion="0.85524726">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="MY_Model.php" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="MY_Model.php" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/application/core/MY_Model.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="399" column="23" selection-start="10206" selection-end="10206" vertical-scroll-proportion="0.50784075">
+            <state line="400" column="5" selection-start="10093" selection-end="10233" vertical-scroll-proportion="-15.666667">
               <folding />
             </state>
           </provider>
@@ -189,7 +190,6 @@
         <option value="$PROJECT_DIR$/application/models/respmusicmessage_model.php" />
         <option value="$PROJECT_DIR$/application/models/resptextmessage_model.php" />
         <option value="$PROJECT_DIR$/application/models/news_model.php" />
-        <option value="$PROJECT_DIR$/application/models/subscribemessage_model.php" />
         <option value="$PROJECT_DIR$/application/controllers/subscribemessage.php" />
         <option value="$PROJECT_DIR$/application/models/member_model.php" />
         <option value="$PROJECT_DIR$/application/models/respnewsmessage_model.php" />
@@ -200,6 +200,7 @@
         <option value="$PROJECT_DIR$/application/controllers/message.php" />
         <option value="$PROJECT_DIR$/application/models/pubweixin_model.php" />
         <option value="$PROJECT_DIR$/application/core/MY_Model.php" />
+        <option value="$PROJECT_DIR$/application/models/subscribemessage_model.php" />
       </list>
     </option>
   </component>
@@ -563,16 +564,16 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/application/models/subscribemessage_model.php">
+    <entry file="file://$PROJECT_DIR$/application/core/MY_Model.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="26" column="46" selection-start="1131" selection-end="1131" vertical-scroll-proportion="-12.757576">
+        <state line="400" column="5" selection-start="10093" selection-end="10233" vertical-scroll-proportion="-15.666667">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/application/core/MY_Model.php">
+    <entry file="file://$PROJECT_DIR$/application/models/subscribemessage_model.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="399" column="23" selection-start="10206" selection-end="10206" vertical-scroll-proportion="0.50784075">
+        <state line="38" column="53" selection-start="1481" selection-end="1481" vertical-scroll-proportion="0.85524726">
           <folding />
         </state>
       </provider>

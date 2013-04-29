@@ -33,6 +33,10 @@ class Subscribemessage_model extends ResponseMessage_Model {
     public function get($id){
         return parent::get($id,"fromusername");
     }
-    
+
+    public function  saveUpdate($data){
+        $data['fromusername'] = $this->FromUserName;
+        parent::saveUpdate($data,"fromusername",FALSE);
+    }
     
 }   
