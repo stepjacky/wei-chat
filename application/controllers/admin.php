@@ -65,6 +65,7 @@ class Admin extends MY_Controller {
     public function register(){
         $data = $this->_no_xsl_post();
         $cap = $this->nsession->userdata("capword");
+        $this->fireLog("session cap is :"+$cap);
         if(!$cap OR strtolower($cap)!=strtolower($data['capcode'])) {
 
             redirect('/welcome/start_register?info=验证码错误');

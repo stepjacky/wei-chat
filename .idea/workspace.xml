@@ -2,8 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="9c42f37f-b41b-40a5-884c-3813c2511426" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/application/controllers/welcome.php" afterPath="$PROJECT_DIR$/application/controllers/welcome.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/application/controllers/admin.php" afterPath="$PROJECT_DIR$/application/controllers/admin.php" />
     </list>
     <ignored path="weixin.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -60,7 +59,7 @@
     <file path="/sysadmin.php" changelist="9c42f37f-b41b-40a5-884c-3813c2511426" time="1367071254998" ignored="false" />
     <file path="/bizlogin.php" changelist="9c42f37f-b41b-40a5-884c-3813c2511426" time="1367168061402" ignored="false" />
     <file path="/merchant_model.php" changelist="9c42f37f-b41b-40a5-884c-3813c2511426" time="1367078984915" ignored="false" />
-    <file path="/admin.php" changelist="9c42f37f-b41b-40a5-884c-3813c2511426" time="1367078512704" ignored="false" />
+    <file path="/admin.php" changelist="9c42f37f-b41b-40a5-884c-3813c2511426" time="1367216090213" ignored="false" />
     <file path="/bizregister.php" changelist="9c42f37f-b41b-40a5-884c-3813c2511426" time="1367215532441" ignored="false" />
     <file path="/coupon_model.php" changelist="9c42f37f-b41b-40a5-884c-3813c2511426" time="1367080702024" ignored="false" />
     <file path="/edit.js" changelist="9c42f37f-b41b-40a5-884c-3813c2511426" time="1367198110437" ignored="false" />
@@ -93,19 +92,19 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="welcome.php" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="welcome.php" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/application/controllers/welcome.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="65" column="53" selection-start="1606" selection-end="1606" vertical-scroll-proportion="0.6658625">
+            <state line="58" column="10" selection-start="1423" selection-end="1423" vertical-scroll-proportion="-11.636364">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="admin.php" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="admin.php" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/application/controllers/admin.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="67" column="14" selection-start="2217" selection-end="2217" vertical-scroll-proportion="-16.0">
+            <state line="67" column="40" selection-start="2243" selection-end="2243" vertical-scroll-proportion="0.55006033">
               <folding />
             </state>
           </provider>
@@ -138,7 +137,6 @@
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
       <list>
-        <option value="$PROJECT_DIR$/application/views/subscribemessage/editNew.php" />
         <option value="$PROJECT_DIR$/application/controllers/respmusicmessage.php" />
         <option value="$PROJECT_DIR$/application/controllers/resptextmessage.php" />
         <option value="$PROJECT_DIR$/application/controllers/respnewsmessage.php" />
@@ -154,6 +152,7 @@
         <option value="$PROJECT_DIR$/application/models/respnewsmessage_model.php" />
         <option value="$PROJECT_DIR$/application/views/admin/bizregister.php" />
         <option value="$PROJECT_DIR$/application/controllers/welcome.php" />
+        <option value="$PROJECT_DIR$/application/controllers/admin.php" />
       </list>
     </option>
   </component>
@@ -539,16 +538,16 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/application/controllers/admin.php">
+    <entry file="file://$PROJECT_DIR$/application/controllers/welcome.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="67" column="14" selection-start="2217" selection-end="2217" vertical-scroll-proportion="-16.0">
+        <state line="58" column="10" selection-start="1423" selection-end="1423" vertical-scroll-proportion="-11.636364">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/application/controllers/welcome.php">
+    <entry file="file://$PROJECT_DIR$/application/controllers/admin.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="65" column="53" selection-start="1606" selection-end="1606" vertical-scroll-proportion="0.6658625">
+        <state line="67" column="40" selection-start="2243" selection-end="2243" vertical-scroll-proportion="0.55006033">
           <folding />
         </state>
       </provider>
