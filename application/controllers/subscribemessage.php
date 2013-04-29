@@ -15,20 +15,34 @@
  * See the License for the specific language governing permissions and
  * limitations under the License.
  * 
- * FileName application/models/news.php
+ * FileName application/controllers/subscribemessage.php
  * Created by CIscaffolding.
  * User: qujiakang
  * QQ:myqq_postor@qq.com
  * Email: qujiakang@gmail.com  
- * Date: Sun Apr 28 16:16:07 CST 2013
+ * Date: Mon Apr 29 08:57:18 CST 2013
  *    
  */
 
-class News_model extends ResponseMessage_Model {
+class Subscribemessage extends Respmessage_Controller {
      
     public  function __construct(){
-        parent::__construct("News_model");
-    }  
+        parent::__construct("Subscribemessage_model");
+    }
+
+    public function index(){
+        $this->editNew($this->FromUserName);
+    }
     
+     /**
+      * 新增编辑
+      */
+    public function editNew($id=FALSE){
+
+        $data = $this->dao->get($id);
+        //$this->load->view("admin/header-pure");
+        $this->load->view($this->dao->table()."/editNew",$data);
+        //$this->load->view("admin/footer-pure");
+    }
     
 }   

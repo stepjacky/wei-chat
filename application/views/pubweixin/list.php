@@ -45,6 +45,11 @@
 
                       
            <td class="btn-group">
+
+             <button class="btn btn-info" type="button" onclick="managerMessage('<?=$weixin_id;?>');">
+               <i class="icon-edit"></i>管理
+             </button>
+
              <button class="btn btn-success" type="button" onclick="editOne('<?=$weixin_id;?>');">
                <i class="icon-edit"></i>编辑
              </button>

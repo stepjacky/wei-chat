@@ -1,4 +1,4 @@
-<?php if ( ! defined('BASEPATH')) exit('No direct script access allowed');
+<?php if (!defined('BASEPATH')) exit('No direct script access allowed');
 /*
  * Licensed to the Apache Software Foundation (ASF) under one or more
  * contributor license agreements.  See the NOTICE file distributed with
@@ -24,62 +24,76 @@
  *    
  */
 
-class Message extends MY_Controller {
-     
-    public  function __construct(){
+class Message extends MY_Controller
+{
+
+    public function __construct()
+    {
         parent::__construct("Message_model");
-        $this->load->library("wechat");
-        $this->load->model("Pubweixin_model","pubdao");
+        $this->load->model("Pubweixin_model", "pubdao");
+        $this->load->model("Subscribemessage_model", "subdao");
+        $this->load->model("Member_model", "mbrdao");
+        $this->load->model("Respnewsmessage_model", "respnewsdao");
     }
 
-    public function index($id=FALSE){
-        if(@$GLOBALS["HTTP_RAW_POST_DATA"]){
+    public function setting($weixin)
+    {
+
+        $pubwx = $this->pubdao->get($weixin,"weixin_id");
+        $data['pubwx'] = $pubwx;
+        $this->nsession->set_userdata('pubwx',$weixin);
+        $this->load->view("message/index",$data);
+    }
+
+    public function index($id = FALSE)
+    {
+        if (@$GLOBALS["HTTP_RAW_POST_DATA"]) {
             $this->responseMsg();
-        }else{
+        } else {
 
 
-            if(@$_GET["timestamp"]){
+            if (@$_GET["timestamp"]) {
                 $token = $this->pubdao->get_token($id);
                 $this->valid($token);
-            }else{
+            } else {
                 echo "php is ok this is new 2013-3-6<br>";
-                if(function_exists('curl_init')){
+                if (function_exists('curl_init')) {
                     echo "curl_init is ok<br>";
-                }else{
+                } else {
                     echo "no curl_init <br>";
                 }
-                if(function_exists('fsockopen')){
+                if (function_exists('fsockopen')) {
                     echo "fsockopen is ok<br>";
-                }
-                else{
+                } else {
                     echo "fsockopen is no<br>>";
                 }
-                if(function_exists('file_get_contents')){
+                if (function_exists('file_get_contents')) {
                     echo "file_get_contents is ok <br>";
-                }
-                else{
+                } else {
                     echo "file_get_contents is not ok<br>";
                 }
             }
         }
 
     }
-    
-     /**
-      * 新增编辑
-      */
-    public function editNew($id=FALSE){
-        
-       $data = $this->dao->get($id);
-             
-       $this->load->view("admin/header-pure");
-       $this->load->view($this->dao->table()."/editNew",$data);
-       $this->load->view("admin/footer-pure");
+
+    /**
+     * 新增编辑
+     */
+    public function editNew($id = FALSE)
+    {
+
+        $data = $this->dao->get($id);
+
+        $this->load->view("admin/header-pure");
+        $this->load->view($this->dao->table() . "/editNew", $data);
+        $this->load->view("admin/footer-pure");
     }
 
-    public function fireware($oldwweixin){
-       $token = $this->pwDao->get_token($oldwweixin);
-       $this->weichat->valid($token);
+    public function fireware($oldwweixin)
+    {
+        $token = $this->pwDao->get_token($oldwweixin);
+        $this->weichat->valid($token);
     }
 
 
@@ -88,7 +102,7 @@ class Message extends MY_Controller {
         $echoStr = $_GET["echostr"];
 
         //valid signature , option
-        if($this->checkSignature($token)){
+        if ($this->checkSignature($token)) {
             echo $echoStr;
             exit;
         }
@@ -98,37 +112,74 @@ class Message extends MY_Controller {
     {
         //get post data, May be due to the different environments
         $postStr = $GLOBALS["HTTP_RAW_POST_DATA"];
-
         //extract post data
-        if (!empty($postStr)){
+        if (!empty($postStr)) {
 
             $postObj = simplexml_load_string($postStr, 'SimpleXMLElement', LIBXML_NOCDATA);
-            $fromUsername = $postObj->FromUserName;
-            $toUsername = $postObj->ToUserName;
-            $keyword = trim($postObj->Content);
-            $time = time();
-            $textTpl = "<xml>
-							<ToUserName><![CDATA[%s]]></ToUserName>
-							<FromUserName><![CDATA[%s]]></FromUserName>
-							<CreateTime>%s</CreateTime>
-							<MsgType><![CDATA[%s]]></MsgType>
-							<Content><![CDATA[%s]]></Content>
-							<FuncFlag>0</FuncFlag>
-							</xml>";
-            if(!empty( $keyword ))
-            {
-                $msgType = "text";
-                $contentStr = "Welcome to wechat world!";
-                $resultStr = sprintf($textTpl, $fromUsername, $toUsername, $time, $msgType, $contentStr);
-                echo $resultStr;
-            }else{
-                echo "Input something...";
+            $msgType = trim($postObj->MsgType);
+            switch ($msgType) {
+                case "text":
+                    $resultStr = $this->receiveText($postObj);
+                    break;
+                case "event":
+                    $resultStr = $this->receiveEvent($postObj);
+                    break;
+                default:
+                    $resultStr = "unknow msg type: " . $msgType;
+                    break;
             }
+            echo $resultStr;
 
-        }else {
+        } else {
             echo "";
             exit;
         }
+    }
+
+    private function receiveText($object)
+    {
+
+        $keyword = trim($object->Content);
+        if ($keyword == "优惠券") {
+            $resultStr = $this->respnewsdao->response($keyword,$object->FromUserName);
+            return $resultStr;
+        } else {
+
+        }
+    }
+
+    private function receiveEvent($object)
+    {
+        $contentStr = "";
+        switch ($object->Event) {
+            case "subscribe":{
+                $data = $this->subdao->get($object->ToUserName);
+                $contentStr = $data['content'];
+                $resultStr = $this->transmitText($object, $contentStr);
+                $mdata = array(
+                    'weixin'=>$object->FromUserName,
+                    'fromusername'=>$object->ToUserName
+                );
+                $this->mbrdao->persiste($mdata);
+                break;
+            }
+        }
+
+        return $resultStr;
+    }
+
+    private function transmitText($object, $content, $flag = 0)
+    {
+        $textTpl = "<xml>
+<ToUserName><![CDATA[%s]]></ToUserName>
+<FromUserName><![CDATA[%s]]></FromUserName>
+<CreateTime>%s</CreateTime>
+<MsgType><![CDATA[text]]></MsgType>
+<Content><![CDATA[%s]]></Content>
+<FuncFlag>%d</FuncFlag>
+</xml>";
+        $resultStr = sprintf($textTpl, $object->FromUserName, $object->ToUserName, time(), $content, $flag);
+        return $resultStr;
     }
 
     private function checkSignature($token)
@@ -138,16 +189,15 @@ class Message extends MY_Controller {
         $nonce = $_GET["nonce"];
         $tmpArr = array($token, $timestamp, $nonce);
         sort($tmpArr);
-        $tmpStr = implode( $tmpArr );
-        $tmpStr = sha1( $tmpStr );
+        $tmpStr = implode($tmpArr);
+        $tmpStr = sha1($tmpStr);
 
-        if( $tmpStr == $signature ){
+        if ($tmpStr == $signature) {
             return true;
-        }else{
+        } else {
             return false;
         }
     }
 
 
-    
-}   
+}

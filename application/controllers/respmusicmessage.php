@@ -24,38 +24,11 @@
  *    
  */
 
-class Respmusicmessage extends MY_Controller {
+class Respmusicmessage extends Respmessage_Controller {
      
     public  function __construct(){
         parent::__construct("Respmusicmessage_model");
     }
 
-    public function index($id=FALSE){
-         $data = $this->dao->get($id);        
-        //$this->load->view("admin/header-pure");
-        $this->load->view("respmusicmessage/index",$data);
-        //$this->load->view("admin/footer-pure");
-    }
-    
-     /**
-      * 新增编辑
-      */
-    public function editNew($id=FALSE){
-        
-       $data = $this->dao->get($id);
-             
-     
-        
-        $this->load->view("admin/header-pure");
-        $this->load->view($this->dao->table()."/editNew",$data);
-        $this->load->view("admin/footer-pure");
-    }
-
-    public function saveUpdate($pk="id"){
-        $data =  $this->_xsl_post();
-        $data['fromusername']=$this->userid;
-        $this->dao->saveUpdate($data,$pk);
-        $this->_end();
-    }
     
 }   

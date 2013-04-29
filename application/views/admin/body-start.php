@@ -58,10 +58,6 @@
                             <i class="icon-picture"></i>
                             <span class="hidden-tablet">公众账号</span></a></li>
 
-                    <li><a class="ajax-link" link="/message/index" href="###">
-                            <i class="icon-calendar"></i>
-                            <span class="hidden-tablet">消息设置</span></a></li>
-
                     <li><a class="ajax-link" link="/message/lists" href="###">
                             <i class="icon-th"></i>
                             <span class="hidden-tablet">消息管理</span></a></li>

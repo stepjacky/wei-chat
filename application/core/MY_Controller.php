@@ -351,6 +351,8 @@ class Picture_Controller extends Media_Controller {
 }
 
 class Respmessage_Controller extends MY_Controller{
+
+    protected $FromUserName = '';
     public function __construct(){
 
         if(func_num_args()==1){
@@ -359,11 +361,28 @@ class Respmessage_Controller extends MY_Controller{
         }else{
             parent::__construct();
         }
+        $wx = $this->nsession->userdata('pubwx');
+        $this->FromUserName = $wx;
     }
+
+    /**
+     * 新增编辑
+     */
+    public function editNew($id=FALSE){
+
+        $data = $this->dao->get($id);
+
+        // $this->fireLog($data);
+
+        $this->load->view("admin/header-pure");
+        $this->load->view($this->dao->table()."/editNew",$data);
+        $this->load->view("admin/footer-pure");
+    }
+
 
     public function saveUpdate(){
         $data =  $this->_xsl_post();
-        $data['fromusername']=$this->userid;
+        $data['fromusername']= $this->FromUserName;
         $this->dao->saveUpdate($data);
         $this->_end();
     }

@@ -24,7 +24,7 @@
  *    
  */
 
-class Respnewsmessage_model extends MY_Model {
+class Respnewsmessage_model extends ResponseMessage_Model {
      
     public  function __construct(){
         parent::__construct("Respnewsmessage_model");
@@ -39,6 +39,7 @@ class Respnewsmessage_model extends MY_Model {
 
         if($gen)$data[$pk]=getGuidId();
 
+        $data['fromusername']= $this->FromUserName;
         $str = $this->db->insert_string($this->table(), $data);
         $this->firelog($str);
         $this->db->insert($this->table, $data);
@@ -89,6 +90,46 @@ class Respnewsmessage_model extends MY_Model {
         $data = parent::get($id,$pk);
         $data['newslist'] = $this->get_newslist($id);
         return $data;
+    }
+
+    public function response($keywords,$tousername){
+
+        $this->db->like('keywords',$keywords);
+        $query =  $this->db->get($this->table());
+        $bean = $query->row_array();
+        $SQL="select * from news n where n.respnewsid=? limit 1";
+        $query = $this->db->query($SQL,array($bean['id']));
+        $news = $query->row_array();
+
+        $msgtpl = "
+        <xml>
+ <ToUserName><![CDATA[%s]]></ToUserName>
+ <FromUserName><![CDATA[%s]]></FromUserName>
+ <CreateTime>%d</CreateTime>
+ <MsgType><![CDATA[news]]></MsgType>
+ <ArticleCount>1</ArticleCount>
+ <Articles>
+ <item>
+ <Title><![CDATA[%s]]></Title>
+ <Description><![CDATA[%s]]></Description>
+ <PicUrl><![CDATA[%s]]></PicUrl>
+ <Url><![CDATA[%s]]></Url>
+ </item>
+ </Articles>
+ <FuncFlag>1</FuncFlag>
+ </xml>";
+
+        $resultStr = sprintf(
+            $msgtpl,
+            $tousername,
+            $this->FromUserName,
+            time(),
+            $news['name'],
+            $news['info'],
+            base_url($news['picurl']),
+            base_url()
+        );
+        return $resultStr;
     }
 
     

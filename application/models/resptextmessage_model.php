@@ -24,7 +24,7 @@
  *    
  */
 
-class Resptextmessage_model extends MY_Model {
+class Resptextmessage_model extends ResponseMessage_Model {
      
     public  function __construct(){
         parent::__construct("Resptextmessage_model");

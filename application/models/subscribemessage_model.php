@@ -15,20 +15,24 @@
  * See the License for the specific language governing permissions and
  * limitations under the License.
  * 
- * FileName application/models/news.php
+ * FileName application/models/subscribemessage.php
  * Created by CIscaffolding.
  * User: qujiakang
  * QQ:myqq_postor@qq.com
  * Email: qujiakang@gmail.com  
- * Date: Sun Apr 28 16:16:07 CST 2013
+ * Date: Mon Apr 29 08:57:18 CST 2013
  *    
  */
 
-class News_model extends ResponseMessage_Model {
+class Subscribemessage_model extends ResponseMessage_Model {
      
     public  function __construct(){
-        parent::__construct("News_model");
-    }  
+        parent::__construct("Subscribemessage_model");
+    }
+
+    public function get($id){
+        return parent::get($id,"fromusername");
+    }
     
     
 }   

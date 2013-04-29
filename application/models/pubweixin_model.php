@@ -63,5 +63,12 @@ class Pubweixin_model extends MY_Model {
         return $result;
     }
 
+    public function find_by_merchant($merc){
+        $this->db->select('weixin_id,name');
+        $this->db->where('merchant_id',$merc);
+        $query = $this->db->get($this->table());
+        $beans = $query->result_array();
+        return $beans;
+    }
     
 }   

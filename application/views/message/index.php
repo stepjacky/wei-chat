@@ -1,5 +1,11 @@
+<h4><?=$pubwx['name']?></h4> 消息设置
+<hr/>
 <div id="msgTab" class="tabbable"> <!-- Only required for left/right tabs -->
     <ul class="nav nav-tabs">
+        <li>
+            <a href="#tab1" url="/subscribemessage" data-toggle="tab">关注时回复</a>
+        </li>
+
         <li>
             <a href="#tab1" url="/resptextmessage/lists" data-toggle="tab">文本消息回复</a>
         </li>

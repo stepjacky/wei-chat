@@ -22,3 +22,8 @@ function showConnector(weixin_id){
         $("#myModal").modal("show");
     })
 }
+
+function managerMessage(weixin){
+    var url="/message/setting/"+weixin;
+    loadContent("content",url);
+}

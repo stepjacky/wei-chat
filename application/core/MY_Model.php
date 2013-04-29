@@ -374,3 +374,40 @@ class Image_Model extends MY_Model {
     }
 
 }
+
+class ResponseMessage_Model extends MY_Model {
+
+    protected $FromUserName = "";
+    protected $conds = array();
+    public function __construct()
+    {
+
+        if (func_num_args() == 1) {
+            $mname = func_get_arg(0);
+            parent::__construct($mname);
+        }else{
+            parent::__construct();
+        }
+
+        $this->load->library('nsession');
+        $pubwx = $this->nsession->userdata("pubwx");
+        $this->FromUserName = $pubwx;
+        $this->conds = array('fromusername'=>$this->FromUserName);
+    }
+
+    public function  saveUpdate($data){
+        $data['fromusername'] = $this->FromUserName;
+        parent::saveUpdate($data,"id",TRUE);
+    }
+
+    public function gets($page){
+        $this->firelog($page);
+        return parent::gets($page,10,$this->conds);
+    }
+    public function page_link($page=1){
+
+        return $this->page_nav("/".$this->table()."/lists/",$this->count_all($this->conds),$page,10);
+    }
+
+
+}

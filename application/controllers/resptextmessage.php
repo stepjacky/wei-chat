@@ -24,33 +24,10 @@
  *    
  */
 
-class Resptextmessage extends MY_Controller {
+class Resptextmessage extends Respmessage_Controller {
      
     public  function __construct(){
         parent::__construct("Resptextmessage_model");
     }
-
-    public function index($id=FALSE){
-         $data = $this->dao->get($id);        
-        //$this->load->view("admin/header-pure");
-        $this->load->view("resptextmessage/index",$data);
-        //$this->load->view("admin/footer-pure");
-    }
-    
-     /**
-      * 新增编辑
-      */
-    public function editNew($id=FALSE){
-        
-       $data = $this->dao->get($id);
-             
-     
-        
-        $this->load->view("admin/header-pure");
-        $this->load->view($this->dao->table()."/editNew",$data);
-        $this->load->view("admin/footer-pure");
-    }
-
-
     
 }   
