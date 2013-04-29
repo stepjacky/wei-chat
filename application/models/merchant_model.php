@@ -43,12 +43,14 @@ class Merchant_model extends MY_Model {
     }
 
     public function register($data){
+        $this->firelog("注册信息:");
+        $this->firelog($data);
         $bean =  $this->get($data['id']);
         $this->firelog($bean);
-        if($bean['empty'])
+        if(!$bean['empty'])
             return FALSE;
         else{
-            $this->persiste($data,FALSE);
+            $this->save($data,"id",FALSE);
             return TRUE;
         }
 

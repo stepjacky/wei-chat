@@ -2,8 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="9c42f37f-b41b-40a5-884c-3813c2511426" name="Default" comment="">
-      <change type="DELETED" beforePath="G:\webroot\wei-chat\resources\images\uploads\1367208828.2769.jpg" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/application/controllers/admin.php" afterPath="$PROJECT_DIR$/application/controllers/admin.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/application/models/merchant_model.php" afterPath="$PROJECT_DIR$/application/models/merchant_model.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/application/controllers/welcome.php" afterPath="$PROJECT_DIR$/application/controllers/welcome.php" />
     </list>
     <ignored path="weixin.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -59,7 +59,7 @@
     <file path="/openlogin.php" changelist="9c42f37f-b41b-40a5-884c-3813c2511426" time="1367071023781" ignored="false" />
     <file path="/sysadmin.php" changelist="9c42f37f-b41b-40a5-884c-3813c2511426" time="1367071254998" ignored="false" />
     <file path="/bizlogin.php" changelist="9c42f37f-b41b-40a5-884c-3813c2511426" time="1367168061402" ignored="false" />
-    <file path="/merchant_model.php" changelist="9c42f37f-b41b-40a5-884c-3813c2511426" time="1367078984915" ignored="false" />
+    <file path="/merchant_model.php" changelist="9c42f37f-b41b-40a5-884c-3813c2511426" time="1367218175927" ignored="false" />
     <file path="/admin.php" changelist="9c42f37f-b41b-40a5-884c-3813c2511426" time="1367216090213" ignored="false" />
     <file path="/bizregister.php" changelist="9c42f37f-b41b-40a5-884c-3813c2511426" time="1367215532441" ignored="false" />
     <file path="/coupon_model.php" changelist="9c42f37f-b41b-40a5-884c-3813c2511426" time="1367080702024" ignored="false" />
@@ -96,7 +96,7 @@
       <file leaf-file-name="welcome.php" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/application/controllers/welcome.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="58" column="10" selection-start="1423" selection-end="1423" vertical-scroll-proportion="-11.636364">
+            <state line="60" column="8" selection-start="1433" selection-end="1433" vertical-scroll-proportion="-10.575758">
               <folding />
             </state>
           </provider>
@@ -105,7 +105,7 @@
       <file leaf-file-name="admin.php" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/application/controllers/admin.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="82" column="18" selection-start="2691" selection-end="2691" vertical-scroll-proportion="0.55006033">
+            <state line="82" column="8" selection-start="2681" selection-end="2681" vertical-scroll-proportion="0.6236429">
               <folding />
             </state>
           </provider>
@@ -114,7 +114,7 @@
       <file leaf-file-name="merchant_model.php" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/application/models/merchant_model.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="13.090909">
+            <state line="52" column="42" selection-start="1799" selection-end="1799" vertical-scroll-proportion="-17.848484">
               <folding />
             </state>
           </provider>
@@ -147,7 +147,6 @@
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
       <list>
-        <option value="$PROJECT_DIR$/application/controllers/respmusicmessage.php" />
         <option value="$PROJECT_DIR$/application/controllers/resptextmessage.php" />
         <option value="$PROJECT_DIR$/application/controllers/respnewsmessage.php" />
         <option value="$PROJECT_DIR$/application/core/MY_Controller.php" />
@@ -162,6 +161,7 @@
         <option value="$PROJECT_DIR$/application/models/respnewsmessage_model.php" />
         <option value="$PROJECT_DIR$/application/views/admin/bizregister.php" />
         <option value="$PROJECT_DIR$/application/controllers/welcome.php" />
+        <option value="$PROJECT_DIR$/application/models/merchant_model.php" />
         <option value="$PROJECT_DIR$/application/controllers/admin.php" />
       </list>
     </option>
@@ -467,13 +467,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/application/core/MY_Model.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="188" column="20" selection-start="5180" selection-end="5180" vertical-scroll-proportion="-23.666666">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/application/models/respnewsmessage_model.php">
       <provider selected="true" editor-type-id="text-editor">
         <state line="58" column="5" selection-start="2019" selection-end="2019" vertical-scroll-proportion="1.6791315">
@@ -501,23 +494,30 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/application/controllers/welcome.php">
+    <entry file="file://$PROJECT_DIR$/application/core/MY_Model.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="58" column="10" selection-start="1423" selection-end="1423" vertical-scroll-proportion="-11.636364">
+        <state line="99" column="20" selection-start="2845" selection-end="2845" vertical-scroll-proportion="0.24607961">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/application/models/merchant_model.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="13.090909">
+        <state line="52" column="42" selection-start="1799" selection-end="1799" vertical-scroll-proportion="-17.848484">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/application/controllers/welcome.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="60" column="8" selection-start="1433" selection-end="1433" vertical-scroll-proportion="-10.575758">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/application/controllers/admin.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="82" column="18" selection-start="2691" selection-end="2691" vertical-scroll-proportion="0.55006033">
+        <state line="82" column="8" selection-start="2681" selection-end="2681" vertical-scroll-proportion="0.6236429">
           <folding />
         </state>
       </provider>
