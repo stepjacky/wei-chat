@@ -32,10 +32,12 @@ class Pubweixin_model extends MY_Model {
 
 
     public function get_token($oid){
+        $weixin = "gh_".substr($oid,4);
         $this->db->select("token");
-        $this->db->where("weixin_id",$oid);
+        $this->db->where("weixin_id",$weixin);
         $query = $this->db->get($this->table());
         $result = $query->first_row('array');
+        $this->firelog($result);
         return $result['token'];
     }
 

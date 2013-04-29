@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="9c42f37f-b41b-40a5-884c-3813c2511426" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/application/controllers/message.php" afterPath="$PROJECT_DIR$/application/controllers/message.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/application/models/pubweixin_model.php" afterPath="$PROJECT_DIR$/application/models/pubweixin_model.php" />
     </list>
     <ignored path="weixin.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -47,7 +47,7 @@
     <file path="/message.php" changelist="9c42f37f-b41b-40a5-884c-3813c2511426" time="1367207181578" ignored="false" />
     <file path="/WechatCallbackapiTest.php" changelist="9c42f37f-b41b-40a5-884c-3813c2511426" time="1366980045307" ignored="false" />
     <file path="/a.dummy" changelist="9c42f37f-b41b-40a5-884c-3813c2511426" time="1367071241965" ignored="false" />
-    <file path="/pubweixin_model.php" changelist="9c42f37f-b41b-40a5-884c-3813c2511426" time="1367199343434" ignored="false" />
+    <file path="/pubweixin_model.php" changelist="9c42f37f-b41b-40a5-884c-3813c2511426" time="1367219869471" ignored="false" />
     <file path="/connector.php" changelist="9c42f37f-b41b-40a5-884c-3813c2511426" time="1366982702246" ignored="false" />
     <file path="/list.js" changelist="9c42f37f-b41b-40a5-884c-3813c2511426" time="1367201258181" ignored="false" />
     <file path="/cardcatalog_model.php" changelist="9c42f37f-b41b-40a5-884c-3813c2511426" time="1366991881293" ignored="false" />
@@ -113,10 +113,19 @@
       <file leaf-file-name="message.php" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/application/controllers/message.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="53" column="33" selection-start="1930" selection-end="1930" vertical-scroll-proportion="0.23642944">
+            <state line="81" column="0" selection-start="2462" selection-end="2462" vertical-scroll-proportion="0.43908322">
               <folding>
                 <marker date="1367219245180" expanded="true" signature="4457:4670" placeholder="..." />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="pubweixin_model.php" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/application/models/pubweixin_model.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="41" column="5" selection-start="1545" selection-end="1545" vertical-scroll-proportion="-17.848484">
+              <folding />
             </state>
           </provider>
         </entry>
@@ -157,7 +166,6 @@
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
       <list>
-        <option value="$PROJECT_DIR$/application/controllers/resptextmessage.php" />
         <option value="$PROJECT_DIR$/application/controllers/respnewsmessage.php" />
         <option value="$PROJECT_DIR$/application/core/MY_Controller.php" />
         <option value="$PROJECT_DIR$/application/models/respmusicmessage_model.php" />
@@ -173,6 +181,7 @@
         <option value="$PROJECT_DIR$/application/models/merchant_model.php" />
         <option value="$PROJECT_DIR$/application/controllers/admin.php" />
         <option value="$PROJECT_DIR$/application/controllers/message.php" />
+        <option value="$PROJECT_DIR$/application/models/pubweixin_model.php" />
       </list>
     </option>
   </component>
@@ -239,6 +248,24 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="application" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="weixin" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="wei-chat" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="application" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="models" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -414,13 +441,6 @@
     <breakpoint-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/application/controllers/respnewsmessage.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="30" column="5" selection-start="1245" selection-end="1245" vertical-scroll-proportion="-17.787878">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/application/controllers/respmusicmessage.php">
       <provider selected="true" editor-type-id="text-editor">
         <state line="24" column="3" selection-start="1088" selection-end="1088" vertical-scroll-proportion="-13.424242">
@@ -523,9 +543,16 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/application/models/pubweixin_model.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="41" column="5" selection-start="1545" selection-end="1545" vertical-scroll-proportion="-17.848484">
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/application/controllers/message.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="53" column="33" selection-start="1930" selection-end="1930" vertical-scroll-proportion="0.23642944">
+        <state line="81" column="0" selection-start="2462" selection-end="2462" vertical-scroll-proportion="0.43908322">
           <folding>
             <marker date="1367219245180" expanded="true" signature="4457:4670" placeholder="..." />
           </folding>
