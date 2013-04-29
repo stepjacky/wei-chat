@@ -113,9 +113,9 @@
       <file leaf-file-name="message.php" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/application/controllers/message.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="93" column="31" selection-start="2846" selection-end="2846" vertical-scroll-proportion="0.3026152">
+            <state line="156" column="27" selection-start="4648" selection-end="4648" vertical-scroll-proportion="4.2179327">
               <folding>
-                <marker date="1367225756065" expanded="true" signature="4401:4689" placeholder="..." />
+                <marker date="1367226461165" expanded="true" signature="4403:4617" placeholder="..." />
               </folding>
             </state>
           </provider>
@@ -592,9 +592,9 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/application/controllers/message.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="93" column="31" selection-start="2846" selection-end="2846" vertical-scroll-proportion="0.3026152">
+        <state line="156" column="27" selection-start="4648" selection-end="4648" vertical-scroll-proportion="4.2179327">
           <folding>
-            <marker date="1367225756065" expanded="true" signature="4401:4689" placeholder="..." />
+            <marker date="1367226461165" expanded="true" signature="4403:4617" placeholder="..." />
           </folding>
         </state>
       </provider>

@@ -136,7 +136,7 @@ class Message extends MY_Controller
                     'weixin'=>$userwx,
                     'fromusername'=>$pubwx
                 );
-                $this->mbrdao->persiste($mdata);
+                //$this->mbrdao->persiste($mdata);
                 break;
             }
         }
@@ -151,8 +151,6 @@ class Message extends MY_Controller
 <FromUserName><![CDATA[%s]]></FromUserName>
 <CreateTime>%s</CreateTime>
 <MsgType><![CDATA[event]]></MsgType>
-<Event><![CDATA[subscribe]]></Event>
-<EventKey><![CDATA[key]]></EventKey>
 <Content><![CDATA[%s]]></Content>
 <FuncFlag>%d</FuncFlag>
 </xml>";
