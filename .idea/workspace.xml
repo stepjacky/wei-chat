@@ -3,7 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="9c42f37f-b41b-40a5-884c-3813c2511426" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/application/controllers/message.php" afterPath="$PROJECT_DIR$/application/controllers/message.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/application/models/respnewsmessage_model.php" afterPath="$PROJECT_DIR$/application/models/respnewsmessage_model.php" />
     </list>
     <ignored path="weixin.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -111,12 +110,12 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="message.php" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="message.php" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/application/controllers/message.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="118" column="30" selection-start="3589" selection-end="3589" vertical-scroll-proportion="-10.272727">
+            <state line="93" column="31" selection-start="2846" selection-end="2846" vertical-scroll-proportion="0.3026152">
               <folding>
-                <marker date="1367225336781" expanded="true" signature="4401:4689" placeholder="..." />
+                <marker date="1367225756065" expanded="true" signature="4401:4689" placeholder="..." />
               </folding>
             </state>
           </provider>
@@ -131,10 +130,10 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="respnewsmessage_model.php" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="respnewsmessage_model.php" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/application/models/respnewsmessage_model.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="133" column="19" selection-start="4203" selection-end="4203" vertical-scroll-proportion="0.79078454">
+            <state line="126" column="22" selection-start="4036" selection-end="4036" vertical-scroll-proportion="-25.060606">
               <folding>
                 <marker date="1367225382413" expanded="true" signature="3545:3937" placeholder="..." />
                 <marker date="1367225382413" expanded="true" signature="3741:3905" placeholder="..." />
@@ -221,8 +220,8 @@
         <option value="$PROJECT_DIR$/application/models/pubweixin_model.php" />
         <option value="$PROJECT_DIR$/application/models/subscribemessage_model.php" />
         <option value="$PROJECT_DIR$/application/core/MY_Model.php" />
-        <option value="$PROJECT_DIR$/application/controllers/message.php" />
         <option value="$PROJECT_DIR$/application/models/respnewsmessage_model.php" />
+        <option value="$PROJECT_DIR$/application/controllers/message.php" />
       </list>
     </option>
   </component>
@@ -580,22 +579,22 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/application/controllers/message.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="118" column="30" selection-start="3589" selection-end="3589" vertical-scroll-proportion="-10.272727">
-          <folding>
-            <marker date="1367225336781" expanded="true" signature="4401:4689" placeholder="..." />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/application/models/respnewsmessage_model.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="133" column="19" selection-start="4203" selection-end="4203" vertical-scroll-proportion="0.79078454">
+        <state line="126" column="22" selection-start="4036" selection-end="4036" vertical-scroll-proportion="-25.060606">
           <folding>
             <marker date="1367225382413" expanded="true" signature="3545:3937" placeholder="..." />
             <marker date="1367225382413" expanded="true" signature="3741:3905" placeholder="..." />
             <marker date="1367225382413" expanded="true" signature="3749:3892" placeholder="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/application/controllers/message.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="93" column="31" selection-start="2846" selection-end="2846" vertical-scroll-proportion="0.3026152">
+          <folding>
+            <marker date="1367225756065" expanded="true" signature="4401:4689" placeholder="..." />
           </folding>
         </state>
       </provider>
