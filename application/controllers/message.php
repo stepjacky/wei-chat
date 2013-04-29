@@ -50,29 +50,8 @@ class Message extends MY_Controller
         if (@$GLOBALS["HTTP_RAW_POST_DATA"]) {
             $this->responseMsg();
         } else {
-
-
-            if (@$_GET["timestamp"]) {
-                $token = $this->pubdao->get_token($id);
-                $this->valid($token);
-            } else {
-                echo "php is ok this is new 2013-3-6<br>";
-                if (function_exists('curl_init')) {
-                    echo "curl_init is ok<br>";
-                } else {
-                    echo "no curl_init <br>";
-                }
-                if (function_exists('fsockopen')) {
-                    echo "fsockopen is ok<br>";
-                } else {
-                    echo "fsockopen is no<br>>";
-                }
-                if (function_exists('file_get_contents')) {
-                    echo "file_get_contents is ok <br>";
-                } else {
-                    echo "file_get_contents is not ok<br>";
-                }
-            }
+            $token = $this->pubdao->get_token($id);
+            $this->valid($token);
         }
 
     }
