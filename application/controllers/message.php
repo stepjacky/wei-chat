@@ -115,12 +115,8 @@ class Message extends MY_Controller
     {
 
         $keyword = trim($object->Content);
-        if (trim($keyword) == "优惠券") {
-            $resultStr = $this->respnewsdao->response($keyword,$object->ToUserName,$object->FromUserName);
-            return $resultStr;
-        } else {
-
-        }
+        $resultStr = $this->respnewsdao->response($keyword,$object->ToUserName,$object->FromUserName);
+        return $resultStr;
     }
 
     private function receiveEvent($object)

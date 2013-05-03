@@ -2,13 +2,22 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="9c42f37f-b41b-40a5-884c-3813c2511426" name="Default" comment="">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/circle/images/arrow.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/circle/images/buttons_01.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/circle/images/disc-bg.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/circle/images/disc-rotate.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/circle/index.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/application/views/circle/index.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/circle/js/jQueryRotate.2.2.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/application/third_party/db.sql" afterPath="$PROJECT_DIR$/application/third_party/db.sql" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/application/controllers/message.php" afterPath="$PROJECT_DIR$/application/controllers/message.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="weixin.iws" />
     <ignored path=".idea/workspace.xml" />
     <file path="/header.php" changelist="9c42f37f-b41b-40a5-884c-3813c2511426" time="1367157774373" ignored="false" />
     <file path="/index.php" changelist="9c42f37f-b41b-40a5-884c-3813c2511426" time="1367201525090" ignored="false" />
-    <file path="/Dummy.txt" changelist="9c42f37f-b41b-40a5-884c-3813c2511426" time="1367195622283" ignored="false" />
+    <file path="/Dummy.txt" changelist="9c42f37f-b41b-40a5-884c-3813c2511426" time="1367595077420" ignored="false" />
     <file path="/footer.php" changelist="9c42f37f-b41b-40a5-884c-3813c2511426" time="1367083827161" ignored="false" />
     <file path="/charisma-app.css" changelist="9c42f37f-b41b-40a5-884c-3813c2511426" time="1366641995464" ignored="false" />
     <file path="/bootstrap-cerulean.css" changelist="9c42f37f-b41b-40a5-884c-3813c2511426" time="1366641664395" ignored="false" />
@@ -92,19 +101,23 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="welcome.php" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/application/controllers/welcome.php">
+      <file leaf-file-name="index.php" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/application/views/circle/index.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="60" column="8" selection-start="1433" selection-end="1433" vertical-scroll-proportion="-10.575758">
-              <folding />
+            <state line="61" column="33" selection-start="4482" selection-end="4482" vertical-scroll-proportion="-44.363636">
+              <folding>
+                <element signature="n#style#0;n#div#1;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#input#0;n#div#1;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#input#1;n#div#1;n#!!top" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="admin.php" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/application/controllers/admin.php">
+      <file leaf-file-name="jQueryRotate.2.2.js" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/resources/circle/js/jQueryRotate.2.2.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="82" column="8" selection-start="2681" selection-end="2681" vertical-scroll-proportion="-15.666667">
+            <state line="18" column="31" selection-start="810" selection-end="810" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -113,19 +126,10 @@
       <file leaf-file-name="message.php" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/application/controllers/message.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="155" column="23" selection-start="4655" selection-end="4655" vertical-scroll-proportion="0.57160646">
+            <state line="118" column="26" selection-start="3587" selection-end="3587" vertical-scroll-proportion="0.60675514">
               <folding>
-                <marker date="1367227234695" expanded="true" signature="4448:4661" placeholder="..." />
+                <marker date="1367595913751" expanded="true" signature="4373:4586" placeholder="..." />
               </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="member_model.php" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/application/models/member_model.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="26" column="31" selection-start="1106" selection-end="1106" vertical-scroll-proportion="-14.878788">
-              <folding />
             </state>
           </provider>
         </entry>
@@ -133,57 +137,12 @@
       <file leaf-file-name="respnewsmessage_model.php" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/application/models/respnewsmessage_model.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="126" column="22" selection-start="4036" selection-end="4036" vertical-scroll-proportion="-25.060606">
+            <state line="126" column="22" selection-start="4036" selection-end="4036" vertical-scroll-proportion="-74.84849">
               <folding>
                 <marker date="1367225382413" expanded="true" signature="3545:3937" placeholder="..." />
                 <marker date="1367225382413" expanded="true" signature="3741:3905" placeholder="..." />
                 <marker date="1367225382413" expanded="true" signature="3749:3892" placeholder="..." />
               </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="subscribemessage_model.php" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/application/models/subscribemessage_model.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="38" column="21" selection-start="1449" selection-end="1449" vertical-scroll-proportion="-21.484848">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="MY_Model.php" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/application/core/MY_Model.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="123" column="29" selection-start="3467" selection-end="3467" vertical-scroll-proportion="-27.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="pubweixin_model.php" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/application/models/pubweixin_model.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="56" column="0" selection-start="1926" selection-end="1926" vertical-scroll-proportion="-36.696968">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="merchant_model.php" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/application/models/merchant_model.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="52" column="42" selection-start="1799" selection-end="1799" vertical-scroll-proportion="-17.848484">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="bizregister.php" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/application/views/admin/bizregister.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="48" column="25" selection-start="2017" selection-end="2017" vertical-scroll-proportion="-13.090909">
-              <folding />
             </state>
           </provider>
         </entry>
@@ -206,7 +165,6 @@
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
       <list>
-        <option value="$PROJECT_DIR$/application/controllers/respnewsmessage.php" />
         <option value="$PROJECT_DIR$/application/core/MY_Controller.php" />
         <option value="$PROJECT_DIR$/application/models/respmusicmessage_model.php" />
         <option value="$PROJECT_DIR$/application/models/resptextmessage_model.php" />
@@ -221,6 +179,7 @@
         <option value="$PROJECT_DIR$/application/models/subscribemessage_model.php" />
         <option value="$PROJECT_DIR$/application/core/MY_Model.php" />
         <option value="$PROJECT_DIR$/application/models/respnewsmessage_model.php" />
+        <option value="$PROJECT_DIR$/application/views/circle/index.php" />
         <option value="$PROJECT_DIR$/application/controllers/message.php" />
       </list>
     </option>
@@ -258,7 +217,6 @@
       <sortByType />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -274,6 +232,20 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="wei-chat" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="weixin" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="wei-chat" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="resources" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -329,6 +301,7 @@
           </PATH>
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -342,11 +315,11 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="G:\webroot\wei-chat\resources" />
       <recent name="G:\webroot\wei-chat\resources\images" />
       <recent name="G:\webroot\wei-chat\resources\jquery-mobile" />
       <recent name="G:\webroot\wei-chat\resources\images\avator" />
       <recent name="G:\webroot\wei-chat\application\views\couponcatalog" />
-      <recent name="G:\webroot\wei-chat\resources\dewplayer" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="G:\webroot\wei-chat\resources\styles\images" />
@@ -398,14 +371,14 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1936" height="1056" extended-state="0" />
+    <frame x="-8" y="-8" width="1936" height="1056" extended-state="1" />
     <editor active="true" />
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.22002141" sideWeight="0.6718925" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.22537473" sideWeight="0.6718925" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
@@ -481,107 +454,89 @@
     <breakpoint-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/application/controllers/respmusicmessage.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="24" column="3" selection-start="1088" selection-end="1088" vertical-scroll-proportion="-13.424242">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/application/core/MY_Controller.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="61" column="40" selection-start="1696" selection-end="1696" vertical-scroll-proportion="-17.787878">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/application/models/respmusicmessage_model.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="26" column="58" selection-start="1143" selection-end="1143" vertical-scroll-proportion="-14.878788">
-          <folding />
-        </state>
+        <state line="26" column="58" selection-start="1143" selection-end="1143" vertical-scroll-proportion="-14.878788" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/application/models/resptextmessage_model.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="26" column="57" selection-start="1141" selection-end="1141" vertical-scroll-proportion="-14.878788">
-          <folding />
-        </state>
+        <state line="26" column="57" selection-start="1141" selection-end="1141" vertical-scroll-proportion="-14.878788" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/application/models/news_model.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="30" column="5" selection-start="1212" selection-end="1212" vertical-scroll-proportion="0.7394451">
-          <folding />
-        </state>
+        <state line="30" column="5" selection-start="1212" selection-end="1212" vertical-scroll-proportion="0.7394451" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/application/controllers/subscribemessage.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="41" column="35" selection-start="1442" selection-end="1442" vertical-scroll-proportion="-17.39394">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/application/views/admin/bizregister.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="48" column="25" selection-start="2017" selection-end="2017" vertical-scroll-proportion="-13.090909">
-          <folding />
-        </state>
+        <state line="41" column="35" selection-start="1442" selection-end="1442" vertical-scroll-proportion="-17.39394" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/application/models/merchant_model.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="52" column="42" selection-start="1799" selection-end="1799" vertical-scroll-proportion="-17.848484">
-          <folding />
-        </state>
+        <state line="52" column="42" selection-start="1799" selection-end="1799" vertical-scroll-proportion="0.0" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/application/controllers/welcome.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="60" column="8" selection-start="1433" selection-end="1433" vertical-scroll-proportion="-10.575758">
-          <folding />
-        </state>
+        <state line="60" column="8" selection-start="1433" selection-end="1433" vertical-scroll-proportion="0.0" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/application/controllers/admin.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="82" column="8" selection-start="2681" selection-end="2681" vertical-scroll-proportion="-15.666667">
-          <folding />
-        </state>
+        <state line="82" column="8" selection-start="2681" selection-end="2681" vertical-scroll-proportion="0.0" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/application/models/subscribemessage_model.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="38" column="21" selection-start="1449" selection-end="1449" vertical-scroll-proportion="-21.484848">
-          <folding />
-        </state>
+        <state line="38" column="21" selection-start="1449" selection-end="1449" vertical-scroll-proportion="0.0" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/application/models/member_model.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="26" column="31" selection-start="1106" selection-end="1106" vertical-scroll-proportion="-14.878788">
-          <folding />
-        </state>
+        <state line="26" column="31" selection-start="1106" selection-end="1106" vertical-scroll-proportion="0.0" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/application/core/MY_Model.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="123" column="29" selection-start="3467" selection-end="3467" vertical-scroll-proportion="-27.0">
+        <state line="123" column="29" selection-start="3467" selection-end="3467" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/application/models/pubweixin_model.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="56" column="0" selection-start="1926" selection-end="1926" vertical-scroll-proportion="-36.696968">
+        <state line="56" column="0" selection-start="1926" selection-end="1926" vertical-scroll-proportion="0.0" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/application/views/admin/bizregister.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="48" column="25" selection-start="2017" selection-end="2017" vertical-scroll-proportion="0.0" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/application/views/circle/index.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="61" column="33" selection-start="4482" selection-end="4482" vertical-scroll-proportion="-44.363636">
+          <folding>
+            <element signature="n#style#0;n#div#1;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#input#0;n#div#1;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#input#1;n#div#1;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/circle/js/jQueryRotate.2.2.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="18" column="31" selection-start="810" selection-end="810" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/application/models/respnewsmessage_model.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="126" column="22" selection-start="4036" selection-end="4036" vertical-scroll-proportion="-25.060606">
+        <state line="126" column="22" selection-start="4036" selection-end="4036" vertical-scroll-proportion="-74.84849">
           <folding>
             <marker date="1367225382413" expanded="true" signature="3545:3937" placeholder="..." />
             <marker date="1367225382413" expanded="true" signature="3741:3905" placeholder="..." />
@@ -592,9 +547,9 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/application/controllers/message.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="155" column="23" selection-start="4655" selection-end="4655" vertical-scroll-proportion="0.57160646">
+        <state line="118" column="26" selection-start="3587" selection-end="3587" vertical-scroll-proportion="0.60675514">
           <folding>
-            <marker date="1367227234695" expanded="true" signature="4448:4661" placeholder="..." />
+            <marker date="1367595913751" expanded="true" signature="4373:4586" placeholder="..." />
           </folding>
         </state>
       </provider>
