@@ -129,7 +129,7 @@ class Respnewsmessage_model extends ResponseMessage_Model {
             $news['name'],
             $news['info'],
             base_url($news['picurl']),
-            base_url()
+            $news['url']
         );
         return $resultStr;
     }

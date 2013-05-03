@@ -50,13 +50,22 @@
      
   
      <tr>
-   <td>内容</td>
-   <td>            
-        <?=$my_editor;?>
+   <td>点击跳转</td>
+   <td>
+      <textarea id="url" name="url" class="input-xxlarge"><?=$url;?></textarea>
    </td>     
    
 </tr>
-  
+
+
+     <tr>
+   <td>内容</td>
+   <td>
+        <?=$my_editor;?>
+   </td>
+
+</tr>
+
   
      
   
