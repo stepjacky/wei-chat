@@ -99,39 +99,63 @@ class Respnewsmessage_model extends ResponseMessage_Model {
         $bean = $query->row_array();
         $SQL="select * from news n
              join respnewslist rn on rn.respnewsid=?
-             where n.id=rn.newsid limit 1";
+             where n.id=rn.newsid";
         $query = $this->db->query($SQL,array($bean['id']));
-        $news = $query->row_array();
+        $news = $query->result_array();
+        $resultStr =$this->buildMessage($fromuser,$touser,$news);
+        return $resultStr;
+    }
 
-        $msgtpl = "
+    private function buildMessage($fromuser,$touser,$news){
+        $amc = count($news);
+        $tplstart = "
         <xml>
  <ToUserName><![CDATA[%s]]></ToUserName>
  <FromUserName><![CDATA[%s]]></FromUserName>
  <CreateTime>%d</CreateTime>
  <MsgType><![CDATA[news]]></MsgType>
- <ArticleCount>1</ArticleCount>
- <Articles>
- <item>
+ <ArticleCount>%d</ArticleCount>
+ <Articles>";
+
+
+        $itemtpl = "<item>
  <Title><![CDATA[%s]]></Title>
  <Description><![CDATA[%s]]></Description>
  <PicUrl><![CDATA[%s]]></PicUrl>
  <Url><![CDATA[%s]]></Url>
- </item>
+ </item>";
+
+
+        $tplend = "
  </Articles>
  <FuncFlag>0</FuncFlag>
  </xml>";
 
-        $resultStr = sprintf(
-            $msgtpl,
-            $touser,
-            $fromuser,
-            time(),
-            $news['name'],
-            $news['info'],
-            base_url($news['picurl']),
-            $news['url']
-        );
-        return $resultStr;
+        $items = "";
+        foreach($news as $rnews){
+            $nurl = $rnews['url'];
+            $dfturl =
+                $nurl?((!stripos($nurl,"?"))?($nurl."?member=".$touser):($nurl."&member=".$touser)):(base_url('/news/one/'.$rnews['id'].'/'.$touser));
+           $items.=sprintf(
+               $itemtpl,
+               $rnews['name'],
+               $rnews['info'],
+               base_url($rnews['picurl']),
+               $dfturl
+
+           );
+
+        }
+        $resp =
+            sprintf(
+                $tplstart,
+                $touser,
+                $fromuser,
+                time(),
+                $amc
+            ).$items.$tplend;
+        return $resp;
+
     }
 
     

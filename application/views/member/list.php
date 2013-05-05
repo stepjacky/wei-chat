@@ -3,22 +3,9 @@
 <table id="list" class="table table-striped table-bordered table-hover">
         <thead>
         <tr>
-          <th colspan="6">
-            <button type="button" class="btn btn-info" onclick="newOne();">
-             <i class="icon-plus"></i>新增会员
-            </button>
-          </th>
-        </tr>
-        <tr>
-                         
-                <th>昵称</th> 
-                
-                         
-                <th>微信</th> 
-                
-                         
-                <th>电邮</th> 
-                
+
+                <th>公众号ID</th>
+                <th>微信ID</th>
                          
                          
             <th>管理</th>
@@ -33,22 +20,14 @@
            <tr>
                       
                 <td>
-              <?=$name?>             
+              <?=$fromuser?>
             </td> 
                       
                 <td>
               <?=$weixin?>             
-            </td> 
-                      
-                <td>
-              <?=$email?>             
-            </td> 
-                      
+            </td>
                       
            <td>
-             <button class="btn btn-success" type="button" onclick="editOne('<?=$id;?>');">
-               <i class="icon-edit"></i>
-             </button>
              <button class="btn btn-danger" type="button" onclick="removeOne('<?=$id;?>');">
                <i class="icon-remove"></i>
              </button>

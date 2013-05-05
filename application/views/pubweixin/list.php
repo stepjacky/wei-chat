@@ -56,6 +56,10 @@
              <button class="btn btn-danger" type="button" onclick="removeOne('<?=$weixin_id;?>');">
                <i class="icon-remove"></i>删除
              </button>
+
+             <button class="btn btn-info" type="button" onclick="managerMember('<?=$weixin_id;?>');">
+               <i class="icon-remove"></i>会员
+             </button>
              <button
                   class="btn  btn-primary"
                   type="button"

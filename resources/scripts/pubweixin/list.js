@@ -27,3 +27,8 @@ function managerMessage(weixin){
     var url="/message/setting/"+weixin;
     loadContent("content",url);
 }
+function managerMember(weixin){
+    var url = "/member/list4wx/"+weixin;
+    loadContent("content",url);
+
+}

@@ -30,26 +30,7 @@ class Member extends MY_Controller {
         parent::__construct("Member_model");
     }
 
-    public function index($id=FALSE){
-         $data = $this->dao->get($id);        
-        //$this->load->view("admin/header-pure");
-        $this->load->view("member/index",$data);
-        //$this->load->view("admin/footer-pure");
-    }
-    
-     /**
-      * 新增编辑
-      */
-    public function editNew($id=FALSE){
-        
-       $data = $this->dao->get($id);
-             
-     
-        
-        $this->load->view("admin/header-pure");
-        $this->load->view($this->dao->table()."/editNew",$data);
-        $this->load->view("admin/footer-pure");
-    }
+
     
     
 }   

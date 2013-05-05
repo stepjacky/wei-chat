@@ -2,14 +2,19 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="9c42f37f-b41b-40a5-884c-3813c2511426" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/application/views/news/editNew.php" afterPath="$PROJECT_DIR$/application/views/news/editNew.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/application/views/admin/body-start.php" afterPath="$PROJECT_DIR$/application/views/admin/body-start.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/scripts/pubweixin/list.js" afterPath="$PROJECT_DIR$/resources/scripts/pubweixin/list.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/application/views/member/list.php" afterPath="$PROJECT_DIR$/application/views/member/list.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/application/views/pubweixin/list.php" afterPath="$PROJECT_DIR$/application/views/pubweixin/list.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/application/controllers/member.php" afterPath="$PROJECT_DIR$/application/controllers/member.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/application/models/respnewsmessage_model.php" afterPath="$PROJECT_DIR$/application/models/respnewsmessage_model.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="weixin.iws" />
     <ignored path=".idea/workspace.xml" />
     <file path="/header.php" changelist="9c42f37f-b41b-40a5-884c-3813c2511426" time="1367157774373" ignored="false" />
     <file path="/index.php" changelist="9c42f37f-b41b-40a5-884c-3813c2511426" time="1367201525090" ignored="false" />
-    <file path="/Dummy.txt" changelist="9c42f37f-b41b-40a5-884c-3813c2511426" time="1367595077420" ignored="false" />
+    <file path="/Dummy.txt" changelist="9c42f37f-b41b-40a5-884c-3813c2511426" time="1367760984189" ignored="false" />
     <file path="/footer.php" changelist="9c42f37f-b41b-40a5-884c-3813c2511426" time="1367083827161" ignored="false" />
     <file path="/charisma-app.css" changelist="9c42f37f-b41b-40a5-884c-3813c2511426" time="1366641995464" ignored="false" />
     <file path="/bootstrap-cerulean.css" changelist="9c42f37f-b41b-40a5-884c-3813c2511426" time="1366641664395" ignored="false" />
@@ -35,7 +40,7 @@
     <file path="/merchant.php" changelist="9c42f37f-b41b-40a5-884c-3813c2511426" time="1367159072197" ignored="false" />
     <file path="/MY_Model.php" changelist="9c42f37f-b41b-40a5-884c-3813c2511426" time="1367220775795" ignored="false" />
     <file path="/vcode_model.php" changelist="9c42f37f-b41b-40a5-884c-3813c2511426" time="1366818551986" ignored="false" />
-    <file path="/body-start.php" changelist="9c42f37f-b41b-40a5-884c-3813c2511426" time="1367196146611" ignored="false" />
+    <file path="/body-start.php" changelist="9c42f37f-b41b-40a5-884c-3813c2511426" time="1367764563960" ignored="false" />
     <file path="/picture.php" changelist="9c42f37f-b41b-40a5-884c-3813c2511426" time="1366899887651" ignored="false" />
     <file path="/MY_Controller.php" changelist="9c42f37f-b41b-40a5-884c-3813c2511426" time="1367201088315" ignored="false" />
     <file path="/test.php" changelist="9c42f37f-b41b-40a5-884c-3813c2511426" time="1366901912834" ignored="false" />
@@ -43,14 +48,14 @@
     <file path="/Langclass.php" changelist="9c42f37f-b41b-40a5-884c-3813c2511426" time="1366904205522" ignored="false" />
     <file path="/picture_model.php" changelist="9c42f37f-b41b-40a5-884c-3813c2511426" time="1366964742814" ignored="false" />
     <file path="/editNew.php" changelist="9c42f37f-b41b-40a5-884c-3813c2511426" time="1367596996649" ignored="false" />
-    <file path="/list.php" changelist="9c42f37f-b41b-40a5-884c-3813c2511426" time="1367201444004" ignored="false" />
+    <file path="/list.php" changelist="9c42f37f-b41b-40a5-884c-3813c2511426" time="1367766506787" ignored="false" />
     <file path="/pubweixin.php" changelist="9c42f37f-b41b-40a5-884c-3813c2511426" time="1367168313194" ignored="false" />
     <file path="/message.php" changelist="9c42f37f-b41b-40a5-884c-3813c2511426" time="1367227234120" ignored="false" />
     <file path="/WechatCallbackapiTest.php" changelist="9c42f37f-b41b-40a5-884c-3813c2511426" time="1366980045307" ignored="false" />
     <file path="/a.dummy" changelist="9c42f37f-b41b-40a5-884c-3813c2511426" time="1367071241965" ignored="false" />
     <file path="/pubweixin_model.php" changelist="9c42f37f-b41b-40a5-884c-3813c2511426" time="1367219869471" ignored="false" />
     <file path="/connector.php" changelist="9c42f37f-b41b-40a5-884c-3813c2511426" time="1366982702246" ignored="false" />
-    <file path="/list.js" changelist="9c42f37f-b41b-40a5-884c-3813c2511426" time="1367201258181" ignored="false" />
+    <file path="/list.js" changelist="9c42f37f-b41b-40a5-884c-3813c2511426" time="1367766152261" ignored="false" />
     <file path="/cardcatalog_model.php" changelist="9c42f37f-b41b-40a5-884c-3813c2511426" time="1366991881293" ignored="false" />
     <file path="/couponcatalog.php" changelist="9c42f37f-b41b-40a5-884c-3813c2511426" time="1367165377080" ignored="false" />
     <file path="/startvalidate.php" changelist="9c42f37f-b41b-40a5-884c-3813c2511426" time="1367080467538" ignored="false" />
@@ -67,7 +72,7 @@
     <file path="/selector.php" changelist="9c42f37f-b41b-40a5-884c-3813c2511426" time="1367138532216" ignored="false" />
     <file path="/picture.js" changelist="9c42f37f-b41b-40a5-884c-3813c2511426" time="1367139263842" ignored="false" />
     <file path="/respnewsmessage.php" changelist="9c42f37f-b41b-40a5-884c-3813c2511426" time="1367144680695" ignored="false" />
-    <file path="/respnewsmessage_model.php" changelist="9c42f37f-b41b-40a5-884c-3813c2511426" time="1367597050712" ignored="false" />
+    <file path="/respnewsmessage_model.php" changelist="9c42f37f-b41b-40a5-884c-3813c2511426" time="1367764017704" ignored="false" />
     <file path="/respmusicmessage.php" changelist="9c42f37f-b41b-40a5-884c-3813c2511426" time="1367147057202" ignored="false" />
     <file path="/couponcatalog_model.php" changelist="9c42f37f-b41b-40a5-884c-3813c2511426" time="1367150870353" ignored="false" />
     <file path="/get-code.php" changelist="9c42f37f-b41b-40a5-884c-3813c2511426" time="1367167471607" ignored="false" />
@@ -93,68 +98,47 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="index.php" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/application/views/circle/index.php">
+      <file leaf-file-name="body-start.php" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/application/views/admin/body-start.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="61" column="33" selection-start="4482" selection-end="4482" vertical-scroll-proportion="-44.363636">
-              <folding>
-                <element signature="n#style#0;n#div#1;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#input#0;n#div#1;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#input#1;n#div#1;n#!!top" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="jQueryRotate.2.2.js" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/resources/circle/js/jQueryRotate.2.2.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="18" column="31" selection-start="810" selection-end="810" vertical-scroll-proportion="0.0">
+            <state line="53" column="18" selection-start="2069" selection-end="2069" vertical-scroll-proportion="-5.818182">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="message.php" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/application/controllers/message.php">
+      <file leaf-file-name="list.php" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/application/views/pubweixin/list.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="113" column="41" selection-start="3407" selection-end="3407" vertical-scroll-proportion="-8.363636">
-              <folding>
-                <marker date="1367595913751" expanded="true" signature="4373:4586" placeholder="..." />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="respnewsmessage_model.php" pinned="false" current="true" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/application/models/respnewsmessage_model.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="123" column="29" selection-start="3971" selection-end="3971" vertical-scroll-proportion="0.6344994">
-              <folding>
-                <marker date="1367597052464" expanded="true" signature="3545:3937" placeholder="..." />
-                <marker date="1367597052464" expanded="true" signature="3741:3905" placeholder="..." />
-                <marker date="1367597052464" expanded="true" signature="3749:3892" placeholder="..." />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="news_model.php" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/application/models/news_model.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="30" column="5" selection-start="1212" selection-end="1212" vertical-scroll-proportion="-19.575758">
+            <state line="59" column="79" selection-start="1793" selection-end="1793" vertical-scroll-proportion="-1.8484849">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="editNew.php" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/application/views/news/editNew.php">
+      <file leaf-file-name="list.js" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/resources/scripts/pubweixin/list.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="53" column="7" selection-start="1063" selection-end="1063" vertical-scroll-proportion="-13.090909">
-              <folding>
-                <element signature="n#style#0;n#img#0;n#div#0;n#td#1;n#tr#2;n#tbody#0;n#table#0;n#fieldset#0;n#form#0;n#!!top" expanded="true" />
-              </folding>
+            <state line="30" column="27" selection-start="754" selection-end="761" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="member.php" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/application/controllers/member.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="32" column="0" selection-start="1211" selection-end="1211" vertical-scroll-proportion="-18.575758">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="list.php" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/application/views/member/list.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="17" column="30" selection-start="500" selection-end="500" vertical-scroll-proportion="0.49215922">
+              <folding />
             </state>
           </provider>
         </entry>
@@ -177,11 +161,6 @@
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
       <list>
-        <option value="$PROJECT_DIR$/application/models/respmusicmessage_model.php" />
-        <option value="$PROJECT_DIR$/application/models/resptextmessage_model.php" />
-        <option value="$PROJECT_DIR$/application/models/news_model.php" />
-        <option value="$PROJECT_DIR$/application/controllers/subscribemessage.php" />
-        <option value="$PROJECT_DIR$/application/models/member_model.php" />
         <option value="$PROJECT_DIR$/application/views/admin/bizregister.php" />
         <option value="$PROJECT_DIR$/application/controllers/welcome.php" />
         <option value="$PROJECT_DIR$/application/models/merchant_model.php" />
@@ -193,6 +172,11 @@
         <option value="$PROJECT_DIR$/application/controllers/message.php" />
         <option value="$PROJECT_DIR$/application/views/news/editNew.php" />
         <option value="$PROJECT_DIR$/application/models/respnewsmessage_model.php" />
+        <option value="$PROJECT_DIR$/application/views/admin/body-start.php" />
+        <option value="$PROJECT_DIR$/application/views/pubweixin/list.php" />
+        <option value="$PROJECT_DIR$/resources/scripts/pubweixin/list.js" />
+        <option value="$PROJECT_DIR$/application/controllers/member.php" />
+        <option value="$PROJECT_DIR$/application/views/member/list.php" />
       </list>
     </option>
   </component>
@@ -229,6 +213,7 @@
       <sortByType />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -271,6 +256,46 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
+              <option name="myItemId" value="resources" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="scripts" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="weixin" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="wei-chat" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="resources" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="scripts" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="pubweixin" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="weixin" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="wei-chat" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
               <option name="myItemId" value="application" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
@@ -311,7 +336,7 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="news" />
+              <option name="myItemId" value="pubweixin" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -329,7 +354,11 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="models" />
+              <option name="myItemId" value="views" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="member" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -353,7 +382,6 @@
           </PATH>
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -362,8 +390,8 @@
     <property name="options.lastSelected" value="project.propVCSSupport.Mappings" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="FullScreen" value="false" />
-    <property name="options.searchVisible" value="true" />
     <property name="options.splitter.details.proportions" value="0.2" />
+    <property name="options.searchVisible" value="true" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
@@ -430,7 +458,7 @@
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.22537473" sideWeight="0.6718925" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.25267667" sideWeight="0.6718925" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
@@ -506,31 +534,6 @@
     <breakpoint-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/application/models/resptextmessage_model.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="26" column="57" selection-start="1141" selection-end="1141" vertical-scroll-proportion="-14.878788" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/application/controllers/subscribemessage.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="41" column="35" selection-start="1442" selection-end="1442" vertical-scroll-proportion="-17.39394" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/application/models/merchant_model.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="52" column="42" selection-start="1799" selection-end="1799" vertical-scroll-proportion="0.0" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/application/controllers/welcome.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="60" column="8" selection-start="1433" selection-end="1433" vertical-scroll-proportion="0.0" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/application/controllers/admin.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="82" column="8" selection-start="2681" selection-end="2681" vertical-scroll-proportion="0.0" />
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/application/models/subscribemessage_model.php">
       <provider selected="true" editor-type-id="text-editor">
         <state line="38" column="21" selection-start="1449" selection-end="1449" vertical-scroll-proportion="0.0" />
@@ -560,55 +563,84 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/application/views/circle/index.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="61" column="33" selection-start="4482" selection-end="4482" vertical-scroll-proportion="-44.363636">
-          <folding>
-            <element signature="n#style#0;n#div#1;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#input#0;n#div#1;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#input#1;n#div#1;n#!!top" expanded="true" />
-          </folding>
+        <state line="61" column="33" selection-start="4482" selection-end="4482" vertical-scroll-proportion="0.0">
+          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/resources/circle/js/jQueryRotate.2.2.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="18" column="31" selection-start="810" selection-end="810" vertical-scroll-proportion="0.0">
+        <state line="18" column="31" selection-start="810" selection-end="810" vertical-scroll-proportion="0.028268551">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/application/controllers/message.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="113" column="41" selection-start="3407" selection-end="3407" vertical-scroll-proportion="-8.363636">
+        <state line="113" column="41" selection-start="3407" selection-end="3407" vertical-scroll-proportion="0.028950542">
           <folding>
-            <marker date="1367595913751" expanded="true" signature="4373:4586" placeholder="..." />
+            <marker date="1367595913751" expanded="true" signature="-1:-1" placeholder="..." />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/application/models/news_model.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="30" column="5" selection-start="1212" selection-end="1212" vertical-scroll-proportion="-19.575758">
-          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/application/views/news/editNew.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="53" column="7" selection-start="1063" selection-end="1063" vertical-scroll-proportion="-13.090909">
-          <folding>
-            <element signature="n#style#0;n#img#0;n#div#0;n#td#1;n#tr#2;n#tbody#0;n#table#0;n#fieldset#0;n#form#0;n#!!top" expanded="true" />
-          </folding>
+        <state line="53" column="7" selection-start="1063" selection-end="1063" vertical-scroll-proportion="-0.72727275">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/application/models/news_model.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="30" column="5" selection-start="1212" selection-end="1212" vertical-scroll-proportion="-18.575758">
+          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/application/models/respnewsmessage_model.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="123" column="29" selection-start="3971" selection-end="3971" vertical-scroll-proportion="0.6344994">
+        <state line="143" column="22" selection-start="4618" selection-end="4618" vertical-scroll-proportion="4.2058825">
           <folding>
-            <marker date="1367597052464" expanded="true" signature="3545:3937" placeholder="..." />
-            <marker date="1367597052464" expanded="true" signature="3741:3905" placeholder="..." />
-            <marker date="1367597052464" expanded="true" signature="3749:3892" placeholder="..." />
+            <marker date="1367764033835" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1367764033835" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1367764033835" expanded="true" signature="-1:-1" placeholder="..." />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/application/views/admin/body-start.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="53" column="18" selection-start="2069" selection-end="2069" vertical-scroll-proportion="-5.818182">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/application/views/pubweixin/list.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="59" column="79" selection-start="1793" selection-end="1793" vertical-scroll-proportion="-1.8484849">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/scripts/pubweixin/list.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="30" column="27" selection-start="754" selection-end="761" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/application/controllers/member.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="32" column="0" selection-start="1211" selection-end="1211" vertical-scroll-proportion="-18.575758">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/application/views/member/list.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="17" column="30" selection-start="500" selection-end="500" vertical-scroll-proportion="0.49215922">
+          <folding />
         </state>
       </provider>
     </entry>
