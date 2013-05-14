@@ -3,9 +3,7 @@
     #lottery {
         background: url("/resources/circle/images/disc-bg.png?v=79804") no-repeat scroll 0 0 transparent;
         height: 100%;
-        left: 50px;
         width: 100%;
-        margin:0 auto;
         position: absolute;
     }
 
@@ -41,28 +39,23 @@
 </style>
 
 
+<header>
 
-<div id="lottery">
-    <img id="imgs" src="/resources/circle/images/disc-rotate.gif" viewbox="0 0 352 30"
-         style="position: absolute; left: 47px; top: 47px; width: 352px; height: 352px;" class="image"/>
+    <div id="lottery">
+        <img id="imgs" src="/resources/circle/images/disc-rotate.gif" viewbox="0 0 352 30"
+             style="position: absolute; left: 47px; top: 47px; width: 352px; height: 352px;" class="image"/>
 
 
-    <div class="arrow">
+        <div class="arrow">
+        </div>
+        <div class="lot-btn first">
+            <span></span>
+        </div>
+
     </div>
-    <div class="lot-btn first">
-        <span></span>
-    </div>
+</header>
 
-</div>
 <button onclick="recicle()" >重新抽奖</button>
-
-<div class="demo">
-    <div id="disk"></div>
-    <div id="start"><img src="start.png" id="startbtn"></div>
-</div>
-
-
-
 
 
 <script type="text/javascript">
@@ -86,7 +79,7 @@
         });
 
 
-        alert($(document).width());
+        alert($(document.body).width());
 
 
     });
