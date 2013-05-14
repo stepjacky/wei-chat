@@ -44,7 +44,7 @@
 </style>
 
 
-<header>
+
 
     <div id="lottery">
 
@@ -59,7 +59,7 @@
         </div>
 
     </div>
-</header>
+
 
 <button onclick="recicle()" >重新抽奖</button>
 
