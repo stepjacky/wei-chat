@@ -9,17 +9,6 @@
         margin: 0 auto;
     }
 
-    #lottery .arrow {
-        background: url("/resources/circle/images/arrow.png?v=1bde2") no-repeat scroll 0 0 transparent;
-        height: 191px;
-        left: 206px;
-        position: absolute;
-        top: 120px;
-        width: 32px;
-        margin: 0 auto;
-
-    }
-
     #lottery .lot-btn {
         height: 191px;
         left: 178px;
@@ -42,17 +31,9 @@
         background: url("/resources/circle/images/buttons_01.png?v=8bc8e") no-repeat scroll 0 0 transparent;
     }
 
-
-
-    .demo{width:417px; height:417px; position:relative; margin:50px auto}
-    #disk{width:417px; height:417px; background:url(disk.jpg) no-repeat}
-    #start{width:163px; height:320px; position:absolute; top:46px; left:130px;}
-    #start img{cursor:pointer}
 </style>
 
-
-
-
+<header>
     <div id="lottery">
 
         <img id="imgs" src="/resources/circle/images/disc-rotate.png" viewbox="0 0 352 30"
@@ -63,16 +44,10 @@
         </div>
 
     </div>
-
-
-<div class="demo">
-    <div id="disk"></div>
-    <div id="start"><img src="start.png" id="startbtn"></div>
-</div>
-
-
-<button onclick="recicle()" >重新抽奖</button>
-
+</header>
+<article>
+    <button onclick="recicle()" >重新抽奖</button>
+</article>
 
 <script type="text/javascript">
     $(function () {
