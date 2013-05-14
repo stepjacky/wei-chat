@@ -2,13 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="9c42f37f-b41b-40a5-884c-3813c2511426" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/application/views/lotterydial/index.php" afterPath="$PROJECT_DIR$/application/views/lotterydial/index.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/application/controllers/lotterydial.php" afterPath="$PROJECT_DIR$/application/controllers/lotterydial.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/application/views/front/header.php" afterPath="$PROJECT_DIR$/application/views/front/header.php" />
     </list>
     <ignored path="weixin.iws" />
     <ignored path=".idea/workspace.xml" />
-    <file path="/header.php" changelist="9c42f37f-b41b-40a5-884c-3813c2511426" time="1367157774373" ignored="false" />
+    <file path="/header.php" changelist="9c42f37f-b41b-40a5-884c-3813c2511426" time="1368555352579" ignored="false" />
     <file path="/index.php" changelist="9c42f37f-b41b-40a5-884c-3813c2511426" time="1368554585561" ignored="false" />
     <file path="/Dummy.txt" changelist="9c42f37f-b41b-40a5-884c-3813c2511426" time="1368539328750" ignored="false" />
     <file path="/footer.php" changelist="9c42f37f-b41b-40a5-884c-3813c2511426" time="1367083827161" ignored="false" />
@@ -95,10 +93,10 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="index.php" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="index.php" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/application/views/lotterydial/index.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="14" column="17" selection-start="529" selection-end="529" vertical-scroll-proportion="0.4053076">
+            <state line="63" column="0" selection-start="1515" selection-end="1557" vertical-scroll-proportion="-45.81818">
               <folding>
                 <element signature="n#style#0;n#img#0;n#div#0;n#header#0;n#!!top" expanded="true" />
               </folding>
@@ -109,7 +107,7 @@
       <file leaf-file-name="header-pure.php" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/application/views/front/header-pure.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="9" column="22" selection-start="536" selection-end="536" vertical-scroll-proportion="-6.5454545">
+            <state line="7" column="4" selection-start="476" selection-end="583" vertical-scroll-proportion="-5.090909">
               <folding />
             </state>
           </provider>
@@ -124,10 +122,10 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="header.php" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="header.php" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/application/views/front/header.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="10" column="6" selection-start="421" selection-end="421" vertical-scroll-proportion="-7.2727275">
+            <state line="13" column="23" selection-start="519" selection-end="519" vertical-scroll-proportion="0.37635705">
               <folding />
             </state>
           </provider>
@@ -160,7 +158,6 @@
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
       <list>
-        <option value="$PROJECT_DIR$/application/models/subscribemessage_model.php" />
         <option value="$PROJECT_DIR$/application/core/MY_Model.php" />
         <option value="$PROJECT_DIR$/application/views/circle/index.php" />
         <option value="$PROJECT_DIR$/application/controllers/message.php" />
@@ -176,6 +173,7 @@
         <option value="$PROJECT_DIR$/application/views/front/header-pure.php" />
         <option value="$PROJECT_DIR$/application/controllers/lotterydial.php" />
         <option value="$PROJECT_DIR$/application/views/lotterydial/index.php" />
+        <option value="$PROJECT_DIR$/application/views/front/header.php" />
       </list>
     </option>
   </component>
@@ -679,13 +677,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/application/views/front/header.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="10" column="6" selection-start="421" selection-end="421" vertical-scroll-proportion="-7.2727275">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/application/controllers/lotterydial.php">
       <provider selected="true" editor-type-id="text-editor">
         <state line="50" column="44" selection-start="1713" selection-end="1713" vertical-scroll-proportion="-22.212122">
@@ -693,19 +684,26 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/application/views/lotterydial/index.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="63" column="0" selection-start="1515" selection-end="1557" vertical-scroll-proportion="-45.81818">
+          <folding>
+            <element signature="n#style#0;n#img#0;n#div#0;n#header#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/application/views/front/header-pure.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="9" column="22" selection-start="536" selection-end="536" vertical-scroll-proportion="-6.5454545">
+        <state line="7" column="4" selection-start="476" selection-end="583" vertical-scroll-proportion="-5.090909">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/application/views/lotterydial/index.php">
+    <entry file="file://$PROJECT_DIR$/application/views/front/header.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="14" column="17" selection-start="529" selection-end="529" vertical-scroll-proportion="0.4053076">
-          <folding>
-            <element signature="n#style#0;n#img#0;n#div#0;n#header#0;n#!!top" expanded="true" />
-          </folding>
+        <state line="13" column="23" selection-start="519" selection-end="519" vertical-scroll-proportion="0.37635705">
+          <folding />
         </state>
       </provider>
     </entry>
