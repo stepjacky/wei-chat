@@ -72,8 +72,9 @@ class Respnewsmessage_model extends ResponseMessage_Model {
                     "newsid"=>$news
                 ));
         }
+        $this->firelog($udata);
         $this->db->truncate("respnewslist");
-        $this->db->insert("respnewslist",$udata);
+        $this->db->insert_batch("respnewslist",$udata);
         $this->db->trans_complete();
     }
 
