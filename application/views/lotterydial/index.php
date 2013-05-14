@@ -21,18 +21,18 @@
     }
 
     #lottery .lot-btn {
-        height: 92px;
+        height: 191px;
         left: 178px;
         overflow: hidden;
         position: absolute;
-        top: 181px;
+        top: 94px;
         width: 91px;
     }
 
     #lottery .lot-btn span {
         cursor: pointer;
         display: block;
-        height: 92px;
+        height: 191px;
         position: relative;
         width: 91px;
         margin: 0 auto;
@@ -41,6 +41,13 @@
     #lottery .first span {
         background: url("/resources/circle/images/buttons_01.png?v=8bc8e") no-repeat scroll 0 0 transparent;
     }
+
+
+
+    .demo{width:417px; height:417px; position:relative; margin:50px auto}
+    #disk{width:417px; height:417px; background:url(disk.jpg) no-repeat}
+    #start{width:163px; height:320px; position:absolute; top:46px; left:130px;}
+    #start img{cursor:pointer}
 </style>
 
 
@@ -48,17 +55,20 @@
 
     <div id="lottery">
 
-        <img id="imgs" src="/resources/circle/images/disc-rotate.gif" viewbox="0 0 352 30"
+        <img id="imgs" src="/resources/circle/images/disc-rotate.png" viewbox="0 0 352 30"
              style="position: relative; left: 47px; top: 47px; width: 352px; height: 352px;" class="image"/>
-
-        <div class="arrow">
-        </div>
 
         <div class="lot-btn first">
             <span></span>
         </div>
 
     </div>
+
+
+<div class="demo">
+    <div id="disk"></div>
+    <div id="start"><img src="start.png" id="startbtn"></div>
+</div>
 
 
 <button onclick="recicle()" >重新抽奖</button>
