@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="9c42f37f-b41b-40a5-884c-3813c2511426" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/application/models/respnewsmessage_model.php" afterPath="$PROJECT_DIR$/application/models/respnewsmessage_model.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/application/views/news/editNew.php" afterPath="$PROJECT_DIR$/application/views/news/editNew.php" />
     </list>
     <ignored path="weixin.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -93,72 +93,28 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="index.html" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/resources/circle/index.html">
+      <file leaf-file-name="news.php" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/application/controllers/news.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="9" column="6" selection-start="388" selection-end="388" vertical-scroll-proportion="-6.5454545">
-              <folding>
-                <element signature="n#style#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#img#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="index.php" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/application/views/lotterydial/index.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="13" column="22" selection-start="486" selection-end="486" vertical-scroll-proportion="-9.454545">
-              <folding>
-                <element signature="n#style#0;n#img#0;n#div#0;n#!!top" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="header.php" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/application/views/front/header.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="10" column="6" selection-start="421" selection-end="421" vertical-scroll-proportion="-7.2727275">
+            <state line="23" column="6" selection-start="1072" selection-end="1072" vertical-scroll-proportion="5.090909">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="respnewsmessage.php" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/application/controllers/respnewsmessage.php">
+      <file leaf-file-name="editNew.php" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/application/views/news/editNew.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="26" column="39" selection-start="1128" selection-end="1128" vertical-scroll-proportion="-15.666667">
+            <state line="8" column="7" selection-start="277" selection-end="277" vertical-scroll-proportion="0.23160434">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="MY_Controller.php" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/application/core/MY_Controller.php">
+      <file leaf-file-name="editNew.php" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/application/views/respmusicmessage/editNew.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="385" column="26" selection-start="10061" selection-end="10061" vertical-scroll-proportion="-18.575758">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="respnewsmessage_model.php" pinned="false" current="true" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/application/models/respnewsmessage_model.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="74" column="31" selection-start="2488" selection-end="2488" vertical-scroll-proportion="0.7352941">
-              <folding>
-                <marker date="1368550875397" expanded="true" signature="3768:3965" placeholder="..." />
-                <marker date="1368550875397" expanded="true" signature="3996:4139" placeholder="..." />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="lotterydial.php" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/application/controllers/lotterydial.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="33" column="0" selection-start="1264" selection-end="1264" vertical-scroll-proportion="-13.090909">
+            <state line="9" column="69" selection-start="309" selection-end="373" vertical-scroll-proportion="-6.5454545">
               <folding />
             </state>
           </provider>
@@ -188,7 +144,6 @@
         <option value="$PROJECT_DIR$/application/core/MY_Model.php" />
         <option value="$PROJECT_DIR$/application/views/circle/index.php" />
         <option value="$PROJECT_DIR$/application/controllers/message.php" />
-        <option value="$PROJECT_DIR$/application/views/news/editNew.php" />
         <option value="$PROJECT_DIR$/application/views/admin/body-start.php" />
         <option value="$PROJECT_DIR$/application/views/pubweixin/list.php" />
         <option value="$PROJECT_DIR$/resources/scripts/pubweixin/list.js" />
@@ -198,6 +153,7 @@
         <option value="$PROJECT_DIR$/application/controllers/lotterydial.php" />
         <option value="$PROJECT_DIR$/application/views/lotterydial/index.php" />
         <option value="$PROJECT_DIR$/application/models/respnewsmessage_model.php" />
+        <option value="$PROJECT_DIR$/application/views/news/editNew.php" />
       </list>
     </option>
   </component>
@@ -317,6 +273,68 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="application" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="weixin" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="wei-chat" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="application" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="views" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="weixin" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="wei-chat" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="application" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="views" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="respmusicmessage" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="weixin" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="wei-chat" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="application" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="views" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="news" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -511,21 +529,6 @@
     <breakpoint-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/application/views/news/editNew.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="53" column="7" selection-start="1063" selection-end="1063" vertical-scroll-proportion="-0.72727275" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/application/models/news_model.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="30" column="5" selection-start="1212" selection-end="1212" vertical-scroll-proportion="-18.575758" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/application/views/admin/body-start.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="53" column="18" selection-start="2069" selection-end="2069" vertical-scroll-proportion="0.0" />
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/application/views/pubweixin/list.php">
       <provider selected="true" editor-type-id="text-editor">
         <state line="59" column="79" selection-start="1793" selection-end="1793" vertical-scroll-proportion="0.0" />
@@ -553,7 +556,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/application/controllers/lotterydial.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="33" column="0" selection-start="1264" selection-end="1264" vertical-scroll-proportion="-13.090909">
+        <state line="33" column="0" selection-start="1264" selection-end="1264" vertical-scroll-proportion="0.52110976">
           <folding />
         </state>
       </provider>
@@ -609,9 +612,30 @@
       <provider selected="true" editor-type-id="text-editor">
         <state line="74" column="31" selection-start="2488" selection-end="2488" vertical-scroll-proportion="0.7352941">
           <folding>
-            <marker date="1368550875397" expanded="true" signature="3768:3965" placeholder="..." />
-            <marker date="1368550875397" expanded="true" signature="3996:4139" placeholder="..." />
+            <marker date="1368550875397" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1368550875397" expanded="true" signature="-1:-1" placeholder="..." />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/application/controllers/news.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="23" column="6" selection-start="1072" selection-end="1072" vertical-scroll-proportion="5.090909">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/application/views/respmusicmessage/editNew.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="9" column="69" selection-start="309" selection-end="373" vertical-scroll-proportion="-6.5454545">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/application/views/news/editNew.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="8" column="7" selection-start="277" selection-end="277" vertical-scroll-proportion="0.23160434">
+          <folding />
         </state>
       </provider>
     </entry>

@@ -7,8 +7,8 @@
 </legend>
 <table class="table table-hover table-bordered">
 <tbody>
-    
-  
+
+<input id="id" type="hidden" name="id" value="<?=val($id)?>" />
   
      
   
