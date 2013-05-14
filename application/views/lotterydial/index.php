@@ -8,40 +8,14 @@
        /* position: absolute;*/
         margin: 0 auto;
     }
-
-    #lottery .lot-btn {
-        height: 191px;
-        left: 178px;
-        overflow: hidden;
-        position: absolute;
-        top: 94px;
-        width: 91px;
-    }
-
-    #lottery .lot-btn span {
-        cursor: pointer;
-        display: block;
-        height: 191px;
-        position: relative;
-        width: 91px;
-        margin: 0 auto;
-    }
-
-    #lottery .first span {
-        background: url("/resources/circle/images/buttons_01.png?v=8bc8e") no-repeat scroll 0 0 transparent;
-    }
-
 </style>
 
 <header>
     <div id="lottery">
 
-        <img id="imgs" src="/resources/circle/images/disc-rotate.png" viewbox="0 0 352 30"
-             style="position: relative; left: 47px; top: 47px; width: 352px; height: 352px;" class="image"/>
+        <img id="imgs" src="/resources/circle/images/c-arrow.png" viewbox="0 0 90 191"
+             style="cursor : pointer;position: relative; left: 181px; top: 128px; width: 90px; height: 191px;" class="image"/>
 
-        <div class="lot-btn first">
-            <span></span>
-        </div>
 
     </div>
 </header>
@@ -52,7 +26,7 @@
 <script type="text/javascript">
     $(function () {
         var j=0;
-        $(".lot-btn").click(function () {
+        $("#imgs").click(function () {
 
             for (var i = 0; i <= 10000; i++) {
                 j=i;
