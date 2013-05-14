@@ -32,9 +32,9 @@ class Lotterydial extends MY_Controller {
 
     public function index($id=FALSE){
 
-        $this->load->view("front/header-pure");
+        $this->load->view("front/header");
         $this->load->view("lotterydial/index");
-        $this->load->view("front/footer-pure");
+        $this->load->view("front/footer");
     }
     
      /**

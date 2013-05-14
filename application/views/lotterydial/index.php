@@ -2,23 +2,27 @@
 <style>
     #lottery {
         background: url("/resources/circle/images/disc-bg.png?v=79804") no-repeat scroll 0 0 transparent;
-        height: 100%;
-        width: 100%;
-        position: absolute;
+        background-size: 450px 450px;
+        height: 450px;
+        width: 450px;
+       /* position: absolute;*/
+        margin: 0 auto;
     }
 
     #lottery .arrow {
         background: url("/resources/circle/images/arrow.png?v=1bde2") no-repeat scroll 0 0 transparent;
         height: 191px;
-        left: 207px;
+        left: 221px;
         position: absolute;
         top: 120px;
         width: 32px;
+        margin: 0 auto;
+
     }
 
     #lottery .lot-btn {
         height: 92px;
-        left: 177px;
+        left: 192px;
         overflow: hidden;
         position: absolute;
         top: 181px;
@@ -31,6 +35,7 @@
         height: 92px;
         position: relative;
         width: 91px;
+        margin: 0 auto;
     }
 
     #lottery .first span {
@@ -42,12 +47,13 @@
 <header>
 
     <div id="lottery">
-        <img id="imgs" src="/resources/circle/images/disc-rotate.gif" viewbox="0 0 352 30"
-             style="position: absolute; left: 47px; top: 47px; width: 352px; height: 352px;" class="image"/>
 
+        <img id="imgs" src="/resources/circle/images/disc-rotate.gif" viewbox="0 0 352 30"
+             style="position: relative; left: 47px; top: 47px; width: 352px; height: 352px;" class="image"/>
 
         <div class="arrow">
         </div>
+
         <div class="lot-btn first">
             <span></span>
         </div>
@@ -77,10 +83,6 @@
             }
 
         });
-
-
-        alert($(document.body).width());
-
 
     });
     function recicle(){
