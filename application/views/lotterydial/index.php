@@ -4,7 +4,7 @@
         background: url("/resources/circle/images/disc-bg.png?v=79804") no-repeat scroll 0 0 transparent;
         background-size: 450px 450px;
         height: 450px;
-        width: 450px;
+        width: 100%;
        /* position: absolute;*/
         margin: 0 auto;
     }
@@ -12,7 +12,7 @@
     #lottery .arrow {
         background: url("/resources/circle/images/arrow.png?v=1bde2") no-repeat scroll 0 0 transparent;
         height: 191px;
-        left: 221px;
+        left: 206px;
         position: absolute;
         top: 120px;
         width: 32px;
@@ -22,7 +22,7 @@
 
     #lottery .lot-btn {
         height: 92px;
-        left: 192px;
+        left: 178px;
         overflow: hidden;
         position: absolute;
         top: 181px;
