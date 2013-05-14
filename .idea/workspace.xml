@@ -2,9 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="9c42f37f-b41b-40a5-884c-3813c2511426" name="Default" comment="">
-      <change type="DELETED" beforePath="G:\webroot\wei-chat\resources\circle\images\buttons_01.png" afterPath="" />
-      <change type="DELETED" beforePath="G:\webroot\wei-chat\resources\circle\images\disc-rotate.png" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/application/config/database.php" afterPath="$PROJECT_DIR$/application/config/database.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/application/views/lotterydial/index.php" afterPath="$PROJECT_DIR$/application/views/lotterydial/index.php" />
     </list>
     <ignored path="weixin.iws" />
@@ -99,7 +96,7 @@
       <file leaf-file-name="index.php" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/application/views/lotterydial/index.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="9" column="5" selection-start="364" selection-end="364" vertical-scroll-proportion="0.2647059">
+            <state line="7" column="29" selection-start="306" selection-end="330" vertical-scroll-proportion="0.20588236">
               <folding>
                 <element signature="n#style#0;n#img#0;n#div#0;n#header#0;n#!!top" expanded="true" />
               </folding>
@@ -687,7 +684,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/application/views/lotterydial/index.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="9" column="5" selection-start="364" selection-end="364" vertical-scroll-proportion="0.2647059">
+        <state line="7" column="29" selection-start="306" selection-end="330" vertical-scroll-proportion="0.20588236">
           <folding>
             <element signature="n#style#0;n#img#0;n#div#0;n#header#0;n#!!top" expanded="true" />
           </folding>

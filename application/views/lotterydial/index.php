@@ -2,7 +2,7 @@
 <style>
     #lottery {
         background: url("/resources/circle/images/disc-bg.png?v=79804") no-repeat scroll 0 0 transparent;
-        /*background-size: 450px 450px;*/
+        background-size: 450px 450px;
         height: 450px;
         width: 100%;
        /* position: absolute;*/
