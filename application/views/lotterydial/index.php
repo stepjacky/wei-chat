@@ -5,7 +5,7 @@
         background: url("/resources/circle/images/box.png?v=79804") no-repeat scroll 0 0 transparent;
         background-size: 272px 272px;
         height: 272px;
-        width: 100%;
+        width: 272px;
        /* position: absolute;*/
         margin: 0 auto;
     }

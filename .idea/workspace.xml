@@ -7,7 +7,7 @@
     <ignored path="weixin.iws" />
     <ignored path=".idea/workspace.xml" />
     <file path="/header.php" changelist="9c42f37f-b41b-40a5-884c-3813c2511426" time="1368555352579" ignored="false" />
-    <file path="/index.php" changelist="9c42f37f-b41b-40a5-884c-3813c2511426" time="1368628294801" ignored="false" />
+    <file path="/index.php" changelist="9c42f37f-b41b-40a5-884c-3813c2511426" time="1368628787434" ignored="false" />
     <file path="/Dummy.txt" changelist="9c42f37f-b41b-40a5-884c-3813c2511426" time="1368625818886" ignored="false" />
     <file path="/footer.php" changelist="9c42f37f-b41b-40a5-884c-3813c2511426" time="1367083827161" ignored="false" />
     <file path="/charisma-app.css" changelist="9c42f37f-b41b-40a5-884c-3813c2511426" time="1366641995464" ignored="false" />
@@ -97,7 +97,7 @@
       <file leaf-file-name="index.php" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/application/views/lotterydial/index.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="20" column="0" selection-start="617" selection-end="617" vertical-scroll-proportion="0.57901084">
+            <state line="7" column="20" selection-start="390" selection-end="390" vertical-scroll-proportion="0.2026538">
               <folding />
             </state>
           </provider>
@@ -626,7 +626,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/application/views/lotterydial/index.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="20" column="0" selection-start="617" selection-end="617" vertical-scroll-proportion="0.57901084">
+        <state line="7" column="20" selection-start="390" selection-end="390" vertical-scroll-proportion="0.2026538">
           <folding />
         </state>
       </provider>
