@@ -2,11 +2,19 @@
 <style>
     #lottery {
         background: url("/resources/circle/images/disc-bg.png?v=79804") no-repeat scroll 0 0 transparent;
-        background-size: 450px 450px;
-        height: 450px;
+        background-size: 320px 320px;
+        height: 320px;
         width: 100%;
        /* position: absolute;*/
         margin: 0 auto;
+    }
+    .image{
+        cursor : pointer;
+        position: relative;
+        left: 116px;
+        top: 63px;
+        width: 90px;
+        height: 191px;
     }
 </style>
 
@@ -14,7 +22,7 @@
     <div id="lottery">
 
         <img id="imgs" src="/resources/circle/images/c-arrow.png" viewbox="0 0 90 191"
-             style="cursor : pointer;position: relative; left: 181px; top: 128px; width: 90px; height: 191px;" class="image"/>
+             class="image"/>
 
 
     </div>
