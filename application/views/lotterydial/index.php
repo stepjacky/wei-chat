@@ -21,7 +21,7 @@
     }
     .panel {
         position: relative;
-        margin: 15px 05px  0 5px;
+        margin: 15px 15px  0 15px;
         padding: 0px 19px 14px 19px;
         *padding-top: 0px;
         background-color: #FFD993;
