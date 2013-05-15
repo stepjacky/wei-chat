@@ -102,7 +102,9 @@
 <script type="text/javascript">
     $(function () {
         var a =<?=$angle?>; //角度
-        var p ='<?=$prize?>'; //奖项
+        var p ='<?=$prize?>'; //奖项名
+        var g = '<?=$id?>';//等级
+
         $("#imgs").click(function () {
             $("#imgs").rotate({
                 duration:5000, //转动时间
@@ -110,7 +112,10 @@
                 animateTo:3600+a, //转动角度
                 easing: $.easing.easeOutSine,
                 callback: function(){
-                    var con = confirm('恭喜你，中得'+p+'\n还要再来一次吗？');
+                    var msg='';
+                    if(g<=3) msg='运气不错,恭喜你，中得:'+p+'\n还要再来一次吗？';
+                    else msg="看来运气不好,再来一次吗?";
+                    var con = confirm(msg);
                     if(con){
                         window.location.href=window.location.href;
                     }else{
