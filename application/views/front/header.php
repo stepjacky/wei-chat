@@ -2,7 +2,7 @@
 <html lang="en">
 <head>
     <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="viewport" content="width=device-width, initial-scale=1,uer-scalable=no">
     <title>台州微生活</title>
 
     <link rel="stylesheet" href="/resources/jquery-mobile/jquery.mobile-1.3.1.css"   />

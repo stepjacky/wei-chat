@@ -1,4 +1,5 @@
 <script type="text/javascript" src="/resources/circle/js/jQueryRotate.2.2.js"></script>
+<script type="text/javascript" src="/resources/jquery-ui/effect/jquery.easing.min.js"></script>
 <style>
     #lottery {
         background: url("/resources/circle/images/disc-bg.png?v=79804") no-repeat scroll 0 0 transparent;
@@ -33,22 +34,23 @@
 
 <script type="text/javascript">
     $(function () {
-        var j=0;
+        var a =<?=$angle?>; //角度
+        var p ='<?=$prize?>'; //奖项
         $("#imgs").click(function () {
-
-            for (var i = 0; i <= 10000; i++) {
-                j=i;
-                $("#imgs").rotate({
-                    animateTo: j,
-                    duration: 5000
-                });
-                if (j >= 4068) {
-
-                    break;
+            $("#imgs").rotate({
+                duration:5000, //转动时间
+                angle: 0,
+                animateTo:3600+a, //转动角度
+                easing: $.easing.easeOutSine,
+                callback: function(){
+                    var con = confirm('恭喜你，中得'+p+'\n还要再来一次吗？');
+                    if(con){
+                        window.location.href=window.location.href;
+                    }else{
+                        return false;
+                    }
                 }
-
-            }
-
+            });
         });
 
     });
