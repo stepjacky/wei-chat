@@ -2,9 +2,9 @@
 <script type="text/javascript" src="/resources/jquery-ui/effect/jquery.easing.min.js"></script>
 <style>
     #lottery {
-        background: url("/resources/circle/images/disc-bg.png?v=79804") no-repeat scroll 0 0 transparent;
-        background-size: 320px 320px;
-        height: 320px;
+        background: url("/resources/circle/images/box.png?v=79804") no-repeat scroll 0 0 transparent;
+        background-size: 272px 272px;
+        height: 272px;
         width: 100%;
        /* position: absolute;*/
         margin: 0 auto;
@@ -12,8 +12,8 @@
     .image{
         cursor : pointer;
         position: relative;
-        left: 116px;
-        top: 63px;
+        left: 91px;
+        top: 40px;
         width: 90px;
         height: 191px;
     }
