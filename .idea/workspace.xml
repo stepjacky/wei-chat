@@ -2,42 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="9c42f37f-b41b-40a5-884c-3813c2511426" name="Default" comment="">
-      <change type="DELETED" beforePath="G:\webroot\wei-chat\resources\jquery-b-theme\.gitignore" afterPath="" />
-      <change type="DELETED" beforePath="G:\webroot\wei-chat\resources\jquery-b-theme\buttons.html" afterPath="" />
-      <change type="DELETED" beforePath="G:\webroot\wei-chat\resources\jquery-b-theme\forms.html" afterPath="" />
-      <change type="DELETED" beforePath="G:\webroot\wei-chat\resources\jquery-b-theme\index.html" afterPath="" />
-      <change type="DELETED" beforePath="G:\webroot\wei-chat\resources\jquery-b-theme\listviews.html" afterPath="" />
-      <change type="DELETED" beforePath="G:\webroot\wei-chat\resources\jquery-b-theme\nav.html" afterPath="" />
-      <change type="DELETED" beforePath="G:\webroot\wei-chat\resources\jquery-b-theme\readme.md" afterPath="" />
-      <change type="DELETED" beforePath="G:\webroot\wei-chat\resources\jquery-b-theme\themes\bootstrap.css" afterPath="" />
-      <change type="DELETED" beforePath="G:\webroot\wei-chat\resources\jquery-b-theme\themes\bootstrap.min.css" afterPath="" />
-      <change type="DELETED" beforePath="G:\webroot\wei-chat\resources\jquery-b-theme\themes\font\fontawesome-webfont.eot" afterPath="" />
-      <change type="DELETED" beforePath="G:\webroot\wei-chat\resources\jquery-b-theme\themes\font\fontawesome-webfont.svg" afterPath="" />
-      <change type="DELETED" beforePath="G:\webroot\wei-chat\resources\jquery-b-theme\themes\font\fontawesome-webfont.svgz" afterPath="" />
-      <change type="DELETED" beforePath="G:\webroot\wei-chat\resources\jquery-b-theme\themes\font\fontawesome-webfont.ttf" afterPath="" />
-      <change type="DELETED" beforePath="G:\webroot\wei-chat\resources\jquery-b-theme\themes\font\fontawesome-webfont.woff" afterPath="" />
-      <change type="DELETED" beforePath="G:\webroot\wei-chat\resources\jquery-b-theme\themes\images\ajax-loader.gif" afterPath="" />
-      <change type="DELETED" beforePath="G:\webroot\wei-chat\resources\jquery-b-theme\themes\images\ajax-loader.png" afterPath="" />
-      <change type="DELETED" beforePath="G:\webroot\wei-chat\resources\jquery-b-theme\themes\images\icons-18-black-pack.png" afterPath="" />
-      <change type="DELETED" beforePath="G:\webroot\wei-chat\resources\jquery-b-theme\themes\images\icons-18-black.png" afterPath="" />
-      <change type="DELETED" beforePath="G:\webroot\wei-chat\resources\jquery-b-theme\themes\images\icons-18-white-pack.png" afterPath="" />
-      <change type="DELETED" beforePath="G:\webroot\wei-chat\resources\jquery-b-theme\themes\images\icons-18-white.png" afterPath="" />
-      <change type="DELETED" beforePath="G:\webroot\wei-chat\resources\jquery-b-theme\themes\images\icons-36-black-pack.png" afterPath="" />
-      <change type="DELETED" beforePath="G:\webroot\wei-chat\resources\jquery-b-theme\themes\images\icons-36-black.png" afterPath="" />
-      <change type="DELETED" beforePath="G:\webroot\wei-chat\resources\jquery-b-theme\themes\images\icons-36-white-pack.png" afterPath="" />
-      <change type="DELETED" beforePath="G:\webroot\wei-chat\resources\jquery-b-theme\themes\images\icons-36-white.png" afterPath="" />
-      <change type="DELETED" beforePath="G:\webroot\wei-chat\resources\jquery-b-theme\themes\jqm-icon-pack-1.1.1-fa.css" afterPath="" />
-      <change type="DELETED" beforePath="G:\webroot\wei-chat\resources\jquery-b-theme\themes\jqm-icon-pack-2.1.2-fa.css" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/bootstrap/css/bootstrap-responsive.css" afterPath="$PROJECT_DIR$/resources/bootstrap/css/bootstrap-responsive.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/bootstrap/css/bootstrap-responsive.min.css" afterPath="$PROJECT_DIR$/resources/bootstrap/css/bootstrap-responsive.min.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/bootstrap/css/bootstrap.css" afterPath="$PROJECT_DIR$/resources/bootstrap/css/bootstrap.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/bootstrap/js/bootstrap.js" afterPath="$PROJECT_DIR$/resources/bootstrap/js/bootstrap.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/bootstrap/css/bootstrap.min.css" afterPath="$PROJECT_DIR$/resources/bootstrap/css/bootstrap.min.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/bootstrap/js/bootstrap.min.js" afterPath="$PROJECT_DIR$/resources/bootstrap/js/bootstrap.min.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/application/views/front/footer.php" afterPath="$PROJECT_DIR$/application/views/front/footer.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/application/views/front/header.php" afterPath="$PROJECT_DIR$/application/views/front/header.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/application/views/lotterydial/index.php" afterPath="$PROJECT_DIR$/application/views/lotterydial/index.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="weixin.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -132,7 +97,7 @@
       <file leaf-file-name="index.php" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/application/views/lotterydial/index.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="77" column="10" selection-start="1849" selection-end="1849" vertical-scroll-proportion="0.50784075">
+            <state line="81" column="0" selection-start="1924" selection-end="1924" vertical-scroll-proportion="0.6236429">
               <folding />
             </state>
           </provider>
@@ -645,7 +610,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/application/views/lotterydial/index.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="77" column="10" selection-start="1849" selection-end="1849" vertical-scroll-proportion="0.50784075">
+        <state line="81" column="0" selection-start="1924" selection-end="1924" vertical-scroll-proportion="0.6236429">
           <folding />
         </state>
       </provider>

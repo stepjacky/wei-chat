@@ -75,7 +75,7 @@
 
     <div class="row-fluid">
         <div class="panel">
-          
+
         <span class="label label-success">
                    抽奖说明
          </span>
