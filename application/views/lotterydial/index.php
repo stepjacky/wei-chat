@@ -6,7 +6,6 @@
         background-size: 272px 272px;
         height: 272px;
         width: 272px;
-       /* position: absolute;*/
         margin: 0 auto;
     }
     .image{
@@ -16,6 +15,20 @@
         top: 40px;
         width: 90px;
         height: 191px;
+    }
+    body{
+        background-color: #ff822e;
+    }
+    .panel {
+        position: relative;
+        margin: 15px 05px  0 5px;
+        padding: 0px 19px 14px 19px;
+        *padding-top: 0px;
+        background-color: #FFD993;
+        border: 1px solid #ddd;
+        -webkit-border-radius: 4px;
+        -moz-border-radius: 4px;
+        border-radius: 4px;
     }
 </style>
 
@@ -28,9 +41,63 @@
 
     </div>
 </header>
-<article>
-    <button onclick="recicle()" >重新抽奖</button>
-</article>
+<div class="container-fluid">
+   <div class="row-fluid">
+      <div class="panel">
+
+        <span class="label label-important">
+           奖项说明
+        </span>
+
+          <dl class="dl-horizontal">
+              <dt>
+                           一等奖
+              </dt>
+              <dd>A description list is perfect for defining terms.</dd>
+              <dt>
+
+                        二等奖
+              </dt>
+              <dd>Vestibulum id ligula porta felis euismod semper eget lacinia odio sem nec elit.</dd>
+              <dt>
+                     三等奖
+              </dt>
+              <dd>Malesuada porta</dd>
+
+            </dl>
+
+
+      </div>
+
+
+   </div>
+
+
+    <div class="row-fluid">
+        <div class="panel">
+          
+        <span class="label label-success">
+                   抽奖说明
+         </span>
+
+            <dl class="dl-horizontal">
+
+                <dd>A description list is perfect for defining terms.</dd>
+
+                <dd>Vestibulum id ligula porta felis euismod semper eget lacinia odio sem nec elit.</dd>
+
+                <dd>Malesuada porta</dd>
+
+            </dl>
+
+
+        </div>
+
+
+    </div>
+
+</div>
+
 
 <script type="text/javascript">
     $(function () {
@@ -54,12 +121,6 @@
         });
 
     });
-    function recicle(){
-        i  =0;
-
-        $("#imgs").rotate(i);
-    }
-
 
 
 </script>

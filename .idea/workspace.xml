@@ -2,14 +2,49 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="9c42f37f-b41b-40a5-884c-3813c2511426" name="Default" comment="">
+      <change type="DELETED" beforePath="G:\webroot\wei-chat\resources\jquery-b-theme\.gitignore" afterPath="" />
+      <change type="DELETED" beforePath="G:\webroot\wei-chat\resources\jquery-b-theme\buttons.html" afterPath="" />
+      <change type="DELETED" beforePath="G:\webroot\wei-chat\resources\jquery-b-theme\forms.html" afterPath="" />
+      <change type="DELETED" beforePath="G:\webroot\wei-chat\resources\jquery-b-theme\index.html" afterPath="" />
+      <change type="DELETED" beforePath="G:\webroot\wei-chat\resources\jquery-b-theme\listviews.html" afterPath="" />
+      <change type="DELETED" beforePath="G:\webroot\wei-chat\resources\jquery-b-theme\nav.html" afterPath="" />
+      <change type="DELETED" beforePath="G:\webroot\wei-chat\resources\jquery-b-theme\readme.md" afterPath="" />
+      <change type="DELETED" beforePath="G:\webroot\wei-chat\resources\jquery-b-theme\themes\bootstrap.css" afterPath="" />
+      <change type="DELETED" beforePath="G:\webroot\wei-chat\resources\jquery-b-theme\themes\bootstrap.min.css" afterPath="" />
+      <change type="DELETED" beforePath="G:\webroot\wei-chat\resources\jquery-b-theme\themes\font\fontawesome-webfont.eot" afterPath="" />
+      <change type="DELETED" beforePath="G:\webroot\wei-chat\resources\jquery-b-theme\themes\font\fontawesome-webfont.svg" afterPath="" />
+      <change type="DELETED" beforePath="G:\webroot\wei-chat\resources\jquery-b-theme\themes\font\fontawesome-webfont.svgz" afterPath="" />
+      <change type="DELETED" beforePath="G:\webroot\wei-chat\resources\jquery-b-theme\themes\font\fontawesome-webfont.ttf" afterPath="" />
+      <change type="DELETED" beforePath="G:\webroot\wei-chat\resources\jquery-b-theme\themes\font\fontawesome-webfont.woff" afterPath="" />
+      <change type="DELETED" beforePath="G:\webroot\wei-chat\resources\jquery-b-theme\themes\images\ajax-loader.gif" afterPath="" />
+      <change type="DELETED" beforePath="G:\webroot\wei-chat\resources\jquery-b-theme\themes\images\ajax-loader.png" afterPath="" />
+      <change type="DELETED" beforePath="G:\webroot\wei-chat\resources\jquery-b-theme\themes\images\icons-18-black-pack.png" afterPath="" />
+      <change type="DELETED" beforePath="G:\webroot\wei-chat\resources\jquery-b-theme\themes\images\icons-18-black.png" afterPath="" />
+      <change type="DELETED" beforePath="G:\webroot\wei-chat\resources\jquery-b-theme\themes\images\icons-18-white-pack.png" afterPath="" />
+      <change type="DELETED" beforePath="G:\webroot\wei-chat\resources\jquery-b-theme\themes\images\icons-18-white.png" afterPath="" />
+      <change type="DELETED" beforePath="G:\webroot\wei-chat\resources\jquery-b-theme\themes\images\icons-36-black-pack.png" afterPath="" />
+      <change type="DELETED" beforePath="G:\webroot\wei-chat\resources\jquery-b-theme\themes\images\icons-36-black.png" afterPath="" />
+      <change type="DELETED" beforePath="G:\webroot\wei-chat\resources\jquery-b-theme\themes\images\icons-36-white-pack.png" afterPath="" />
+      <change type="DELETED" beforePath="G:\webroot\wei-chat\resources\jquery-b-theme\themes\images\icons-36-white.png" afterPath="" />
+      <change type="DELETED" beforePath="G:\webroot\wei-chat\resources\jquery-b-theme\themes\jqm-icon-pack-1.1.1-fa.css" afterPath="" />
+      <change type="DELETED" beforePath="G:\webroot\wei-chat\resources\jquery-b-theme\themes\jqm-icon-pack-2.1.2-fa.css" afterPath="" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/bootstrap/css/bootstrap-responsive.css" afterPath="$PROJECT_DIR$/resources/bootstrap/css/bootstrap-responsive.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/bootstrap/css/bootstrap-responsive.min.css" afterPath="$PROJECT_DIR$/resources/bootstrap/css/bootstrap-responsive.min.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/bootstrap/css/bootstrap.css" afterPath="$PROJECT_DIR$/resources/bootstrap/css/bootstrap.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/bootstrap/js/bootstrap.js" afterPath="$PROJECT_DIR$/resources/bootstrap/js/bootstrap.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/bootstrap/css/bootstrap.min.css" afterPath="$PROJECT_DIR$/resources/bootstrap/css/bootstrap.min.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/bootstrap/js/bootstrap.min.js" afterPath="$PROJECT_DIR$/resources/bootstrap/js/bootstrap.min.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/application/views/front/footer.php" afterPath="$PROJECT_DIR$/application/views/front/footer.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/application/views/front/header.php" afterPath="$PROJECT_DIR$/application/views/front/header.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/application/views/lotterydial/index.php" afterPath="$PROJECT_DIR$/application/views/lotterydial/index.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="weixin.iws" />
     <ignored path=".idea/workspace.xml" />
-    <file path="/header.php" changelist="9c42f37f-b41b-40a5-884c-3813c2511426" time="1368555352579" ignored="false" />
-    <file path="/index.php" changelist="9c42f37f-b41b-40a5-884c-3813c2511426" time="1368628787434" ignored="false" />
+    <file path="/header.php" changelist="9c42f37f-b41b-40a5-884c-3813c2511426" time="1368635075845" ignored="false" />
+    <file path="/index.php" changelist="9c42f37f-b41b-40a5-884c-3813c2511426" time="1368638013601" ignored="false" />
     <file path="/Dummy.txt" changelist="9c42f37f-b41b-40a5-884c-3813c2511426" time="1368625818886" ignored="false" />
-    <file path="/footer.php" changelist="9c42f37f-b41b-40a5-884c-3813c2511426" time="1367083827161" ignored="false" />
+    <file path="/footer.php" changelist="9c42f37f-b41b-40a5-884c-3813c2511426" time="1368635220276" ignored="false" />
     <file path="/charisma-app.css" changelist="9c42f37f-b41b-40a5-884c-3813c2511426" time="1366641995464" ignored="false" />
     <file path="/bootstrap-cerulean.css" changelist="9c42f37f-b41b-40a5-884c-3813c2511426" time="1366641664395" ignored="false" />
     <file path="/karla-ubuntu.css" changelist="9c42f37f-b41b-40a5-884c-3813c2511426" time="1366642196156" ignored="false" />
@@ -97,7 +132,25 @@
       <file leaf-file-name="index.php" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/application/views/lotterydial/index.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="7" column="20" selection-start="390" selection-end="390" vertical-scroll-proportion="0.2026538">
+            <state line="77" column="10" selection-start="1849" selection-end="1849" vertical-scroll-proportion="0.50784075">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="header.php" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/application/views/front/header.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="7" column="36" selection-start="290" selection-end="290" vertical-scroll-proportion="-5.090909">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="footer.php" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/application/views/front/footer.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="0" column="49" selection-start="49" selection-end="49" vertical-scroll-proportion="-0.0">
               <folding />
             </state>
           </provider>
@@ -106,7 +159,7 @@
       <file leaf-file-name="lotterydial.php" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/application/controllers/lotterydial.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="97" column="0" selection-start="3014" selection-end="3014" vertical-scroll-proportion="-24.727272">
+            <state line="39" column="0" selection-start="1754" selection-end="1754" vertical-scroll-proportion="-19.636364">
               <folding />
             </state>
           </provider>
@@ -130,7 +183,6 @@
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
       <list>
-        <option value="$PROJECT_DIR$/application/views/circle/index.php" />
         <option value="$PROJECT_DIR$/application/controllers/message.php" />
         <option value="$PROJECT_DIR$/application/views/admin/body-start.php" />
         <option value="$PROJECT_DIR$/application/views/pubweixin/list.php" />
@@ -143,8 +195,9 @@
         <option value="$PROJECT_DIR$/application/views/front/footer-pure.php" />
         <option value="$PROJECT_DIR$/application/views/front/header-pure.php" />
         <option value="$PROJECT_DIR$/application/config/database.php" />
-        <option value="$PROJECT_DIR$/application/views/front/header.php" />
         <option value="$PROJECT_DIR$/application/controllers/lotterydial.php" />
+        <option value="$PROJECT_DIR$/application/views/front/header.php" />
+        <option value="$PROJECT_DIR$/application/views/front/footer.php" />
         <option value="$PROJECT_DIR$/application/views/lotterydial/index.php" />
       </list>
     </option>
@@ -228,7 +281,7 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="circle" />
+              <option name="myItemId" value="jquery-ui" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -246,7 +299,7 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="circle" />
+              <option name="myItemId" value="bootstrap" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
@@ -268,11 +321,29 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="circle" />
+              <option name="myItemId" value="bootstrap" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="weixin" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="wei-chat" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="images" />
+              <option name="myItemId" value="resources" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="bootstrap" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="css" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -326,69 +397,7 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="respmusicmessage" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="weixin" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="wei-chat" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="application" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="views" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="news" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="weixin" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="wei-chat" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="application" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="views" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="lotterydial" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="weixin" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="wei-chat" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="application" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="controllers" />
+              <option name="myItemId" value="front" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -547,21 +556,6 @@
     <breakpoint-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/application/views/member/list.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="33" column="16" selection-start="940" selection-end="940" vertical-scroll-proportion="0.9553679" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/resources/circle/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="9" column="6" selection-start="388" selection-end="388" vertical-scroll-proportion="-6.5454545" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/application/controllers/respmusicmessage.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="26" column="42" selection-start="1132" selection-end="1132" vertical-scroll-proportion="0.6236429" />
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/application/controllers/respnewsmessage.php">
       <provider selected="true" editor-type-id="text-editor">
         <state line="26" column="39" selection-start="1128" selection-end="1128" vertical-scroll-proportion="-15.666667" />
@@ -607,11 +601,6 @@
         <state line="50" column="44" selection-start="2633" selection-end="2633" vertical-scroll-proportion="0.5367913" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/application/views/front/header.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="12" column="13" selection-start="466" selection-end="466" vertical-scroll-proportion="0.3474065" />
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/resources/circle/js/jQueryRotate.2.2.js">
       <provider selected="true" editor-type-id="text-editor">
         <state line="5" column="45" selection-start="208" selection-end="246" vertical-scroll-proportion="0.14134276" />
@@ -619,14 +608,44 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/application/controllers/lotterydial.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="97" column="0" selection-start="3014" selection-end="3014" vertical-scroll-proportion="-24.727272">
+        <state line="39" column="0" selection-start="1754" selection-end="1754" vertical-scroll-proportion="-19.636364">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/bootstrap/js/bootstrap.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="24" column="0" selection-start="912" selection-end="912" vertical-scroll-proportion="0.6784452">
+          <folding>
+            <element signature="n#!!doc" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/bootstrap/css/bootstrap-responsive.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="212" column="20" selection-start="3111" selection-end="3111" vertical-scroll-proportion="-24.141531">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/application/views/front/footer.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="49" selection-start="49" selection-end="49" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/application/views/front/header.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="7" column="36" selection-start="290" selection-end="290" vertical-scroll-proportion="-5.090909">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/application/views/lotterydial/index.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="7" column="20" selection-start="390" selection-end="390" vertical-scroll-proportion="0.2026538">
+        <state line="77" column="10" selection-start="1849" selection-end="1849" vertical-scroll-proportion="0.50784075">
           <folding />
         </state>
       </provider>
