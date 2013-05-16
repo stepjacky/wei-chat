@@ -29,6 +29,30 @@ class Lotterywin_model extends MY_Model {
     public  function __construct(){
         parent::__construct("Lotterywin_model");
     }  
-    
-    
-}   
+
+    public function get_winers($lottery,$grade){
+        $SQL = "select count(id) as num from %s where lotterydial_id='%s' and wingrade=%d";
+        $query =  $this->db->query(sprintf($SQL,$this->table(),$lottery,$grade));
+        $result = $query->row_array();
+        return $result['num'];
+    }
+
+    public function user_limition($lottery,$member){
+        $SQL = "select (count(lw.id)-ld.userlimit) num
+        from %s lw
+        left join lotterydial ld on ld.id='%s'
+        where lw.lotterydial_id=ld.id and lw.weixin_id='%s'";
+        $query =  $this->db->query(sprintf($SQL,$this->table(),$lottery,$member));
+        $result = $query->row_array();
+        return $result['num']<0;
+    }
+
+    public function user_records($lottery,$member){
+        $this->db->select("id,wingrade,lotterycode");
+        $this->db->where("lotterydial_id",$lottery);
+        $this->db->where("weixin_id",$member);
+        $this->db->order_by("firedate","desc");
+    }
+
+
+}

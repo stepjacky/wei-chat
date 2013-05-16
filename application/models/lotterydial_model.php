@@ -28,7 +28,77 @@ class Lotterydial_model extends MY_Model {
      
     public  function __construct(){
         parent::__construct("Lotterydial_model");
-    }  
+    }
+
+
+
+    public function getconfig($pubwx){
+
+        $this->db->select("id,code,userlimit,firstnum,firstmsg,firstodds,secondnum,secondmsg,secondodds,thirdnum,thirdmsg,thirdodds");
+        $this->db->where("pubweixin_id",$pubwx);
+        $this->db->where("DATEDIFF(CURRENT_DATE,enddate)>","0");
+        $this->db->where("DATEDIFF(CURRENT_DATE,startdate)<","0");
+        $this->db->where("enabled",true);
+        $query =   $this->db->get($this->table());
+        $result = $query->row_array();
+        return empty($result)?FALSE:$result;
+    }
+
+
+    public function set_enabled($pubwx,$id,$enable=TRUE){
+        $this->db->trans_start();
+        if($enable){
+            $this->db->where("pubweixin_id",$pubwx);
+            $this->db->update($this->table(),array("enabled"=>false));
+        }
+        $this->db->where("id",$id);
+        $this->db->update($this->table(),array("enabled"=>$enable));
+        $this->db->trans_complete();
+    }
+
+    public function  checklottory(&$data){
+        $pubweixin = $data['pubweixin_id'];
+        $lottery   = $data['lotterydial_id'];
+        $member    = $data['member'];
+        $wingrade  = $data['wingrade'];
+
+        $this->db->trans_start();
+        if($wingrade<=3){
+            $this->db->insert('lottorywin',$data);
+            $data['num'] = 2;
+            unset($data['wingrade']);
+            unset($data['merchant_code']);
+            unset($data['lottory_code']);
+            $this->db->insert("lotterynum",$data);
+            $this->db->trans_complete();
+            return false;
+        }
+
+
+        $this->db->select("num");
+        $this->db->where("pubweixin_id",$pubweixin);
+        $this->db->where("lotterydial_id",$lottery);
+        $this->db->where("weixin_id",$member);
+        $query =  $this->db->get("lotterynum");
+        $result = $query->row_array();
+        if($result['num']==2){
+            return false;
+        }else if($result['num']==0){
+
+            $this->db->insert("lottery",$data);
+            $this->db->trans_complete();
+            return true;
+        }else if($result['num']==1){
+            $this->db->where("pubweixin_id",$pubweixin);
+            $this->db->where("lotterydial_id",$lottery);
+            $this->db->where("weixin_id",$member);
+            $data['num']=2;
+            $this->db->update('lotterynum',$data);
+            $this->db->trans_complete();
+            return false;
+        }
+
+    }
     
     
 }   

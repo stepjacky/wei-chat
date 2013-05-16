@@ -133,10 +133,11 @@ class Respnewsmessage_model extends ResponseMessage_Model {
  </xml>";
 
         $items = "";
+        $qs = "member=".$touser.'&pubweixin='.$fromuser;
         foreach($news as $rnews){
             $nurl = $rnews['url'];
             $dfturl =
-                $nurl?((!stripos($nurl,"?"))?($nurl."?member=".$touser):($nurl."&member=".$touser)):(base_url('/news/one/'.$rnews['id'].'/'.$touser));
+                $nurl?((!stripos($nurl,"?"))?($nurl.'?'.$qs):($nurl.'&'.$qs)):(base_url('/news/one/'.$rnews['id'].'/'.$touser));
            $items.=sprintf(
                $itemtpl,
                $rnews['name'],
