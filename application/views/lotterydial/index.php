@@ -120,8 +120,8 @@
                 easing: $.easing.easeOutSine,
                 callback: function(){
                    $.get('/lotterydial/winit/'+lottery+'/'+member+'/'+g+'/'+lcode,function(again){
-                        alert(again);
-                        //window.location.href=window.location.href;
+
+                         window.location.href=window.location.href;
 
                     });
 

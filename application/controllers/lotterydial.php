@@ -60,13 +60,28 @@ class Lotterydial extends MY_Controller {
         }
 
 
-        if($usernum['num']>=$lcfg['userlimit']){
-            $wins  = $this->winerdao->user_records($id,$member);
+        $wins  = $this->winerdao->user_records($id,$member);
+        if(empty($wins)){
+
+            if($usernum['num']<$lcfg['userlimit']){
+                $this->go_index($lcfg,$pubwx,$member);
+                return;
+            }else{
+                $this->go_gameover();
+                return;
+            }
+        }else{
             $this->go_cash($wins,$lcfg,$member);
             return ;
         }
 
 
+    }
+
+    private function  go_gameover(){
+        $this->load->view("front/header");
+        $this->load->view("lotterydial/gameover");
+        $this->load->view("front/footer");
     }
 
     private function  go_exceed(){
@@ -167,6 +182,8 @@ class Lotterydial extends MY_Controller {
 
 
         $prize_arr['6']['prize'] = 8-$ltotal+50;
+
+        $this->fireLog($prize_arr);
 
         $arr = array();
 

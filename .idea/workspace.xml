@@ -2,17 +2,16 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="9c42f37f-b41b-40a5-884c-3813c2511426" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/application/views/lotterydial/getcode.php" afterPath="$PROJECT_DIR$/application/views/lotterydial/getcode.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/application/views/lotterydial/gameover.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/application/views/lotterydial/index.php" afterPath="$PROJECT_DIR$/application/views/lotterydial/index.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/application/controllers/lotterydial.php" afterPath="$PROJECT_DIR$/application/controllers/lotterydial.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/application/models/lotterydial_model.php" afterPath="$PROJECT_DIR$/application/models/lotterydial_model.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/application/models/lotterywin_model.php" afterPath="$PROJECT_DIR$/application/models/lotterywin_model.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="weixin.iws" />
     <ignored path=".idea/workspace.xml" />
     <file path="/header.php" changelist="9c42f37f-b41b-40a5-884c-3813c2511426" time="1368635075845" ignored="false" />
-    <file path="/index.php" changelist="9c42f37f-b41b-40a5-884c-3813c2511426" time="1368815733821" ignored="false" />
-    <file path="/Dummy.txt" changelist="9c42f37f-b41b-40a5-884c-3813c2511426" time="1368790806858" ignored="false" />
+    <file path="/index.php" changelist="9c42f37f-b41b-40a5-884c-3813c2511426" time="1368817858450" ignored="false" />
+    <file path="/Dummy.txt" changelist="9c42f37f-b41b-40a5-884c-3813c2511426" time="1368817732925" ignored="false" />
     <file path="/footer.php" changelist="9c42f37f-b41b-40a5-884c-3813c2511426" time="1368635220276" ignored="false" />
     <file path="/charisma-app.css" changelist="9c42f37f-b41b-40a5-884c-3813c2511426" time="1366641995464" ignored="false" />
     <file path="/bootstrap-cerulean.css" changelist="9c42f37f-b41b-40a5-884c-3813c2511426" time="1366641664395" ignored="false" />
@@ -78,13 +77,14 @@
     <file path="/subscribemessage.php" changelist="9c42f37f-b41b-40a5-884c-3813c2511426" time="1367201688939" ignored="false" />
     <file path="/subscribemessage_model.php" changelist="9c42f37f-b41b-40a5-884c-3813c2511426" time="1367220686425" ignored="false" />
     <file path="/index.html" changelist="9c42f37f-b41b-40a5-884c-3813c2511426" time="1368546771477" ignored="false" />
-    <file path="/lotterydial.php" changelist="9c42f37f-b41b-40a5-884c-3813c2511426" time="1368815843616" ignored="false" />
+    <file path="/lotterydial.php" changelist="9c42f37f-b41b-40a5-884c-3813c2511426" time="1368819637378" ignored="false" />
     <file path="/lotterydial_model.php" changelist="9c42f37f-b41b-40a5-884c-3813c2511426" time="1368814299766" ignored="false" />
     <file path="/lotterywin_model.php" changelist="9c42f37f-b41b-40a5-884c-3813c2511426" time="1368817283597" ignored="false" />
     <file path="/guid_helper.php" changelist="9c42f37f-b41b-40a5-884c-3813c2511426" time="1368698940312" ignored="false" />
     <file path="/exceed.php" changelist="9c42f37f-b41b-40a5-884c-3813c2511426" time="1368798463677" ignored="false" />
     <file path="/getcode.php" changelist="9c42f37f-b41b-40a5-884c-3813c2511426" time="1368817390214" ignored="false" />
     <file path="/a.html" changelist="9c42f37f-b41b-40a5-884c-3813c2511426" time="1368797415227" ignored="false" />
+    <file path="/gameover.php" changelist="9c42f37f-b41b-40a5-884c-3813c2511426" time="1368818588997" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -104,19 +104,37 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="lotterydial.php" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="lotterydial.php" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/application/controllers/lotterydial.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="285" column="48" selection-start="7766" selection-end="7766" vertical-scroll-proportion="-17.848484">
+            <state line="185" column="35" selection-start="5126" selection-end="5126" vertical-scroll-proportion="0.5066345">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="getcode.php" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="database.php" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/application/config/database.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="47" column="26" selection-start="2564" selection-end="2564" vertical-scroll-proportion="-13.484848">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="gameover.php" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/application/views/lotterydial/gameover.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="19" column="9" selection-start="400" selection-end="400" vertical-scroll-proportion="-9.121212">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="getcode.php" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/application/views/lotterydial/getcode.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="132" column="50" selection-start="3296" selection-end="3296" vertical-scroll-proportion="0.3920386">
+            <state line="132" column="50" selection-start="3296" selection-end="3296" vertical-scroll-proportion="-8.393939">
               <folding />
             </state>
           </provider>
@@ -125,7 +143,7 @@
       <file leaf-file-name="index.php" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/application/views/lotterydial/index.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="118" column="40" selection-start="2788" selection-end="2788" vertical-scroll-proportion="-23.69697">
+            <state line="123" column="25" selection-start="2998" selection-end="2998" vertical-scroll-proportion="-13.090909">
               <folding />
             </state>
           </provider>
@@ -134,7 +152,7 @@
       <file leaf-file-name="lotterywin_model.php" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/application/models/lotterywin_model.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="65" column="40" selection-start="2643" selection-end="2643" vertical-scroll-proportion="-19.30303">
+            <state line="65" column="40" selection-start="2643" selection-end="2643" vertical-scroll-proportion="-22.212122">
               <folding />
             </state>
           </provider>
@@ -143,7 +161,7 @@
       <file leaf-file-name="MY_Model.php" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/application/core/MY_Model.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="44" column="20" selection-start="1146" selection-end="1146" vertical-scroll-proportion="-8.69697">
+            <state line="44" column="20" selection-start="1146" selection-end="1146" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -152,7 +170,7 @@
       <file leaf-file-name="lotterydial_model.php" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/application/models/lotterydial_model.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="37" column="29" selection-start="1336" selection-end="1336" vertical-scroll-proportion="-6.212121">
+            <state line="37" column="29" selection-start="1336" selection-end="1336" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -176,7 +194,6 @@
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
       <list>
-        <option value="$PROJECT_DIR$/application/helpers/guid_helper.php" />
         <option value="$PROJECT_DIR$/application/views/pubweixin/list.php" />
         <option value="$PROJECT_DIR$/application/views/admin/body-start.php" />
         <option value="$PROJECT_DIR$/application/views/message/index.php" />
@@ -187,11 +204,12 @@
         <option value="$PROJECT_DIR$/application/views/lotterydial/editNew.php" />
         <option value="$PROJECT_DIR$/application/views/lotterydial/exceed.php" />
         <option value="$PROJECT_DIR$/application/third_party/db.sql" />
-        <option value="$PROJECT_DIR$/application/views/lotterydial/index.php" />
-        <option value="$PROJECT_DIR$/application/controllers/lotterydial.php" />
         <option value="$PROJECT_DIR$/application/models/lotterydial_model.php" />
         <option value="$PROJECT_DIR$/application/models/lotterywin_model.php" />
         <option value="$PROJECT_DIR$/application/views/lotterydial/getcode.php" />
+        <option value="$PROJECT_DIR$/application/views/lotterydial/index.php" />
+        <option value="$PROJECT_DIR$/application/views/lotterydial/gameover.php" />
+        <option value="$PROJECT_DIR$/application/controllers/lotterydial.php" />
       </list>
     </option>
   </component>
@@ -329,8 +347,8 @@
     <property name="options.lastSelected" value="preferences.sourceCode.General" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="FullScreen" value="false" />
-    <property name="options.splitter.details.proportions" value="0.2" />
     <property name="options.searchVisible" value="true" />
+    <property name="options.splitter.details.proportions" value="0.2" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
@@ -397,7 +415,7 @@
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.17505354" sideWeight="0.6718925" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.17719486" sideWeight="0.6718925" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
@@ -473,11 +491,6 @@
     <breakpoint-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/application/controllers/news.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="43" column="8" selection-start="1551" selection-end="1551" vertical-scroll-proportion="0.40473226" />
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/application/views/news/editNew.php">
       <provider selected="true" editor-type-id="text-editor">
         <state line="67" column="11" selection-start="1417" selection-end="1417" vertical-scroll-proportion="0.9402242" />
@@ -495,9 +508,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/resources/bootstrap/css/bootstrap.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="33" column="20" selection-start="527" selection-end="527" vertical-scroll-proportion="0.33292684">
-          <folding />
-        </state>
+        <state line="33" column="20" selection-start="527" selection-end="527" vertical-scroll-proportion="0.33292684" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/application/views/lotterydial/exceed.php">
@@ -508,48 +519,16 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/application/third_party/db.sql">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="533" column="0" selection-start="24923" selection-end="24923" vertical-scroll-proportion="-12.509091">
-          <folding>
-            <marker date="1368804663033" expanded="true" signature="-1:-1" placeholder="-- 导出 weicha..." />
-            <marker date="1368804663033" expanded="true" signature="-1:-1" placeholder="-- 导出 表 weic..." />
-            <marker date="1368804663033" expanded="true" signature="-1:-1" placeholder="-- 导出 表 weic..." />
-            <marker date="1368804663033" expanded="true" signature="-1:-1" placeholder="-- 导出 表 weic..." />
-            <marker date="1368804663033" expanded="true" signature="-1:-1" placeholder="-- 导出 表 weic..." />
-            <marker date="1368804663033" expanded="true" signature="-1:-1" placeholder="-- 导出 表 weic..." />
-            <marker date="1368804663033" expanded="true" signature="-1:-1" placeholder="-- 导出 表 weic..." />
-            <marker date="1368804663033" expanded="true" signature="-1:-1" placeholder="-- 导出 表 weic..." />
-            <marker date="1368804663033" expanded="true" signature="-1:-1" placeholder="-- 导出 表 weic..." />
-            <marker date="1368804663033" expanded="true" signature="-1:-1" placeholder="-- 导出 表 weic..." />
-            <marker date="1368804663033" expanded="true" signature="-1:-1" placeholder="-- 导出 表 weic..." />
-            <marker date="1368804663033" expanded="true" signature="-1:-1" placeholder="-- 导出 表 weic..." />
-            <marker date="1368804663033" expanded="true" signature="-1:-1" placeholder="-- 导出 表 weic..." />
-            <marker date="1368804663033" expanded="true" signature="-1:-1" placeholder="-- 导出 表 weic..." />
-            <marker date="1368804663033" expanded="true" signature="-1:-1" placeholder="-- 导出 表 weic..." />
-            <marker date="1368804663033" expanded="true" signature="-1:-1" placeholder="-- 导出 表 weic..." />
-            <marker date="1368804663033" expanded="true" signature="-1:-1" placeholder="-- 导出 表 weic..." />
-            <marker date="1368804663033" expanded="true" signature="-1:-1" placeholder="-- 导出 表 weic..." />
-            <marker date="1368804663033" expanded="true" signature="-1:-1" placeholder="-- 导出 表 weic..." />
-            <marker date="1368804663033" expanded="true" signature="-1:-1" placeholder="-- 导出 表 weic..." />
-            <marker date="1368804663033" expanded="true" signature="-1:-1" placeholder="-- 导出 表 weic..." />
-            <marker date="1368804663033" expanded="true" signature="-1:-1" placeholder="-- 导出 表 weic..." />
-            <marker date="1368804663033" expanded="true" signature="-1:-1" placeholder="-- 导出 表 weic..." />
-            <marker date="1368804663033" expanded="true" signature="-1:-1" placeholder="-- 导出 表 weic..." />
-            <marker date="1368804663033" expanded="true" signature="-1:-1" placeholder="-- 导出 表 weic..." />
-            <marker date="1368804663033" expanded="true" signature="-1:-1" placeholder="-- 导出 表 weic..." />
-            <marker date="1368804663033" expanded="true" signature="-1:-1" placeholder="-- 导出 表 weic..." />
-          </folding>
-        </state>
-      </provider>
       <provider editor-type-id="com.intellij.persistence.database.editor.CsvTableFileEditorProvider">
         <state />
+      </provider>
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="533" column="0" selection-start="24923" selection-end="24923" vertical-scroll-proportion="-12.509091" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/application/views/lotterydial/editNew.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="226" column="19" selection-start="4507" selection-end="4507" vertical-scroll-proportion="0.057901084">
-          <folding />
-        </state>
+        <state line="226" column="19" selection-start="4507" selection-end="4507" vertical-scroll-proportion="0.057901084" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/application/core/MY_Controller.php">
@@ -559,51 +538,58 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/application/config/database.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="52" column="35" selection-start="2703" selection-end="2713" vertical-scroll-proportion="0.46320868">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/application/models/lotterydial_model.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="37" column="29" selection-start="1336" selection-end="1336" vertical-scroll-proportion="-6.212121">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/application/controllers/lotterydial.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="285" column="48" selection-start="7766" selection-end="7766" vertical-scroll-proportion="-17.848484">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/application/views/lotterydial/index.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="118" column="40" selection-start="2788" selection-end="2788" vertical-scroll-proportion="-23.69697">
+        <state line="37" column="29" selection-start="1336" selection-end="1336" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/application/core/MY_Model.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="44" column="20" selection-start="1146" selection-end="1146" vertical-scroll-proportion="-8.69697">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/application/models/lotterywin_model.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="65" column="40" selection-start="2643" selection-end="2643" vertical-scroll-proportion="-19.30303">
+        <state line="44" column="20" selection-start="1146" selection-end="1146" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/application/views/lotterydial/getcode.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="132" column="50" selection-start="3296" selection-end="3296" vertical-scroll-proportion="0.3920386">
+        <state line="132" column="50" selection-start="3296" selection-end="3296" vertical-scroll-proportion="-8.393939">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/application/views/lotterydial/index.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="123" column="25" selection-start="2998" selection-end="2998" vertical-scroll-proportion="-13.090909">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/application/models/lotterywin_model.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="65" column="40" selection-start="2643" selection-end="2643" vertical-scroll-proportion="-22.212122">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/application/views/lotterydial/gameover.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="19" column="9" selection-start="400" selection-end="400" vertical-scroll-proportion="-9.121212">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/application/config/database.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="47" column="26" selection-start="2564" selection-end="2564" vertical-scroll-proportion="-13.484848">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/application/controllers/lotterydial.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="185" column="35" selection-start="5126" selection-end="5126" vertical-scroll-proportion="0.5066345">
           <folding />
         </state>
       </provider>
