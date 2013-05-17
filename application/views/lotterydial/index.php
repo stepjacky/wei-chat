@@ -119,19 +119,11 @@
                 animateTo:3600+a, //转动角度
                 easing: $.easing.easeOutSine,
                 callback: function(){
-                    if(g>3){
+                   $.get('/lotterydial/winit/'+lottery+'/'+member+'/'+g+'/'+lcode,function(again){
+                        alert(again);
+                        //window.location.href=window.location.href;
 
-                        $.post('/lotterydial/winit/'+pubweixin+'/'+lottery+'/'+member+'/'+g+'/'+mcode+'/'+lcode,function(again){
-                            $('#myModal').modal('show');
-                            window.location.href=window.location.href;
-
-                        });
-
-                    } else {
-                        //导航到兑奖界面
-
-                        return false;
-                    }
+                    });
 
 
                 }

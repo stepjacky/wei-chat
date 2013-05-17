@@ -1,11 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="9c42f37f-b41b-40a5-884c-3813c2511426" name="Default" comment="" />
+    <list default="true" id="9c42f37f-b41b-40a5-884c-3813c2511426" name="Default" comment="">
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/application/views/lotterydial/getcode.php" afterPath="$PROJECT_DIR$/application/views/lotterydial/getcode.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/application/views/lotterydial/index.php" afterPath="$PROJECT_DIR$/application/views/lotterydial/index.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/application/controllers/lotterydial.php" afterPath="$PROJECT_DIR$/application/controllers/lotterydial.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/application/models/lotterydial_model.php" afterPath="$PROJECT_DIR$/application/models/lotterydial_model.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/application/models/lotterywin_model.php" afterPath="$PROJECT_DIR$/application/models/lotterywin_model.php" />
+    </list>
     <ignored path="weixin.iws" />
     <ignored path=".idea/workspace.xml" />
     <file path="/header.php" changelist="9c42f37f-b41b-40a5-884c-3813c2511426" time="1368635075845" ignored="false" />
-    <file path="/index.php" changelist="9c42f37f-b41b-40a5-884c-3813c2511426" time="1368755074297" ignored="false" />
+    <file path="/index.php" changelist="9c42f37f-b41b-40a5-884c-3813c2511426" time="1368815733821" ignored="false" />
     <file path="/Dummy.txt" changelist="9c42f37f-b41b-40a5-884c-3813c2511426" time="1368790806858" ignored="false" />
     <file path="/footer.php" changelist="9c42f37f-b41b-40a5-884c-3813c2511426" time="1368635220276" ignored="false" />
     <file path="/charisma-app.css" changelist="9c42f37f-b41b-40a5-884c-3813c2511426" time="1366641995464" ignored="false" />
@@ -72,12 +78,12 @@
     <file path="/subscribemessage.php" changelist="9c42f37f-b41b-40a5-884c-3813c2511426" time="1367201688939" ignored="false" />
     <file path="/subscribemessage_model.php" changelist="9c42f37f-b41b-40a5-884c-3813c2511426" time="1367220686425" ignored="false" />
     <file path="/index.html" changelist="9c42f37f-b41b-40a5-884c-3813c2511426" time="1368546771477" ignored="false" />
-    <file path="/lotterydial.php" changelist="9c42f37f-b41b-40a5-884c-3813c2511426" time="1368798775309" ignored="false" />
-    <file path="/lotterydial_model.php" changelist="9c42f37f-b41b-40a5-884c-3813c2511426" time="1368792172967" ignored="false" />
-    <file path="/lotterywin_model.php" changelist="9c42f37f-b41b-40a5-884c-3813c2511426" time="1368793649898" ignored="false" />
+    <file path="/lotterydial.php" changelist="9c42f37f-b41b-40a5-884c-3813c2511426" time="1368815843616" ignored="false" />
+    <file path="/lotterydial_model.php" changelist="9c42f37f-b41b-40a5-884c-3813c2511426" time="1368814299766" ignored="false" />
+    <file path="/lotterywin_model.php" changelist="9c42f37f-b41b-40a5-884c-3813c2511426" time="1368817283597" ignored="false" />
     <file path="/guid_helper.php" changelist="9c42f37f-b41b-40a5-884c-3813c2511426" time="1368698940312" ignored="false" />
     <file path="/exceed.php" changelist="9c42f37f-b41b-40a5-884c-3813c2511426" time="1368798463677" ignored="false" />
-    <file path="/getcode.php" changelist="9c42f37f-b41b-40a5-884c-3813c2511426" time="1368796414584" ignored="false" />
+    <file path="/getcode.php" changelist="9c42f37f-b41b-40a5-884c-3813c2511426" time="1368817390214" ignored="false" />
     <file path="/a.html" changelist="9c42f37f-b41b-40a5-884c-3813c2511426" time="1368797415227" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -101,37 +107,16 @@
       <file leaf-file-name="lotterydial.php" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/application/controllers/lotterydial.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="216" column="16" selection-start="6157" selection-end="6157" vertical-scroll-proportion="-16.39394">
+            <state line="285" column="48" selection-start="7766" selection-end="7766" vertical-scroll-proportion="-17.848484">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="database.php" pinned="false" current="true" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/application/config/database.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="52" column="35" selection-start="2703" selection-end="2713" vertical-scroll-proportion="0.46320868">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="db.sql" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/application/third_party/db.sql">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="506" column="0" selection-start="24004" selection-end="24004" vertical-scroll-proportion="-12.509091">
-              <folding />
-            </state>
-          </provider>
-          <provider editor-type-id="com.intellij.persistence.database.editor.CsvTableFileEditorProvider">
-            <state />
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="getcode.php" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="getcode.php" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/application/views/lotterydial/getcode.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="13" column="25" selection-start="330" selection-end="330" vertical-scroll-proportion="-9.454545">
+            <state line="132" column="50" selection-start="3296" selection-end="3296" vertical-scroll-proportion="0.3920386">
               <folding />
             </state>
           </provider>
@@ -140,7 +125,7 @@
       <file leaf-file-name="index.php" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/application/views/lotterydial/index.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="109" column="19" selection-start="2510" selection-end="2510" vertical-scroll-proportion="-1.7878788">
+            <state line="118" column="40" selection-start="2788" selection-end="2788" vertical-scroll-proportion="-23.69697">
               <folding />
             </state>
           </provider>
@@ -149,25 +134,7 @@
       <file leaf-file-name="lotterywin_model.php" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/application/models/lotterywin_model.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="62" column="0" selection-start="2537" selection-end="2537" vertical-scroll-proportion="-18.575758">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="lotterydial_model.php" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/application/models/lotterydial_model.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="9" column="30" selection-start="529" selection-end="529" vertical-scroll-proportion="58.909092">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="editNew.php" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/application/views/lotterydial/editNew.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="226" column="19" selection-start="4507" selection-end="4507" vertical-scroll-proportion="-1.4545455">
+            <state line="65" column="40" selection-start="2643" selection-end="2643" vertical-scroll-proportion="-19.30303">
               <folding />
             </state>
           </provider>
@@ -176,18 +143,16 @@
       <file leaf-file-name="MY_Model.php" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/application/core/MY_Model.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="48" column="12" selection-start="1289" selection-end="1289" vertical-scroll-proportion="-0.72727275">
-              <folding>
-                <marker date="1368758731796" expanded="true" signature="6054:6085" placeholder="/** * 创建一个新的..." />
-              </folding>
+            <state line="44" column="20" selection-start="1146" selection-end="1146" vertical-scroll-proportion="-8.69697">
+              <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="MY_Controller.php" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/application/core/MY_Controller.php">
+      <file leaf-file-name="lotterydial_model.php" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/application/models/lotterydial_model.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="13" column="34" selection-start="299" selection-end="299" vertical-scroll-proportion="251.9697">
+            <state line="37" column="29" selection-start="1336" selection-end="1336" vertical-scroll-proportion="-6.212121">
               <folding />
             </state>
           </provider>
@@ -212,7 +177,6 @@
     <option name="changedFiles">
       <list>
         <option value="$PROJECT_DIR$/application/helpers/guid_helper.php" />
-        <option value="$PROJECT_DIR$/application/views/lotterydial/index.php" />
         <option value="$PROJECT_DIR$/application/views/pubweixin/list.php" />
         <option value="$PROJECT_DIR$/application/views/admin/body-start.php" />
         <option value="$PROJECT_DIR$/application/views/message/index.php" />
@@ -221,12 +185,13 @@
         <option value="$PROJECT_DIR$/application/views/news/editNew.php" />
         <option value="$PROJECT_DIR$/application/views/lotterydial/list.php" />
         <option value="$PROJECT_DIR$/application/views/lotterydial/editNew.php" />
+        <option value="$PROJECT_DIR$/application/views/lotterydial/exceed.php" />
+        <option value="$PROJECT_DIR$/application/third_party/db.sql" />
+        <option value="$PROJECT_DIR$/application/views/lotterydial/index.php" />
+        <option value="$PROJECT_DIR$/application/controllers/lotterydial.php" />
         <option value="$PROJECT_DIR$/application/models/lotterydial_model.php" />
         <option value="$PROJECT_DIR$/application/models/lotterywin_model.php" />
         <option value="$PROJECT_DIR$/application/views/lotterydial/getcode.php" />
-        <option value="$PROJECT_DIR$/application/views/lotterydial/exceed.php" />
-        <option value="$PROJECT_DIR$/application/controllers/lotterydial.php" />
-        <option value="$PROJECT_DIR$/application/third_party/db.sql" />
       </list>
     </option>
   </component>
@@ -292,118 +257,6 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="resources" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="weixin" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="wei-chat" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="resources" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="scripts" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="weixin" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="wei-chat" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="resources" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="scripts" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="news" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="weixin" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="wei-chat" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="resources" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="jquery-ui" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="weixin" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="wei-chat" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="resources" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="bootstrap" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="weixin" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="wei-chat" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="resources" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="bootstrap" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="css" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="weixin" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="wei-chat" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
               <option name="myItemId" value="application" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
@@ -423,28 +276,6 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="views" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="weixin" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="wei-chat" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="application" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="views" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="news" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -467,24 +298,6 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="lotterydial" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="weixin" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="wei-chat" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="application" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="third_party" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -577,7 +390,7 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1936" height="1056" extended-state="7" />
+    <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
     <editor active="true" />
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
@@ -680,53 +493,9 @@
         <state line="37" column="18" selection-start="967" selection-end="967" vertical-scroll-proportion="0.55006033" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/application/views/lotterydial/editNew.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="226" column="19" selection-start="4507" selection-end="4507" vertical-scroll-proportion="-1.4545455">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/application/core/MY_Model.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="48" column="12" selection-start="1289" selection-end="1289" vertical-scroll-proportion="-0.72727275">
-          <folding>
-            <marker date="1368758731796" expanded="true" signature="6054:6085" placeholder="/** * 创建一个新的..." />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/application/core/MY_Controller.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="13" column="34" selection-start="299" selection-end="299" vertical-scroll-proportion="251.9697">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/application/models/lotterydial_model.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="9" column="30" selection-start="529" selection-end="529" vertical-scroll-proportion="58.909092">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/application/models/lotterywin_model.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="62" column="0" selection-start="2537" selection-end="2537" vertical-scroll-proportion="-18.575758">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/resources/bootstrap/css/bootstrap.css">
       <provider selected="true" editor-type-id="text-editor">
         <state line="33" column="20" selection-start="527" selection-end="527" vertical-scroll-proportion="0.33292684">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/application/views/lotterydial/index.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="109" column="19" selection-start="2510" selection-end="2510" vertical-scroll-proportion="-1.7878788">
           <folding />
         </state>
       </provider>
@@ -738,33 +507,103 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/application/views/lotterydial/getcode.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="13" column="25" selection-start="330" selection-end="330" vertical-scroll-proportion="-9.454545">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/application/controllers/lotterydial.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="216" column="16" selection-start="6157" selection-end="6157" vertical-scroll-proportion="-16.39394">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/application/third_party/db.sql">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="506" column="0" selection-start="24004" selection-end="24004" vertical-scroll-proportion="-12.509091">
-          <folding />
+        <state line="533" column="0" selection-start="24923" selection-end="24923" vertical-scroll-proportion="-12.509091">
+          <folding>
+            <marker date="1368804663033" expanded="true" signature="-1:-1" placeholder="-- 导出 weicha..." />
+            <marker date="1368804663033" expanded="true" signature="-1:-1" placeholder="-- 导出 表 weic..." />
+            <marker date="1368804663033" expanded="true" signature="-1:-1" placeholder="-- 导出 表 weic..." />
+            <marker date="1368804663033" expanded="true" signature="-1:-1" placeholder="-- 导出 表 weic..." />
+            <marker date="1368804663033" expanded="true" signature="-1:-1" placeholder="-- 导出 表 weic..." />
+            <marker date="1368804663033" expanded="true" signature="-1:-1" placeholder="-- 导出 表 weic..." />
+            <marker date="1368804663033" expanded="true" signature="-1:-1" placeholder="-- 导出 表 weic..." />
+            <marker date="1368804663033" expanded="true" signature="-1:-1" placeholder="-- 导出 表 weic..." />
+            <marker date="1368804663033" expanded="true" signature="-1:-1" placeholder="-- 导出 表 weic..." />
+            <marker date="1368804663033" expanded="true" signature="-1:-1" placeholder="-- 导出 表 weic..." />
+            <marker date="1368804663033" expanded="true" signature="-1:-1" placeholder="-- 导出 表 weic..." />
+            <marker date="1368804663033" expanded="true" signature="-1:-1" placeholder="-- 导出 表 weic..." />
+            <marker date="1368804663033" expanded="true" signature="-1:-1" placeholder="-- 导出 表 weic..." />
+            <marker date="1368804663033" expanded="true" signature="-1:-1" placeholder="-- 导出 表 weic..." />
+            <marker date="1368804663033" expanded="true" signature="-1:-1" placeholder="-- 导出 表 weic..." />
+            <marker date="1368804663033" expanded="true" signature="-1:-1" placeholder="-- 导出 表 weic..." />
+            <marker date="1368804663033" expanded="true" signature="-1:-1" placeholder="-- 导出 表 weic..." />
+            <marker date="1368804663033" expanded="true" signature="-1:-1" placeholder="-- 导出 表 weic..." />
+            <marker date="1368804663033" expanded="true" signature="-1:-1" placeholder="-- 导出 表 weic..." />
+            <marker date="1368804663033" expanded="true" signature="-1:-1" placeholder="-- 导出 表 weic..." />
+            <marker date="1368804663033" expanded="true" signature="-1:-1" placeholder="-- 导出 表 weic..." />
+            <marker date="1368804663033" expanded="true" signature="-1:-1" placeholder="-- 导出 表 weic..." />
+            <marker date="1368804663033" expanded="true" signature="-1:-1" placeholder="-- 导出 表 weic..." />
+            <marker date="1368804663033" expanded="true" signature="-1:-1" placeholder="-- 导出 表 weic..." />
+            <marker date="1368804663033" expanded="true" signature="-1:-1" placeholder="-- 导出 表 weic..." />
+            <marker date="1368804663033" expanded="true" signature="-1:-1" placeholder="-- 导出 表 weic..." />
+            <marker date="1368804663033" expanded="true" signature="-1:-1" placeholder="-- 导出 表 weic..." />
+          </folding>
         </state>
       </provider>
       <provider editor-type-id="com.intellij.persistence.database.editor.CsvTableFileEditorProvider">
         <state />
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/application/views/lotterydial/editNew.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="226" column="19" selection-start="4507" selection-end="4507" vertical-scroll-proportion="0.057901084">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/application/core/MY_Controller.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="13" column="34" selection-start="299" selection-end="299" vertical-scroll-proportion="-10.030157">
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/application/config/database.php">
       <provider selected="true" editor-type-id="text-editor">
         <state line="52" column="35" selection-start="2703" selection-end="2713" vertical-scroll-proportion="0.46320868">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/application/models/lotterydial_model.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="37" column="29" selection-start="1336" selection-end="1336" vertical-scroll-proportion="-6.212121">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/application/controllers/lotterydial.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="285" column="48" selection-start="7766" selection-end="7766" vertical-scroll-proportion="-17.848484">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/application/views/lotterydial/index.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="118" column="40" selection-start="2788" selection-end="2788" vertical-scroll-proportion="-23.69697">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/application/core/MY_Model.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="44" column="20" selection-start="1146" selection-end="1146" vertical-scroll-proportion="-8.69697">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/application/models/lotterywin_model.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="65" column="40" selection-start="2643" selection-end="2643" vertical-scroll-proportion="-19.30303">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/application/views/lotterydial/getcode.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="132" column="50" selection-start="3296" selection-end="3296" vertical-scroll-proportion="0.3920386">
           <folding />
         </state>
       </provider>

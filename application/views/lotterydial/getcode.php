@@ -40,10 +40,16 @@
                 </dd>
                 <dd>本次兑奖码已关联你的微信号,可向公众账号发送[大转盘]查询</dd>
             </dl>
-            <input class="input-block-level" id="lottery_code"/>
-            <button class="btn btn-block" onclick="userSubmit('<?=$lotteryid?>','<?=$member?>','lottery_code')">用户提交</button>
-            <input class="input-block-level" id="merchant_code"/>
-            <button class="btn btn-block" onclick="merchantSubmit('<?=$lotteryid?>','<?=$member?>','merchant_code')">商户提交</button>
+            <p>
+            <input class="input-block-level" type="text" id="lottery_code"/>
+            <button class="btn btn-block btn-danger" onclick="userSubmit('<?=$lotteryid?>','<?=$member?>','lottery_code')">
+                用户提交</button>
+            </p>
+            <p>
+            <input class="input-block-level " type="text" id="merchant_code"/>
+            <button class="btn btn-block btn-danger" onclick="merchantSubmit('<?=$lotteryid?>','<?=$member?>','merchant_code')">
+                商户提交</button>
+            </p>
         </div>
         <div class="panel">
 
@@ -104,13 +110,13 @@
 <div id="myModal" class="modal hide fade" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
     <div class="modal-header">
         <button type="button" class="close" data-dismiss="modal" aria-hidden="true">×</button>
-        <h3 id="myModalLabel">系统提示</h3>
+        <label class="label label-info">系统提示</label>
     </div>
     <div class="modal-body" id="modalbody">
-        <p>继续努力!</p>
+
     </div>
     <div class="modal-footer">
-        <button class="btn btn-block btn-danger "ata-dismiss="modal" aria-hidden="true">再来一次</button>
+        <button type="button" class="btn btn-success" data-dismiss="modal" aria-hidden="true">确定</button>
     </div>
 </div>
 <script type="text/javascript">
@@ -119,9 +125,8 @@
         if(!code) return;
         var url = '/lotterydial/u_validate/'+lottery+'/'+member+'/'+code;
         $.get(url,function(rst){
-            $("#modalbody").html(rst);
-            $('#myModal').modal('show');
-        })
+              if(rst) showModal("手机号成功提交");
+        });
 
     }
 
@@ -130,8 +135,16 @@
         if(!code) return;
         var url = '/lotterydial/m_validate/'+lottery+'/'+member+'/'+code;
         $.get(url,function(rst){
-            $("#modalbody").html(rst);
-            $('#myModal').modal('show');
+            if(rst)
+                showModal("商户已验证");
+            else{
+                showModal("商户验证码错误");
+            }
         })
+    }
+
+    function showModal(msg){
+        $("#modalbody").html(msg);
+        $('#myModal').modal('show');
     }
 </script>

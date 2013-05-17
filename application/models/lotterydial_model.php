@@ -32,12 +32,14 @@ class Lotterydial_model extends MY_Model {
 
 
 
-    public function getconfig($pubwx){
+    public function getconfig($id){
 
-        $this->db->select("id,code,userlimit,firstnum,firstmsg,firstodds,secondnum,secondmsg,secondodds,thirdnum,thirdmsg,thirdodds");
-        $this->db->where("pubweixin_id",$pubwx);
-        $this->db->where("DATEDIFF(CURRENT_DATE,enddate)>","0");
-        $this->db->where("DATEDIFF(CURRENT_DATE,startdate)<","0");
+        $this->db->select("id,code,userlimit,
+        ,pubweixin_id,remark,
+        firstnum,firstmsg,firstodds,secondnum,secondmsg,secondodds,thirdnum,thirdmsg,thirdodds");
+        $this->db->where("id",$id);
+        $this->db->where("DATEDIFF(CURRENT_DATE,enddate)<","0");
+        $this->db->where("DATEDIFF(CURRENT_DATE,startdate)>","0");
         $this->db->where("enabled",true);
         $query =   $this->db->get($this->table());
         $result = $query->row_array();
@@ -56,46 +58,74 @@ class Lotterydial_model extends MY_Model {
         $this->db->trans_complete();
     }
 
-    public function  checklottory(&$data){
-        $pubweixin = $data['pubweixin_id'];
+    public function  checklottory($data){
+
+
+
         $lottery   = $data['lotterydial_id'];
-        $member    = $data['member'];
+        $member    = $data['weixin_id'];
         $wingrade  = $data['wingrade'];
+        $lotcode   = $data['lottery_code'];
+
+
+        $lotcfg = $this->getconfig($lottery);
+        $pubweixin = $lotcfg['pubweixin_id'];
+        $this->db->trans_start();
 
         $limition = $this->get_user_limition($lottery);
-        $this->db->trans_start();
         if($wingrade<=3){
-            $this->db->insert('lottorywin',$data);
-            $data['num'] = $limition;
-            unset($data['wingrade']);
-            unset($data['merchant_code']);
-            unset($data['lottory_code']);
-            $this->db->insert("lotterynum",$data);
+            $wdata = array(
+                'weixin_id'=>$member,
+                'wingrade' =>$wingrade,
+                'merchant_code'=>$lotcfg['code'],
+                'lottery_code'=>$lotcode,
+                'lotterydial_id'=>$lottery
+
+            );
+            $this->db->insert('lotterywin',$wdata);
+            $ndata = array(
+                'num'=>$limition,
+                'weixin_id'=>$member,
+                'lotterydial_id'=>$lottery,
+                'pubweixin_id'=>$pubweixin
+            );
+            $this->db->insert("lotterynum",$ndata);
             $this->db->trans_complete();
             return false;
         }
 
 
+        //没有抽中奖处理
         $this->db->select("num");
-        $this->db->where("pubweixin_id",$pubweixin);
         $this->db->where("lotterydial_id",$lottery);
         $this->db->where("weixin_id",$member);
         $query =  $this->db->get("lotterynum");
         $result = $query->row_array();
-        if($result['num']==$limition){
-            return false;
-        }else if($result['num']==0){
 
-            $this->db->insert("lottery",$data);
+        if(!$result){
+
+            $ndata = array(
+                'num'=>1,
+                'weixin_id'=>$member,
+                'lotterydial_id'=>$lottery,
+                'pubweixin_id'=>$pubweixin
+            );
+            $this->db->insert("lotterynum",$ndata);
             $this->db->trans_complete();
             return true;
-        }else if($result['num']>=1 && $result['num']<=$limition){
-            $this->db->where("pubweixin_id",$pubweixin);
+        }
+
+        if($result['num']>=0 && $result['num']<$limition){
+
+
             $this->db->where("lotterydial_id",$lottery);
             $this->db->where("weixin_id",$member);
             $data['num']=$limition+1;
             $this->db->update('lotterynum',$data);
             $this->db->trans_complete();
+            return !($data['num']==$limition);
+
+        }else if($result['num']==$limition){
             return false;
         }
 

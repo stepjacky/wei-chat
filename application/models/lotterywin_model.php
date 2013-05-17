@@ -37,11 +37,11 @@ class Lotterywin_model extends MY_Model {
         return $result['num'];
     }
 
-    public function user_limition($lottery,$member){
+    public function check_user_number($lottery,$member){
         $SQL = "select num from %s where lotterydial_id='%s' and weixin_id='%s'";
         $query =  $this->db->query(sprintf($SQL,"lotterynum",$lottery,$member));
         $result = $query->row_array();
-        return empty($result)?false:$result['num']<0;
+        return $result;
     }
 
     public function user_records($lottery,$member){
@@ -56,18 +56,22 @@ class Lotterywin_model extends MY_Model {
 
 
     public function m_validate($lottery,$member,$code){
-        $SQL="update %s set m_validated=true where lotterydial_id='%s' and weixin_id='%s' and merchant_code='%'";
-        $this->query(sprinf($SQL,$this->table(),$lottery,$member,$code));
-        $afn = $this->db->affected_rows();
-        return $afn!=0;
+        $SQL="select * from  %s where lotterydial_id='%s' and weixin_id='%s' and merchant_code='%s'";
+
+        $result =  $this->query(sprintf($SQL,$this->table(),$lottery,$member,$code));
+
+        if(empty($result)) return false;
+
+        $SQL="update %s set m_validated=true where lotterydial_id='%s' and weixin_id='%s' and merchant_code='%s'";
+        $this->query(sprintf($SQL,$this->table(),$lottery,$member,$code));
+        return true;
 
     }
 
     public function u_validate($lottery,$member,$code){
         $SQL="update %s set u_validated=true,userphone='%s' where lotterydial_id='%s' and weixin_id='%s'";
-        $this->query(sprinf($SQL,$this->table(),$code,$lottery,$member));
-        $afn = $this->db->affected_rows();
-        return $afn!=0;
+        $this->query(sprintf($SQL,$this->table(),$code,$lottery,$member));
+        return true;
 
     }
 
