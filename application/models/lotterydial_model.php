@@ -73,6 +73,13 @@ class Lotterydial_model extends MY_Model {
         $this->db->trans_start();
 
         $limition = $this->get_user_limition($lottery);
+
+        $this->db->select("num");
+        $this->db->where("lotterydial_id",$lottery);
+        $this->db->where("weixin_id",$member);
+        $query =  $this->db->get("lotterynum");
+        $result = $query->row_array();
+
         if($wingrade<=3){
             $wdata = array(
                 'weixin_id'=>$member,
@@ -83,24 +90,29 @@ class Lotterydial_model extends MY_Model {
 
             );
             $this->db->insert('lotterywin',$wdata);
-            $ndata = array(
-                'num'=>$limition,
-                'weixin_id'=>$member,
-                'lotterydial_id'=>$lottery,
-                'pubweixin_id'=>$pubweixin
-            );
-            $this->db->insert("lotterynum",$ndata);
+            if($result['num']>=0 && $result['num']<$limition){
+
+                $this->db->where("lotterydial_id",$lottery);
+                $this->db->where("weixin_id",$member);
+                $tldata['num']=$limition;
+                $this->db->update('lotterynum',$tldata);
+
+            } else{
+                $ndata = array(
+                    'num'=>$limition,
+                    'weixin_id'=>$member,
+                    'lotterydial_id'=>$lottery,
+                    'pubweixin_id'=>$pubweixin
+                );
+                $this->db->insert("lotterynum",$ndata);
+            }
             $this->db->trans_complete();
             return false;
         }
 
 
         //没有抽中奖处理
-        $this->db->select("num");
-        $this->db->where("lotterydial_id",$lottery);
-        $this->db->where("weixin_id",$member);
-        $query =  $this->db->get("lotterynum");
-        $result = $query->row_array();
+
 
         if(!$result){
 
@@ -120,8 +132,8 @@ class Lotterydial_model extends MY_Model {
 
             $this->db->where("lotterydial_id",$lottery);
             $this->db->where("weixin_id",$member);
-            $data['num']=$limition+1;
-            $this->db->update('lotterynum',$data);
+            $tldata['num']=$result['num']+1;
+            $this->db->update('lotterynum',$tldata);
             $this->db->trans_complete();
             return !($data['num']==$limition);
 
