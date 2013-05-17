@@ -1,4 +1,5 @@
-<h4><?=$pubwx['name']?></h4> 消息设置
+
+<h4><?=$pubwx['name']?></h4>推广业务
 <hr/>
 <div id="msgTab" class="tabbable"> <!-- Only required for left/right tabs -->
     <ul class="nav nav-tabs">
@@ -16,9 +17,22 @@
                 <li> <a href="#tab1" url="/respnewsmessage/lists" data-toggle="tab">图文消息回复</a></li>
                 <li> <a href="#tab1" url="/news/lists" data-toggle="tab">图文消息</a></li>
             </ul>
+
         </li>
         <li>
             <a href="#tab1" url="/respmusicmessage/lists" data-toggle="tab">语音消息回复</a>
+        </li>
+
+
+        <li>
+            <a href="#tab1" url="/lotterydial/lists" data-toggle="tab">大转盘</a>
+        </li>
+
+        <li>
+            <a href="#tab1" url="/couponcatalog/lists" data-toggle="tab">优惠券</a>
+        </li>
+        <li>
+            <a href="#tab1" url="/cardcatalog/lists" data-toggle="tab">语音消息回复</a>
         </li>
     </ul>
     <div class="tab-content">

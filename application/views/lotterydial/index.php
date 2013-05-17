@@ -121,7 +121,7 @@
                 callback: function(){
                     if(g>3){
 
-                        $.post('/lotterydial/winit/'+pubweixin+'/'+lottery+'/'+member+'/'+g+'/'+mcode+'/'+lcode,function(){
+                        $.post('/lotterydial/winit/'+pubweixin+'/'+lottery+'/'+member+'/'+g+'/'+mcode+'/'+lcode,function(again){
                             $('#myModal').modal('show');
                             window.location.href=window.location.href;
 

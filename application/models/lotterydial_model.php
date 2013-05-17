@@ -62,10 +62,11 @@ class Lotterydial_model extends MY_Model {
         $member    = $data['member'];
         $wingrade  = $data['wingrade'];
 
+        $limition = $this->get_user_limition($lottery);
         $this->db->trans_start();
         if($wingrade<=3){
             $this->db->insert('lottorywin',$data);
-            $data['num'] = 2;
+            $data['num'] = $limition;
             unset($data['wingrade']);
             unset($data['merchant_code']);
             unset($data['lottory_code']);
@@ -81,24 +82,38 @@ class Lotterydial_model extends MY_Model {
         $this->db->where("weixin_id",$member);
         $query =  $this->db->get("lotterynum");
         $result = $query->row_array();
-        if($result['num']==2){
+        if($result['num']==$limition){
             return false;
         }else if($result['num']==0){
 
             $this->db->insert("lottery",$data);
             $this->db->trans_complete();
             return true;
-        }else if($result['num']==1){
+        }else if($result['num']>=1 && $result['num']<=$limition){
             $this->db->where("pubweixin_id",$pubweixin);
             $this->db->where("lotterydial_id",$lottery);
             $this->db->where("weixin_id",$member);
-            $data['num']=2;
+            $data['num']=$limition+1;
             $this->db->update('lotterynum',$data);
             $this->db->trans_complete();
             return false;
         }
 
     }
-    
+
+    public function current_url($pubwx){
+        $SQL="select id from lotterydial where pubweixin_id='%s' and enabled is true order by startdate desc limit 0,1";
+        $result =  $this->query(sprintf($SQL,$pubwx));
+        $this->firelog($result);
+        return empty($result)?'':base_url("/lotterydial/index/".$result[0]['id']);
+    }
+
+    public function get_user_limition($lottery){
+        $this->db->select("userlimit");
+        $this->db->where("id",$lottery);
+        $query = $this->db->get($this->table());
+        $result =  $query->row_array();
+        return empty($result)?0:$result['userlimit'];
+    }
     
 }   

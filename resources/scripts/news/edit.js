@@ -19,4 +19,10 @@ function saveData(){
 
 function validationCmp(form, status){
     return status;   
-}       
+}
+
+function useLotteryUrl(id){
+    $.get('/lotterydial/current_url',function(url){
+       $("#"+id).text(url);
+    });
+}

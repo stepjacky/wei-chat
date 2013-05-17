@@ -50,11 +50,26 @@
      
   
      <tr>
-   <td>点击跳转</td>
    <td>
+       点击跳转
+
+   </td>
+   <td>
+       <p>
+           <button class="btn btn-success"
+                   type="button"
+                   onclick="useLotteryUrl('url')">使用大转盘链接</button>
+
+       </p>
+       <p>
+        <span class="label label-info">
+                 如有值,则当前内容被忽略,直接跳转此链接
+        </span>
+       </p>
       <textarea id="url" name="url" class="input-xxlarge"><?=$url;?></textarea>
+
    </td>     
-   
+
 </tr>
 
 

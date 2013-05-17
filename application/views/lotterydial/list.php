@@ -11,58 +11,17 @@
         </tr>
         <tr>
                          
-                <th>名称</th> 
-                
+                <th>名称</th>
+
+                <th>说明</th>
                          
-                <th>一等奖数</th> 
-                
+                <th>起始日期</th>
                          
-                <th>一等奖说明</th> 
-                
-                         
-                <th>二等奖数</th> 
-                
-                         
-                <th>二等奖说明</th> 
-                
-                         
-                <th>三等奖数</th> 
-                
-                         
-                <th>三等奖说明</th> 
-                
-                         
-                <th>预计人数</th> 
-                
-                         
-                <th>说明</th> 
-                
-                         
-                <th>抽奖成功消息</th> 
-                
-                         
-                <th>抽奖失败消息</th> 
-                
-                         
-                <th>开始消息</th> 
-                
-                         
-                <th>起始日期</th> 
-                
-                         
-                <th>结束消息</th> 
-                
-                         
-                <th>j结束日期</th> 
-                
-                         
-                <th>商家验证</th> 
-                
-                         
-                <th>是否启用</th> 
-                
-                         
-                         
+                <th>结束日期</th>
+
+
+                <th>状态</th>
+
             <th>管理</th>
         </tr>
         </thead>
@@ -77,79 +36,44 @@
                 <td>
               <?=$name?>             
             </td> 
-                      
-                <td>
-              <?=$firstnum?>             
-            </td> 
-                      
-                <td>
-              <?=$firstmsg?>             
-            </td> 
-                      
-                <td>
-              <?=$secondnum?>             
-            </td> 
-                      
-                <td>
-              <?=$secondmsg?>             
-            </td> 
-                      
-                <td>
-              <?=$thirdnum?>             
-            </td> 
-                      
-                <td>
-              <?=$thirdmsg?>             
-            </td> 
-                      
-                <td>
-              <?=$futures?>             
-            </td> 
-                      
+
+
+
                 <td>
               <?=$remark?>             
             </td> 
-                      
-                <td>
-              <?=$success?>             
-            </td> 
-                      
-                <td>
-              <?=$failure?>             
-            </td> 
-                      
-                <td>
-              <?=$start?>             
-            </td> 
-                      
+
+
                 <td>
               <?=$startdate?>             
             </td> 
-                      
-                <td>
-              <?=$end?>             
-            </td> 
-                      
+
                 <td>
               <?=$enddate?>             
             </td> 
                       
-                <td>
-              <?=$code?>             
-            </td> 
+
+
+               <td>
+                  <span class="label label-<?=$enabled?'success':'danger'?>">
+                      <?=$enabled?'启用中':'停用'?>
+
+                  </span>
+               </td>
                       
-             <td>
-              <button class=" btn btn-inverse btn-small" type="button" onclick="toggleProp('lotterydial','enabled','<?=$id?>')"><span class="icon icon-color icon-wrench"></span>切換</button>     
-             </td>
-                      
-                      
-           <td>
+           <td class="btn-group">
              <button class="btn btn-success" type="button" onclick="editOne('<?=$id;?>');">
                <i class="icon-edit"></i>
              </button>
              <button class="btn btn-danger" type="button" onclick="removeOne('<?=$id;?>');">
                <i class="icon-remove"></i>
              </button>
+               <button class=" btn btn-inverse"
+                       type="button"
+                       onclick="toggleProp('lotterydial','enabled','<?=$id?>')">
+                   <span class="icon icon-color icon-wrench"></span>
+                   <?=$enabled?'禁用':'启用'?>
+               </button>
            </td>
            </tr>
         <?php endforeach; ?>

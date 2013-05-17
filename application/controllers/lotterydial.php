@@ -42,20 +42,62 @@ class Lotterydial extends MY_Controller {
 
         $member  = $this->_get('member');
 
-        $usercan =  $this->winerdao->user_limition($id,$member);
-
-        if(!$usercan){
-            $this->load->view("front/header");
-            $this->load->view("lotterydial/cash");
-            $this->load->view("front/footer");
-            return;
-        }
 
 
         $pubwx   = $this->_get('pubweixin');
 
 
         $lcfg  = $this->dao->getconfig($pubwx);
+
+        $usercan =  $this->winerdao->user_limition($id,$member);
+
+        $this->fireLog($lcfg);
+        $this->fireLog($usercan);
+        if(!$usercan){
+
+            $wins  = $this->winerdao->user_records($id,$member);
+            $this->load->view("front/header");
+            if($wins){
+
+                $gmap = array(
+                    '1'=>'first',
+                    '2'=>'second',
+                    '3'=>'third'
+                );
+
+                $nameMap = array(
+                    '1'=>'一等奖',
+                    '2'=>'二等奖',
+                    '3'=>'三等奖'
+
+                );
+
+
+                $g = $wins['wingrade'];
+                $cdata = array(
+                    'prizegrade'=>$g,
+                    'prizename'=>$nameMap[$g],
+                    'prizemsg'=>$lcfg[$gmap[$g].'msg'],
+                    'prizecode'=>$wins['lottery_code'],
+                    'merchantcode'=>$wins['merchant_code'],
+                    'lotteryid'=>$lcfg['id'],
+                    'member'=>$member,
+                    'config'=>$lcfg
+                );
+
+                $this->load->view("lotterydial/getcode",$cdata);
+
+
+            }else{
+               $this->load->view("lotterydial/exceed");
+            }
+
+            $this->load->view("front/footer");
+            return;
+        }
+
+
+
 
 
 
@@ -137,6 +179,7 @@ class Lotterydial extends MY_Controller {
     }
 
 
+
     public function winit($pubweixin,$lottery,$member,$wingrade,$mcode,$lcode){
          $data = array(
              "pubweixin_id"=>$pubweixin,
@@ -147,7 +190,7 @@ class Lotterydial extends MY_Controller {
              'wingrade'=>$wingrade
          );
          $again = $this->dao->checklottory($data);
-
+         return $again;
 
     }
 
@@ -187,6 +230,49 @@ class Lotterydial extends MY_Controller {
 
         return $result;
     }
-    
-    
-}   
+
+
+    public function lists($page=1,$rows=10){
+
+        $pubwx = $this->nsession->userdata('pubwx');
+
+        $result =  $this->dao->gets($page,$rows,array('pubweixin_id'=>$pubwx));
+
+        $pagelink = $this->dao->page_link($page);
+        $data['datasource'] = $result;
+        $data['pagelink']=$pagelink;
+        $this->load->view($this->dao->table()."/list",$data);
+    }
+
+    public function saveUpdate(){
+        $data = $this->_xsl_post();
+        $pubwx = $this->nsession->userdata('pubwx');
+        $data['pubweixin_id']=$pubwx;
+        $this->dao->saveUpdate($data);
+    }
+
+    public function current_url(){
+        $pubwx = $this->nsession->userdata('pubwx');
+
+        $url = $this->dao->current_url($pubwx);
+
+        echo $url;
+    }
+
+    public function m_validate($lottery,$member,$code){
+        //商家编码,防猜测
+        $code = base64_encode($code);
+        $vrst = $this->winerdao->m_validate($lottery,$member,$code);
+        echo $vrst;
+    }
+
+    public function u_validate($lottery,$member,$code){
+        $vrst =  $this->winerdao->u_validate($lottery,$member,$code);
+        echo $vrst;
+    }
+
+    public function getcode(){
+
+    }
+
+}

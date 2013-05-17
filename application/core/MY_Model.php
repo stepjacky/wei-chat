@@ -44,7 +44,10 @@ class MY_Model extends CI_Model
 
     public function query($sql){
         $query =  $this->db->query($sql);
-        $result = $query->result_array();
+        if(is_object($query))
+            $result = $query->result_array();
+        else
+            $result = $query;
         return $result;
     }
 
@@ -204,12 +207,8 @@ class MY_Model extends CI_Model
     }
 
     public function toggle_prop($prop,$id,$pk="id"){
-        $this->update(
-            array(
-              $prop=>"!".$prop,
-              $pk=>$id
-            )
-        );
+        $SQL  = 'update %s set %s=ABS(%s-1) where %s=\'%s\'';
+        $this->query(sprintf($SQL,$this->table(),$prop,$prop,$pk,$id));
 
     }
 

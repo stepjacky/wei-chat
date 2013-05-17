@@ -40,14 +40,6 @@
         <div class="span2 main-menu-span">
             <div class="well nav-collapse sidebar-nav">
                 <ul class="leftnav nav nav-tabs nav-stacked main-menu">
-                    <li class="nav-header hidden-tablet">推广业务</li>
-
-                    <li><a class="ajax-link" link="/cardcatalog/lists" href="###">
-                            <i class="icon-eye-open"></i>
-                            <span class="hidden-tablet">会员卡</span></a></li>
-                    <li><a class="ajax-link" link="/couponcatalog/lists" href="###">
-                            <i class="icon-edit"></i>
-                            <span class="hidden-tablet">优惠券</span></a></li>
 
                     <li class="nav-header hidden-tablet">公众账号</li>
 
