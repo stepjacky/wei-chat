@@ -1,8 +1,8 @@
 -- --------------------------------------------------------
 -- 主机:                           127.0.0.1
--- 服务器版本:                        5.5.5-10.0.2-MariaDB - mariadb.org binary distribution
--- 服务器操作系统:                      Win64
--- HeidiSQL 版本:                  7.0.0.4390
+-- 服务器版本:                        5.5.31 - MySQL Community Server (GPL)
+-- 服务器操作系统:                      Win32
+-- HeidiSQL 版本:                  7.0.0.4393
 -- --------------------------------------------------------
 
 /*!40101 SET @OLD_CHARACTER_SET_CLIENT=@@CHARACTER_SET_CLIENT */;
@@ -11,11 +11,13 @@
 /*!40101 SET @OLD_SQL_MODE=@@SQL_MODE, SQL_MODE='NO_AUTO_VALUE_ON_ZERO' */;
 
 -- 导出 weichat 的数据库结构
+DROP DATABASE IF EXISTS `weichat`;
 CREATE DATABASE IF NOT EXISTS `weichat` /*!40100 DEFAULT CHARACTER SET utf8 */;
 USE `weichat`;
 
 
 -- 导出  表 weichat.cardcatalog 结构
+DROP TABLE IF EXISTS `cardcatalog`;
 CREATE TABLE IF NOT EXISTS `cardcatalog` (
   `id` varchar(50) NOT NULL COMMENT '编号,hidden',
   `name` varchar(50) DEFAULT NULL COMMENT '名称,text',
@@ -34,6 +36,7 @@ CREATE TABLE IF NOT EXISTS `cardcatalog` (
 
 
 -- 导出  表 weichat.cards 结构
+DROP TABLE IF EXISTS `cards`;
 CREATE TABLE IF NOT EXISTS `cards` (
   `id` varchar(45) DEFAULT NULL COMMENT '编号,hidden',
   `name` varchar(45) DEFAULT NULL COMMENT '名称,text',
@@ -53,6 +56,7 @@ CREATE TABLE IF NOT EXISTS `cards` (
 
 
 -- 导出  表 weichat.coupon 结构
+DROP TABLE IF EXISTS `coupon`;
 CREATE TABLE IF NOT EXISTS `coupon` (
   `id` varchar(50) NOT NULL COMMENT '编号,hidden',
   `name` varchar(45) DEFAULT NULL,
@@ -75,6 +79,7 @@ CREATE TABLE IF NOT EXISTS `coupon` (
 
 
 -- 导出  表 weichat.couponcatalog 结构
+DROP TABLE IF EXISTS `couponcatalog`;
 CREATE TABLE IF NOT EXISTS `couponcatalog` (
   `id` varchar(45) NOT NULL COMMENT '编号,hidden',
   `name` varchar(45) DEFAULT NULL COMMENT '名称,text',
@@ -97,6 +102,7 @@ CREATE TABLE IF NOT EXISTS `couponcatalog` (
 
 
 -- 导出  表 weichat.credits 结构
+DROP TABLE IF EXISTS `credits`;
 CREATE TABLE IF NOT EXISTS `credits` (
   `id` int(11) NOT NULL AUTO_INCREMENT COMMENT '编号,hidden',
   `amount` varchar(45) DEFAULT NULL COMMENT '分值,text',
@@ -116,6 +122,7 @@ CREATE TABLE IF NOT EXISTS `credits` (
 
 
 -- 导出  表 weichat.imagemessage 结构
+DROP TABLE IF EXISTS `imagemessage`;
 CREATE TABLE IF NOT EXISTS `imagemessage` (
   `MsgId` bigint(20) NOT NULL COMMENT '编号',
   `msgType` varchar(20) DEFAULT 'image' COMMENT '消息类型,auto',
@@ -132,6 +139,7 @@ CREATE TABLE IF NOT EXISTS `imagemessage` (
 
 
 -- 导出  表 weichat.linkmessage 结构
+DROP TABLE IF EXISTS `linkmessage`;
 CREATE TABLE IF NOT EXISTS `linkmessage` (
   `MsgId` bigint(20) NOT NULL COMMENT '编号',
   `msgType` varchar(20) DEFAULT 'link' COMMENT '消息类型,auto',
@@ -150,6 +158,7 @@ CREATE TABLE IF NOT EXISTS `linkmessage` (
 
 
 -- 导出  表 weichat.locationmessage 结构
+DROP TABLE IF EXISTS `locationmessage`;
 CREATE TABLE IF NOT EXISTS `locationmessage` (
   `MsgId` bigint(20) NOT NULL COMMENT '编号',
   `msgType` varchar(20) DEFAULT 'location' COMMENT '消息类型,auto',
@@ -169,6 +178,7 @@ CREATE TABLE IF NOT EXISTS `locationmessage` (
 
 
 -- 导出  表 weichat.lotterydial 结构
+DROP TABLE IF EXISTS `lotterydial`;
 CREATE TABLE IF NOT EXISTS `lotterydial` (
   `id` varchar(40) NOT NULL COMMENT '编号,hidden',
   `name` varchar(45) DEFAULT NULL COMMENT '名称,text',
@@ -186,7 +196,7 @@ CREATE TABLE IF NOT EXISTS `lotterydial` (
   `success` varchar(500) DEFAULT NULL COMMENT '抽奖成功消息,textarea',
   `failure` varchar(500) DEFAULT NULL COMMENT '抽奖失败消息,textarea',
   `start` varchar(500) DEFAULT NULL COMMENT '开始消息,textarea',
-  `startdate` datetime DEFAULT CURRENT_TIMESTAMP COMMENT '起始日期,datepicker',
+  `startdate` datetime DEFAULT NULL COMMENT '起始日期,datepicker',
   `end` varchar(500) DEFAULT NULL COMMENT '结束消息,textarea',
   `enddate` datetime DEFAULT NULL COMMENT '结束日期,datepicker',
   `code` varchar(45) DEFAULT NULL COMMENT '商家验证,text',
@@ -206,6 +216,7 @@ INSERT INTO `lotterydial` (`id`, `name`, `firstnum`, `firstodds`, `firstmsg`, `s
 
 
 -- 导出  表 weichat.lotterynum 结构
+DROP TABLE IF EXISTS `lotterynum`;
 CREATE TABLE IF NOT EXISTS `lotterynum` (
   `pubweixin_id` char(50) DEFAULT NULL,
   `lotterydial_id` char(50) DEFAULT NULL,
@@ -219,6 +230,7 @@ CREATE TABLE IF NOT EXISTS `lotterynum` (
 
 
 -- 导出  表 weichat.lotterywin 结构
+DROP TABLE IF EXISTS `lotterywin`;
 CREATE TABLE IF NOT EXISTS `lotterywin` (
   `id` varchar(45) NOT NULL,
   `weixin_id` int(11) DEFAULT NULL COMMENT '用户微信号,text',
@@ -241,6 +253,7 @@ CREATE TABLE IF NOT EXISTS `lotterywin` (
 
 
 -- 导出  表 weichat.member 结构
+DROP TABLE IF EXISTS `member`;
 CREATE TABLE IF NOT EXISTS `member` (
   `id` varchar(45) NOT NULL COMMENT '编号,hidden',
   `fromusername` varchar(50) NOT NULL COMMENT '公众账号,auto',
@@ -256,6 +269,7 @@ CREATE TABLE IF NOT EXISTS `member` (
 
 
 -- 导出  表 weichat.merchant 结构
+DROP TABLE IF EXISTS `merchant`;
 CREATE TABLE IF NOT EXISTS `merchant` (
   `id` varchar(50) NOT NULL COMMENT '用户名,text',
   `pword` varchar(45) DEFAULT NULL COMMENT '密码,password',
@@ -278,6 +292,7 @@ INSERT INTO `merchant` (`id`, `pword`, `avator`, `name`, `email`, `grade`, `phon
 
 
 -- 导出  表 weichat.message 结构
+DROP TABLE IF EXISTS `message`;
 CREATE TABLE IF NOT EXISTS `message` (
   `id` varchar(50) NOT NULL COMMENT '编号,auto',
   `tousername` varchar(50) DEFAULT NULL COMMENT '接收用户,text',
@@ -295,6 +310,7 @@ CREATE TABLE IF NOT EXISTS `message` (
 
 
 -- 导出  表 weichat.news 结构
+DROP TABLE IF EXISTS `news`;
 CREATE TABLE IF NOT EXISTS `news` (
   `id` varchar(50) NOT NULL COMMENT '编号,auto',
   `fromusername` varchar(50) NOT NULL COMMENT '所属公众号,auto',
@@ -315,6 +331,7 @@ INSERT INTO `news` (`id`, `fromusername`, `name`, `info`, `picurl`, `content`, `
 
 
 -- 导出  表 weichat.picture 结构
+DROP TABLE IF EXISTS `picture`;
 CREATE TABLE IF NOT EXISTS `picture` (
   `id` varchar(50) NOT NULL COMMENT '编号,hidden',
   `name` varchar(45) DEFAULT NULL COMMENT '名称,text',
@@ -332,6 +349,7 @@ CREATE TABLE IF NOT EXISTS `picture` (
 
 
 -- 导出  表 weichat.prerogative 结构
+DROP TABLE IF EXISTS `prerogative`;
 CREATE TABLE IF NOT EXISTS `prerogative` (
   `id` varchar(40) NOT NULL COMMENT '编号,hidden',
   `name` varchar(45) DEFAULT NULL COMMENT '名称,text',
@@ -348,6 +366,7 @@ CREATE TABLE IF NOT EXISTS `prerogative` (
 
 
 -- 导出  表 weichat.pubweixin 结构
+DROP TABLE IF EXISTS `pubweixin`;
 CREATE TABLE IF NOT EXISTS `pubweixin` (
   `weixin_id` varchar(45) NOT NULL COMMENT '原始微信号,text',
   `token` varchar(45) DEFAULT NULL COMMENT '令牌,text',
@@ -373,6 +392,7 @@ INSERT INTO `pubweixin` (`weixin_id`, `token`, `desturl`, `name`, `weixin`, `ava
 
 
 -- 导出  表 weichat.respmusicmessage 结构
+DROP TABLE IF EXISTS `respmusicmessage`;
 CREATE TABLE IF NOT EXISTS `respmusicmessage` (
   `id` varchar(50) NOT NULL COMMENT '编号',
   `keywords` varchar(255) NOT NULL COMMENT '关键字,text,input-xxlarge',
@@ -391,6 +411,7 @@ CREATE TABLE IF NOT EXISTS `respmusicmessage` (
 
 
 -- 导出  表 weichat.respnewslist 结构
+DROP TABLE IF EXISTS `respnewslist`;
 CREATE TABLE IF NOT EXISTS `respnewslist` (
   `respnewsid` varchar(50) NOT NULL,
   `newsid` varchar(50) NOT NULL
@@ -404,6 +425,7 @@ INSERT INTO `respnewslist` (`respnewsid`, `newsid`) VALUES
 
 
 -- 导出  表 weichat.respnewsmessage 结构
+DROP TABLE IF EXISTS `respnewsmessage`;
 CREATE TABLE IF NOT EXISTS `respnewsmessage` (
   `id` varchar(50) NOT NULL COMMENT '编号,hidden',
   `msgType` varchar(20) DEFAULT 'news' COMMENT '消息类型,auto',
@@ -421,6 +443,7 @@ INSERT INTO `respnewsmessage` (`id`, `msgType`, `FromUserName`, `keywords`, `Art
 
 
 -- 导出  表 weichat.resptextmessage 结构
+DROP TABLE IF EXISTS `resptextmessage`;
 CREATE TABLE IF NOT EXISTS `resptextmessage` (
   `id` varchar(50) NOT NULL COMMENT '编号,hidden',
   `msgType` varchar(20) DEFAULT 'text' COMMENT '消息类型,auto',
@@ -436,6 +459,7 @@ CREATE TABLE IF NOT EXISTS `resptextmessage` (
 
 
 -- 导出  表 weichat.subscribemessage 结构
+DROP TABLE IF EXISTS `subscribemessage`;
 CREATE TABLE IF NOT EXISTS `subscribemessage` (
   `fromusername` varchar(50) NOT NULL COMMENT '公众账号,auto',
   `msgtype` varchar(50) NOT NULL DEFAULT 'text' COMMENT '消息类型,auto',
@@ -451,6 +475,7 @@ CREATE TABLE IF NOT EXISTS `subscribemessage` (
 
 
 -- 导出  表 weichat.textmessage 结构
+DROP TABLE IF EXISTS `textmessage`;
 CREATE TABLE IF NOT EXISTS `textmessage` (
   `MsgId` bigint(20) NOT NULL COMMENT '编号',
   `msgType` varchar(20) DEFAULT 'text' COMMENT '消息类型,auto',
@@ -467,6 +492,7 @@ CREATE TABLE IF NOT EXISTS `textmessage` (
 
 
 -- 导出  表 weichat.userpicture 结构
+DROP TABLE IF EXISTS `userpicture`;
 CREATE TABLE IF NOT EXISTS `userpicture` (
   `id` varchar(50) NOT NULL COMMENT '编号,hidden',
   `name` varchar(45) DEFAULT NULL COMMENT '名称,text',
@@ -487,6 +513,7 @@ CREATE TABLE IF NOT EXISTS `userpicture` (
 
 
 -- 导出  表 weichat.vcode 结构
+DROP TABLE IF EXISTS `vcode`;
 CREATE TABLE IF NOT EXISTS `vcode` (
   `code` varchar(50) NOT NULL,
   `encstr` varchar(50) DEFAULT NULL,

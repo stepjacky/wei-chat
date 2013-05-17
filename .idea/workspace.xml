@@ -1,37 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="9c42f37f-b41b-40a5-884c-3813c2511426" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/dictionaries/.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/application/views/lotterydial/exceed.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/application/views/lotterydial/getcode.php" />
-      <change type="DELETED" beforePath="G:\webroot\wei-chat\resources\images\uploads\1367214509.4942.jpg" afterPath="" />
-      <change type="DELETED" beforePath="G:\webroot\wei-chat\resources\images\uploads\1367214512.3164.jpg" afterPath="" />
-      <change type="DELETED" beforePath="G:\webroot\wei-chat\resources\images\uploads\1367216297.3152.jpg" afterPath="" />
-      <change type="DELETED" beforePath="G:\webroot\wei-chat\resources\images\uploads\1367217349.0213.jpg" afterPath="" />
-      <change type="DELETED" beforePath="G:\webroot\wei-chat\resources\images\uploads\1367217383.351.jpg" afterPath="" />
-      <change type="DELETED" beforePath="G:\webroot\wei-chat\resources\images\uploads\1367217449.8969.jpg" afterPath="" />
-      <change type="DELETED" beforePath="G:\webroot\wei-chat\resources\images\uploads\1367217453.472.jpg" afterPath="" />
-      <change type="DELETED" beforePath="G:\webroot\wei-chat\resources\images\uploads\1367217479.1661.jpg" afterPath="" />
-      <change type="DELETED" beforePath="G:\webroot\wei-chat\resources\images\uploads\1367217595.7001.jpg" afterPath="" />
-      <change type="DELETED" beforePath="G:\webroot\wei-chat\resources\images\uploads\1367217666.9958.jpg" afterPath="" />
-      <change type="DELETED" beforePath="G:\webroot\wei-chat\resources\images\uploads\1367217691.8457.jpg" afterPath="" />
-      <change type="DELETED" beforePath="G:\webroot\wei-chat\resources\images\uploads\1367218212.3113.jpg" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/application/core/MY_Model.php" afterPath="$PROJECT_DIR$/application/core/MY_Model.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/application/views/admin/body-start.php" afterPath="$PROJECT_DIR$/application/views/admin/body-start.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/application/third_party/db.sql" afterPath="$PROJECT_DIR$/application/third_party/db.sql" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/scripts/news/edit.js" afterPath="$PROJECT_DIR$/resources/scripts/news/edit.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/application/views/lotterydial/editNew.php" afterPath="$PROJECT_DIR$/application/views/lotterydial/editNew.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/application/views/news/editNew.php" afterPath="$PROJECT_DIR$/application/views/news/editNew.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/application/views/lotterydial/index.php" afterPath="$PROJECT_DIR$/application/views/lotterydial/index.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/application/views/message/index.php" afterPath="$PROJECT_DIR$/application/views/message/index.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/application/views/lotterydial/list.php" afterPath="$PROJECT_DIR$/application/views/lotterydial/list.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/application/views/pubweixin/list.php" afterPath="$PROJECT_DIR$/application/views/pubweixin/list.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/application/controllers/lotterydial.php" afterPath="$PROJECT_DIR$/application/controllers/lotterydial.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/application/models/lotterydial_model.php" afterPath="$PROJECT_DIR$/application/models/lotterydial_model.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/application/models/lotterywin_model.php" afterPath="$PROJECT_DIR$/application/models/lotterywin_model.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-    </list>
+    <list default="true" id="9c42f37f-b41b-40a5-884c-3813c2511426" name="Default" comment="" />
     <ignored path="weixin.iws" />
     <ignored path=".idea/workspace.xml" />
     <file path="/header.php" changelist="9c42f37f-b41b-40a5-884c-3813c2511426" time="1368635075845" ignored="false" />
@@ -137,19 +107,19 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="database.php" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="database.php" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/application/config/database.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="52" column="35" selection-start="2703" selection-end="2713" vertical-scroll-proportion="-11.636364">
+            <state line="52" column="35" selection-start="2703" selection-end="2713" vertical-scroll-proportion="0.46320868">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="db.sql" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="db.sql" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/application/third_party/db.sql">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="16" column="0" selection-start="791" selection-end="791" vertical-scroll-proportion="0.46153846">
+            <state line="506" column="0" selection-start="24004" selection-end="24004" vertical-scroll-proportion="-12.509091">
               <folding />
             </state>
           </provider>
@@ -241,7 +211,6 @@
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
       <list>
-        <option value="$PROJECT_DIR$/application/models/respnewsmessage_model.php" />
         <option value="$PROJECT_DIR$/application/helpers/guid_helper.php" />
         <option value="$PROJECT_DIR$/application/views/lotterydial/index.php" />
         <option value="$PROJECT_DIR$/application/views/pubweixin/list.php" />
@@ -257,6 +226,7 @@
         <option value="$PROJECT_DIR$/application/views/lotterydial/getcode.php" />
         <option value="$PROJECT_DIR$/application/views/lotterydial/exceed.php" />
         <option value="$PROJECT_DIR$/application/controllers/lotterydial.php" />
+        <option value="$PROJECT_DIR$/application/third_party/db.sql" />
       </list>
     </option>
   </component>
@@ -782,21 +752,21 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/application/config/database.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="52" column="35" selection-start="2703" selection-end="2713" vertical-scroll-proportion="-11.636364">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/application/third_party/db.sql">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="16" column="0" selection-start="791" selection-end="791" vertical-scroll-proportion="0.46153846">
+        <state line="506" column="0" selection-start="24004" selection-end="24004" vertical-scroll-proportion="-12.509091">
           <folding />
         </state>
       </provider>
       <provider editor-type-id="com.intellij.persistence.database.editor.CsvTableFileEditorProvider">
         <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/application/config/database.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="52" column="35" selection-start="2703" selection-end="2713" vertical-scroll-proportion="0.46320868">
+          <folding />
+        </state>
       </provider>
     </entry>
   </component>
