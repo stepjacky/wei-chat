@@ -225,8 +225,12 @@
      <tr>
    <td>是否启用</td>
    <td>            
-        <input type="radio"  name="enabled" value="1"  />启用
-        <input type="radio"  name="enabled" value="0" checked="checked" />禁用
+        <input type="radio"  name="enabled" value="1"
+            <?=$enabled?'checked':''?>
+            />启用
+        <input type="radio"  name="enabled" value="0"
+            <?=!$enabled?'checked':''?>
+            />禁用
    </td>
    <td>默认启用,一个账号只能同时启用一种抽奖</td>
 </tr>

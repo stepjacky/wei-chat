@@ -32,7 +32,7 @@
             <a href="#tab1" url="/couponcatalog/lists" data-toggle="tab">优惠券</a>
         </li>
         <li>
-            <a href="#tab1" url="/cardcatalog/lists" data-toggle="tab">语音消息回复</a>
+            <a href="#tab1" url="/cardcatalog/lists" data-toggle="tab">会员卡</a>
         </li>
     </ul>
     <div class="tab-content">

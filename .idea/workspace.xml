@@ -2,13 +2,18 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="9c42f37f-b41b-40a5-884c-3813c2511426" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/application/models/lotterydial_model.php" afterPath="$PROJECT_DIR$/application/models/lotterydial_model.php" />
+      <change type="DELETED" beforePath="G:\webroot\wei-chat\resources\images\uploads\1368754010.6112.jpg" afterPath="" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/application/third_party/weichat.mwb" afterPath="$PROJECT_DIR$/application/third_party/weichat.mwb" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/application/views/couponcatalog/editNew.php" afterPath="$PROJECT_DIR$/application/views/couponcatalog/editNew.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/application/views/lotterydial/editNew.php" afterPath="$PROJECT_DIR$/application/views/lotterydial/editNew.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/application/views/message/index.php" afterPath="$PROJECT_DIR$/application/views/message/index.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="weixin.iws" />
     <ignored path=".idea/workspace.xml" />
     <file path="/header.php" changelist="9c42f37f-b41b-40a5-884c-3813c2511426" time="1368635075845" ignored="false" />
-    <file path="/index.php" changelist="9c42f37f-b41b-40a5-884c-3813c2511426" time="1368817858450" ignored="false" />
-    <file path="/Dummy.txt" changelist="9c42f37f-b41b-40a5-884c-3813c2511426" time="1368840625244" ignored="false" />
+    <file path="/index.php" changelist="9c42f37f-b41b-40a5-884c-3813c2511426" time="1368889881331" ignored="false" />
+    <file path="/Dummy.txt" changelist="9c42f37f-b41b-40a5-884c-3813c2511426" time="1368887974872" ignored="false" />
     <file path="/footer.php" changelist="9c42f37f-b41b-40a5-884c-3813c2511426" time="1368635220276" ignored="false" />
     <file path="/charisma-app.css" changelist="9c42f37f-b41b-40a5-884c-3813c2511426" time="1366641995464" ignored="false" />
     <file path="/bootstrap-cerulean.css" changelist="9c42f37f-b41b-40a5-884c-3813c2511426" time="1366641664395" ignored="false" />
@@ -41,7 +46,7 @@
     <file path="/result.php" changelist="9c42f37f-b41b-40a5-884c-3813c2511426" time="1367083129554" ignored="false" />
     <file path="/Langclass.php" changelist="9c42f37f-b41b-40a5-884c-3813c2511426" time="1366904205522" ignored="false" />
     <file path="/picture_model.php" changelist="9c42f37f-b41b-40a5-884c-3813c2511426" time="1366964742814" ignored="false" />
-    <file path="/editNew.php" changelist="9c42f37f-b41b-40a5-884c-3813c2511426" time="1368760067745" ignored="false" />
+    <file path="/editNew.php" changelist="9c42f37f-b41b-40a5-884c-3813c2511426" time="1368893246642" ignored="false" />
     <file path="/list.php" changelist="9c42f37f-b41b-40a5-884c-3813c2511426" time="1368759000345" ignored="false" />
     <file path="/pubweixin.php" changelist="9c42f37f-b41b-40a5-884c-3813c2511426" time="1367168313194" ignored="false" />
     <file path="/message.php" changelist="9c42f37f-b41b-40a5-884c-3813c2511426" time="1367227234120" ignored="false" />
@@ -101,74 +106,31 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="lotterydial.php" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/application/controllers/lotterydial.php">
+      <file leaf-file-name="couponcatalog.php" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/application/controllers/couponcatalog.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="60" column="0" selection-start="1741" selection-end="1741" vertical-scroll-proportion="-14.545455">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="database.php" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/application/config/database.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="47" column="26" selection-start="2564" selection-end="2564" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="gameover.php" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/application/views/lotterydial/gameover.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="19" column="9" selection-start="400" selection-end="400" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="getcode.php" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/application/views/lotterydial/getcode.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="132" column="50" selection-start="3296" selection-end="3296" vertical-scroll-proportion="0.0">
+            <state line="42" column="0" selection-start="1498" selection-end="1498" vertical-scroll-proportion="-10.909091">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
       <file leaf-file-name="index.php" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/application/views/lotterydial/index.php">
+        <entry file="file://$PROJECT_DIR$/application/views/message/index.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="123" column="25" selection-start="2998" selection-end="2998" vertical-scroll-proportion="0.0">
+            <state line="22" column="29" selection-start="804" selection-end="804" vertical-scroll-proportion="-13.818182">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="lotterywin_model.php" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/application/models/lotterywin_model.php">
+      <file leaf-file-name="editNew.php" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/application/views/couponcatalog/editNew.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="34" column="53" selection-start="1415" selection-end="1415" vertical-scroll-proportion="-21.484848">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="MY_Model.php" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/application/core/MY_Model.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="44" column="20" selection-start="1146" selection-end="1146" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="lotterydial_model.php" pinned="false" current="true" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/application/models/lotterydial_model.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="41" column="66" selection-start="1603" selection-end="1603" vertical-scroll-proportion="0.3474065">
-              <folding />
+            <state line="41" column="31" selection-start="870" selection-end="870" vertical-scroll-proportion="0.31845596">
+              <folding>
+                <element signature="n#style#0;n#img#0;n#div#0;n#td#1;n#tr#2;n#tbody#0;n#table#0;n#fieldset#0;n#form#0;n#!!top" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -191,14 +153,11 @@
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
       <list>
-        <option value="$PROJECT_DIR$/application/views/pubweixin/list.php" />
         <option value="$PROJECT_DIR$/application/views/admin/body-start.php" />
-        <option value="$PROJECT_DIR$/application/views/message/index.php" />
         <option value="$PROJECT_DIR$/application/core/MY_Model.php" />
         <option value="$PROJECT_DIR$/resources/scripts/news/edit.js" />
         <option value="$PROJECT_DIR$/application/views/news/editNew.php" />
         <option value="$PROJECT_DIR$/application/views/lotterydial/list.php" />
-        <option value="$PROJECT_DIR$/application/views/lotterydial/editNew.php" />
         <option value="$PROJECT_DIR$/application/views/lotterydial/exceed.php" />
         <option value="$PROJECT_DIR$/application/third_party/db.sql" />
         <option value="$PROJECT_DIR$/application/models/lotterywin_model.php" />
@@ -207,6 +166,9 @@
         <option value="$PROJECT_DIR$/application/views/lotterydial/gameover.php" />
         <option value="$PROJECT_DIR$/application/controllers/lotterydial.php" />
         <option value="$PROJECT_DIR$/application/models/lotterydial_model.php" />
+        <option value="$PROJECT_DIR$/application/views/lotterydial/editNew.php" />
+        <option value="$PROJECT_DIR$/application/views/message/index.php" />
+        <option value="$PROJECT_DIR$/application/views/couponcatalog/editNew.php" />
       </list>
     </option>
   </component>
@@ -243,7 +205,6 @@
       <sortByType />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -312,30 +273,13 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="lotterydial" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="weixin" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="wei-chat" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="application" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="config" />
+              <option name="myItemId" value="couponcatalog" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -344,8 +288,8 @@
     <property name="options.lastSelected" value="preferences.sourceCode.General" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="FullScreen" value="false" />
-    <property name="options.searchVisible" value="true" />
     <property name="options.splitter.details.proportions" value="0.2" />
+    <property name="options.searchVisible" value="true" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
@@ -405,14 +349,14 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1936" height="1056" extended-state="7" />
+    <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
     <editor active="true" />
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.18147752" sideWeight="0.6718925" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.21359743" sideWeight="0.6718925" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
@@ -488,21 +432,6 @@
     <breakpoint-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/application/views/news/editNew.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="67" column="11" selection-start="1417" selection-end="1417" vertical-scroll-proportion="0.9402242" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/resources/scripts/news/edit.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="25" column="27" selection-start="715" selection-end="715" vertical-scroll-proportion="0.6960557" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/application/views/lotterydial/list.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="37" column="18" selection-start="967" selection-end="967" vertical-scroll-proportion="0.55006033" />
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/resources/bootstrap/css/bootstrap.css">
       <provider selected="true" editor-type-id="text-editor">
         <state line="33" column="20" selection-start="527" selection-end="527" vertical-scroll-proportion="0.33292684" />
@@ -514,16 +443,11 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/application/third_party/db.sql">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="533" column="0" selection-start="24923" selection-end="24923" vertical-scroll-proportion="-12.509091" />
-      </provider>
       <provider editor-type-id="com.intellij.persistence.database.editor.CsvTableFileEditorProvider">
         <state />
       </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/application/views/lotterydial/editNew.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="226" column="19" selection-start="4507" selection-end="4507" vertical-scroll-proportion="0.057901084" />
+        <state line="533" column="0" selection-start="24923" selection-end="24923" vertical-scroll-proportion="-12.509091" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/application/core/MY_Controller.php">
@@ -570,22 +494,52 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/application/controllers/lotterydial.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="60" column="0" selection-start="1741" selection-end="1741" vertical-scroll-proportion="-14.545455">
+        <state line="60" column="0" selection-start="1741" selection-end="1741" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/application/models/lotterywin_model.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="34" column="53" selection-start="1415" selection-end="1415" vertical-scroll-proportion="-21.484848">
+        <state line="34" column="53" selection-start="1415" selection-end="1415" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/application/models/lotterydial_model.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="41" column="66" selection-start="1603" selection-end="1603" vertical-scroll-proportion="0.3474065">
+        <state line="47" column="0" selection-start="1788" selection-end="1788" vertical-scroll-proportion="0.0">
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/application/views/lotterydial/editNew.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="247" column="2" selection-start="4978" selection-end="4978" vertical-scroll-proportion="3.779252">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/application/controllers/couponcatalog.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="42" column="0" selection-start="1498" selection-end="1498" vertical-scroll-proportion="-10.909091">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/application/views/message/index.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="22" column="29" selection-start="804" selection-end="804" vertical-scroll-proportion="-13.818182">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/application/views/couponcatalog/editNew.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="41" column="31" selection-start="870" selection-end="870" vertical-scroll-proportion="0.31845596">
+          <folding>
+            <element signature="n#style#0;n#img#0;n#div#0;n#td#1;n#tr#2;n#tbody#0;n#table#0;n#fieldset#0;n#form#0;n#!!top" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
