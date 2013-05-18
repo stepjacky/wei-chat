@@ -38,8 +38,8 @@ class Lotterydial_model extends MY_Model {
         ,pubweixin_id,remark,
         firstnum,firstmsg,firstodds,secondnum,secondmsg,secondodds,thirdnum,thirdmsg,thirdodds");
         $this->db->where("id",$id);
-        $this->db->where("DATEDIFF(CURRENT_DATE,enddate)<","0");
-        $this->db->where("DATEDIFF(CURRENT_DATE,startdate)>","0");
+        $this->db->where("DATEDIFF(CURRENT_DATE,enddate)<=","0");
+        $this->db->where("DATEDIFF(CURRENT_DATE,startdate)>=","0");
         $this->db->where("enabled",true);
         $query =   $this->db->get($this->table());
         $result = $query->row_array();
