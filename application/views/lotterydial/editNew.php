@@ -14,14 +14,24 @@
      
   
      <tr>
-   <td>名称</td>
+   <td>触发关键字</td>
    <td>            
-        <input name="name" id="name" type="text" value="<?=val($name)?>" class="validate[required]" />
+        <input name="keywords" id="keywords" type="text" value="<?=val($keywords)?>" class="validate[required]" />
    </td>     
-   <td></td>
+   <td>用户触发此优惠券的关键字,不能重复</td>
 </tr>
   
-  
+
+
+     <tr>
+   <td>名称</td>
+   <td>
+        <input name="name" id="name" type="text" value="<?=val($name)?>" class="validate[required]" />
+   </td>
+   <td></td>
+</tr>
+
+
      
   
      <tr>
@@ -244,10 +254,17 @@
    </td>     
    <td>允许每个用户抽奖次数,默认是2</td>
 </tr>
-  
-  
-     
-  
+
+      <tr>
+          <td>起始图片url</td>
+          <td>
+              <textarea name="picurl" id="picurl" ><?=val($picurl)?></textarea>
+          </td>
+          <td>活动开始图片url</td>
+      </tr>
+
+
+
 </tbody>
 <tfoot>
   <tr>

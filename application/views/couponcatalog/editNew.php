@@ -9,15 +9,22 @@
 <tbody>
       <input type="hidden" name="id" id="id" value="<?=val($id)?>" />
       
-  
-  
-     
-  
+
      <tr>
-   <td>名称</td>
+   <td>关键字</td>
    <td>            
-        <input name="name" id="name" type="text" value="<?=val($name)?>" class="validate[required]" />
+        <input name="keywords" id="keywords" type="text" value="<?=val($keywords)?>" class="validate[required]" />
    </td>     
+   <td>
+      触发关键字,不可重复
+
+   </td>
+</tr>  <tr>
+
+          <td>名称</td>
+   <td>
+        <input name="name" id="name" type="text" value="<?=val($name)?>" class="validate[required]" />
+   </td>
    <td></td>
 </tr>
   
@@ -29,14 +36,31 @@
    <td>            
         <input name="amount" id="amount" type="text" value="<?=val($amount)?>" class="validate[required]" />
    </td>     
-   <td>预计总数</td>
+   <td>优惠券总发行量</td>
 </tr>
-  
+
+  <tr>
+   <td>日领取量</td>
+   <td>
+        <input name="daily_limit" id="daily_limit" type="text" value="<?=val($daily_limit)?>" class="validate[required]" />
+   </td>
+   <td>每日可领取量</td>
+</tr>
+
+
+      <tr>
+   <td>每用户领取总量</td>
+   <td>
+        <input name="user_daily_limit" id="user_daily_limit" type="text" value="<?=val($user_daily_limit)?>" class="validate[required]" />
+   </td>
+   <td>每用户可领取数量量</td>
+</tr>
+
   
      
   
      <tr>
-   <td>优惠券图</td>
+   <td>优惠券模板</td>
    <td>
        <div>
            <img src="<?=val($image)?>" style="width:100px;height:55px" />
@@ -46,11 +70,18 @@
    </td>
          <td>选择优惠券图片模板</td>
 </tr>
-  
-  
-     
-  
-     <tr>
+
+      <tr>
+          <td>优惠券活动开始图片</td>
+          <td>
+              <textarea name="picurl" id="picurl" class="validate[required] input-xxlarge"><?=val($picurl)?></textarea>
+          </td>
+          <td>用于当用户输入关键字后,显示的图文消息</td>
+      </tr>
+
+
+
+      <tr>
    <td>起始日期</td>
    <td>            
         <input type="text" name="startdate" id="startdate" data-date-format="yyyy-mm-dd" readonly="true" class=" datepicker validate[required]" value="<?=val($startdate)?>" />

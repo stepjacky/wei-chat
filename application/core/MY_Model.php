@@ -237,6 +237,10 @@ class MY_Model extends CI_Model
         return $beans;
     }
 
+    public function insert_id(){
+        return $this->db->insert_id();
+    }
+
     public function __valid($param){
         if(!isset($param) || $param==null || $param=='')return FALSE;
         return TRUE;

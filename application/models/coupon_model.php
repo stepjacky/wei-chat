@@ -28,22 +28,46 @@ class Coupon_model extends MY_Model {
      
     public  function __construct(){
         parent::__construct("Coupon_model");
-        $this->load->model("Member_model","mdao");
-    }  
-
-    public function save($data){
-
-        $member = $this->mdao->get($data['member_id']);
-        if($member['empty']){
-            $mdata = array(
-                "id"=>$data['member_id'],
-                'weixin'=>$data['member_id'],
-                'merchant_id'=>$data['merchant_id']
-            );
-            $this->mdao->save($mdata);
-        }
-        unset($data['merchant_id']);
-        parent::save($data);
+        $this->load->model("Couponcatalog_model","cdao");
     }
-    
+
+    public function check_daily_limit($cid){
+        $SQL="select (count(c.id)-p.daily_limit) num from %s c,%s p
+              where c.catalog_id='%s' and datediff(current_date,c.firedate)=0
+              and p.id='%s'
+              ";
+        $query = $this->db->query(sprintf($SQL,array($this->table(),$this->cdao->table(),$cid,$cid)));
+        $result = $query->row_array();
+
+        return empty($result)?true:$result['num']<0;
+    }
+
+    public function check_user_daily_limit($cid,$weixin){
+        $SQL="select (count(c.id)-p.user_daily_limit) num  from %s c , %s p
+              where c.catalog_id='%s' and c.member_id='%s'
+              and p.id='%s'
+        ";
+        $query = $this->db->query(sprintf($SQL,array($this->table(),$this->cdao->table(),$cid,$weixin,$cid)));
+        $result = $query->row_array();
+        return empty($result)?true: $result['num']<0;
+    }
+
+    public function m_validate($id,$code){
+        $SQL="select * from %s c where c.id=%d and c.merchant_code='%s'";
+        $this->query(sprintf($SQL,array($this->table(),$id,$code)));
+        if(empty($result)) return false;
+        $SQL="update %s set m_validate=true where id=%d";
+        $this->db->query(sprintf($SQL,array($this->table(),$id)));
+        return true;
+    }
+
+    public function u_validate($id,$weixin,$code,$phone){
+        $SQL="select * from %s c where c.id=%d  and c.member_id='%s' and c.code='%s'";
+        $this->query(sprintf($SQL,array($this->table(),$id,$weixin,$code)));
+        if(empty($result)) return false;
+        $SQL="update %s set u_validate=true ,memberphont='%s' where id=%d";
+        $this->db->query(sprintf($SQL,array($this->table(),$phone,$id)));
+        return true;
+    }
+
 }   

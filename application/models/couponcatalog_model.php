@@ -30,13 +30,15 @@ class Couponcatalog_model extends MY_Model {
         parent::__construct("Couponcatalog_model");
     }  
 
-    public function find_by_merchant($merc){
-        $merc = urldecode($merc);
-        $this->db->select("id,name");
-        $this->db->where("merchant_id",$merc);
-        $query = $this->db->get($this->table());
-        $beans = $query->result_array();
-        return $beans;
+
+    public function getconfig($id){
+        $this->db->where("id",$id);
+        $this->db->where("DATEDIFF(CURRENT_DATE,enddate)<=","0");
+        $this->db->where("DATEDIFF(CURRENT_DATE,startdate)>=","0");
+        $this->db->where("enabled",true);
+        $query =   $this->db->get($this->table());
+        $result = $query->row_array();
+        return empty($result)?FALSE:$result;
     }
     
 }   

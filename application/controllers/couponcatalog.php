@@ -29,38 +29,71 @@ class Couponcatalog extends MY_Controller {
     public  function __construct(){
         parent::__construct("Couponcatalog_model");
         $this->load->library('create_ckeditor');
-        $this->load->model('Merchant_model',"mercdao");
+        $this->load->model('Coupon_model',"cdao");
     }
 
-    public function index($id=FALSE,$merc){
+    public function index($id=FALSE){
 
 
-        $bean = $this->dao->get($id);
+        $ccfg   = $this->dao->getconfig($id);
 
-        $merc = $this->mercdao->get($merc);
+        $data = array(
+            "msg"=>''
 
-        $bean['merc']=  $merc;
+        );
 
+
+        if(!$ccfg){
+            $data['msg']='非法访问!';
+            $this->load->view('front/header');
+            $this->load->view("couponcatalog/exceed",$data);
+            $this->load->view("front/footer");
+            return;
+
+        }
+
+        $daily_limit = $this->cdao->check_daily_limit($id);
+        if(!$daily_limit){
+            $data['msg']='本优惠券今日已经领完,请明天再来,谢谢参与!';
+            $this->load->view('front/header');
+            $this->load->view("couponcatalog/exceed",$data);
+            $this->load->view("front/footer");
+            return;
+        }
+
+        $weixin = $this->_get('member');
+        $user_limit = $this->cdao->check_user_daily_limit($id,$weixin);
+        if(!$user_limit){
+            $data['msg']='您已经领过该优惠券,谢谢参与!';
+            $this->load->view('front/header');
+            $this->load->view("couponcatalog/exceed",$data);
+            $this->load->view("front/footer");
+            return;
+        }
+
+        $code  = create_random_string(8);
+        $data = array(
+            'coupon_code'=>$code,
+            'merchant_code'=>$ccfg['merchant_code'],
+            'member_id'=>$weixin,
+            'catalog_id'=>$id
+        );
+        $this->cdao->save($data);
+        $data['bid'] = $this->dao->insert_id();
         $this->load->view('front/header');
-        $this->load->view("couponcatalog/index",$bean);
+        $this->load->view("couponcatalog/getcode",$data);
         $this->load->view("front/footer");
+
     }
 
-    public function get_code($id,$merc){
-        $code = create_random_string(5);
-        $enc  = md5($code);
-        $vi   = rand(0,strlen($enc));
-        $vc   = substr($enc,$vi,1);
-        $code = $code.$vi.$vc;
-        $bean = $this->dao->get($id);
-        $merc = $this->mercdao->get($merc);
-        $bean['merc']=  $merc;
-        $bean['vcode'] = $code;
-        $bean['id']    = $id;
-        $this->load->view('front/header');
-        $this->load->view("couponcatalog/get-code",$bean);
-        $this->load->view("front/footer");
+    public function m_validate($cid,$code){
+        $rst = $this->cdao->m_validate($cid,$code);
+        echo $rst;
+    }
 
+    public function u_validate($cid,$weixin,$code,$phone){
+        $rst = $this->cdao->u_validate($cid,$weixin,$code,$phone);
+        echo $rst;
     }
 
 
@@ -83,17 +116,7 @@ class Couponcatalog extends MY_Controller {
         $this->load->view("admin/footer-pure");
     }
 
-    public function startvalidate($cataid){
-        $data = array("catalog_id"=>$cataid);
-        $this->load->view($this->dao->table()."/startvalidate",$data);
-    }
 
-    public function saveUpdate(){
-        $data = $this->_no_xsl_post();
-        $data['merchant_id'] = $this->userid;
-        $this->dao->saveUpdate($data);
-        $this->_end();
-    }
 
     
     
