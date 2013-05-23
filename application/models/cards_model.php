@@ -28,7 +28,15 @@ class Cards_model extends MY_Model {
      
     public  function __construct(){
         parent::__construct("Cards_model");
-    }  
-    
-    
+    }
+
+    public function get_by_wxpw($pubwx,$wx){
+        $this->db->where('member_id',$wx);
+        $this->db->where('pubweixin_id',$pubwx);
+        $query =  $this->db->get($this->table());
+        $result = $query->row_array();
+        return $result;
+    }
+
+
 }   

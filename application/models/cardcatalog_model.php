@@ -30,6 +30,39 @@ class Cardcatalog_model extends MY_Model {
         parent::__construct("Cardcatalog_model");
     }
 
+    public function card_last_no($id){
+        $this->db->select('num');
+        $this->db->where('cardcatalog_id',$id);
+        $query = $this->db->get('cardnum');
+        $result = $query->row_array();
+
+        if(!$result){
+            $data = array(
+                'cardcatalog_id',$id,
+                'num'=>0
+            );
+            $this->db->insert('cardnum',$data);
+            $num = 0;
+        }else{
+            $num = $result['num'];
+        }
+
+        $this->db->set('num',$num+1);
+        $this->db->where('cardcatalog_id',$id);
+        $this->db->update('cardnum');
+        return $num+1;
+    }
+
+
+    public function get_default_config($pubwx){
+        $this->db->where('pubweixin_id',$pubwx);
+        $this->db->where('enabled',true);
+        $query = $this->db->get($this->table());
+        $result = $query->row_array();
+        return empty($result)?false:$result;
+    }
+
+
     public function toggle_prop($prop,$id,$pk="id"){
 
         $this->update(

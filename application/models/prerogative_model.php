@@ -29,6 +29,13 @@ class Prerogative_model extends MY_Model {
     public  function __construct(){
         parent::__construct("Prerogative_model");
     }  
-    
+
+
+    public function get_for_card($cid){
+        $this->db->where("cardcatalog_id",$cid);
+        $query = $this->db->get($this->table());
+        $result = $query->result_array();
+        return $result;
+    }
     
 }   

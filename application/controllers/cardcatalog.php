@@ -29,14 +29,56 @@ class Cardcatalog extends MY_Controller {
     public  function __construct(){
         parent::__construct("Cardcatalog_model");
                $this->load->library('create_ckeditor');
-                
+        $this->load->model('Prerogative_model','pdao');
+        $this->load->model('Cards_model','csdao');
+        $this->load->model('Pubweixin_model','pubdao');
+
     }
 
     public function index($id=FALSE){
-         $data = $this->dao->get($id);        
-        //$this->load->view("admin/header-pure");
+        $pubwx  = $this->_get('pubweixin');
+        $weixin = $this->_get('member');
+        if(!$pubwx || $weixin){
+            redirect('/system/accesserror');
+            return;
+        }
+
+        $card =  $this->csdao->get_by_wxpw($pubwx,$weixin);
+        $config = $this->dao->get_default_config($pubwx);
+        if(!$card){
+
+
+
+            if(!$config){
+                $this->load->view('cardcatalog/noconfig');
+                return;
+            }
+
+            $lastno    =  $this->dao->card_last_no($config['id']);
+            $pubweixin =  $this->pubdao->get($pubwx,'weixin_id');
+            $cdata =  array(
+                'pubweixin_id'=>$pubwx,
+                'weixin_id'=>$weixin,
+                'name'=>$config['name'],
+                'code'=>$lastno,
+                'catalog_id'=>$config['id'],
+                'm_address'=>$pubweixin['address'],
+                'm_phone'=>$pubweixin['phone'],
+                'm_info'=>$pubweixin['info']
+
+            );
+            $this->csdao->save($cdata);
+        }
+
+        $preros =  $this->pdao->get_for_card($id);
+        $data = array(
+            'card'=>$config,
+            'preros'=>$preros
+        );
+
+        $this->load->view("front/header");
         $this->load->view("cardcatalog/index",$data);
-        //$this->load->view("admin/footer-pure");
+        $this->load->view("front/footer");
     }
     
      /**

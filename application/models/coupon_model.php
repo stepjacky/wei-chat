@@ -52,11 +52,20 @@ class Coupon_model extends MY_Model {
         return empty($result)?true: $result['num']<0;
     }
 
+    public function is_validated($id,$weixin){
+        $this->db->select("m_validated,u_validated");
+        $this->db->where('id',$id);
+        $this->db->where('weixin_id',$weixin);
+        $query = $this->db->get($this->table());
+        $result = $query->row_array();
+        return empty($result)?false:(($result['m_validated']==true) && ($result['u_validated']==true));
+    }
+
     public function m_validate($id,$code){
         $SQL="select * from %s c where c.id=%d and c.merchant_code='%s'";
         $this->query(sprintf($SQL,array($this->table(),$id,$code)));
         if(empty($result)) return false;
-        $SQL="update %s set m_validate=true where id=%d";
+        $SQL="update %s set m_validated=true where id=%d";
         $this->db->query(sprintf($SQL,array($this->table(),$id)));
         return true;
     }
@@ -65,9 +74,17 @@ class Coupon_model extends MY_Model {
         $SQL="select * from %s c where c.id=%d  and c.member_id='%s' and c.code='%s'";
         $this->query(sprintf($SQL,array($this->table(),$id,$weixin,$code)));
         if(empty($result)) return false;
-        $SQL="update %s set u_validate=true ,memberphont='%s' where id=%d";
+        $SQL="update %s set u_validated=true ,memberphone='%s' where id=%d";
         $this->db->query(sprintf($SQL,array($this->table(),$phone,$id)));
         return true;
     }
+
+    public function get_coupon($cid,$weixin){
+        $this->db->where('catalog_id',$cid);
+        $this->db->where('weixin_id',$weixin);
+        $query = $this->db->get($this->table());
+        return $query->row_array();
+    }
+
 
 }   

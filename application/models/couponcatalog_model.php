@@ -28,7 +28,17 @@ class Couponcatalog_model extends MY_Model {
      
     public  function __construct(){
         parent::__construct("Couponcatalog_model");
+        $this->load->model('Cards_model','cdao');
     }  
+
+
+    public function get_by_pubwx($pubwx){
+        $this->db->select("id,name");
+        $this->db->where('pubweixin_id',$pubwx);
+        $query = $this->db->get($this->table());
+        return $query->result_array();
+    }
+
 
 
     public function getconfig($id){

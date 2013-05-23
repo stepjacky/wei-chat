@@ -28,14 +28,46 @@ class Couponcatalog extends MY_Controller {
      
     public  function __construct(){
         parent::__construct("Couponcatalog_model");
-        $this->load->library('create_ckeditor');
+
         $this->load->model('Coupon_model',"cdao");
+        $this->load->model('Cardcatalog_model',"cardcdao");
+        $this->load->model('Couponcatalog_model',"carddao");
+        $this->load->library('create_ckeditor');
+    }
+
+    public function coupon(){
+        $pubwx   = $this->_get('pubweixin');
+        $weixin  = $this->_get('member');
+
+        $card =  $this->carddao->get_by_wxpw($pubwx,$weixin);
+        if(!$card){
+            $cardcfg = $this->cardcdao->get_default_config($pubwx);
+            if(!$cardcfg){
+                $this->load->view('cardcatalog/noconfig');
+                return;
+            }
+
+            redirect(sprintf('/cardcatalog/index/$s?pubweixin=%s&member=%s',$cardcfg['id'],$pubwx,$weixin));
+            return;
+        }
+        $coupons  = $this->dao->get_by_pubwx($pubwx);
+        $data = array(
+            'beans'=>$coupons,
+            'card'=>$card,
+            'pubwx'=>$pubwx,
+            'weixin'=>$weixin
+        );
+
+        $this->load->view('front/header');
+        $this->load->view('couponcatalog/coupon',$data);
+        $this->load->view('front/footer');
+
     }
 
     public function index($id=FALSE){
 
 
-        $ccfg   = $this->dao->getconfig($id);
+        $config  = $this->dao->getconfig($id);
 
         $data = array(
             "msg"=>''
@@ -43,7 +75,7 @@ class Couponcatalog extends MY_Controller {
         );
 
 
-        if(!$ccfg){
+        if(!$config){
             $data['msg']='非法访问!';
             $this->load->view('front/header');
             $this->load->view("couponcatalog/exceed",$data);
@@ -71,15 +103,30 @@ class Couponcatalog extends MY_Controller {
             return;
         }
 
+        $validated =  $this->cdao->is_validated($id,$weixin);
+
+        if($validated){
+          $coupon =  $this->cdao->get_coupon($id,$weixin);
+          $data = array(
+              'coupon'=>$coupon,
+              'config'=>$config
+          );
+            $this->load->view('front/header');
+            $this->load->view("couponcatalog/validated",$data);
+            $this->load->view("front/footer");
+            return;
+
+        }
+
         $code  = create_random_string(8);
         $data = array(
-            'coupon_code'=>$code,
-            'merchant_code'=>$ccfg['merchant_code'],
+            'code'=>$code,
+            'm_code'=>$config['merchant_code'],
             'member_id'=>$weixin,
             'catalog_id'=>$id
         );
         $this->cdao->save($data);
-        $data['bid'] = $this->dao->insert_id();
+        $data['bid'] = $this->cdao->insert_id();
         $this->load->view('front/header');
         $this->load->view("couponcatalog/getcode",$data);
         $this->load->view("front/footer");
