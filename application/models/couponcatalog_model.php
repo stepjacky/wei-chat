@@ -24,7 +24,7 @@
  *    
  */
 
-class Couponcatalog_model extends MY_Model {
+class Couponcatalog_model extends ResponseMessage_Model {
      
     public  function __construct(){
         parent::__construct("Couponcatalog_model");
@@ -50,5 +50,32 @@ class Couponcatalog_model extends MY_Model {
         $result = $query->row_array();
         return empty($result)?FALSE:$result;
     }
+
+
+    public function response($keywords,$fromuser,$touser){
+        //name,info,pic,url
+        $news  =  $this->find_with_keywords($keywords);
+        if(empty($news)){
+            show_error('the resource did not exists by keywords '.$keywords);
+            return ;
+        }
+
+        $newslist = array(
+
+            array(
+                'name'=>$news['name'],
+                'info'=>$news['remark'],
+                'picurl'=>$news['picurl'],
+                'url'=>base_url('/'.$this->table().'/coupon')
+            )
+
+
+        );
+
+
+        return  $this->buildMessage($fromuser,$touser,$newslist);
+    }
+
+
     
 }   

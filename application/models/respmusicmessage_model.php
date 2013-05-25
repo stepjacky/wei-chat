@@ -24,7 +24,7 @@
  *    
  */
 
-class Respmusicmessage_model extends ResponseMessage_Model {
+class Respmusicmessage_model extends Response_simple_Message_Model {
      
     public  function __construct(){
         parent::__construct("Respmusicmessage_model");

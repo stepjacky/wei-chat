@@ -24,7 +24,7 @@
                extract($bean);
             ?>
            <tr>
-             <td><?=$keywords?></td>
+             <td><?=$keyword?></td>
              <td><?=$Content?></td>
 
            <td>

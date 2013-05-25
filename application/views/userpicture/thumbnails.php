@@ -21,10 +21,9 @@
                 </label>-->
 
                 <label class="radio inline">
-
                     <a href="####"
                        onclick="removePic('<?=$pic['id']?>')"
-                       class="btn btn-danger"><i class="icon-trash icon-white"></i>删</a>
+                       class="btn btn-danger"><i class="icon-trash icon-white"></i></a>
 
                 </label>
 

@@ -24,7 +24,7 @@
  *    
  */
 
-class Respnewsmessage_model extends ResponseMessage_Model {
+class Respnewsmessage_model extends Response_simple_Message_Model {
      
     public  function __construct(){
         parent::__construct("Respnewsmessage_model");
@@ -105,59 +105,6 @@ class Respnewsmessage_model extends ResponseMessage_Model {
         $news = $query->result_array();
         $resultStr =$this->buildMessage($fromuser,$touser,$news);
         return $resultStr;
-    }
-
-    private function buildMessage($fromuser,$touser,$news){
-        $amc = count($news);
-        $tplstart = "
-        <xml>
- <ToUserName><![CDATA[%s]]></ToUserName>
- <FromUserName><![CDATA[%s]]></FromUserName>
- <CreateTime>%d</CreateTime>
- <MsgType><![CDATA[news]]></MsgType>
- <ArticleCount>%d</ArticleCount>
- <Articles>";
-
-
-        $itemtpl = "<item>
- <Title><![CDATA[%s]]></Title>
- <Description><![CDATA[%s]]></Description>
- <PicUrl><![CDATA[%s]]></PicUrl>
- <Url><![CDATA[%s]]></Url>
- </item>";
-
-
-        $tplend = "
- </Articles>
- <FuncFlag>0</FuncFlag>
- </xml>";
-
-        $items = "";
-        $qs = "member=".$touser.'&pubweixin='.$fromuser;
-        foreach($news as $rnews){
-            $nurl = $rnews['url'];
-            $dfturl =
-                $nurl?((!stripos($nurl,"?"))?($nurl.'?'.$qs):($nurl.'&'.$qs)):(base_url('/news/one/'.$rnews['id'].'/'.$touser));
-           $items.=sprintf(
-               $itemtpl,
-               $rnews['name'],
-               $rnews['info'],
-               base_url($rnews['picurl']),
-               $dfturl
-
-           );
-
-        }
-        $resp =
-            sprintf(
-                $tplstart,
-                $touser,
-                $fromuser,
-                time(),
-                $amc
-            ).$items.$tplend;
-        return $resp;
-
     }
 
     

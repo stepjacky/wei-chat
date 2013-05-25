@@ -395,13 +395,14 @@ class ResponseMessage_Model extends MY_Model {
         $this->load->library('nsession');
         $pubwx = $this->nsession->userdata("pubwx");
         $this->FromUserName = $pubwx;
-        $this->conds = array('fromusername'=>$this->FromUserName);
+        $this->conds = array('pubweixin_id'=>$this->FromUserName);
     }
 
     public function  saveUpdate($data,$pk="id",$gen=TRUE){
-        $data['fromusername'] = $this->FromUserName;
+        $data['pubweixin_id'] = $this->FromUserName;
         parent::saveUpdate($data,$pk,$gen);
     }
+
 
     public function gets($page){
         $this->firelog($page);
@@ -413,4 +414,197 @@ class ResponseMessage_Model extends MY_Model {
     }
 
 
+    public function response($keywords,$fromuser,$touser){
+        //name,info,pic,url
+        $news  =  $this->find_with_keywords($keywords);
+        if(empty($news)){
+            show_error('the resource did not exists by keywords '.$keywords);
+            return ;
+        }
+
+        $newslist = array(
+
+            array(
+                'name'=>$news['name'],
+                'info'=>$news['remark'],
+                'picurl'=>$news['picurl'],
+                'url'=>base_url('/'.$this->table().'/index/'.$news['id'])
+            )
+
+
+        );
+
+
+        return  $this->buildMessage($fromuser,$touser,$newslist);
+    }
+
+    /**
+     *
+     *
+     *
+
+     */
+    protected function buildMessage($fromuser,$touser,$news){
+        $amc = count($news);
+        $tplstart = "
+        <xml>
+ <ToUserName><![CDATA[%s]]></ToUserName>
+ <FromUserName><![CDATA[%s]]></FromUserName>
+ <CreateTime>%d</CreateTime>
+ <MsgType><![CDATA[news]]></MsgType>
+ <ArticleCount>%d</ArticleCount>
+ <Articles>";
+
+
+        $itemtpl = "<item>
+ <Title><![CDATA[%s]]></Title>
+ <Description><![CDATA[%s]]></Description>
+ <PicUrl><![CDATA[%s]]></PicUrl>
+ <Url><![CDATA[%s]]></Url>
+ </item>";
+
+
+        $tplend = "
+ </Articles>
+ <FuncFlag>0</FuncFlag>
+ </xml>";
+
+        $items = "";
+        $qs = "member=".$touser.'&pubweixin='.$fromuser;
+        foreach($news as $rnews){
+            $nurl = $rnews['url'];
+            $dfturl =
+                $nurl?((!stripos($nurl,"?"))?($nurl.'?'.$qs):($nurl.'&'.$qs)):(base_url('/news/one/'.$rnews['id'].'/'.$touser));
+            $items.=sprintf(
+                $itemtpl,
+                $rnews['name'],
+                $rnews['info'],
+                base_url($rnews['picurl']),
+                $dfturl
+
+            );
+
+        }
+        $resp =
+            sprintf(
+                $tplstart,
+                $touser,
+                $fromuser,
+                time(),
+                $amc
+            ).$items.$tplend;
+        return $resp;
+
+    }
+
+
+    protected function find_with_keywords($keywords){
+
+        $this->db->select("id,name,remark,picurl");
+        $this->db->where('keyword',$keywords);
+        $this->db->where('enabled',true);
+        $query = $this->db->get($this->table());
+        $result = $query->row_array();
+        return $result;
+
+    }
+
+    public function save($data, $pk = 'id', $genId = TRUE)
+    {
+
+        $this->db->trans_start();
+        if(!$data['keyword']) return;
+        $keyword = trim($data['keyword']);
+        $inuse = $this->keyword_in_use($keyword);
+        if($inuse) return;
+        parent::save($data, $pk, $genId);
+        add_key_map($this->table(),$keyword);
+        $this->db->trans_complete();
+    }
+
+    public function remove($id, $pk = 'id')
+    {
+        $this->db->trans_start();
+        $keyword = $this->find_keyword($id);
+        parent::remove($id, $pk);
+        if($keyword)
+        $this->remove_key_map($this->table(),$keyword);
+        $this->db->trans_complete();
+    }
+
+
+    public function find_keyword($id){
+        $SQL = "select keyword from ".$this->table()." where id='%s'";
+        $query = $this->db->query(sprintf($SQL,$id));
+        $result = $query->row_array();
+        return empty($result)?false:$result['keyword'];
+    }
+
+
+    public function has_key_map($tname,$kname){
+        $SQL="select count(*) num from keywordmap k where k.tablename='%s' and k.keyname='%s'";
+        $query = $this->db->query(sprintf($SQL,$tname,$kname));
+        $result = $query->row_array();
+        return $result['num']!=0;
+
+    }
+
+    public function add_key_map($tname,$kname){
+        if(!$this->has_key_map($tname,$kname)){
+            $data = array(
+                'tablename'=>$tname,
+                'keyname'=>$kname
+
+            );
+            $this->db->insert('keywordmap',$data);
+        }
+    }
+
+    public function remove_key_map($tname,$kname){
+        $SQL="delete from keywordmap where tablename='%s' and keyname='%s'";
+        $this->db->query(sprintf($SQL,$tname,$kname));
+        return $this->db->affected_rows();
+
+    }
+
+
+    public function keyword_in_use($keyword){
+
+
+        $keyword = trim($keyword);
+        $SQL = "select count(*) num
+from
+respnewsmessage rn,
+resptextmessage rt,
+respmusicmessage rm,
+lotterydial lt,
+couponcatalog cp,
+cardcatalog cc
+where rn.keyword='%s' or rt.keyword='%s' or rm.keyword='%s' or lt.keyword='%s'
+or cp.keyword='%s' or cc.keyword='%s'";
+       $query =  $this->db->query(sprintf($SQL,$keyword,$keyword,$keyword,$keyword,$keyword,$keyword));
+       $result = $query->row_array();
+        if(empty($result)) return false;
+        return $result['num']!=0;
+    }
+
+
+}
+
+class Response_simple_Message_Model extends  ResponseMessage_Model{
+    public function __construct()
+    {
+
+        if (func_num_args() == 1) {
+            $mname = func_get_arg(0);
+            parent::__construct($mname);
+        }else{
+            parent::__construct();
+        }
+
+        $this->load->library('nsession');
+        $pubwx = $this->nsession->userdata("pubwx");
+        $this->FromUserName = $pubwx;
+        $this->conds = array('FromUserName'=>$this->FromUserName);
+    }
 }

@@ -3,7 +3,7 @@
 <table id="list" class="table table-striped table-bordered table-hover">
         <thead>
         <tr>
-          <th colspan="10" class="btn-group">
+          <th colspan="7" >
             <button type="button" class="btn btn-info" onclick="newOne();">
              <i class="icon-plus"></i>新增优惠券
             </button>
@@ -12,11 +12,10 @@
         </tr>
         <tr>
                          
-                <th>名称</th> 
-                         
-                <th>发行数量</th> 
-                         
-                <th>优惠券图</th> 
+                <th>关键字</th>
+                <th>名称</th>
+
+                <th>发行数量</th>
                          
                 <th>起始日期</th> 
                          
@@ -37,17 +36,17 @@
            <tr>
 
                 <td>
-              <?=$name?>             
+              <?=$keyword?>
             </td>  
-                      
+
+                <td>
+              <?=$name?>
+            </td>
+
                 <td>
               <?=$amount?>             
             </td>  
-                      
-                <td>
-              <?=$image?>             
-            </td>  
-                      
+
                 <td>
               <?=$startdate?>             
             </td>  
@@ -63,24 +62,15 @@
                       
                       
            <td class="btn btn-group">
-             <button class="btn btn-success" type="button" onclick="editOne('<?=$id;?>');">
+             <button class="btn btn-success btn-small"     type="button" onclick="editOne('<?=$id;?>');">
                <i class="icon-edit"></i>
              </button>
-             <button class="btn btn-danger" type="button" onclick="removeOne('<?=$id;?>');">
+             <button class="btn btn-danger btn-small" type="button" onclick="removeOne('<?=$id;?>');">
                <i class="icon-remove"></i>
              </button>
-               <button
-                   type="button"
-                   class="btn btn-success"
-                   onclick="startValidate('<?=$id?>')"
-                   >
-                   <span class="icon icon-color icon-link"/>
-                   验证
-               </button>
            </td>
            </tr>
         <?php endforeach; ?>
-        
         
         </tbody>
         <tfoot>

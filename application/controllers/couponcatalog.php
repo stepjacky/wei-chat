@@ -31,10 +31,13 @@ class Couponcatalog extends MY_Controller {
 
         $this->load->model('Coupon_model',"cdao");
         $this->load->model('Cardcatalog_model',"cardcdao");
-        $this->load->model('Couponcatalog_model',"carddao");
+        $this->load->model('Cards_model',"carddao");
         $this->load->library('create_ckeditor');
     }
 
+    /**
+     *优惠券主页
+     */
     public function coupon(){
         $pubwx   = $this->_get('pubweixin');
         $weixin  = $this->_get('member');
@@ -47,7 +50,7 @@ class Couponcatalog extends MY_Controller {
                 return;
             }
 
-            redirect(sprintf('/cardcatalog/index/$s?pubweixin=%s&member=%s',$cardcfg['id'],$pubwx,$weixin));
+            redirect(sprintf('/cardcatalog/index/%s?pubweixin=%s&member=%s',$cardcfg['id'],$pubwx,$weixin));
             return;
         }
         $coupons  = $this->dao->get_by_pubwx($pubwx);
@@ -59,11 +62,15 @@ class Couponcatalog extends MY_Controller {
         );
 
         $this->load->view('front/header');
+        $this->load->view('cardcatalog/card-header',$data);
         $this->load->view('couponcatalog/coupon',$data);
         $this->load->view('front/footer');
 
     }
 
+    /**
+     *优惠券领取主页
+     */
     public function index($id=FALSE){
 
 
@@ -120,21 +127,23 @@ class Couponcatalog extends MY_Controller {
 
         $code  = create_random_string(8);
         $data = array(
-            'code'=>$code,
-            'm_code'=>$config['merchant_code'],
-            'member_id'=>$weixin,
-            'catalog_id'=>$id
+            'ucode'=>$code,
+            'mcode'=>$config['merchant_code'],
+            'name'=>$config['name'],
+            'weixin_id'=>$weixin,
+            'catalog_id'=>$id,
+            'csetting'=>$config['csetting'],
+            'remark'=>$config['remark']
         );
         $this->cdao->save($data);
-        $data['bid'] = $this->cdao->insert_id();
         $this->load->view('front/header');
         $this->load->view("couponcatalog/getcode",$data);
         $this->load->view("front/footer");
 
     }
 
-    public function m_validate($cid,$code){
-        $rst = $this->cdao->m_validate($cid,$code);
+    public function m_validate($cid,$weixin,$mcode,$ucode){
+        $rst = $this->cdao->m_validate($cid,$weixin,$mcode,$ucode);
         echo $rst;
     }
 

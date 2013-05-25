@@ -1,78 +1,99 @@
-<span class="label label-important">
-    <?=$name?>
-</span>
-
-
-
-<div class="span12">
-
-   <?=$vcode?>
-</div>
-
-<div class="span12">
-    <?=$remark?>
-</div>
-
-<!-- Home -->
-<div data-role="page" id="page1">
-    <div data-theme="e" data-role="header">
-        <h3>
-            <?=$name?>
-        </h3>
-    </div>
-    <div data-role="content">
-        <div style="width: 100%;
-         height: 120px;
-         position: relative;
-         background: #fbfbfb url(/resources/images/avator/coupbg.jpg);
-         text-align: center;
-         border: 1px solid #b8b8b8;
-         padding-top: 20px;
-         ">
-            <div style="width:280px;height: 100px;margin: 0 auto;">
-                <div style="float: left;width: 90px;height: 100px">
-
-                    <img src="<?=$merc['avator'];?>" width="80px" height="80px"/>
-                </div>
-                <div style="float:right;width: 170px;height: 100px;text-align: left">
-
-                    <strong>
-                        <?=$name?>
-                    </strong>
-                    <br/>
-
-                    截止日期:<?=$enddate?>
-
-                </div>
-            </div>
-
-        </div>
-
-        <div style="width: 100%;
-         height: 85px;
-         position: relative;
-         background: #fbfbfb url(/resources/images/avator/coupbg.jpg);
-         text-align: center;
-         border: 1px solid #b8b8b8;
-        ">
-            <div style="width:250px;height: 100px;margin: 0 auto;
-               background: url(/resources/images/avator/coupcodebg.png) repeat-x 0 0;
-               padding-top: 20px;
-            ">
-                展示此页面即可领取优惠券<br/>
-                验证码:<strong><?=$vcode;?></strong>
-            </div>
-
-
-        </div>
-        <h6>
-            <?=$remark?>
-        </h6>
-        <footer data-position="fixed">
-        <a data-role="button" data-direction="reverse" data-theme="d" href="/merchant/index/<?=$merc['id']?>"
-           data-icon="grid" data-iconpos="left">
-            返回特权区
-        </a>
-        </footer>
+<link href="/resources/styles/couponcatalog/getcode.css0" rel="stylesheet"/>
+<div class="wrap">
+    <div  class="anim_a">
+        <p>&nbsp;</p>
+        <div class="anim_b"></div>
     </div>
 </div>
+<div class="dblock"></div>
+<div class="panel">
+ <span class="label label-important">
+            获得优惠券使用权
+        </span>
+
+    <dl class="dl-horizontal">
+        <dt>
+            您抢到:
+        </dt>
+        <dd><?=$name?></dd>
+        <dt>
+            验证码:
+        </dt>
+        <dd>
+            <?=$ucode?>
+        </dd>
+        <dd>本次兑奖码已关联你的微信号,可向公众账号发送[优惠券]查询</dd>
+    </dl>
+    <p>
+        <input class="input-block-level" type="text" id="phone"/>
+        <button class="btn btn-block btn-danger"
+                onclick="userSubmit('<?=$catalog_id?>','<?=$weixin_id?>','<?=$ucode?>','phone')">
+            用户提交</button>
+    </p>
+    <p>
+        <input class="input-block-level " type="text" id="merchant_code"/>
+        <button class="btn btn-block btn-danger"
+                onclick="merchantSubmit('<?=$catalog_id?>','<?=$weixin_id?>','merchant_code','<?=$ucode?>')">
+            商户提交</button>
+    </p>
+</div>
+<div class="panel">
+ <span class="label label-success">
+        优惠券设置    
+ </span>
+    <dl class="dl-horizontal">
+        <dt> <?=$csetting?></dt>
+    </dl>
+
+</div>
+<div class="panel">
+ <span class="label label-info">
+        优惠券使用说明    
+ </span>
+    <dl class="dl-horizontal">
+        <dt> <?=$info?></dt>
+    </dl>
+
+</div>
+
+<div id="myModal" class="modal hide fade" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+    <div class="modal-header">
+        <button type="button" class="close" data-dismiss="modal" aria-hidden="true">×</button>
+        <label class="label label-info">系统提示</label>
+    </div>
+    <div class="modal-body" id="modalbody">
+
+    </div>
+    <div class="modal-footer">
+        <button type="button" class="btn btn-success" data-dismiss="modal" aria-hidden="true">确定</button>
+    </div>
+</div>
+<script type="text/javascript">
+    function  userSubmit(cid,weixin,ucode,phoneel){
+        var code = $('#'+phoneel).val();
+        if(!code) return;
+        var url = '/couponcatalog/u_validate/'+cid+'/'+weixin+'/'+ucode+'/'+code;
+        $.get(url,function(rst){
+            if(rst) showModal("手机号成功提交");
+        });
+
+    }
+
+    function merchantSubmit(cid,weixin,ucode,mcodeel){
+        var code = $('#'+mcodeel).val();
+        if(!code) return;
+        var url = '/couponcatalog/m_validate/'+cid+'/'+weixin+'/'+code+'/'+ucode;
+        $.get(url,function(rst){
+            if(rst)
+                showModal("商户已验证");
+            else{
+                showModal("商户验证码错误");
+            }
+        })
+    }
+
+    function showModal(msg){
+        $("#modalbody").html(msg);
+        $('#myModal').modal('show');
+    }
+</script>

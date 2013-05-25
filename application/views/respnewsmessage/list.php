@@ -22,7 +22,7 @@
            <tr>
 
             <td>
-              <?=$keywords?>
+              <?=$keyword?>
             </td>
                       
            <td>

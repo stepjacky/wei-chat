@@ -24,7 +24,7 @@
  *    
  */
 
-class Cardcatalog_model extends MY_Model {
+class Cardcatalog_model extends ResponseMessage_Model {
      
     public  function __construct(){
         parent::__construct("Cardcatalog_model");
@@ -55,6 +55,7 @@ class Cardcatalog_model extends MY_Model {
 
 
     public function get_default_config($pubwx){
+
         $this->db->where('pubweixin_id',$pubwx);
         $this->db->where('enabled',true);
         $query = $this->db->get($this->table());
@@ -63,21 +64,7 @@ class Cardcatalog_model extends MY_Model {
     }
 
 
-    public function toggle_prop($prop,$id,$pk="id"){
 
-        $this->update(
-            array(
-                $prop=>"!".$prop,
-                $pk=>$id
-            )
-        );
-        $data = array(
-            $prop=>$prop
-        );
-
-        $this->db->where($pk."!=", $id);
-        $this->db->update($this->table(), $data);
-    }
     
     
 }   

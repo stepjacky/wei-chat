@@ -37,7 +37,8 @@ class Pubweixin extends MY_Controller {
         $this->load->view("pubweixin/index",$data);
         //$this->load->view("admin/footer-pure");
     }
-    
+
+
      /**
       * 新增编辑
       */

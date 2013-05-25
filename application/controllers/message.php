@@ -33,7 +33,7 @@ class Message extends MY_Controller
         $this->load->model("Pubweixin_model", "pubdao");
         $this->load->model("Subscribemessage_model", "subdao");
         $this->load->model("Member_model", "mbrdao");
-        $this->load->model("Respnewsmessage_model", "respnewsdao");
+
     }
 
     public function setting($weixin)
@@ -56,30 +56,6 @@ class Message extends MY_Controller
 
     }
 
-    /**
-     * 新增编辑
-     */
-    public function editNew($id = FALSE)
-    {
-
-        $data = $this->dao->get($id);
-
-        $this->load->view("admin/header-pure");
-        $this->load->view($this->dao->table() . "/editNew", $data);
-        $this->load->view("admin/footer-pure");
-    }
-
-
-    public function valid($token)
-    {
-        $echoStr = $_GET["echostr"];
-
-        //valid signature , option
-        if ($this->checkSignature($token)) {
-            echo $echoStr;
-            exit;
-        }
-    }
 
     public function responseMsg()
     {
@@ -94,10 +70,10 @@ class Message extends MY_Controller
             $resultStr="台州微生活,输入优惠券,显示优惠信息";
             switch ($msgType) {
                 case "text":
-                    $resultStr = $this->receiveText($postObj);
+                    $resultStr = $this->proceedMessage($postObj);
                     break;
                 case "event":
-                    $resultStr = $this->receiveEvent($postObj);
+                    $resultStr = $this->proceedEvent($postObj);
                     break;
                 default:
                     $resultStr = "unknow msg type: " . $msgType;
@@ -111,15 +87,21 @@ class Message extends MY_Controller
         }
     }
 
-    private function receiveText($object)
+    private function proceedMessage($object)
     {
 
         $keyword = trim($object->Content);
-        $resultStr = $this->respnewsdao->response($keyword,$object->ToUserName,$object->FromUserName);
+        $tablename = $this->dao->find_tablename_of_keyword($keyword);
+        if(!$tablename) {
+            show_error(sprintf("keyword %s does exists any tables ",$keyword));
+            return "";
+        }
+        $this->load->model(sprintf("%s_model",ucfirst($tablename)), "respdao");
+        $resultStr = $this->respdao->response($keyword,$object->ToUserName,$object->FromUserName);
         return $resultStr;
     }
 
-    private function receiveEvent($object)
+    private function proceedEvent($object)
     {
         $resultStr="";
         switch ($object->Event) {
@@ -131,9 +113,9 @@ class Message extends MY_Controller
                 $resultStr = $this->transmitText($object, $contentStr);
                 $mdata = array(
                     'weixin'=>$userwx,
-                    'fromusername'=>$pubwx
+                    'pubweixin_id'=>$pubwx
                 );
-                //$this->mbrdao->persiste($mdata);
+                $this->mbrdao->persiste($mdata);
                 break;
             }
         }
@@ -169,6 +151,18 @@ class Message extends MY_Controller
             return true;
         } else {
             return false;
+        }
+    }
+
+
+    public function valid($token)
+    {
+        $echoStr = $_GET["echostr"];
+
+        //valid signature , option
+        if ($this->checkSignature($token)) {
+            echo $echoStr;
+            exit;
         }
     }
 

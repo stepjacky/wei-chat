@@ -14,10 +14,10 @@
            <tr>
    <td>关键字</td>
    <td>            
-        <input name="keywords"
+        <input name="keyword"
                type="text"
                class="validate[required] input-xxlarge"
-               value="<?=val($keywords)?>"    />
+               value="<?=val($keyword)?>"    />
        <span class="label label-info">多个关键字请用半角逗号隔开,例如:  天气,气温</span>
    </td>
    

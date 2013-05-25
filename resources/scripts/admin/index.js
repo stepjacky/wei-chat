@@ -9,12 +9,12 @@
 
 
 $(document).ready(function(){
-   $("ul.leftnav li a.ajax-link").bind("click",leftNavClick);
+   $("ul.nav li a.alink").bind("click",leftNavClick);
 });
 
 function leftNavClick(){
 
-   if(!$(this).hasClass("ajax-link")) return true;
+   if(!$(this).hasClass("alink")) return true;
    var url =  $(this).attr("link");
 
    loadContent("content",url);

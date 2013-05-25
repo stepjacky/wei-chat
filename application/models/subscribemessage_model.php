@@ -24,7 +24,7 @@
  *    
  */
 
-class Subscribemessage_model extends ResponseMessage_Model {
+class Subscribemessage_model extends Response_simple_Message_Model {
      
     public  function __construct(){
         parent::__construct("Subscribemessage_model");

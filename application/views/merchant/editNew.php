@@ -22,22 +22,30 @@
    </td>
 
  </tr>
-  
-  
-     
-  
+
+
+
+
      <tr>
    <td>密码</td>
-   <td>            
+   <td>
         <input name="pword" id="pword" type="password" value="<?=val($pword)?>" class="validate[required]" />
-   </td>     
-   
+   </td>
+
+</tr>
+
+     <tr>
+   <td>重复密码</td>
+   <td>
+        <input type="password"  class="validate[required,equals[pword]]" />
+   </td>
+
 </tr>
   
   <tr>
      <td>头像</td>
       <td>
-         <input name="avator" type="text" value="<?=$avator?>" class="input-xxlarge validate[required]"   />
+         <input name="avator" type="text" value="<?=$avator?>" class="input-xxlarge "   />
       </td>
   </tr>
      
@@ -45,23 +53,15 @@
      <tr>
    <td>邮件</td>
    <td>            
-        <input name="email" id="email" type="text" value="<?=val($email)?>" class="validate[required,custom[email]]" />
+        <input name="email" id="email" type="text" value="<?=val($email)?>" class="validate[custom[email]]" />
    </td>     
    
 </tr>
   
-  
-     
-  
-    
-  
-  
-     
-  
-     <tr>
+      <tr>
    <td>电话</td>
    <td>            
-        <input name="phone" id="phone" type="text" value="<?=val($phone)?>" class="validate[required]" />
+        <input name="phone" id="phone" type="text" value="<?=val($phone)?>" />
    </td>     
    
 </tr>
@@ -72,7 +72,7 @@
      <tr>
    <td>QQ</td>
    <td>            
-        <input name="qq" id="qq" type="text" value="<?=val($qq)?>" class="validate[required]" />
+        <input name="qq" id="qq" type="text" value="<?=val($qq)?>" />
    </td>     
    
 </tr>
@@ -83,14 +83,14 @@
      <tr>
    <td>地址</td>
    <td>            
-        <textarea id="address" name="address" class="validate[required]"><?=val($address)?></textarea>
+        <textarea id="address" name="address" ><?=val($address)?></textarea>
    </td>     
    
 </tr>
  <tr>
    <td>简介</td>
    <td>
-        <textarea id="info" name="info" class="validate[required]"><?=val($info)?></textarea>
+        <textarea id="info" name="info" ><?=val($info)?></textarea>
    </td>
 
 </tr>
@@ -115,5 +115,5 @@
 </form>
 
 <script type="text/javascript" src="/resources/scripts/picture/picture.js" charset="UTF-8"></script>
-<script type="text/javascript" src="/resources/bootstrap/js/locales/bootstrap-datepicker.zh-CN.js" charset="UTF-8"></script>
+
 <script type="text/javascript" src="/resources/scripts/merchant/edit.js"></script>

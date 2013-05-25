@@ -8,52 +8,63 @@
 <table class="table table-hover table-bordered">
 <tbody>
       <input type="hidden" name="id" id="id" value="<?=val($id)?>" />
-      
-  
-  
-     
-  
-     <tr>
+
+
+
+      <tr>
+          <td>关键字</td>
+          <td>
+              <input name="keyword" id="keyword" type="text" value="<?=val($keyword)?>" class="validate[required]" />
+          </td>
+          <td>关键字</td>
+      </tr>
+
+
+      <tr>
    <td>名称</td>
    <td>            
         <input name="name" id="name" type="text" value="<?=val($name)?>" class="validate[required]" />
    </td>     
-   
+   <td>名称</td>
 </tr>
   
   
      
   
      <tr>
-   <td>模板</td>
-   <td>
-       <div>
-           <img src="<?=val($image)?>" style="width:100px;height:55px" />
-           <input id="image" name="image" type="hidden" value="<?=val($image)?>" />
-           <button type="button" class=" btn btn-info" onclick="imageSelector()">选择图片</button>
-       </div>
-   </td>     
-   
-</tr>
-  
-  
-     
-  
-     <tr>
-   <td>说明</td>
+   <td>会员卡模板</td>
    <td>            
-        <?=$my_editor;?>
+        <div>
+ <img src="<?=val($picurl)?>" style="width:100px;height:55px" />
+ <input id="picurl" name="picurl" type="hidden" value="<?=val($picurl)?>" />
+ <button type="button" class=" btn btn-info" onclick="imageSelector()">选择图片</button>
+</div>
    </td>     
-   
+   <td>会员卡模板[暂时默认,以后扩展]</td>
 </tr>
-  
-  
-     
-  
-    
-  
-  
-     
+
+
+      <tr>
+          <td>会员卡介绍</td>
+          <td>
+              <textarea id="remark" name="remark" class="validate[required]"><?=val($remark)?></textarea>
+          </td>
+          <td>当用户发送会员卡关键字后,显示在图文消息中,尽量简短</td>
+      </tr>
+
+
+
+      <tr>
+   <td>会员卡使用说明</td>
+   <td>
+        <?=$my_editor;?>
+   </td>
+   <td>显示在用户领卡主界面中,不超过200字</td>
+</tr>
+
+
+
+
   
 </tbody>
 <tfoot>

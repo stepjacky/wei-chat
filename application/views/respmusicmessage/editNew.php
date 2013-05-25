@@ -16,7 +16,7 @@
      <tr>
    <td>关键字</td>
    <td>            
-        <input name="keywords" id="keywords" type="text" value="<?=val($keywords)?>" class="validate[required] input-xxlarge" />
+        <input name="keyword" id="keyword" type="text" value="<?=val($keyword)?>" class="validate[required] input-xxlarge" />
    </td>     
    
 </tr>

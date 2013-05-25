@@ -32,22 +32,22 @@ class Coupon_model extends MY_Model {
     }
 
     public function check_daily_limit($cid){
-        $SQL="select (count(c.id)-p.daily_limit) num from %s c,%s p
+        $SQL="select (count(c.id)-p.daily_limit) num from coupon c,couponcatalog p
               where c.catalog_id='%s' and datediff(current_date,c.firedate)=0
               and p.id='%s'
               ";
-        $query = $this->db->query(sprintf($SQL,array($this->table(),$this->cdao->table(),$cid,$cid)));
+        $query = $this->db->query(sprintf($SQL,array($cid,$cid)));
         $result = $query->row_array();
 
         return empty($result)?true:$result['num']<0;
     }
 
     public function check_user_daily_limit($cid,$weixin){
-        $SQL="select (count(c.id)-p.user_daily_limit) num  from %s c , %s p
+        $SQL="select (count(c.id)-p.user_daily_limit) num  from coupon c , couponcatalog p
               where c.catalog_id='%s' and c.member_id='%s'
               and p.id='%s'
         ";
-        $query = $this->db->query(sprintf($SQL,array($this->table(),$this->cdao->table(),$cid,$weixin,$cid)));
+        $query = $this->db->query(sprintf($SQL,array($cid,$weixin,$cid)));
         $result = $query->row_array();
         return empty($result)?true: $result['num']<0;
     }
@@ -61,21 +61,21 @@ class Coupon_model extends MY_Model {
         return empty($result)?false:(($result['m_validated']==true) && ($result['u_validated']==true));
     }
 
-    public function m_validate($id,$code){
-        $SQL="select * from %s c where c.id=%d and c.merchant_code='%s'";
-        $this->query(sprintf($SQL,array($this->table(),$id,$code)));
+    public function m_validate($cid,$weixin,$mcode,$ucode){
+        $SQL="select * from coupon c where c.catalog_id='%s' and c.weixin_id='%s' and c.merchant_code='%s' and c.code='%s'";
+        $this->query(sprintf($SQL,array($this->table(),$cid,$weixin,$mcode,$ucode)));
         if(empty($result)) return false;
-        $SQL="update %s set m_validated=true where id=%d";
-        $this->db->query(sprintf($SQL,array($this->table(),$id)));
+        $SQL="update coupon set m_validated=true where catalog_id='%s' and weixin_id='%s' and merchant_code='%s' and code='%s'";
+        $this->db->query(sprintf($SQL,array($cid,$weixin,$mcode,$ucode)));
         return true;
     }
 
-    public function u_validate($id,$weixin,$code,$phone){
-        $SQL="select * from %s c where c.id=%d  and c.member_id='%s' and c.code='%s'";
-        $this->query(sprintf($SQL,array($this->table(),$id,$weixin,$code)));
+    public function u_validate($cid,$weixin,$ucode,$phone){
+        $SQL="select * from coupon c where c.catalog_id='%s'  and c.weixin_id='%s' and c.code='%s'";
+        $this->query(sprintf($SQL,array($cid,$weixin,$ucode)));
         if(empty($result)) return false;
-        $SQL="update %s set u_validated=true ,memberphone='%s' where id=%d";
-        $this->db->query(sprintf($SQL,array($this->table(),$phone,$id)));
+        $SQL="update coupon set u_validated=true ,memberphone='%s' where catalog_id='%s' and weixin_id='%s' and code='%s'";
+        $this->db->query(sprintf($SQL,array($phone,$cid,$weixin,$ucode)));
         return true;
     }
 

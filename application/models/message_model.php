@@ -28,7 +28,16 @@ class Message_model extends MY_Model {
      
     public  function __construct(){
         parent::__construct("Message_model");
-    }  
+    }
+
+    public function find_tablename_of_keyword($keyword){
+        $keyword = trim($keyword);
+        $this->db->select('tablename');
+        $this->db->where('keyname',$keyword);
+        $query = $this->db->get('keywordmap');
+        $result = $query->row_array();
+        return empty($result)?false:$result['tablename'];
+    }
     
     
 }   

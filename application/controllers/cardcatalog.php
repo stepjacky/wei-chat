@@ -39,7 +39,7 @@ class Cardcatalog extends MY_Controller {
         $pubwx  = $this->_get('pubweixin');
         $weixin = $this->_get('member');
         if(!$pubwx || $weixin){
-            redirect('/system/accesserror');
+            redirect('/systems/accesserror');
             return;
         }
 
@@ -64,7 +64,8 @@ class Cardcatalog extends MY_Controller {
                 'catalog_id'=>$config['id'],
                 'm_address'=>$pubweixin['address'],
                 'm_phone'=>$pubweixin['phone'],
-                'm_info'=>$pubweixin['info']
+                'm_info'=>$pubweixin['info'],
+                'remark'=>$config['remark']
 
             );
             $this->csdao->save($cdata);
@@ -72,15 +73,23 @@ class Cardcatalog extends MY_Controller {
 
         $preros =  $this->pdao->get_for_card($id);
         $data = array(
-            'card'=>$config,
+            'card'=>$card,
             'preros'=>$preros
         );
 
         $this->load->view("front/header");
+        $this->load->view("cardcatalog/card-header",$data);
         $this->load->view("cardcatalog/index",$data);
         $this->load->view("front/footer");
     }
-    
+
+    public function noconfig(){
+        $this->load->view("front/header");
+        $this->load->view("cardcatalog/noconfig");
+        $this->load->view("front/footer");
+    }
+
+
      /**
       * 新增编辑
       */

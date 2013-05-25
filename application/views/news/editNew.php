@@ -49,7 +49,7 @@
   
      
   
-     <tr>
+  <!--   <tr>
    <td>
        点击跳转
 
@@ -66,11 +66,11 @@
                  如有值,则当前内容被忽略,直接跳转此链接
         </span>
        </p>
-      <textarea id="url" name="url" class="input-xxlarge"><?=$url;?></textarea>
+      <textarea id="url" name="url" class="input-xxlarge"><?/*=$url;*/?></textarea>
 
    </td>     
 
-</tr>
+</tr>-->
 
 
      <tr>

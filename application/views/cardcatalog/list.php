@@ -3,7 +3,7 @@
 <table id="list" class="table table-striped table-bordered table-hover">
         <thead>
         <tr>
-          <th colspan="7">
+          <th colspan="4">
             <button type="button" class="btn btn-info" onclick="newOne();">
              <i class="icon-plus"></i>新增会员卡
             </button>
@@ -38,23 +38,27 @@
             </td> 
                       
                 <td>
-              <?=$image?>             
+              <?=$picurl?>
             </td> 
                       
                       
                       
              <td>
+                 <span class="label label-<?=$enabled?'success':'danger'?>">
+                      <?=$enabled?'启用中':'停用中'?>
+
+                  </span>
               <button class=" btn btn-inverse btn-small" type="button"
-                      onclick="toggleProp('cardcatalog','defed','<?=$id?>')">
+                      onclick="toggleProp('cardcatalog','enabled','<?=$id?>')">
                   <span class="icon icon-color icon-wrench"></span>切換
               </button>
              </td>
                       
            <td>
-             <button class="btn btn-success" type="button" onclick="editOne('<?=$id;?>');">
+             <button class="btn btn-success btn-small  " type="button" onclick="editOne('<?=$id;?>');">
                <i class="icon-edit"></i>
              </button>
-             <button class="btn btn-danger" type="button" onclick="removeOne('<?=$id;?>');">
+             <button class="btn btn-danger btn-small" type="button" onclick="removeOne('<?=$id;?>');">
                <i class="icon-remove"></i>
              </button>
            </td>
