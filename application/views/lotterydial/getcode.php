@@ -1,3 +1,4 @@
+<link href="/resources/styles/lotterydial/style.css" rel="stylesheet"  >
 <div class="wrap">
     <div  class="anim_a">
         <p>&nbsp;</p>
