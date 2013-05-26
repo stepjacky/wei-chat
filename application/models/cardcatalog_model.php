@@ -63,9 +63,17 @@ class Cardcatalog_model extends Response_news_message_extModel {
         return empty($result)?false:$result;
     }
 
+    public function get_default_config_id($pubwx){
+        $SQL = "SELECT `id` FROM `%s` WHERE `pubweixin_id` ='%s' AND `enabled` is true";
+        $query  = $this->db->query(sprintf($SQL,$this->table(),$pubwx));
+        $result = $query->row_array();
+        return empty($result)?false:$result['id'];
+    }
+
     public function response($keywords, $fromuser, $touser)
     {
-        $config = $this->get_default_config($fromuser);
+        $config = $this->get_default_config_id($fromuser);
+        if(!$config) return $this->unknow_keyword_message($fromuser,$touser);
         $newslist = array(
             array(
                 'name'=>'台州微生活会员卡',

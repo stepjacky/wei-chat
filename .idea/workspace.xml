@@ -50,7 +50,7 @@
     <file path="/pubweixin_model.php" changelist="9c42f37f-b41b-40a5-884c-3813c2511426" time="1367219869471" ignored="false" />
     <file path="/connector.php" changelist="9c42f37f-b41b-40a5-884c-3813c2511426" time="1366982702246" ignored="false" />
     <file path="/list.js" changelist="9c42f37f-b41b-40a5-884c-3813c2511426" time="1367766152261" ignored="false" />
-    <file path="/cardcatalog_model.php" changelist="9c42f37f-b41b-40a5-884c-3813c2511426" time="1369579930390" ignored="false" />
+    <file path="/cardcatalog_model.php" changelist="9c42f37f-b41b-40a5-884c-3813c2511426" time="1369580563819" ignored="false" />
     <file path="/couponcatalog.php" changelist="9c42f37f-b41b-40a5-884c-3813c2511426" time="1369579259620" ignored="false" />
     <file path="/startvalidate.php" changelist="9c42f37f-b41b-40a5-884c-3813c2511426" time="1367080467538" ignored="false" />
     <file path="/coupon.php" changelist="9c42f37f-b41b-40a5-884c-3813c2511426" time="1369573901205" ignored="false" />
@@ -197,8 +197,10 @@
       <file leaf-file-name="cardcatalog_model.php" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/application/models/cardcatalog_model.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="75" column="10" selection-start="2546" selection-end="2546" vertical-scroll-proportion="0.64134496">
-              <folding />
+            <state line="77" column="18" selection-start="2701" selection-end="2701" vertical-scroll-proportion="0.64134496">
+              <folding>
+                <marker date="1369580565586" expanded="true" signature="2210:2280" placeholder="SELECT `id` ..%s..." />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -852,8 +854,10 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/application/models/cardcatalog_model.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="75" column="10" selection-start="2546" selection-end="2546" vertical-scroll-proportion="0.64134496">
-          <folding />
+        <state line="77" column="18" selection-start="2701" selection-end="2701" vertical-scroll-proportion="0.64134496">
+          <folding>
+            <marker date="1369580565586" expanded="true" signature="2210:2280" placeholder="SELECT `id` ..%s..." />
+          </folding>
         </state>
       </provider>
     </entry>
