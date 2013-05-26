@@ -128,8 +128,8 @@ class Couponcatalog extends MY_Controller {
 
         $code  = create_random_string(8);
         $data = array(
-            'ucode'=>$code,
-            'mcode'=>$config['merchant_code'],
+            'code'=>$code,
+            'm_code'=>$config['merchant_code'],
             'name'=>$config['name'],
             'weixin_id'=>$weixin,
             'catalog_id'=>$id,
