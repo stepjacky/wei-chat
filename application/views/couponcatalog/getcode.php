@@ -1,4 +1,4 @@
-<link href="/resources/styles/couponcatalog/getcode.css0" rel="stylesheet"/>
+<link href="/resources/styles/couponcatalog/getcode.css" rel="stylesheet"/>
 <div class="wrap">
     <div  class="anim_a">
         <p>&nbsp;</p>

@@ -1,24 +1,10 @@
-<style>
-
-    body{
-        background-color: #ff822e;
-    }
-    .panel {
-        position: relative;
-        margin: 15px 15px  5px 15px;
-        padding: 0px 19px 14px 19px;
-        *padding-top: 0px;
-        background-color: #FFD993;
-        border: 1px solid #ddd;
-        -webkit-border-radius: 4px;
-        -moz-border-radius: 4px;
-        border-radius: 4px;
-    }
-</style>
-
-<header>
-
-</header>
+<div class="wrap">
+    <div  class="anim_a">
+        <p>&nbsp;</p>
+        <div class="anim_b"></div>
+    </div>
+</div>
+<div class="dblock"></div>
 <div class="container-fluid">
     <div class="row-fluid">
         <div class="panel">
