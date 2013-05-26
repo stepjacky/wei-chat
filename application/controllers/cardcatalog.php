@@ -38,7 +38,7 @@ class Cardcatalog extends MY_Controller {
     public function index($id=FALSE){
         $pubwx  = $this->_get('pubweixin');
         $weixin = $this->_get('member');
-        if(!$pubwx || $weixin){
+        if(!$pubwx || !$weixin){
             redirect('/systems/accesserror');
             return;
         }
