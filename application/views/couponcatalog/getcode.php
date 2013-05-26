@@ -20,20 +20,20 @@
             验证码:
         </dt>
         <dd>
-            <?=$ucode?>
+            <?=$code?>
         </dd>
         <dd>本次兑奖码已关联你的微信号,可向公众账号发送[优惠券]查询</dd>
     </dl>
     <p>
-        <input class="input-block-level" type="text" id="phone"/>
+        <input class="input-block-level" type="text" id="phone" placeholder="请填写手机号" />
         <button class="btn btn-block btn-danger"
-                onclick="userSubmit('<?=$catalog_id?>','<?=$weixin_id?>','<?=$ucode?>','phone')">
+                onclick="userSubmit('<?=$catalog_id?>','<?=$weixin_id?>','<?=$code?>','phone')">
             用户提交</button>
     </p>
     <p>
-        <input class="input-block-level " type="text" id="merchant_code"/>
+        <input class="input-block-level " type="text" id="m_code" placeholder="填写商家验证码" />
         <button class="btn btn-block btn-danger"
-                onclick="merchantSubmit('<?=$catalog_id?>','<?=$weixin_id?>','merchant_code','<?=$ucode?>')">
+                onclick="merchantSubmit('<?=$catalog_id?>','<?=$weixin_id?>','m_code','<?=$code?>')">
             商户提交</button>
     </p>
 </div>
@@ -51,7 +51,7 @@
         优惠券使用说明    
  </span>
     <dl class="dl-horizontal">
-        <dt> <?=$info?></dt>
+        <dt> <?=$remark?></dt>
     </dl>
 
 </div>
