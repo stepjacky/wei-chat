@@ -136,7 +136,7 @@ class Couponcatalog extends MY_Controller {
             'csetting'=>$config['csetting'],
             'remark'=>$config['remark']
         );
-        $this->copdao->save($data);
+        $this->copdao->save($data,'',FALSE);
         $this->load->view('front/header');
         $this->load->view("couponcatalog/getcode",$data);
         $this->load->view("front/footer");

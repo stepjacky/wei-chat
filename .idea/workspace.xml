@@ -2,7 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="9c42f37f-b41b-40a5-884c-3813c2511426" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/application/models/coupon_model.php" afterPath="$PROJECT_DIR$/application/models/coupon_model.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/application/controllers/couponcatalog.php" afterPath="$PROJECT_DIR$/application/controllers/couponcatalog.php" />
     </list>
     <ignored path="weixin.iws" />
@@ -52,7 +51,7 @@
     <file path="/connector.php" changelist="9c42f37f-b41b-40a5-884c-3813c2511426" time="1366982702246" ignored="false" />
     <file path="/list.js" changelist="9c42f37f-b41b-40a5-884c-3813c2511426" time="1367766152261" ignored="false" />
     <file path="/cardcatalog_model.php" changelist="9c42f37f-b41b-40a5-884c-3813c2511426" time="1369322612226" ignored="false" />
-    <file path="/couponcatalog.php" changelist="9c42f37f-b41b-40a5-884c-3813c2511426" time="1369475285592" ignored="false" />
+    <file path="/couponcatalog.php" changelist="9c42f37f-b41b-40a5-884c-3813c2511426" time="1369575263699" ignored="false" />
     <file path="/startvalidate.php" changelist="9c42f37f-b41b-40a5-884c-3813c2511426" time="1367080467538" ignored="false" />
     <file path="/coupon.php" changelist="9c42f37f-b41b-40a5-884c-3813c2511426" time="1369573901205" ignored="false" />
     <file path="/welcome.php" changelist="9c42f37f-b41b-40a5-884c-3813c2511426" time="1367215580448" ignored="false" />
@@ -125,10 +124,10 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="couponcatalog.php" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="couponcatalog.php" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/application/controllers/couponcatalog.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="132" column="36" selection-start="4162" selection-end="4162" vertical-scroll-proportion="-14.545455">
+            <state line="138" column="43" selection-start="4367" selection-end="4367" vertical-scroll-proportion="0.76839566">
               <folding />
             </state>
           </provider>
@@ -143,10 +142,10 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="coupon_model.php" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="coupon_model.php" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/application/models/coupon_model.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="65" column="80" selection-start="2739" selection-end="2739" vertical-scroll-proportion="0.11764706">
+            <state line="76" column="101" selection-start="3371" selection-end="3371" vertical-scroll-proportion="-17.454546">
               <folding>
                 <marker date="1369574767066" expanded="true" signature="1324:1498" placeholder="select (coun..coupon..." />
                 <marker date="1369574767066" expanded="true" signature="1748:1911" placeholder="select (coun..coupon..." />
@@ -209,8 +208,8 @@
         <option value="$PROJECT_DIR$/application/views/couponcatalog/exceed.php" />
         <option value="$PROJECT_DIR$/application/models/couponcatalog_model.php" />
         <option value="$PROJECT_DIR$/application/views/couponcatalog/coupon.php" />
-        <option value="$PROJECT_DIR$/application/controllers/couponcatalog.php" />
         <option value="$PROJECT_DIR$/application/models/coupon_model.php" />
+        <option value="$PROJECT_DIR$/application/controllers/couponcatalog.php" />
       </list>
     </option>
   </component>
@@ -796,16 +795,9 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/application/controllers/couponcatalog.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="132" column="36" selection-start="4162" selection-end="4162" vertical-scroll-proportion="-14.545455">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/application/models/coupon_model.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="65" column="80" selection-start="2739" selection-end="2739" vertical-scroll-proportion="0.11764706">
+        <state line="76" column="101" selection-start="3371" selection-end="3371" vertical-scroll-proportion="-17.454546">
           <folding>
             <marker date="1369574767066" expanded="true" signature="1324:1498" placeholder="select (coun..coupon..." />
             <marker date="1369574767066" expanded="true" signature="1748:1911" placeholder="select (coun..coupon..." />
@@ -814,6 +806,13 @@
             <marker date="1369574767066" expanded="true" signature="3078:3162" placeholder="select * fro..coupon..." />
             <marker date="1369574767066" expanded="true" signature="3284:3391" placeholder="update coupo..." />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/application/controllers/couponcatalog.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="138" column="43" selection-start="4367" selection-end="4367" vertical-scroll-proportion="0.76839566">
+          <folding />
         </state>
       </provider>
     </entry>
