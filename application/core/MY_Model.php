@@ -525,7 +525,7 @@ class ResponseMessage_Model extends MY_Model {
         $inuse = $this->keyword_in_use($keyword);
         if($inuse) return;
         parent::save($data, $pk, $genId);
-        add_key_map($this->table(),$keyword);
+        $this->add_key_map($this->table(),$keyword);
         $this->db->trans_complete();
     }
 
