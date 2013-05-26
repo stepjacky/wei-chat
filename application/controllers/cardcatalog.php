@@ -66,7 +66,7 @@ class Cardcatalog extends MY_Controller {
                 'remark'=>$config['remark']
 
             );
-            $this->csdao->save($cdata);
+            $this->csdao->save($cdata,'',false);
         }
 
         $preros =  $this->pdao->get_for_card($id);

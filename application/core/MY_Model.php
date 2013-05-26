@@ -127,7 +127,6 @@ class MY_Model extends CI_Model
 
         $this->firelog($data);
         if($genId)$data[$pk]=getGuidId();
-
         $str = $this->db->insert_string($this->table(), $data);
         $this->firelog($str);
         $this->db->insert($this->table, $data);

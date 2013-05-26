@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="9c42f37f-b41b-40a5-884c-3813c2511426" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/application/third_party/weichat.mwb" afterPath="$PROJECT_DIR$/application/third_party/weichat.mwb" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/application/core/MY_Model.php" afterPath="$PROJECT_DIR$/application/core/MY_Model.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/application/controllers/cardcatalog.php" afterPath="$PROJECT_DIR$/application/controllers/cardcatalog.php" />
     </list>
     <ignored path="weixin.iws" />
@@ -84,7 +84,7 @@
     <file path="/a.html" changelist="9c42f37f-b41b-40a5-884c-3813c2511426" time="1369326156299" ignored="false" />
     <file path="/gameover.php" changelist="9c42f37f-b41b-40a5-884c-3813c2511426" time="1368818588997" ignored="false" />
     <file path="/cards_model.php" changelist="9c42f37f-b41b-40a5-884c-3813c2511426" time="1369318709600" ignored="false" />
-    <file path="/cardcatalog.php" changelist="9c42f37f-b41b-40a5-884c-3813c2511426" time="1369466966891" ignored="false" />
+    <file path="/cardcatalog.php" changelist="9c42f37f-b41b-40a5-884c-3813c2511426" time="1369566522029" ignored="false" />
     <file path="/prerogative_model.php" changelist="9c42f37f-b41b-40a5-884c-3813c2511426" time="1369320864591" ignored="false" />
     <file path="/a.php" changelist="9c42f37f-b41b-40a5-884c-3813c2511426" time="1369326138842" ignored="false" />
     <file path="/a.coffee" changelist="9c42f37f-b41b-40a5-884c-3813c2511426" time="1369326146676" ignored="false" />
@@ -133,18 +133,18 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="MY_Model.php" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="MY_Model.php" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/application/core/MY_Model.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="452" column="5" selection-start="11134" selection-end="11529" vertical-scroll-proportion="-7.774194">
+            <state line="128" column="41" selection-start="3490" selection-end="3490" vertical-scroll-proportion="0.45736435">
               <folding>
-                <marker date="1369557338852" expanded="true" signature="5886:5928" placeholder="update %s se..." />
-                <marker date="1369557338852" expanded="true" signature="13106:13185" placeholder="select count..keywordmap..." />
-                <marker date="1369557338852" expanded="true" signature="13676:13736" placeholder="delete from ..." />
-                <marker date="1369557338852" expanded="true" signature="13945:14196" placeholder="select count..respnewsmessage..." />
-                <marker date="1369557338852" expanded="true" signature="14511:14730" placeholder="..." />
-                <marker date="1369557338852" expanded="true" signature="16149:16346" placeholder="..." />
-                <marker date="1369557338852" expanded="true" signature="16377:16520" placeholder="..." />
+                <marker date="1369566539817" expanded="true" signature="5885:5927" placeholder="update %s se..." />
+                <marker date="1369566539817" expanded="true" signature="13105:13184" placeholder="select count..keywordmap..." />
+                <marker date="1369566539817" expanded="true" signature="13675:13735" placeholder="delete from ..." />
+                <marker date="1369566539817" expanded="true" signature="13944:14195" placeholder="select count..respnewsmessage..." />
+                <marker date="1369566539817" expanded="true" signature="14510:14729" placeholder="..." />
+                <marker date="1369566539817" expanded="true" signature="16148:16345" placeholder="..." />
+                <marker date="1369566539817" expanded="true" signature="16376:16519" placeholder="..." />
               </folding>
             </state>
           </provider>
@@ -162,7 +162,7 @@
       <file leaf-file-name="cards_model.php" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/application/models/cards_model.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="33" column="32" selection-start="1281" selection-end="1281" vertical-scroll-proportion="-17.454546">
+            <state line="38" column="5" selection-start="1459" selection-end="1459" vertical-scroll-proportion="-17.787878">
               <folding />
             </state>
           </provider>
@@ -195,10 +195,10 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="cardcatalog.php" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="cardcatalog.php" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/application/controllers/cardcatalog.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="61" column="44" selection-start="2300" selection-end="2300" vertical-scroll-proportion="0.65753424">
+            <state line="68" column="39" selection-start="2544" selection-end="2544" vertical-scroll-proportion="-18.90909">
               <folding />
             </state>
           </provider>
@@ -243,19 +243,19 @@
         <option value="$PROJECT_DIR$/application/controllers/message.php" />
         <option value="$PROJECT_DIR$/application/core/MY_Controller.php" />
         <option value="$PROJECT_DIR$/application/models/respnewsmessage_model.php" />
-        <option value="$PROJECT_DIR$/application/core/MY_Model.php" />
         <option value="$PROJECT_DIR$/application/models/lotterywin_model.php" />
         <option value="$PROJECT_DIR$/application/controllers/lotterydial.php" />
         <option value="$PROJECT_DIR$/application/models/lotterydial_model.php" />
         <option value="$PROJECT_DIR$/application/views/couponcatalog/getcode.php" />
         <option value="$PROJECT_DIR$/resources/styles/lotterydial/style.css" />
         <option value="$PROJECT_DIR$/application/views/lotterydial/getcode.php" />
-        <option value="$PROJECT_DIR$/application/models/cards_model.php" />
         <option value="$PROJECT_DIR$/application/controllers/couponcatalog.php" />
         <option value="$PROJECT_DIR$/application/views/systems/accesserror.php" />
         <option value="$PROJECT_DIR$/application/models/couponcatalog_model.php" />
         <option value="$PROJECT_DIR$/application/models/cardcatalog_model.php" />
+        <option value="$PROJECT_DIR$/application/models/cards_model.php" />
         <option value="$PROJECT_DIR$/application/controllers/cardcatalog.php" />
+        <option value="$PROJECT_DIR$/application/core/MY_Model.php" />
       </list>
     </option>
   </component>
@@ -728,28 +728,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/application/core/MY_Model.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="452" column="5" selection-start="11134" selection-end="11529" vertical-scroll-proportion="-7.774194">
-          <folding>
-            <marker date="1369557338852" expanded="true" signature="5886:5928" placeholder="update %s se..." />
-            <marker date="1369557338852" expanded="true" signature="13106:13185" placeholder="select count..keywordmap..." />
-            <marker date="1369557338852" expanded="true" signature="13676:13736" placeholder="delete from ..." />
-            <marker date="1369557338852" expanded="true" signature="13945:14196" placeholder="select count..respnewsmessage..." />
-            <marker date="1369557338852" expanded="true" signature="14511:14730" placeholder="..." />
-            <marker date="1369557338852" expanded="true" signature="16149:16346" placeholder="..." />
-            <marker date="1369557338852" expanded="true" signature="16377:16520" placeholder="..." />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/application/models/cards_model.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="33" column="32" selection-start="1281" selection-end="1281" vertical-scroll-proportion="-17.454546">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/application/views/cardcatalog/noconfig.php">
       <provider selected="true" editor-type-id="text-editor">
         <state line="0" column="9" selection-start="9" selection-end="9" vertical-scroll-proportion="0.0">
@@ -792,10 +770,32 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/application/models/cards_model.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="38" column="5" selection-start="1459" selection-end="1459" vertical-scroll-proportion="-17.787878">
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/application/controllers/cardcatalog.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="61" column="44" selection-start="2300" selection-end="2300" vertical-scroll-proportion="0.65753424">
+        <state line="68" column="39" selection-start="2544" selection-end="2544" vertical-scroll-proportion="-18.90909">
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/application/core/MY_Model.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="128" column="41" selection-start="3490" selection-end="3490" vertical-scroll-proportion="0.45736435">
+          <folding>
+            <marker date="1369566539817" expanded="true" signature="5885:5927" placeholder="update %s se..." />
+            <marker date="1369566539817" expanded="true" signature="13105:13184" placeholder="select count..keywordmap..." />
+            <marker date="1369566539817" expanded="true" signature="13675:13735" placeholder="delete from ..." />
+            <marker date="1369566539817" expanded="true" signature="13944:14195" placeholder="select count..respnewsmessage..." />
+            <marker date="1369566539817" expanded="true" signature="14510:14729" placeholder="..." />
+            <marker date="1369566539817" expanded="true" signature="16148:16345" placeholder="..." />
+            <marker date="1369566539817" expanded="true" signature="16376:16519" placeholder="..." />
+          </folding>
         </state>
       </provider>
     </entry>
