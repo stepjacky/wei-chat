@@ -2,5 +2,5 @@
  系统提示
 </span>
 <div class="alert alert-error">
-  <?-$msg;?>
+  <?=$msg;?>
 </div>
