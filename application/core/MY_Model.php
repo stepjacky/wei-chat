@@ -688,13 +688,15 @@ class Response_news_message_extModel extends Response_news_message_Model{
     public function __construct()
     {
 
-        $this->FromUserKey='pubweixin_id';
+
         if (func_num_args() == 1) {
             $mname = func_get_arg(0);
             parent::__construct($mname);
         }else{
             parent::__construct();
         }
+
+        $this->FromUserKey='pubweixin_id';
 
     }
 
