@@ -609,18 +609,19 @@ class Response_news_message_Model extends Response_simple_Message_Model{
     protected function assemble_news($news)
     {
 
-        print_r($news);
-        $newslist = array(
-
+        $newslist = array();
+        foreach($news as $bean){
+           array_push($newslist,
             array(
-                'name'=>$news['name'],
-                'info'=>$news['info'],
-                'picurl'=>$news['picurl'],
-                'url'=>base_url('/news/index/'.$news['id'])
+                'name'=>$bean['name'],
+                'info'=>$bean['info'],
+                'picurl'=>$bean['picurl'],
+                'url'=>base_url('/news/index/'.$bean['id'])
             )
+           );
+        }
 
 
-        );
         return $newslist;
     }
 
