@@ -24,7 +24,7 @@
  *    
  */
 
-class News_model extends ResponseMessage_Model {
+class News_model extends SimpleMessage_Model {
      
     public  function __construct(){
         parent::__construct("News_model");

@@ -22,12 +22,15 @@
 
     function checkitems(id,name,self){
 
-        news[id] = {'name':name,checked:$(self).attr('checked')};
+        news[id] = {'name':name,checked:$(self).prop('checked')};
 
         $("#selnews").empty();
 
+
+
         $.each(news,function(pid,item){
             var checked = item.checked;
+
             if(checked){
                 var btn = $("<button class='btn' pid='"+pid+"'><i class='icon-remove-circle'></i></button>");
                 btn.append(item.name);
@@ -51,5 +54,12 @@
 
         window.returnValue = selected==null?'':selected;
     }
+
+    function print(msg){
+        if(console)
+            console.log(msg);
+    }
+
+
     loadAll();
 </script>

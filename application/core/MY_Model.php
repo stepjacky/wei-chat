@@ -125,8 +125,9 @@ class MY_Model extends CI_Model
     public function save($data,$pk='id',$genId=TRUE)
     {
 
-        if($genId)$data[$pk]=getGuidId();
         $this->firelog($data);
+        if($genId)$data[$pk]=getGuidId();
+
         $str = $this->db->insert_string($this->table(), $data);
         $this->firelog($str);
         $this->db->insert($this->table, $data);
@@ -136,13 +137,7 @@ class MY_Model extends CI_Model
 
     public function save2($data,$gen=TRUE,$pk='id')
     {
-
-
-        if($gen)$data[$pk]=getGuidId();
-        $this->firelog($data);
-        $str = $this->db->insert_string($this->table(), $data);
-        $this->firelog($str);
-        $this->db->insert($this->table, $data);
+        $this->save($data,$pk,$gen);
 
     }
 
@@ -387,12 +382,39 @@ class Image_Model extends MY_Model {
 
 }
 
-class ResponseMessage_Model extends MY_Model {
+class SimpleMessage_Model extends MY_Model{
+     protected $FromUserName = "";
+     protected $FromUserKey='pubweixin_id';
+     protected $conds = array();
 
-    protected $FromUserName = "";
-    protected $FromUserKey='pubweixin_id';
-    protected $conds = array();
 
+     public function __construct()
+     {
+
+         if (func_num_args() == 1) {
+             $mname = func_get_arg(0);
+             parent::__construct($mname);
+
+         }else{
+             parent::__construct();
+         }
+
+         $this->postContruct();
+     }
+    protected function postContruct(){
+        $this->load->library('nsession');
+        $pubwx = $this->nsession->userdata("pubwx");
+        $this->FromUserName = $pubwx;
+        $this->conds = array($this->FromUserKey=>$this->FromUserName);
+    }
+    public function  saveUpdate($data,$pk="id",$gen=TRUE){
+        $data[$this->FromUserKey] = $this->FromUserName;
+
+        parent::saveUpdate($data,$pk,$gen);
+    }
+ }
+
+class ResponseMessage_Model extends SimpleMessage_Model {
 
     public function __construct()
     {
@@ -404,22 +426,8 @@ class ResponseMessage_Model extends MY_Model {
         }else{
             parent::__construct();
         }
-        $this->postContruct();
-
-    }
 
 
-    protected function postContruct(){
-        $this->load->library('nsession');
-        $pubwx = $this->nsession->userdata("pubwx");
-        $this->FromUserName = $pubwx;
-        $this->conds = array($this->FromUserKey=>$this->FromUserName);
-    }
-
-    public function  saveUpdate($data,$pk="id",$gen=TRUE){
-        $data[$this->FromUserKey] = $this->FromUserName;
-
-        parent::saveUpdate($data,$pk,$gen);
     }
 
 
