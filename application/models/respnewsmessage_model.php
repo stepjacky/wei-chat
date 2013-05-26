@@ -42,8 +42,13 @@ class Respnewsmessage_model extends Response_news_message_Model {
         $data[$this->FromUserKey]= $this->FromUserName;
         $str = $this->db->insert_string($this->table(), $data);
         $this->firelog($str);
-        //$this->db->insert($this->table, $data);
-        parent::save($data,'id',true);
+        if(!$data['keyword']) return;
+        $keyword = trim($data['keyword']);
+        $inuse = $this->keyword_in_use($keyword);
+        if($inuse) return;
+        $this->db->insert($this->table, $data);
+        $this->add_key_map($this->table(),$keyword);
+        //parent::save($data,'id',true);
 
         $udata = array();
         foreach ($newslist as $key=>$news){
@@ -94,7 +99,7 @@ class Respnewsmessage_model extends Response_news_message_Model {
         $data['newslist'] = array();
         if(!$id) {
             return $data;
-        } 
+        }
         $data['newslist'] = $this->get_newslist($id);
         return $data;
     }

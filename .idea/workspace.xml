@@ -2,8 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="9c42f37f-b41b-40a5-884c-3813c2511426" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/application/core/MY_Controller.php" afterPath="$PROJECT_DIR$/application/core/MY_Controller.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/application/controllers/message.php" afterPath="$PROJECT_DIR$/application/controllers/message.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/application/models/respnewsmessage_model.php" afterPath="$PROJECT_DIR$/application/models/respnewsmessage_model.php" />
     </list>
     <ignored path="weixin.iws" />
@@ -145,7 +143,7 @@
       <file leaf-file-name="MY_Model.php" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/application/core/MY_Model.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="446" column="25" selection-start="11298" selection-end="11298" vertical-scroll-proportion="-9.818182">
+            <state line="491" column="52" selection-start="12402" selection-end="12447" vertical-scroll-proportion="-14.909091">
               <folding>
                 <marker date="1369550014727" expanded="true" signature="5886:5928" placeholder="update %s se..." />
                 <marker date="1369550014727" expanded="true" signature="13106:13185" placeholder="select count..keywordmap..." />
@@ -162,10 +160,10 @@
       <file leaf-file-name="respnewsmessage_model.php" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/application/models/respnewsmessage_model.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="96" column="10" selection-start="3188" selection-end="3188" vertical-scroll-proportion="0.7792521">
+            <state line="49" column="29" selection-start="1843" selection-end="1843" vertical-scroll-proportion="0.5476478">
               <folding>
-                <marker date="1369554365003" expanded="true" signature="2744:2881" placeholder="select n.id ..respnewslist..." />
-                <marker date="1369554365003" expanded="true" signature="3478:3585" placeholder="select * fro..news..." />
+                <marker date="1369555046887" expanded="true" signature="2955:3092" placeholder="select n.id ..respnewslist..." />
+                <marker date="1369555046887" expanded="true" signature="3688:3795" placeholder="select * fro..news..." />
               </folding>
             </state>
           </provider>
@@ -602,21 +600,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/application/core/MY_Model.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="446" column="25" selection-start="11298" selection-end="11298" vertical-scroll-proportion="-9.818182">
-          <folding>
-            <marker date="1369550014727" expanded="true" signature="5886:5928" placeholder="update %s se..." />
-            <marker date="1369550014727" expanded="true" signature="13106:13185" placeholder="select count..keywordmap..." />
-            <marker date="1369550014727" expanded="true" signature="13676:13736" placeholder="delete from ..." />
-            <marker date="1369550014727" expanded="true" signature="13945:14196" placeholder="select count..respnewsmessage..." />
-            <marker date="1369550014727" expanded="true" signature="14511:14730" placeholder="..." />
-            <marker date="1369550014727" expanded="true" signature="16084:16281" placeholder="..." />
-            <marker date="1369550014727" expanded="true" signature="16312:16455" placeholder="..." />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/application/controllers/respnewsmessage.php">
       <provider selected="true" editor-type-id="text-editor">
         <state line="26" column="39" selection-start="1128" selection-end="1128" vertical-scroll-proportion="-15.666667">
@@ -631,12 +614,27 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/application/core/MY_Model.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="491" column="52" selection-start="12402" selection-end="12447" vertical-scroll-proportion="-14.909091">
+          <folding>
+            <marker date="1369550014727" expanded="true" signature="5886:5928" placeholder="update %s se..." />
+            <marker date="1369550014727" expanded="true" signature="13106:13185" placeholder="select count..keywordmap..." />
+            <marker date="1369550014727" expanded="true" signature="13676:13736" placeholder="delete from ..." />
+            <marker date="1369550014727" expanded="true" signature="13945:14196" placeholder="select count..respnewsmessage..." />
+            <marker date="1369550014727" expanded="true" signature="14511:14730" placeholder="..." />
+            <marker date="1369550014727" expanded="true" signature="16084:16281" placeholder="..." />
+            <marker date="1369550014727" expanded="true" signature="16312:16455" placeholder="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/application/models/respnewsmessage_model.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="96" column="10" selection-start="3188" selection-end="3188" vertical-scroll-proportion="0.7792521">
+        <state line="49" column="29" selection-start="1843" selection-end="1843" vertical-scroll-proportion="0.5476478">
           <folding>
-            <marker date="1369554365003" expanded="true" signature="2744:2881" placeholder="select n.id ..respnewslist..." />
-            <marker date="1369554365003" expanded="true" signature="3478:3585" placeholder="select * fro..news..." />
+            <marker date="1369555046887" expanded="true" signature="2955:3092" placeholder="select n.id ..respnewslist..." />
+            <marker date="1369555046887" expanded="true" signature="3688:3795" placeholder="select * fro..news..." />
           </folding>
         </state>
       </provider>
