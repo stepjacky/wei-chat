@@ -51,6 +51,7 @@ class Couponcatalog extends MY_Controller {
             }
 
             redirect(sprintf('/cardcatalog/index/%s?pubweixin=%s&member=%s',$cardcfg['id'],$pubwx,$weixin));
+            
             return;
         }
         $coupons  = $this->dao->get_by_pubwx($pubwx);

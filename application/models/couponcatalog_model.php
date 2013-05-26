@@ -86,7 +86,7 @@ class Couponcatalog_model extends Response_news_message_extModel {
                 'name'=>'优惠券开始了',
                 'info'=>'优惠券开始发行,先到先得',
                 'picurl'=>'/resources/images/coupon.jpg',
-                'url'=>base_url('/couponcatalog/coupon')
+                'url'=>base_url(sprintf('/couponcatalog/coupon?pubweixin=%s&member=%s',$fromuser,$touser))
             )
         );
 
