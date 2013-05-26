@@ -76,54 +76,35 @@ class Couponcatalog extends MY_Controller {
 
 
         $config  = $this->dao->getconfig($id);
-
-        $data = array(
-            "msg"=>''
-
-        );
+        $weixin = $this->_get('member');
 
 
         if(!$config){
-            $data['msg']='非法访问!';
-            $this->load->view('front/header');
-            $this->load->view("couponcatalog/exceed",$data);
-            $this->load->view("front/footer");
+            $this->illage_access();
             return;
 
         }
 
-        $daily_limit = $this->copdao->check_daily_limit($id);
-        if(!$daily_limit){
-            $data['msg']='本优惠券今日已经领完,请明天再来,谢谢参与!';
-            $this->load->view('front/header');
-            $this->load->view("couponcatalog/exceed",$data);
-            $this->load->view("front/footer");
-            return;
-        }
-
-        $weixin = $this->_get('member');
-        $user_limit = $this->copdao->check_user_daily_limit($id,$weixin);
-        if(!$user_limit){
-            $data['msg']='您已经领过该优惠券,谢谢参与!';
-            $this->load->view('front/header');
-            $this->load->view("couponcatalog/exceed",$data);
-            $this->load->view("front/footer");
-            return;
-        }
 
         $validated =  $this->copdao->is_validated($id,$weixin);
 
-        if($validated){
-          $coupon =  $this->copdao->get_coupon($id,$weixin);
-          $data = array(
-              'coupon'=>$coupon,
-              'config'=>$config
-          );
-            $this->load->view('front/header');
-            $this->load->view("couponcatalog/validated",$data);
-            $this->load->view("front/footer");
-            return;
 
+        $daily_limit = $this->copdao->check_daily_limit($id);
+        if(!$daily_limit && $validated){
+            $this->out_of_date();
+            return;
+        }
+
+        $user_limit = $this->copdao->check_user_daily_limit($id,$weixin);
+
+        if(!$user_limit && $validated){
+            $this->received();
+            return;
+        }
+
+        if(!$validated){
+            $this->wait_for_validate($id,$weixin,$config);
+            return;
         }
 
         $code  = create_random_string(8);
@@ -142,6 +123,41 @@ class Couponcatalog extends MY_Controller {
         $this->load->view("front/footer");
 
     }
+
+
+    private function illage_access(){
+        $data['msg']='非法访问!';
+        $this->load->view('front/header');
+        $this->load->view("couponcatalog/exceed",$data);
+        $this->load->view("front/footer");
+    }
+
+    private function received(){
+        $data['msg']='您已经领过该优惠券,谢谢参与!';
+        $this->load->view('front/header');
+        $this->load->view("couponcatalog/exceed",$data);
+        $this->load->view("front/footer");
+    }
+
+    private function wait_for_validate($id,$weixin,$config){
+        $coupon =  $this->copdao->get_coupon($id,$weixin);
+        $data = array(
+            'coupon'=>$coupon,
+            'config'=>$config
+        );
+        $this->load->view('front/header');
+        $this->load->view("couponcatalog/validated",$data);
+        $this->load->view("front/footer");
+    }
+
+
+    private function out_of_date(){
+        $data['msg']='本优惠券今日已经领完,请明天再来,谢谢参与!';
+        $this->load->view('front/header');
+        $this->load->view("couponcatalog/exceed",$data);
+        $this->load->view("front/footer");
+    }
+
 
     public function m_validate($cid,$weixin,$mcode,$ucode){
         $rst = $this->cdao->m_validate($cid,$weixin,$mcode,$ucode);

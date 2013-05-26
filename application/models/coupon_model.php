@@ -31,6 +31,11 @@ class Coupon_model extends MY_Model {
         $this->load->model("Couponcatalog_model","cdao");
     }
 
+
+    /**
+     * @return true if 0<x<limition visa false
+     *
+     */
     public function check_daily_limit($cid){
         $SQL="select (count(c.id)-p.daily_limit) num from coupon c,couponcatalog p
               where c.catalog_id='%s' and datediff(current_date,c.firedate)=0
@@ -42,6 +47,10 @@ class Coupon_model extends MY_Model {
         return empty($result)?true:$result['num']<0;
     }
 
+    /**
+     * @return true if 0<x<limition visa false
+     *
+    */
     public function check_user_daily_limit($cid,$weixin){
         $SQL="select (count(c.id)-p.user_daily_limit) num  from coupon c , couponcatalog p
               where c.catalog_id='%s' and c.weixin_id='%s'
