@@ -159,4 +159,22 @@ class Lotterydial_model extends Response_news_message_extModel {
         return empty($result)?0:$result['userlimit'];
     }
 
+    protected function assemble_news($news)
+    {
+
+        $newslist = array(
+            array(
+                'name'=>$news['name'],
+                'info'=>$news['info'],
+                'picurl'=>$news['picurl'],
+                'url'=>base_url('/'.$this->table().'/index/'.$news['id'])
+
+            )
+        );
+
+
+        return $newslist;
+    }
+
+
 }   
