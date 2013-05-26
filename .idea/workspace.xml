@@ -2,6 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="9c42f37f-b41b-40a5-884c-3813c2511426" name="Default" comment="">
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/application/core/MY_Model.php" afterPath="$PROJECT_DIR$/application/core/MY_Model.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/application/models/respnewsmessage_model.php" afterPath="$PROJECT_DIR$/application/models/respnewsmessage_model.php" />
     </list>
     <ignored path="weixin.iws" />
@@ -32,7 +33,7 @@
     <file path="/input.php" changelist="9c42f37f-b41b-40a5-884c-3813c2511426" time="1366774245128" ignored="false" />
     <file path="/couponpolicy.php" changelist="9c42f37f-b41b-40a5-884c-3813c2511426" time="1366787564747" ignored="false" />
     <file path="/merchant.php" changelist="9c42f37f-b41b-40a5-884c-3813c2511426" time="1367159072197" ignored="false" />
-    <file path="/MY_Model.php" changelist="9c42f37f-b41b-40a5-884c-3813c2511426" time="1369549829836" ignored="false" />
+    <file path="/MY_Model.php" changelist="9c42f37f-b41b-40a5-884c-3813c2511426" time="1369555572078" ignored="false" />
     <file path="/vcode_model.php" changelist="9c42f37f-b41b-40a5-884c-3813c2511426" time="1366818551986" ignored="false" />
     <file path="/body-start.php" changelist="9c42f37f-b41b-40a5-884c-3813c2511426" time="1369484478248" ignored="false" />
     <file path="/picture.php" changelist="9c42f37f-b41b-40a5-884c-3813c2511426" time="1366899887651" ignored="false" />
@@ -140,30 +141,32 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="MY_Model.php" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="MY_Model.php" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/application/core/MY_Model.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="491" column="52" selection-start="12402" selection-end="12447" vertical-scroll-proportion="-14.909091">
+            <state line="611" column="23" selection-start="15595" selection-end="15595" vertical-scroll-proportion="0.47768396">
               <folding>
-                <marker date="1369550014727" expanded="true" signature="5886:5928" placeholder="update %s se..." />
-                <marker date="1369550014727" expanded="true" signature="13106:13185" placeholder="select count..keywordmap..." />
-                <marker date="1369550014727" expanded="true" signature="13676:13736" placeholder="delete from ..." />
-                <marker date="1369550014727" expanded="true" signature="13945:14196" placeholder="select count..respnewsmessage..." />
-                <marker date="1369550014727" expanded="true" signature="14511:14730" placeholder="..." />
-                <marker date="1369550014727" expanded="true" signature="16084:16281" placeholder="..." />
-                <marker date="1369550014727" expanded="true" signature="16312:16455" placeholder="..." />
+                <marker date="1369555574358" expanded="true" signature="5886:5928" placeholder="update %s se..." />
+                <marker date="1369555574358" expanded="true" signature="13106:13185" placeholder="select count..keywordmap..." />
+                <marker date="1369555574358" expanded="true" signature="13676:13736" placeholder="delete from ..." />
+                <marker date="1369555574358" expanded="true" signature="13945:14196" placeholder="select count..respnewsmessage..." />
+                <marker date="1369555574358" expanded="true" signature="14511:14730" placeholder="..." />
+                <marker date="1369555574358" expanded="true" signature="16093:16533" placeholder="..." />
+                <marker date="1369555574358" expanded="true" signature="16093:16290" placeholder="..." />
+                <marker date="1369555574358" expanded="true" signature="16290:16501" placeholder="..." />
+                <marker date="1369555574358" expanded="true" signature="16321:16464" placeholder="..." />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="respnewsmessage_model.php" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="respnewsmessage_model.php" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/application/models/respnewsmessage_model.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="49" column="29" selection-start="1843" selection-end="1843" vertical-scroll-proportion="0.5476478">
+            <state line="26" column="44" selection-start="1128" selection-end="1128" vertical-scroll-proportion="-12.757576">
               <folding>
-                <marker date="1369555046887" expanded="true" signature="2955:3092" placeholder="select n.id ..respnewslist..." />
-                <marker date="1369555046887" expanded="true" signature="3688:3795" placeholder="select * fro..news..." />
+                <marker date="1369555534200" expanded="true" signature="2955:3092" placeholder="select n.id ..respnewslist..." />
+                <marker date="1369555534200" expanded="true" signature="3688:3795" placeholder="select * fro..news..." />
               </folding>
             </state>
           </provider>
@@ -217,10 +220,10 @@
         <option value="$PROJECT_DIR$/application/views/news/editNew.php" />
         <option value="$PROJECT_DIR$/application/views/news/selector.php" />
         <option value="$PROJECT_DIR$/application/models/news_model.php" />
-        <option value="$PROJECT_DIR$/application/core/MY_Model.php" />
         <option value="$PROJECT_DIR$/application/controllers/message.php" />
         <option value="$PROJECT_DIR$/application/core/MY_Controller.php" />
         <option value="$PROJECT_DIR$/application/models/respnewsmessage_model.php" />
+        <option value="$PROJECT_DIR$/application/core/MY_Model.php" />
       </list>
     </option>
   </component>
@@ -301,6 +304,24 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="application" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="weixin" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="wei-chat" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="application" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="models" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -614,27 +635,29 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/application/core/MY_Model.php">
+    <entry file="file://$PROJECT_DIR$/application/models/respnewsmessage_model.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="491" column="52" selection-start="12402" selection-end="12447" vertical-scroll-proportion="-14.909091">
+        <state line="26" column="44" selection-start="1128" selection-end="1128" vertical-scroll-proportion="-12.757576">
           <folding>
-            <marker date="1369550014727" expanded="true" signature="5886:5928" placeholder="update %s se..." />
-            <marker date="1369550014727" expanded="true" signature="13106:13185" placeholder="select count..keywordmap..." />
-            <marker date="1369550014727" expanded="true" signature="13676:13736" placeholder="delete from ..." />
-            <marker date="1369550014727" expanded="true" signature="13945:14196" placeholder="select count..respnewsmessage..." />
-            <marker date="1369550014727" expanded="true" signature="14511:14730" placeholder="..." />
-            <marker date="1369550014727" expanded="true" signature="16084:16281" placeholder="..." />
-            <marker date="1369550014727" expanded="true" signature="16312:16455" placeholder="..." />
+            <marker date="1369555534200" expanded="true" signature="2955:3092" placeholder="select n.id ..respnewslist..." />
+            <marker date="1369555534200" expanded="true" signature="3688:3795" placeholder="select * fro..news..." />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/application/models/respnewsmessage_model.php">
+    <entry file="file://$PROJECT_DIR$/application/core/MY_Model.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="49" column="29" selection-start="1843" selection-end="1843" vertical-scroll-proportion="0.5476478">
+        <state line="611" column="23" selection-start="15595" selection-end="15595" vertical-scroll-proportion="0.47768396">
           <folding>
-            <marker date="1369555046887" expanded="true" signature="2955:3092" placeholder="select n.id ..respnewslist..." />
-            <marker date="1369555046887" expanded="true" signature="3688:3795" placeholder="select * fro..news..." />
+            <marker date="1369555574358" expanded="true" signature="5886:5928" placeholder="update %s se..." />
+            <marker date="1369555574358" expanded="true" signature="13106:13185" placeholder="select count..keywordmap..." />
+            <marker date="1369555574358" expanded="true" signature="13676:13736" placeholder="delete from ..." />
+            <marker date="1369555574358" expanded="true" signature="13945:14196" placeholder="select count..respnewsmessage..." />
+            <marker date="1369555574358" expanded="true" signature="14511:14730" placeholder="..." />
+            <marker date="1369555574358" expanded="true" signature="16093:16533" placeholder="..." />
+            <marker date="1369555574358" expanded="true" signature="16093:16290" placeholder="..." />
+            <marker date="1369555574358" expanded="true" signature="16290:16501" placeholder="..." />
+            <marker date="1369555574358" expanded="true" signature="16321:16464" placeholder="..." />
           </folding>
         </state>
       </provider>

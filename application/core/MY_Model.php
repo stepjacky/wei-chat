@@ -608,13 +608,15 @@ class Response_news_message_Model extends Response_simple_Message_Model{
 
     protected function assemble_news($news)
     {
+
+        print_r($news);
         $newslist = array(
 
             array(
                 'name'=>$news['name'],
-                'info'=>$news['remark'],
+                'info'=>$news['info'],
                 'picurl'=>$news['picurl'],
-                'url'=>base_url('/'.$this->table().'/index/'.$news['id'])
+                'url'=>base_url('/news/index/'.$news['id'])
             )
 
 

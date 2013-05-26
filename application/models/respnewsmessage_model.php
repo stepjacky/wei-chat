@@ -119,4 +119,6 @@ class Respnewsmessage_model extends Response_news_message_Model {
 
 
 
+
+
 }   
