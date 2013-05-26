@@ -42,7 +42,8 @@ class Respnewsmessage_model extends Response_news_message_Model {
         $data[$this->FromUserKey]= $this->FromUserName;
         $str = $this->db->insert_string($this->table(), $data);
         $this->firelog($str);
-        $this->db->insert($this->table, $data);
+        //$this->db->insert($this->table, $data);
+        parent::save($data,'id',true);
 
         $udata = array();
         foreach ($newslist as $key=>$news){
