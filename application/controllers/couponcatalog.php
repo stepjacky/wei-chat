@@ -103,7 +103,10 @@ class Couponcatalog extends MY_Controller {
         }
 
         if(!$validated){
-            $this->wait_for_validate($id,$weixin,$config);
+            $this->wait_for_validate($id,$weixin);
+            return;
+        } else{
+            $this->has_validated($id,$weixin);
             return;
         }
 
@@ -139,14 +142,17 @@ class Couponcatalog extends MY_Controller {
         $this->load->view("front/footer");
     }
 
-    private function wait_for_validate($id,$weixin,$config){
+    private function wait_for_validate($id,$weixin){
         $coupon =  $this->copdao->get_coupon($id,$weixin);
-        $data = array(
-            'coupon'=>$coupon,
-            'config'=>$config
-        );
         $this->load->view('front/header');
-        $this->load->view("couponcatalog/validated",$data);
+        $this->load->view("couponcatalog/getcode",$coupon);
+        $this->load->view("front/footer");
+    }
+
+    private function has_validated($cid,$weixin){
+        $coupon =  $this->copdao->get_coupon($cid,$weixin);
+        $this->load->view('front/header');
+        $this->load->view("couponcatalog/validated",$coupon);
         $this->load->view("front/footer");
     }
 
