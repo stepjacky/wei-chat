@@ -36,7 +36,7 @@ class Coupon_model extends MY_Model {
               where c.catalog_id='%s' and datediff(current_date,c.firedate)=0
               and p.id='%s'
               ";
-        $query = $this->db->query(sprintf($SQL,array($cid,$cid)));
+        $query = $this->db->query(sprintf($SQL,$cid,$cid));
         $result = $query->row_array();
 
         return empty($result)?true:$result['num']<0;
@@ -47,7 +47,7 @@ class Coupon_model extends MY_Model {
               where c.catalog_id='%s' and c.member_id='%s'
               and p.id='%s'
         ";
-        $query = $this->db->query(sprintf($SQL,array($cid,$weixin,$cid)));
+        $query = $this->db->query(sprintf($SQL,$cid,$weixin,$cid));
         $result = $query->row_array();
         return empty($result)?true: $result['num']<0;
     }
@@ -66,7 +66,7 @@ class Coupon_model extends MY_Model {
         $this->query(sprintf($SQL,array($this->table(),$cid,$weixin,$mcode,$ucode)));
         if(empty($result)) return false;
         $SQL="update coupon set m_validated=true where catalog_id='%s' and weixin_id='%s' and merchant_code='%s' and code='%s'";
-        $this->db->query(sprintf($SQL,array($cid,$weixin,$mcode,$ucode)));
+        $this->db->query(sprintf($SQL,$cid,$weixin,$mcode,$ucode));
         return true;
     }
 
@@ -75,7 +75,7 @@ class Coupon_model extends MY_Model {
         $this->query(sprintf($SQL,array($cid,$weixin,$ucode)));
         if(empty($result)) return false;
         $SQL="update coupon set u_validated=true ,memberphone='%s' where catalog_id='%s' and weixin_id='%s' and code='%s'";
-        $this->db->query(sprintf($SQL,array($phone,$cid,$weixin,$ucode)));
+        $this->db->query(sprintf($SQL,$phone,$cid,$weixin,$ucode));
         return true;
     }
 
