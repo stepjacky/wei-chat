@@ -93,8 +93,8 @@ class Respnewsmessage_model extends Response_simple_Message_Model {
         return $data;
     }
 
-    public function response($keywords,$fromuser,$touser){
-
+    protected function find_with_keywords($keywords)
+    {
         $this->db->like('keywords',$keywords);
         $query =  $this->db->get($this->table());
         $bean = $query->row_array();
@@ -103,9 +103,8 @@ class Respnewsmessage_model extends Response_simple_Message_Model {
              where n.id=rn.newsid";
         $query = $this->db->query($SQL,array($bean['id']));
         $news = $query->result_array();
-        $resultStr =$this->buildMessage($fromuser,$touser,$news);
-        return $resultStr;
+        return $news;
     }
 
-    
+
 }   

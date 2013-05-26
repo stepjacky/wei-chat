@@ -28,7 +28,38 @@ class Resptextmessage_model extends Response_simple_Message_Model {
      
     public  function __construct(){
         parent::__construct("Resptextmessage_model");
-    }  
-    
-    
+    }
+
+    protected function find_with_keywords($keywords)
+    {
+        $this->db->select("content");
+        $this->db->where('keyword',$keywords);
+        $query = $this->db->get($this->table());
+        $result = $query->row_array();
+        return $result;
+    }
+
+
+    protected function buildMessage($fromuser, $touser, $news)
+    {
+        if(empty($news)) return $this->unknow_keyword_message($fromuser,$touser);
+        $msgTempl = "
+        <xml>
+ <ToUserName><![CDATA[%s]]></ToUserName>
+ <FromUserName><![CDATA[%s]]></FromUserName>
+ <CreateTime>%d</CreateTime>
+ <MsgType><![CDATA[text]]></MsgType>
+ <Content><![CDATA[%s]]></Content>
+ <FuncFlag>0</FuncFlag>
+ </xml>";
+
+        $content = empty($news)?'不认识这个词哦':($news['content']?$news['content']:'还没想到答案呢?');
+
+        $resp = sprintf($msgTempl,$touser,$fromuser,time(),$content);
+
+        return $resp;
+
+    }
+
+
 }   

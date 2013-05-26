@@ -35,8 +35,7 @@ class Subscribemessage_model extends Response_simple_Message_Model {
     }
 
     public function  saveUpdate($data){
-        $data['fromusername'] = $this->FromUserName;
         parent::saveUpdate($data,"fromusername",FALSE);
     }
-    
+
 }   

@@ -383,6 +383,8 @@ class ResponseMessage_Model extends MY_Model {
     protected $FromUserName = "";
     protected $FromUserKey='pupweixin_id';
     protected $conds = array();
+
+
     public function __construct()
     {
 
@@ -452,6 +454,9 @@ class ResponseMessage_Model extends MY_Model {
 
      */
     protected function buildMessage($fromuser,$touser,$news){
+
+        if(empty($news)) return $this->unknow_keyword_message($fromuser,$touser);
+
         $amc = count($news);
         $tplstart = "
         <xml>
@@ -594,6 +599,20 @@ or cp.keyword='%s' or cc.keyword='%s'";
         if(empty($result)) return false;
         return $result['num']!=0;
     }
+
+    public function unknow_keyword_message($fromuser,$touser){
+        $msgTempl = "<xml>
+ <ToUserName><![CDATA[%s]]></ToUserName>
+ <FromUserName><![CDATA[%s]]></FromUserName>
+ <CreateTime>%d</CreateTime>
+ <MsgType><![CDATA[text]]></MsgType>
+ <Content><![CDATA[%s]]></Content>
+ <FuncFlag>0</FuncFlag>
+ </xml>";
+
+        $resp = sprintf($msgTempl,$touser,$fromuser,time(),'还没学会这个词呢!');
+        return $resp;
+      }
 
 
 }

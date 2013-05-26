@@ -28,7 +28,48 @@ class Respmusicmessage_model extends Response_simple_Message_Model {
      
     public  function __construct(){
         parent::__construct("Respmusicmessage_model");
-    }  
-    
-    
+    }
+
+    protected function find_with_keywords($keywords)
+    {
+        $this->db->select("id,title,description,musicurl,hqmusicurl");
+        $this->db->where('keyword',$keywords);
+        $query = $this->db->get($this->table());
+        $result = $query->row_array();
+        return $result;
+    }
+
+    protected function buildMessage($fromuser, $touser, $news)
+    {
+
+        if(empty($news))
+            return $this->unknow_keyword_message($touser,$fromuser);
+
+
+       $msgTempl = "
+       <xml>
+ <ToUserName><![CDATA[%s]]></ToUserName>
+ <FromUserName><![CDATA[%s]]></FromUserName>
+ <CreateTime>%d</CreateTime>
+ <MsgType><![CDATA[music]]></MsgType>
+ <Music>
+ <Title><![CDATA[%s]]></Title>
+ <Description><![CDATA[%s]]></Description>
+ <MusicUrl><![CDATA[%s]]></MusicUrl>
+ <HQMusicUrl><![CDATA[%s]]></HQMusicUrl>
+ </Music>
+ <FuncFlag>0</FuncFlag>
+ </xml>";
+
+
+        $resp = sprintf($msgTempl,$touser,$fromuser,time()
+            ,$news['title'],$news['description'],$news['musicurl'],$news['hqmusicurl']);
+
+        return $resp;
+
+
+
+    }
+
+
 }   
