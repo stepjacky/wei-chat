@@ -72,14 +72,14 @@ class Cardcatalog_model extends Response_news_message_extModel {
 
     public function response($keywords, $fromuser, $touser)
     {
-        $config = $this->get_default_config_id($fromuser);
-        if(!$config) return $this->unknow_keyword_message($fromuser,$touser);
+        $configid = $this->get_default_config_id($fromuser);
+        if(!$configid) return $this->unknow_keyword_message($fromuser,$touser);
         $newslist = array(
             array(
                 'name'=>'台州微生活会员卡',
                 'info'=>'台州微生活会员卡领取中',
                 'picurl'=>'/resources/images/card.jpg',
-                'url'=>base_url(sprintf('/cardcatalog/index/%s',$config['id']))
+                'url'=>base_url(sprintf('/cardcatalog/index/%s',$configid))
             )
         );
 

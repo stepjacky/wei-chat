@@ -3,11 +3,14 @@
   <component name="ChangeListManager">
     <list default="true" id="9c42f37f-b41b-40a5-884c-3813c2511426" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/application/models/cardcatalog_model.php" afterPath="$PROJECT_DIR$/application/models/cardcatalog_model.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/application/views/cardcatalog/index.php" afterPath="$PROJECT_DIR$/application/views/cardcatalog/index.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/application/models/lotterywin_model.php" afterPath="$PROJECT_DIR$/application/models/lotterywin_model.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="weixin.iws" />
     <ignored path=".idea/workspace.xml" />
     <file path="/header.php" changelist="9c42f37f-b41b-40a5-884c-3813c2511426" time="1369481873251" ignored="false" />
-    <file path="/index.php" changelist="9c42f37f-b41b-40a5-884c-3813c2511426" time="1369467041155" ignored="false" />
+    <file path="/index.php" changelist="9c42f37f-b41b-40a5-884c-3813c2511426" time="1369580962423" ignored="false" />
     <file path="/Dummy.txt" changelist="9c42f37f-b41b-40a5-884c-3813c2511426" time="1369535893237" ignored="false" />
     <file path="/footer.php" changelist="9c42f37f-b41b-40a5-884c-3813c2511426" time="1369479391254" ignored="false" />
     <file path="/charisma-app.css" changelist="9c42f37f-b41b-40a5-884c-3813c2511426" time="1366641995464" ignored="false" />
@@ -50,7 +53,7 @@
     <file path="/pubweixin_model.php" changelist="9c42f37f-b41b-40a5-884c-3813c2511426" time="1367219869471" ignored="false" />
     <file path="/connector.php" changelist="9c42f37f-b41b-40a5-884c-3813c2511426" time="1366982702246" ignored="false" />
     <file path="/list.js" changelist="9c42f37f-b41b-40a5-884c-3813c2511426" time="1367766152261" ignored="false" />
-    <file path="/cardcatalog_model.php" changelist="9c42f37f-b41b-40a5-884c-3813c2511426" time="1369580563819" ignored="false" />
+    <file path="/cardcatalog_model.php" changelist="9c42f37f-b41b-40a5-884c-3813c2511426" time="1369580912366" ignored="false" />
     <file path="/couponcatalog.php" changelist="9c42f37f-b41b-40a5-884c-3813c2511426" time="1369579259620" ignored="false" />
     <file path="/startvalidate.php" changelist="9c42f37f-b41b-40a5-884c-3813c2511426" time="1367080467538" ignored="false" />
     <file path="/coupon.php" changelist="9c42f37f-b41b-40a5-884c-3813c2511426" time="1369573901205" ignored="false" />
@@ -169,15 +172,6 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="validated.php" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/application/views/couponcatalog/validated.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="15" column="31" selection-start="407" selection-end="407" vertical-scroll-proportion="-10.909091">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="coupon_model.php" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/application/models/coupon_model.php">
           <provider selected="true" editor-type-id="text-editor">
@@ -194,12 +188,39 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="cardcatalog_model.php" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="cardcatalog_model.php" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/application/models/cardcatalog_model.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="77" column="18" selection-start="2701" selection-end="2701" vertical-scroll-proportion="0.64134496">
+            <state line="82" column="13" selection-start="2926" selection-end="2926" vertical-scroll-proportion="-19.242424">
               <folding>
-                <marker date="1369580565586" expanded="true" signature="2210:2280" placeholder="SELECT `id` ..%s..." />
+                <marker date="1369580923288" expanded="true" signature="2210:2280" placeholder="SELECT `id` ..%s..." />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="index.php" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/application/views/cardcatalog/index.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="38" column="6" selection-start="1222" selection-end="1222" vertical-scroll-proportion="0.8505604">
+              <folding>
+                <element signature="n#style#0;n#i#0;n#a#0;n#div#0;n#div#0;n#div#0;n#div#1;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#i#0;n#a#0;n#div#0;n#div#0;n#div#1;n#div#1;n#!!top" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="lotterywin_model.php" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/application/models/lotterywin_model.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="44" column="5" selection-start="1825" selection-end="1825" vertical-scroll-proportion="-1.4545455">
+              <folding>
+                <marker date="1369580813461" expanded="true" signature="1286:1367" placeholder="select count..%s..." />
+                <marker date="1369580813461" expanded="true" signature="1602:1673" placeholder="select `num`..%s..." />
+                <marker date="1369580813461" expanded="true" signature="2286:2379" placeholder="select * fro..%s..." />
+                <marker date="1369580813461" expanded="true" signature="2526:2642" placeholder="update `%s` ..." />
+                <marker date="1369580813461" expanded="true" signature="2819:2927" placeholder="update `%s` ..." />
               </folding>
             </state>
           </provider>
@@ -208,16 +229,7 @@
       <file leaf-file-name="cardcatalog.php" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/application/controllers/cardcatalog.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="46" column="27" selection-start="1747" selection-end="1796" vertical-scroll-proportion="-13.090909">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="cards_model.php" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/application/models/cards_model.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="6.878788">
+            <state line="46" column="27" selection-start="1747" selection-end="1796" vertical-scroll-proportion="-14.151515">
               <folding />
             </state>
           </provider>
@@ -241,8 +253,6 @@
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
       <list>
-        <option value="$PROJECT_DIR$/resources/styles/lotterydial/style.css" />
-        <option value="$PROJECT_DIR$/application/views/systems/accesserror.php" />
         <option value="$PROJECT_DIR$/application/models/cards_model.php" />
         <option value="$PROJECT_DIR$/application/core/MY_Model.php" />
         <option value="$PROJECT_DIR$/application/controllers/cardcatalog.php" />
@@ -256,7 +266,9 @@
         <option value="$PROJECT_DIR$/application/controllers/couponcatalog.php" />
         <option value="$PROJECT_DIR$/application/views/lotterydial/getcode.php" />
         <option value="$PROJECT_DIR$/resources/styles/cardcatalog/card.css" />
+        <option value="$PROJECT_DIR$/application/models/lotterywin_model.php" />
         <option value="$PROJECT_DIR$/application/models/cardcatalog_model.php" />
+        <option value="$PROJECT_DIR$/application/views/cardcatalog/index.php" />
       </list>
     </option>
   </component>
@@ -532,25 +544,11 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="models" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="weixin" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="wei-chat" />
+              <option name="myItemId" value="views" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="application" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="controllers" />
+              <option name="myItemId" value="cardcatalog" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -737,20 +735,6 @@
     </PATH>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/application/views/cardcatalog/index.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/application/views/couponcatalog/index.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/application/views/couponcatalog/list.php">
       <provider selected="true" editor-type-id="text-editor">
         <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
@@ -845,18 +829,41 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/application/models/lotterywin_model.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="44" column="5" selection-start="1825" selection-end="1825" vertical-scroll-proportion="-1.4545455">
+          <folding>
+            <marker date="1369580813461" expanded="true" signature="1286:1367" placeholder="select count..%s..." />
+            <marker date="1369580813461" expanded="true" signature="1602:1673" placeholder="select `num`..%s..." />
+            <marker date="1369580813461" expanded="true" signature="2286:2379" placeholder="select * fro..%s..." />
+            <marker date="1369580813461" expanded="true" signature="2526:2642" placeholder="update `%s` ..." />
+            <marker date="1369580813461" expanded="true" signature="2819:2927" placeholder="update `%s` ..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/application/controllers/cardcatalog.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="46" column="27" selection-start="1747" selection-end="1796" vertical-scroll-proportion="-13.090909">
+        <state line="46" column="27" selection-start="1747" selection-end="1796" vertical-scroll-proportion="-14.151515">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/application/models/cardcatalog_model.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="77" column="18" selection-start="2701" selection-end="2701" vertical-scroll-proportion="0.64134496">
+        <state line="82" column="13" selection-start="2926" selection-end="2926" vertical-scroll-proportion="-19.242424">
           <folding>
-            <marker date="1369580565586" expanded="true" signature="2210:2280" placeholder="SELECT `id` ..%s..." />
+            <marker date="1369580923288" expanded="true" signature="2210:2280" placeholder="SELECT `id` ..%s..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/application/views/cardcatalog/index.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="38" column="6" selection-start="1222" selection-end="1222" vertical-scroll-proportion="0.8505604">
+          <folding>
+            <element signature="n#style#0;n#i#0;n#a#0;n#div#0;n#div#0;n#div#0;n#div#1;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#i#0;n#a#0;n#div#0;n#div#0;n#div#1;n#div#1;n#!!top" expanded="true" />
           </folding>
         </state>
       </provider>

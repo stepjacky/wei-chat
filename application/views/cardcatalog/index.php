@@ -1,4 +1,5 @@
 <div class="dblock"></div>
+<div class="wrap">
 <div class="accordion" id="accordion2">
     <?php foreach($preros as $preo):?>
 
@@ -34,4 +35,5 @@
         </div>
     </div>
 
+</div>
 </div>
