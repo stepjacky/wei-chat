@@ -24,7 +24,7 @@
  *    
  */
 
-class Respnewsmessage_model extends Response_simple_Message_Model {
+class Respnewsmessage_model extends Response_news_message_Model {
      
     public  function __construct(){
         parent::__construct("Respnewsmessage_model");
@@ -105,6 +105,7 @@ class Respnewsmessage_model extends Response_simple_Message_Model {
         $news = $query->result_array();
         return $news;
     }
+
 
 
 }   

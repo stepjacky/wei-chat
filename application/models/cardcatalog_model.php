@@ -24,7 +24,7 @@
  *    
  */
 
-class Cardcatalog_model extends ResponseMessage_Model {
+class Cardcatalog_model extends Response_news_message_extModel {
      
     public  function __construct(){
         parent::__construct("Cardcatalog_model");

@@ -106,14 +106,12 @@ class Message extends MY_Controller
         $resultStr="";
         switch ($object->Event) {
             case "subscribe":{
-                $data = $this->subdao->get($object->ToUserName);
-                $contentStr = $data['content'];
-                $userwx = $object->FromUserName;
-                $pubwx  = $object->ToUserName;
-                $resultStr = $this->transmitText($object, $contentStr);
+                $touser = $object->FromUserName;
+                $fromuser  = $object->ToUserName;
+                $resultStr = $this->subdao->response('', $fromuser, $touser);
                 $mdata = array(
-                    'weixin'=>$userwx,
-                    'pubweixin_id'=>$pubwx
+                    'weixin'=>$touser,
+                    'pubweixin_id'=>$fromuser
                 );
                 $this->mbrdao->persiste($mdata);
                 break;
@@ -123,19 +121,7 @@ class Message extends MY_Controller
         return $resultStr;
     }
 
-    private function transmitText($object, $content, $flag = 0)
-    {
-        $textTpl = "<xml>
-<ToUserName><![CDATA[%s]]></ToUserName>
-<FromUserName><![CDATA[%s]]></FromUserName>
-<CreateTime>%s</CreateTime>
-<MsgType><![CDATA[text]]></MsgType>
-<Content><![CDATA[%s]]></Content>
-<FuncFlag>%d</FuncFlag>
-</xml>";
-        $resultStr = sprintf($textTpl, $object->FromUserName, $object->ToUserName, time(), $content, $flag);
-        return $resultStr;
-    }
+
 
     private function checkSignature($token)
     {

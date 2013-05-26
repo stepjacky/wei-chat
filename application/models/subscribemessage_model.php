@@ -38,4 +38,22 @@ class Subscribemessage_model extends Response_simple_Message_Model {
         parent::saveUpdate($data,"fromusername",FALSE);
     }
 
+    public function response($keywords, $fromuser, $touser)
+    {
+
+        $data =  $this->get($touser);
+        $content = empty($data)?'欢迎光临':$data['content'];
+        $textTpl = "<xml>
+<ToUserName><![CDATA[%s]]></ToUserName>
+<FromUserName><![CDATA[%s]]></FromUserName>
+<CreateTime>%s</CreateTime>
+<MsgType><![CDATA[text]]></MsgType>
+<Content><![CDATA[%s]]></Content>
+<FuncFlag>0</FuncFlag>
+</xml>";
+        $resultStr = sprintf($textTpl, $fromuser, $touser, time(), $content);
+        return $resultStr;
+    }
+
+
 }   

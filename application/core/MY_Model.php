@@ -447,6 +447,11 @@ class ResponseMessage_Model extends MY_Model {
         return  $this->buildMessage($fromuser,$touser,$newslist);
     }
 
+
+    protected  function assemble_news($news){
+       return $news;
+    }
+
     /**
      *
      *
@@ -455,58 +460,7 @@ class ResponseMessage_Model extends MY_Model {
      */
     protected function buildMessage($fromuser,$touser,$news){
 
-        if(empty($news)) return $this->unknow_keyword_message($fromuser,$touser);
-
-        $amc = count($news);
-        $tplstart = "
-        <xml>
- <ToUserName><![CDATA[%s]]></ToUserName>
- <FromUserName><![CDATA[%s]]></FromUserName>
- <CreateTime>%d</CreateTime>
- <MsgType><![CDATA[news]]></MsgType>
- <ArticleCount>%d</ArticleCount>
- <Articles>";
-
-
-        $itemtpl = "<item>
- <Title><![CDATA[%s]]></Title>
- <Description><![CDATA[%s]]></Description>
- <PicUrl><![CDATA[%s]]></PicUrl>
- <Url><![CDATA[%s]]></Url>
- </item>";
-
-
-        $tplend = "
- </Articles>
- <FuncFlag>0</FuncFlag>
- </xml>";
-
-        $items = "";
-        $qs = "member=".$touser.'&pubweixin='.$fromuser;
-        foreach($news as $rnews){
-            $nurl = $rnews['url'];
-            $dfturl =
-                $nurl?((!stripos($nurl,"?"))?($nurl.'?'.$qs):($nurl.'&'.$qs)):(base_url('/news/one/'.$rnews['id'].'/'.$touser));
-            $items.=sprintf(
-                $itemtpl,
-                $rnews['name'],
-                $rnews['info'],
-                base_url($rnews['picurl']),
-                $dfturl
-
-            );
-
-        }
-        $resp =
-            sprintf(
-                $tplstart,
-                $touser,
-                $fromuser,
-                time(),
-                $amc
-            ).$items.$tplend;
-        return $resp;
-
+       return $this->unknow_keyword_message($fromuser,$touser);
     }
 
 
@@ -628,6 +582,122 @@ class Response_simple_Message_Model extends  ResponseMessage_Model{
         }else{
             parent::__construct();
         }
+
+    }
+
+}
+
+class Response_news_message_Model extends Response_simple_Message_Model{
+    public function __construct()
+    {
+
+        $this->FromUserKey='FromUserName';
+        if (func_num_args() == 1) {
+            $mname = func_get_arg(0);
+            parent::__construct($mname);
+        }else{
+            parent::__construct();
+        }
+
+    }
+
+    protected function assemble_news($news)
+    {
+        $newslist = array(
+
+            array(
+                'name'=>$news['name'],
+                'info'=>$news['remark'],
+                'picurl'=>$news['picurl'],
+                'url'=>base_url('/'.$this->table().'/index/'.$news['id'])
+            )
+
+
+        );
+        return $newslist;
+    }
+
+    protected function buildMessage($fromuser,$touser,$news){
+
+        if(empty($news)) return $this->unknow_keyword_message($fromuser,$touser);
+
+        $amc = count($news);
+        $tplstart = "
+        <xml>
+ <ToUserName><![CDATA[%s]]></ToUserName>
+ <FromUserName><![CDATA[%s]]></FromUserName>
+ <CreateTime>%d</CreateTime>
+ <MsgType><![CDATA[news]]></MsgType>
+ <ArticleCount>%d</ArticleCount>
+ <Articles>";
+
+
+        $itemtpl = "<item>
+ <Title><![CDATA[%s]]></Title>
+ <Description><![CDATA[%s]]></Description>
+ <PicUrl><![CDATA[%s]]></PicUrl>
+ <Url><![CDATA[%s]]></Url>
+ </item>";
+
+
+        $tplend = "
+ </Articles>
+ <FuncFlag>0</FuncFlag>
+ </xml>";
+
+        $items = "";
+        $qs = "member=".$touser.'&pubweixin='.$fromuser;
+        foreach($news as $rnews){
+            $nurl = $rnews['url'];
+            $dfturl =
+                $nurl?((!stripos($nurl,"?"))?($nurl.'?'.$qs):($nurl.'&'.$qs)):(base_url('/news/one/'.$rnews['id'].'/'.$touser));
+            $items.=sprintf(
+                $itemtpl,
+                $rnews['name'],
+                $rnews['info'],
+                base_url($rnews['picurl']),
+                $dfturl
+
+            );
+
+        }
+        $resp =
+            sprintf(
+                $tplstart,
+                $touser,
+                $fromuser,
+                time(),
+                $amc
+            ).$items.$tplend;
+        return $resp;
+
+    }
+
+
+}
+
+class Response_news_message_extModel extends Response_news_message_Model{
+    public function __construct()
+    {
+
+        $this->FromUserKey='pubweixin_id';
+        if (func_num_args() == 1) {
+            $mname = func_get_arg(0);
+            parent::__construct($mname);
+        }else{
+            parent::__construct();
+        }
+
+    }
+
+    protected function find_with_keywords($keywords){
+
+        $this->db->select("id,name,remark,picurl");
+        $this->db->where('keyword',$keywords);
+        $this->db->where('enabled',true);
+        $query = $this->db->get($this->table());
+        $result = $query->row_array();
+        return $result;
 
     }
 
