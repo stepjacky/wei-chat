@@ -283,6 +283,7 @@ class Lotterydial extends MY_Controller {
         $pubwx = $this->nsession->userdata('pubwx');
         $data['pubweixin_id']=$pubwx;
         $this->dao->saveUpdate($data);
+        $this->_end();
     }
 
     public function current_url(){
