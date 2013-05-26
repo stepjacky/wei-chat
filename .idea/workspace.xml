@@ -2,356 +2,14 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="9c42f37f-b41b-40a5-884c-3813c2511426" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/application/controllers/Systems.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/application/views/cardcatalog/card-header.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/application/views/couponcatalog/coupon.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/bootstrap/ace/excanvas.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/application/views/couponcatalog/exceed.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/application/views/cardcatalog/noconfig.php" />
-      <change type="DELETED" beforePath="G:\webroot\wei-chat\application\views\vcode\editNew.php" afterPath="" />
-      <change type="DELETED" beforePath="G:\webroot\wei-chat\application\views\vcode\index.php" afterPath="" />
-      <change type="DELETED" beforePath="G:\webroot\wei-chat\application\views\vcode\list.php" afterPath="" />
-      <change type="DELETED" beforePath="G:\webroot\wei-chat\resources\bootstrap\charisma\css\bootstrap-cerulean.css" afterPath="" />
-      <change type="DELETED" beforePath="G:\webroot\wei-chat\resources\bootstrap\charisma\css\bootstrap-classic.css" afterPath="" />
-      <change type="DELETED" beforePath="G:\webroot\wei-chat\resources\bootstrap\charisma\css\bootstrap-classic.min.css" afterPath="" />
-      <change type="DELETED" beforePath="G:\webroot\wei-chat\resources\bootstrap\charisma\css\bootstrap-cyborg.css" afterPath="" />
-      <change type="DELETED" beforePath="G:\webroot\wei-chat\resources\bootstrap\charisma\css\bootstrap-journal.css" afterPath="" />
-      <change type="DELETED" beforePath="G:\webroot\wei-chat\resources\bootstrap\charisma\css\bootstrap-redy.css" afterPath="" />
-      <change type="DELETED" beforePath="G:\webroot\wei-chat\resources\bootstrap\charisma\css\bootstrap-responsive.css" afterPath="" />
-      <change type="DELETED" beforePath="G:\webroot\wei-chat\resources\bootstrap\charisma\css\bootstrap-responsive.min.css" afterPath="" />
-      <change type="DELETED" beforePath="G:\webroot\wei-chat\resources\bootstrap\charisma\css\bootstrap-simplex.css" afterPath="" />
-      <change type="DELETED" beforePath="G:\webroot\wei-chat\resources\bootstrap\charisma\css\bootstrap-slate.css" afterPath="" />
-      <change type="DELETED" beforePath="G:\webroot\wei-chat\resources\bootstrap\charisma\css\bootstrap-spacelab.css" afterPath="" />
-      <change type="DELETED" beforePath="G:\webroot\wei-chat\resources\bootstrap\charisma\css\bootstrap-united.css" afterPath="" />
-      <change type="DELETED" beforePath="G:\webroot\wei-chat\resources\bootstrap\charisma\css\charisma-app.css" afterPath="" />
-      <change type="DELETED" beforePath="G:\webroot\wei-chat\resources\bootstrap\charisma\css\chosen.css" afterPath="" />
-      <change type="DELETED" beforePath="G:\webroot\wei-chat\resources\bootstrap\charisma\css\colorbox.css" afterPath="" />
-      <change type="DELETED" beforePath="G:\webroot\wei-chat\resources\bootstrap\charisma\css\elfinder.min.css" afterPath="" />
-      <change type="DELETED" beforePath="G:\webroot\wei-chat\resources\bootstrap\charisma\css\elfinder.theme.css" afterPath="" />
-      <change type="DELETED" beforePath="G:\webroot\wei-chat\resources\bootstrap\charisma\css\fullcalendar.css" afterPath="" />
-      <change type="DELETED" beforePath="G:\webroot\wei-chat\resources\bootstrap\charisma\css\fullcalendar.print.css" afterPath="" />
-      <change type="DELETED" beforePath="G:\webroot\wei-chat\resources\bootstrap\charisma\css\jquery-ui-1.8.21.custom.css" afterPath="" />
-      <change type="DELETED" beforePath="G:\webroot\wei-chat\resources\bootstrap\charisma\css\jquery.cleditor.css" afterPath="" />
-      <change type="DELETED" beforePath="G:\webroot\wei-chat\resources\bootstrap\charisma\css\jquery.iphone.toggle.css" afterPath="" />
-      <change type="DELETED" beforePath="G:\webroot\wei-chat\resources\bootstrap\charisma\css\jquery.noty.css" afterPath="" />
-      <change type="DELETED" beforePath="G:\webroot\wei-chat\resources\bootstrap\charisma\css\noty_theme_default.css" afterPath="" />
-      <change type="DELETED" beforePath="G:\webroot\wei-chat\resources\bootstrap\charisma\css\opa-icons.css" afterPath="" />
-      <change type="DELETED" beforePath="G:\webroot\wei-chat\resources\bootstrap\charisma\css\uniform.default.css" afterPath="" />
-      <change type="DELETED" beforePath="G:\webroot\wei-chat\resources\bootstrap\charisma\css\uploadify.css" afterPath="" />
-      <change type="DELETED" beforePath="G:\webroot\wei-chat\resources\bootstrap\charisma\img\ajax-loaders\ajax-loader-1.gif" afterPath="" />
-      <change type="DELETED" beforePath="G:\webroot\wei-chat\resources\bootstrap\charisma\img\ajax-loaders\ajax-loader-2.gif" afterPath="" />
-      <change type="DELETED" beforePath="G:\webroot\wei-chat\resources\bootstrap\charisma\img\ajax-loaders\ajax-loader-3.gif" afterPath="" />
-      <change type="DELETED" beforePath="G:\webroot\wei-chat\resources\bootstrap\charisma\img\ajax-loaders\ajax-loader-4.gif" afterPath="" />
-      <change type="DELETED" beforePath="G:\webroot\wei-chat\resources\bootstrap\charisma\img\ajax-loaders\ajax-loader-5.gif" afterPath="" />
-      <change type="DELETED" beforePath="G:\webroot\wei-chat\resources\bootstrap\charisma\img\ajax-loaders\ajax-loader-6.gif" afterPath="" />
-      <change type="DELETED" beforePath="G:\webroot\wei-chat\resources\bootstrap\charisma\img\ajax-loaders\ajax-loader-7.gif" afterPath="" />
-      <change type="DELETED" beforePath="G:\webroot\wei-chat\resources\bootstrap\charisma\img\ajax-loaders\ajax-loader-8.gif" afterPath="" />
-      <change type="DELETED" beforePath="G:\webroot\wei-chat\resources\bootstrap\charisma\img\arrows-active.png" afterPath="" />
-      <change type="DELETED" beforePath="G:\webroot\wei-chat\resources\bootstrap\charisma\img\arrows-normal.png" afterPath="" />
-      <change type="DELETED" beforePath="G:\webroot\wei-chat\resources\bootstrap\charisma\img\bg-input-focus.png" afterPath="" />
-      <change type="DELETED" beforePath="G:\webroot\wei-chat\resources\bootstrap\charisma\img\bg-input.png" afterPath="" />
-      <change type="DELETED" beforePath="G:\webroot\wei-chat\resources\bootstrap\charisma\img\border.png" afterPath="" />
-      <change type="DELETED" beforePath="G:\webroot\wei-chat\resources\bootstrap\charisma\img\buttons.gif" afterPath="" />
-      <change type="DELETED" beforePath="G:\webroot\wei-chat\resources\bootstrap\charisma\img\cancel-off.png" afterPath="" />
-      <change type="DELETED" beforePath="G:\webroot\wei-chat\resources\bootstrap\charisma\img\cancel-on.png" afterPath="" />
-      <change type="DELETED" beforePath="G:\webroot\wei-chat\resources\bootstrap\charisma\img\chosen-sprite.png" afterPath="" />
-      <change type="DELETED" beforePath="G:\webroot\wei-chat\resources\bootstrap\charisma\img\controls.png" afterPath="" />
-      <change type="DELETED" beforePath="G:\webroot\wei-chat\resources\bootstrap\charisma\img\crop.gif" afterPath="" />
-      <change type="DELETED" beforePath="G:\webroot\wei-chat\resources\bootstrap\charisma\img\dialogs.png" afterPath="" />
-      <change type="DELETED" beforePath="G:\webroot\wei-chat\resources\bootstrap\charisma\img\error_bg.png" afterPath="" />
-      <change type="DELETED" beforePath="G:\webroot\wei-chat\resources\bootstrap\charisma\img\favicon.ico" afterPath="" />
-      <change type="DELETED" beforePath="G:\webroot\wei-chat\resources\bootstrap\charisma\img\gallery\.tmb\l1_MS5qcGc1344290228.png" afterPath="" />
-      <change type="DELETED" beforePath="G:\webroot\wei-chat\resources\bootstrap\charisma\img\gallery\.tmb\l1_MS5qcGc1365777630.png" afterPath="" />
-      <change type="DELETED" beforePath="G:\webroot\wei-chat\resources\bootstrap\charisma\img\gallery\.tmb\l1_MTAuanBn1344290212.png" afterPath="" />
-      <change type="DELETED" beforePath="G:\webroot\wei-chat\resources\bootstrap\charisma\img\gallery\.tmb\l1_MTAuanBn1365777630.png" afterPath="" />
-      <change type="DELETED" beforePath="G:\webroot\wei-chat\resources\bootstrap\charisma\img\gallery\.tmb\l1_MTEuanBn1344290212.png" afterPath="" />
-      <change type="DELETED" beforePath="G:\webroot\wei-chat\resources\bootstrap\charisma\img\gallery\.tmb\l1_MTEuanBn1365777630.png" afterPath="" />
-      <change type="DELETED" beforePath="G:\webroot\wei-chat\resources\bootstrap\charisma\img\gallery\.tmb\l1_MTIuanBn1344290216.png" afterPath="" />
-      <change type="DELETED" beforePath="G:\webroot\wei-chat\resources\bootstrap\charisma\img\gallery\.tmb\l1_MTIuanBn1365777630.png" afterPath="" />
-      <change type="DELETED" beforePath="G:\webroot\wei-chat\resources\bootstrap\charisma\img\gallery\.tmb\l1_MTMuanBn1344290218.png" afterPath="" />
-      <change type="DELETED" beforePath="G:\webroot\wei-chat\resources\bootstrap\charisma\img\gallery\.tmb\l1_MTMuanBn1365777630.png" afterPath="" />
-      <change type="DELETED" beforePath="G:\webroot\wei-chat\resources\bootstrap\charisma\img\gallery\.tmb\l1_MTQuanBn1344290218.png" afterPath="" />
-      <change type="DELETED" beforePath="G:\webroot\wei-chat\resources\bootstrap\charisma\img\gallery\.tmb\l1_MTQuanBn1365777630.png" afterPath="" />
-      <change type="DELETED" beforePath="G:\webroot\wei-chat\resources\bootstrap\charisma\img\gallery\.tmb\l1_MTUuanBn1344290220.png" afterPath="" />
-      <change type="DELETED" beforePath="G:\webroot\wei-chat\resources\bootstrap\charisma\img\gallery\.tmb\l1_MTUuanBn1365777630.png" afterPath="" />
-      <change type="DELETED" beforePath="G:\webroot\wei-chat\resources\bootstrap\charisma\img\gallery\.tmb\l1_MTYuanBn1344290222.png" afterPath="" />
-      <change type="DELETED" beforePath="G:\webroot\wei-chat\resources\bootstrap\charisma\img\gallery\.tmb\l1_MTYuanBn1365777630.png" afterPath="" />
-      <change type="DELETED" beforePath="G:\webroot\wei-chat\resources\bootstrap\charisma\img\gallery\.tmb\l1_MTcuanBn1344290224.png" afterPath="" />
-      <change type="DELETED" beforePath="G:\webroot\wei-chat\resources\bootstrap\charisma\img\gallery\.tmb\l1_MTcuanBn1365777630.png" afterPath="" />
-      <change type="DELETED" beforePath="G:\webroot\wei-chat\resources\bootstrap\charisma\img\gallery\.tmb\l1_MTguanBn1344290226.png" afterPath="" />
-      <change type="DELETED" beforePath="G:\webroot\wei-chat\resources\bootstrap\charisma\img\gallery\.tmb\l1_MTguanBn1365777630.png" afterPath="" />
-      <change type="DELETED" beforePath="G:\webroot\wei-chat\resources\bootstrap\charisma\img\gallery\.tmb\l1_MTkuanBn1344290228.png" afterPath="" />
-      <change type="DELETED" beforePath="G:\webroot\wei-chat\resources\bootstrap\charisma\img\gallery\.tmb\l1_MTkuanBn1365777630.png" afterPath="" />
-      <change type="DELETED" beforePath="G:\webroot\wei-chat\resources\bootstrap\charisma\img\gallery\.tmb\l1_Mi5qcGc1344290242.png" afterPath="" />
-      <change type="DELETED" beforePath="G:\webroot\wei-chat\resources\bootstrap\charisma\img\gallery\.tmb\l1_Mi5qcGc1365777630.png" afterPath="" />
-      <change type="DELETED" beforePath="G:\webroot\wei-chat\resources\bootstrap\charisma\img\gallery\.tmb\l1_MjAuanBn1344290232.png" afterPath="" />
-      <change type="DELETED" beforePath="G:\webroot\wei-chat\resources\bootstrap\charisma\img\gallery\.tmb\l1_MjAuanBn1365777630.png" afterPath="" />
-      <change type="DELETED" beforePath="G:\webroot\wei-chat\resources\bootstrap\charisma\img\gallery\.tmb\l1_MjEuanBn1344290232.png" afterPath="" />
-      <change type="DELETED" beforePath="G:\webroot\wei-chat\resources\bootstrap\charisma\img\gallery\.tmb\l1_MjEuanBn1365777630.png" afterPath="" />
-      <change type="DELETED" beforePath="G:\webroot\wei-chat\resources\bootstrap\charisma\img\gallery\.tmb\l1_MjIuanBn1344290236.png" afterPath="" />
-      <change type="DELETED" beforePath="G:\webroot\wei-chat\resources\bootstrap\charisma\img\gallery\.tmb\l1_MjIuanBn1365777630.png" afterPath="" />
-      <change type="DELETED" beforePath="G:\webroot\wei-chat\resources\bootstrap\charisma\img\gallery\.tmb\l1_MjMuanBn1344290238.png" afterPath="" />
-      <change type="DELETED" beforePath="G:\webroot\wei-chat\resources\bootstrap\charisma\img\gallery\.tmb\l1_MjQuanBn1344290240.png" afterPath="" />
-      <change type="DELETED" beforePath="G:\webroot\wei-chat\resources\bootstrap\charisma\img\gallery\.tmb\l1_My5qcGc1344290244.png" afterPath="" />
-      <change type="DELETED" beforePath="G:\webroot\wei-chat\resources\bootstrap\charisma\img\gallery\.tmb\l1_NC5qcGc1344290246.png" afterPath="" />
-      <change type="DELETED" beforePath="G:\webroot\wei-chat\resources\bootstrap\charisma\img\gallery\.tmb\l1_NS5qcGc1344290246.png" afterPath="" />
-      <change type="DELETED" beforePath="G:\webroot\wei-chat\resources\bootstrap\charisma\img\gallery\.tmb\l1_Ni5qcGc1344290248.png" afterPath="" />
-      <change type="DELETED" beforePath="G:\webroot\wei-chat\resources\bootstrap\charisma\img\gallery\.tmb\l1_Ny5qcGc1344290252.png" afterPath="" />
-      <change type="DELETED" beforePath="G:\webroot\wei-chat\resources\bootstrap\charisma\img\gallery\.tmb\l1_OC5qcGc1344290254.png" afterPath="" />
-      <change type="DELETED" beforePath="G:\webroot\wei-chat\resources\bootstrap\charisma\img\gallery\.tmb\l1_OS5qcGc1344290254.png" afterPath="" />
-      <change type="DELETED" beforePath="G:\webroot\wei-chat\resources\bootstrap\charisma\img\gallery\.tmb\l1_dGh1bWJzXDE0LmpwZw1365777630.png" afterPath="" />
-      <change type="DELETED" beforePath="G:\webroot\wei-chat\resources\bootstrap\charisma\img\gallery\.tmb\l1_dGh1bWJzXDE1LmpwZw1365777630.png" afterPath="" />
-      <change type="DELETED" beforePath="G:\webroot\wei-chat\resources\bootstrap\charisma\img\gallery\.tmb\l1_dGh1bWJzXDE2LmpwZw1365777630.png" afterPath="" />
-      <change type="DELETED" beforePath="G:\webroot\wei-chat\resources\bootstrap\charisma\img\gallery\.tmb\l1_dGh1bWJzXDE3LmpwZw1365777630.png" afterPath="" />
-      <change type="DELETED" beforePath="G:\webroot\wei-chat\resources\bootstrap\charisma\img\gallery\.tmb\l1_dGh1bWJzXDE4LmpwZw1365777630.png" afterPath="" />
-      <change type="DELETED" beforePath="G:\webroot\wei-chat\resources\bootstrap\charisma\img\gallery\.tmb\l1_dGh1bWJzXDE5LmpwZw1365777630.png" afterPath="" />
-      <change type="DELETED" beforePath="G:\webroot\wei-chat\resources\bootstrap\charisma\img\gallery\.tmb\l1_dGh1bWJzXDEuanBn1365777630.png" afterPath="" />
-      <change type="DELETED" beforePath="G:\webroot\wei-chat\resources\bootstrap\charisma\img\gallery\.tmb\l1_dGh1bWJzXDEwLmpwZw1365777630.png" afterPath="" />
-      <change type="DELETED" beforePath="G:\webroot\wei-chat\resources\bootstrap\charisma\img\gallery\.tmb\l1_dGh1bWJzXDExLmpwZw1365777630.png" afterPath="" />
-      <change type="DELETED" beforePath="G:\webroot\wei-chat\resources\bootstrap\charisma\img\gallery\.tmb\l1_dGh1bWJzXDEyLmpwZw1365777630.png" afterPath="" />
-      <change type="DELETED" beforePath="G:\webroot\wei-chat\resources\bootstrap\charisma\img\gallery\.tmb\l1_dGh1bWJzXDEzLmpwZw1365777630.png" afterPath="" />
-      <change type="DELETED" beforePath="G:\webroot\wei-chat\resources\bootstrap\charisma\img\gallery\.tmb\l1_dGh1bWJzXDI0LmpwZw1365777630.png" afterPath="" />
-      <change type="DELETED" beforePath="G:\webroot\wei-chat\resources\bootstrap\charisma\img\gallery\.tmb\l1_dGh1bWJzXDIuanBn1365777630.png" afterPath="" />
-      <change type="DELETED" beforePath="G:\webroot\wei-chat\resources\bootstrap\charisma\img\gallery\.tmb\l1_dGh1bWJzXDIwLmpwZw1365777630.png" afterPath="" />
-      <change type="DELETED" beforePath="G:\webroot\wei-chat\resources\bootstrap\charisma\img\gallery\.tmb\l1_dGh1bWJzXDIxLmpwZw1365777630.png" afterPath="" />
-      <change type="DELETED" beforePath="G:\webroot\wei-chat\resources\bootstrap\charisma\img\gallery\.tmb\l1_dGh1bWJzXDIyLmpwZw1365777630.png" afterPath="" />
-      <change type="DELETED" beforePath="G:\webroot\wei-chat\resources\bootstrap\charisma\img\gallery\.tmb\l1_dGh1bWJzXDIzLmpwZw1365777630.png" afterPath="" />
-      <change type="DELETED" beforePath="G:\webroot\wei-chat\resources\bootstrap\charisma\img\gallery\.tmb\l1_dGh1bWJzXDMuanBn1365777630.png" afterPath="" />
-      <change type="DELETED" beforePath="G:\webroot\wei-chat\resources\bootstrap\charisma\img\gallery\.tmb\l1_dGh1bWJzXDQuanBn1365777630.png" afterPath="" />
-      <change type="DELETED" beforePath="G:\webroot\wei-chat\resources\bootstrap\charisma\img\gallery\.tmb\l1_dGh1bWJzXDUuanBn1365777630.png" afterPath="" />
-      <change type="DELETED" beforePath="G:\webroot\wei-chat\resources\bootstrap\charisma\img\gallery\.tmb\l1_dGh1bWJzXDYuanBn1365777630.png" afterPath="" />
-      <change type="DELETED" beforePath="G:\webroot\wei-chat\resources\bootstrap\charisma\img\gallery\.tmb\l1_dGh1bWJzXDcuanBn1365777630.png" afterPath="" />
-      <change type="DELETED" beforePath="G:\webroot\wei-chat\resources\bootstrap\charisma\img\gallery\.tmb\l1_dGh1bWJzXDguanBn1365777630.png" afterPath="" />
-      <change type="DELETED" beforePath="G:\webroot\wei-chat\resources\bootstrap\charisma\img\gallery\.tmb\l1_dGh1bWJzXDkuanBn1365777630.png" afterPath="" />
-      <change type="DELETED" beforePath="G:\webroot\wei-chat\resources\bootstrap\charisma\img\gallery\1.jpg" afterPath="" />
-      <change type="DELETED" beforePath="G:\webroot\wei-chat\resources\bootstrap\charisma\img\gallery\10.jpg" afterPath="" />
-      <change type="DELETED" beforePath="G:\webroot\wei-chat\resources\bootstrap\charisma\img\gallery\11.jpg" afterPath="" />
-      <change type="DELETED" beforePath="G:\webroot\wei-chat\resources\bootstrap\charisma\img\gallery\12.jpg" afterPath="" />
-      <change type="DELETED" beforePath="G:\webroot\wei-chat\resources\bootstrap\charisma\img\gallery\13.jpg" afterPath="" />
-      <change type="DELETED" beforePath="G:\webroot\wei-chat\resources\bootstrap\charisma\img\gallery\14.jpg" afterPath="" />
-      <change type="DELETED" beforePath="G:\webroot\wei-chat\resources\bootstrap\charisma\img\gallery\15.jpg" afterPath="" />
-      <change type="DELETED" beforePath="G:\webroot\wei-chat\resources\bootstrap\charisma\img\gallery\16.jpg" afterPath="" />
-      <change type="DELETED" beforePath="G:\webroot\wei-chat\resources\bootstrap\charisma\img\gallery\17.jpg" afterPath="" />
-      <change type="DELETED" beforePath="G:\webroot\wei-chat\resources\bootstrap\charisma\img\gallery\18.jpg" afterPath="" />
-      <change type="DELETED" beforePath="G:\webroot\wei-chat\resources\bootstrap\charisma\img\gallery\19.jpg" afterPath="" />
-      <change type="DELETED" beforePath="G:\webroot\wei-chat\resources\bootstrap\charisma\img\gallery\2.jpg" afterPath="" />
-      <change type="DELETED" beforePath="G:\webroot\wei-chat\resources\bootstrap\charisma\img\gallery\20.jpg" afterPath="" />
-      <change type="DELETED" beforePath="G:\webroot\wei-chat\resources\bootstrap\charisma\img\gallery\21.jpg" afterPath="" />
-      <change type="DELETED" beforePath="G:\webroot\wei-chat\resources\bootstrap\charisma\img\gallery\22.jpg" afterPath="" />
-      <change type="DELETED" beforePath="G:\webroot\wei-chat\resources\bootstrap\charisma\img\gallery\23.jpg" afterPath="" />
-      <change type="DELETED" beforePath="G:\webroot\wei-chat\resources\bootstrap\charisma\img\gallery\24.jpg" afterPath="" />
-      <change type="DELETED" beforePath="G:\webroot\wei-chat\resources\bootstrap\charisma\img\gallery\3.jpg" afterPath="" />
-      <change type="DELETED" beforePath="G:\webroot\wei-chat\resources\bootstrap\charisma\img\gallery\4.jpg" afterPath="" />
-      <change type="DELETED" beforePath="G:\webroot\wei-chat\resources\bootstrap\charisma\img\gallery\5.jpg" afterPath="" />
-      <change type="DELETED" beforePath="G:\webroot\wei-chat\resources\bootstrap\charisma\img\gallery\6.jpg" afterPath="" />
-      <change type="DELETED" beforePath="G:\webroot\wei-chat\resources\bootstrap\charisma\img\gallery\7.jpg" afterPath="" />
-      <change type="DELETED" beforePath="G:\webroot\wei-chat\resources\bootstrap\charisma\img\gallery\8.jpg" afterPath="" />
-      <change type="DELETED" beforePath="G:\webroot\wei-chat\resources\bootstrap\charisma\img\gallery\9.jpg" afterPath="" />
-      <change type="DELETED" beforePath="G:\webroot\wei-chat\resources\bootstrap\charisma\img\gallery\thumbs\1.jpg" afterPath="" />
-      <change type="DELETED" beforePath="G:\webroot\wei-chat\resources\bootstrap\charisma\img\gallery\thumbs\10.jpg" afterPath="" />
-      <change type="DELETED" beforePath="G:\webroot\wei-chat\resources\bootstrap\charisma\img\gallery\thumbs\11.jpg" afterPath="" />
-      <change type="DELETED" beforePath="G:\webroot\wei-chat\resources\bootstrap\charisma\img\gallery\thumbs\12.jpg" afterPath="" />
-      <change type="DELETED" beforePath="G:\webroot\wei-chat\resources\bootstrap\charisma\img\gallery\thumbs\13.jpg" afterPath="" />
-      <change type="DELETED" beforePath="G:\webroot\wei-chat\resources\bootstrap\charisma\img\gallery\thumbs\14.jpg" afterPath="" />
-      <change type="DELETED" beforePath="G:\webroot\wei-chat\resources\bootstrap\charisma\img\gallery\thumbs\15.jpg" afterPath="" />
-      <change type="DELETED" beforePath="G:\webroot\wei-chat\resources\bootstrap\charisma\img\gallery\thumbs\16.jpg" afterPath="" />
-      <change type="DELETED" beforePath="G:\webroot\wei-chat\resources\bootstrap\charisma\img\gallery\thumbs\17.jpg" afterPath="" />
-      <change type="DELETED" beforePath="G:\webroot\wei-chat\resources\bootstrap\charisma\img\gallery\thumbs\18.jpg" afterPath="" />
-      <change type="DELETED" beforePath="G:\webroot\wei-chat\resources\bootstrap\charisma\img\gallery\thumbs\19.jpg" afterPath="" />
-      <change type="DELETED" beforePath="G:\webroot\wei-chat\resources\bootstrap\charisma\img\gallery\thumbs\2.jpg" afterPath="" />
-      <change type="DELETED" beforePath="G:\webroot\wei-chat\resources\bootstrap\charisma\img\gallery\thumbs\20.jpg" afterPath="" />
-      <change type="DELETED" beforePath="G:\webroot\wei-chat\resources\bootstrap\charisma\img\gallery\thumbs\21.jpg" afterPath="" />
-      <change type="DELETED" beforePath="G:\webroot\wei-chat\resources\bootstrap\charisma\img\gallery\thumbs\22.jpg" afterPath="" />
-      <change type="DELETED" beforePath="G:\webroot\wei-chat\resources\bootstrap\charisma\img\gallery\thumbs\23.jpg" afterPath="" />
-      <change type="DELETED" beforePath="G:\webroot\wei-chat\resources\bootstrap\charisma\img\gallery\thumbs\24.jpg" afterPath="" />
-      <change type="DELETED" beforePath="G:\webroot\wei-chat\resources\bootstrap\charisma\img\gallery\thumbs\3.jpg" afterPath="" />
-      <change type="DELETED" beforePath="G:\webroot\wei-chat\resources\bootstrap\charisma\img\gallery\thumbs\4.jpg" afterPath="" />
-      <change type="DELETED" beforePath="G:\webroot\wei-chat\resources\bootstrap\charisma\img\gallery\thumbs\5.jpg" afterPath="" />
-      <change type="DELETED" beforePath="G:\webroot\wei-chat\resources\bootstrap\charisma\img\gallery\thumbs\6.jpg" afterPath="" />
-      <change type="DELETED" beforePath="G:\webroot\wei-chat\resources\bootstrap\charisma\img\gallery\thumbs\7.jpg" afterPath="" />
-      <change type="DELETED" beforePath="G:\webroot\wei-chat\resources\bootstrap\charisma\img\gallery\thumbs\8.jpg" afterPath="" />
-      <change type="DELETED" beforePath="G:\webroot\wei-chat\resources\bootstrap\charisma\img\gallery\thumbs\9.jpg" afterPath="" />
-      <change type="DELETED" beforePath="G:\webroot\wei-chat\resources\bootstrap\charisma\img\glyphicons-halflings-white.png" afterPath="" />
-      <change type="DELETED" beforePath="G:\webroot\wei-chat\resources\bootstrap\charisma\img\glyphicons-halflings.png" afterPath="" />
-      <change type="DELETED" beforePath="G:\webroot\wei-chat\resources\bootstrap\charisma\img\icons-big.png" afterPath="" />
-      <change type="DELETED" beforePath="G:\webroot\wei-chat\resources\bootstrap\charisma\img\icons-small.png" afterPath="" />
-      <change type="DELETED" beforePath="G:\webroot\wei-chat\resources\bootstrap\charisma\img\iphone-style-checkboxes\off.png" afterPath="" />
-      <change type="DELETED" beforePath="G:\webroot\wei-chat\resources\bootstrap\charisma\img\iphone-style-checkboxes\on.png" afterPath="" />
-      <change type="DELETED" beforePath="G:\webroot\wei-chat\resources\bootstrap\charisma\img\iphone-style-checkboxes\slider.png" afterPath="" />
-      <change type="DELETED" beforePath="G:\webroot\wei-chat\resources\bootstrap\charisma\img\iphone-style-checkboxes\slider_center.png" afterPath="" />
-      <change type="DELETED" beforePath="G:\webroot\wei-chat\resources\bootstrap\charisma\img\iphone-style-checkboxes\slider_left.png" afterPath="" />
-      <change type="DELETED" beforePath="G:\webroot\wei-chat\resources\bootstrap\charisma\img\iphone-style-checkboxes\slider_right.png" afterPath="" />
-      <change type="DELETED" beforePath="G:\webroot\wei-chat\resources\bootstrap\charisma\img\loading.gif" afterPath="" />
-      <change type="DELETED" beforePath="G:\webroot\wei-chat\resources\bootstrap\charisma\img\loading_background.png" afterPath="" />
-      <change type="DELETED" beforePath="G:\webroot\wei-chat\resources\bootstrap\charisma\img\logo.png" afterPath="" />
-      <change type="DELETED" beforePath="G:\webroot\wei-chat\resources\bootstrap\charisma\img\logo20.png" afterPath="" />
-      <change type="DELETED" beforePath="G:\webroot\wei-chat\resources\bootstrap\charisma\img\opa-icons-black16.png" afterPath="" />
-      <change type="DELETED" beforePath="G:\webroot\wei-chat\resources\bootstrap\charisma\img\opa-icons-black32.png" afterPath="" />
-      <change type="DELETED" beforePath="G:\webroot\wei-chat\resources\bootstrap\charisma\img\opa-icons-blue16.png" afterPath="" />
-      <change type="DELETED" beforePath="G:\webroot\wei-chat\resources\bootstrap\charisma\img\opa-icons-blue32.png" afterPath="" />
-      <change type="DELETED" beforePath="G:\webroot\wei-chat\resources\bootstrap\charisma\img\opa-icons-color16.png" afterPath="" />
-      <change type="DELETED" beforePath="G:\webroot\wei-chat\resources\bootstrap\charisma\img\opa-icons-color32.png" afterPath="" />
-      <change type="DELETED" beforePath="G:\webroot\wei-chat\resources\bootstrap\charisma\img\opa-icons-darkgray16.png" afterPath="" />
-      <change type="DELETED" beforePath="G:\webroot\wei-chat\resources\bootstrap\charisma\img\opa-icons-darkgray32.png" afterPath="" />
-      <change type="DELETED" beforePath="G:\webroot\wei-chat\resources\bootstrap\charisma\img\opa-icons-gray16.png" afterPath="" />
-      <change type="DELETED" beforePath="G:\webroot\wei-chat\resources\bootstrap\charisma\img\opa-icons-gray32.png" afterPath="" />
-      <change type="DELETED" beforePath="G:\webroot\wei-chat\resources\bootstrap\charisma\img\opa-icons-green16.png" afterPath="" />
-      <change type="DELETED" beforePath="G:\webroot\wei-chat\resources\bootstrap\charisma\img\opa-icons-green32.png" afterPath="" />
-      <change type="DELETED" beforePath="G:\webroot\wei-chat\resources\bootstrap\charisma\img\opa-icons-orange16.png" afterPath="" />
-      <change type="DELETED" beforePath="G:\webroot\wei-chat\resources\bootstrap\charisma\img\opa-icons-orange32.png" afterPath="" />
-      <change type="DELETED" beforePath="G:\webroot\wei-chat\resources\bootstrap\charisma\img\opa-icons-red16.png" afterPath="" />
-      <change type="DELETED" beforePath="G:\webroot\wei-chat\resources\bootstrap\charisma\img\opa-icons-red32.png" afterPath="" />
-      <change type="DELETED" beforePath="G:\webroot\wei-chat\resources\bootstrap\charisma\img\opa-icons-white16.png" afterPath="" />
-      <change type="DELETED" beforePath="G:\webroot\wei-chat\resources\bootstrap\charisma\img\opa-icons-white32.png" afterPath="" />
-      <change type="DELETED" beforePath="G:\webroot\wei-chat\resources\bootstrap\charisma\img\progress.gif" afterPath="" />
-      <change type="DELETED" beforePath="G:\webroot\wei-chat\resources\bootstrap\charisma\img\qrcode.png" afterPath="" />
-      <change type="DELETED" beforePath="G:\webroot\wei-chat\resources\bootstrap\charisma\img\qrcode136.png" afterPath="" />
-      <change type="DELETED" beforePath="G:\webroot\wei-chat\resources\bootstrap\charisma\img\quicklook-bg.png" afterPath="" />
-      <change type="DELETED" beforePath="G:\webroot\wei-chat\resources\bootstrap\charisma\img\quicklook-icons.png" afterPath="" />
-      <change type="DELETED" beforePath="G:\webroot\wei-chat\resources\bootstrap\charisma\img\resize.png" afterPath="" />
-      <change type="DELETED" beforePath="G:\webroot\wei-chat\resources\bootstrap\charisma\img\spinner-mini.gif" afterPath="" />
-      <change type="DELETED" beforePath="G:\webroot\wei-chat\resources\bootstrap\charisma\img\sprite.png" afterPath="" />
-      <change type="DELETED" beforePath="G:\webroot\wei-chat\resources\bootstrap\charisma\img\star-half.png" afterPath="" />
-      <change type="DELETED" beforePath="G:\webroot\wei-chat\resources\bootstrap\charisma\img\star-off.png" afterPath="" />
-      <change type="DELETED" beforePath="G:\webroot\wei-chat\resources\bootstrap\charisma\img\star-on.png" afterPath="" />
-      <change type="DELETED" beforePath="G:\webroot\wei-chat\resources\bootstrap\charisma\img\thumb.png" afterPath="" />
-      <change type="DELETED" beforePath="G:\webroot\wei-chat\resources\bootstrap\charisma\img\toolbar.gif" afterPath="" />
-      <change type="DELETED" beforePath="G:\webroot\wei-chat\resources\bootstrap\charisma\img\toolbar.png" afterPath="" />
-      <change type="DELETED" beforePath="G:\webroot\wei-chat\resources\bootstrap\charisma\img\ui-bg_flat_0_aaaaaa_40x100.png" afterPath="" />
-      <change type="DELETED" beforePath="G:\webroot\wei-chat\resources\bootstrap\charisma\img\ui-bg_flat_75_ffffff_40x100.png" afterPath="" />
-      <change type="DELETED" beforePath="G:\webroot\wei-chat\resources\bootstrap\charisma\img\ui-bg_glass_55_fbf9ee_1x400.png" afterPath="" />
-      <change type="DELETED" beforePath="G:\webroot\wei-chat\resources\bootstrap\charisma\img\ui-bg_glass_65_ffffff_1x400.png" afterPath="" />
-      <change type="DELETED" beforePath="G:\webroot\wei-chat\resources\bootstrap\charisma\img\ui-bg_glass_75_dadada_1x400.png" afterPath="" />
-      <change type="DELETED" beforePath="G:\webroot\wei-chat\resources\bootstrap\charisma\img\ui-bg_glass_75_e6e6e6_1x400.png" afterPath="" />
-      <change type="DELETED" beforePath="G:\webroot\wei-chat\resources\bootstrap\charisma\img\ui-bg_glass_95_fef1ec_1x400.png" afterPath="" />
-      <change type="DELETED" beforePath="G:\webroot\wei-chat\resources\bootstrap\charisma\img\ui-bg_highlight-soft_75_cccccc_1x100.png" afterPath="" />
-      <change type="DELETED" beforePath="G:\webroot\wei-chat\resources\bootstrap\charisma\img\ui-icons_222222_256x240.png" afterPath="" />
-      <change type="DELETED" beforePath="G:\webroot\wei-chat\resources\bootstrap\charisma\img\ui-icons_2e83ff_256x240.png" afterPath="" />
-      <change type="DELETED" beforePath="G:\webroot\wei-chat\resources\bootstrap\charisma\img\ui-icons_454545_256x240.png" afterPath="" />
-      <change type="DELETED" beforePath="G:\webroot\wei-chat\resources\bootstrap\charisma\img\ui-icons_888888_256x240.png" afterPath="" />
-      <change type="DELETED" beforePath="G:\webroot\wei-chat\resources\bootstrap\charisma\img\ui-icons_cd0a0a_256x240.png" afterPath="" />
-      <change type="DELETED" beforePath="G:\webroot\wei-chat\resources\bootstrap\charisma\img\uploadify-cancel.png" afterPath="" />
-      <change type="DELETED" beforePath="G:\webroot\wei-chat\resources\bootstrap\charisma\js\bootstrap-alert.js" afterPath="" />
-      <change type="DELETED" beforePath="G:\webroot\wei-chat\resources\bootstrap\charisma\js\bootstrap-button.js" afterPath="" />
-      <change type="DELETED" beforePath="G:\webroot\wei-chat\resources\bootstrap\charisma\js\bootstrap-carousel.js" afterPath="" />
-      <change type="DELETED" beforePath="G:\webroot\wei-chat\resources\bootstrap\charisma\js\bootstrap-collapse.js" afterPath="" />
-      <change type="DELETED" beforePath="G:\webroot\wei-chat\resources\bootstrap\charisma\js\bootstrap-dropdown.js" afterPath="" />
-      <change type="DELETED" beforePath="G:\webroot\wei-chat\resources\bootstrap\charisma\js\bootstrap-modal.js" afterPath="" />
-      <change type="DELETED" beforePath="G:\webroot\wei-chat\resources\bootstrap\charisma\js\bootstrap-popover.js" afterPath="" />
-      <change type="DELETED" beforePath="G:\webroot\wei-chat\resources\bootstrap\charisma\js\bootstrap-scrollspy.js" afterPath="" />
-      <change type="DELETED" beforePath="G:\webroot\wei-chat\resources\bootstrap\charisma\js\bootstrap-tab.js" afterPath="" />
-      <change type="DELETED" beforePath="G:\webroot\wei-chat\resources\bootstrap\charisma\js\bootstrap-toggle.js" afterPath="" />
-      <change type="DELETED" beforePath="G:\webroot\wei-chat\resources\bootstrap\charisma\js\bootstrap-tooltip.js" afterPath="" />
-      <change type="DELETED" beforePath="G:\webroot\wei-chat\resources\bootstrap\charisma\js\bootstrap-tour.js" afterPath="" />
-      <change type="DELETED" beforePath="G:\webroot\wei-chat\resources\bootstrap\charisma\js\bootstrap-transition.js" afterPath="" />
-      <change type="DELETED" beforePath="G:\webroot\wei-chat\resources\bootstrap\charisma\js\bootstrap-typeahead.js" afterPath="" />
-      <change type="DELETED" beforePath="G:\webroot\wei-chat\resources\bootstrap\charisma\js\charisma.js" afterPath="" />
-      <change type="DELETED" beforePath="G:\webroot\wei-chat\resources\bootstrap\charisma\js\excanvas.js" afterPath="" />
-      <change type="DELETED" beforePath="G:\webroot\wei-chat\resources\bootstrap\charisma\js\fullcalendar.min.js" afterPath="" />
-      <change type="DELETED" beforePath="G:\webroot\wei-chat\resources\bootstrap\charisma\js\jquery-ui-1.8.21.custom.min.js" afterPath="" />
-      <change type="DELETED" beforePath="G:\webroot\wei-chat\resources\bootstrap\charisma\js\jquery.autogrow-textarea.js" afterPath="" />
-      <change type="DELETED" beforePath="G:\webroot\wei-chat\resources\bootstrap\charisma\js\jquery.chosen.min.js" afterPath="" />
-      <change type="DELETED" beforePath="G:\webroot\wei-chat\resources\bootstrap\charisma\js\jquery.cleditor.min.js" afterPath="" />
-      <change type="DELETED" beforePath="G:\webroot\wei-chat\resources\bootstrap\charisma\js\jquery.colorbox.min.js" afterPath="" />
-      <change type="DELETED" beforePath="G:\webroot\wei-chat\resources\bootstrap\charisma\js\jquery.cookie.js" afterPath="" />
-      <change type="DELETED" beforePath="G:\webroot\wei-chat\resources\bootstrap\charisma\js\jquery.dataTables.min.js" afterPath="" />
-      <change type="DELETED" beforePath="G:\webroot\wei-chat\resources\bootstrap\charisma\js\jquery.elfinder.min.js" afterPath="" />
-      <change type="DELETED" beforePath="G:\webroot\wei-chat\resources\bootstrap\charisma\js\jquery.flot.min.js" afterPath="" />
-      <change type="DELETED" beforePath="G:\webroot\wei-chat\resources\bootstrap\charisma\js\jquery.flot.pie.min.js" afterPath="" />
-      <change type="DELETED" beforePath="G:\webroot\wei-chat\resources\bootstrap\charisma\js\jquery.flot.resize.min.js" afterPath="" />
-      <change type="DELETED" beforePath="G:\webroot\wei-chat\resources\bootstrap\charisma\js\jquery.flot.stack.js" afterPath="" />
-      <change type="DELETED" beforePath="G:\webroot\wei-chat\resources\bootstrap\charisma\js\jquery.history.js" afterPath="" />
-      <change type="DELETED" beforePath="G:\webroot\wei-chat\resources\bootstrap\charisma\js\jquery.iphone.toggle.js" afterPath="" />
-      <change type="DELETED" beforePath="G:\webroot\wei-chat\resources\bootstrap\charisma\js\jquery.noty.js" afterPath="" />
-      <change type="DELETED" beforePath="G:\webroot\wei-chat\resources\bootstrap\charisma\js\jquery.raty.min.js" afterPath="" />
-      <change type="DELETED" beforePath="G:\webroot\wei-chat\resources\bootstrap\charisma\js\jquery.uniform.min.js" afterPath="" />
-      <change type="DELETED" beforePath="G:\webroot\wei-chat\resources\bootstrap\charisma\js\jquery.uploadify-3.1.min.js" afterPath="" />
-      <change type="DELETED" beforePath="G:\webroot\wei-chat\resources\images\uploads\1369147005.9377.jpg" afterPath="" />
-      <change type="DELETED" beforePath="G:\webroot\wei-chat\resources\jquery-1.8.2.js" afterPath="" />
-      <change type="DELETED" beforePath="G:\webroot\wei-chat\resources\jquery-icon\.gitignore" afterPath="" />
-      <change type="DELETED" beforePath="G:\webroot\wei-chat\resources\jquery-icon\LICENSE-GPL" afterPath="" />
-      <change type="DELETED" beforePath="G:\webroot\wei-chat\resources\jquery-icon\LICENSE-MIT" afterPath="" />
-      <change type="DELETED" beforePath="G:\webroot\wei-chat\resources\jquery-icon\index.html" afterPath="" />
-      <change type="DELETED" beforePath="G:\webroot\wei-chat\resources\jquery-icon\readme.md" afterPath="" />
-      <change type="DELETED" beforePath="G:\webroot\wei-chat\resources\jquery-ui\css\smoothness\images\ui-bg_flat_0_aaaaaa_40x100.png" afterPath="" />
-      <change type="DELETED" beforePath="G:\webroot\wei-chat\resources\jquery-ui\css\smoothness\images\ui-bg_flat_75_ffffff_40x100.png" afterPath="" />
-      <change type="DELETED" beforePath="G:\webroot\wei-chat\resources\jquery-ui\css\smoothness\images\ui-bg_glass_55_fbf9ee_1x400.png" afterPath="" />
-      <change type="DELETED" beforePath="G:\webroot\wei-chat\resources\jquery-ui\css\smoothness\images\ui-bg_glass_65_ffffff_1x400.png" afterPath="" />
-      <change type="DELETED" beforePath="G:\webroot\wei-chat\resources\jquery-ui\css\smoothness\images\ui-bg_glass_75_dadada_1x400.png" afterPath="" />
-      <change type="DELETED" beforePath="G:\webroot\wei-chat\resources\jquery-ui\css\smoothness\images\ui-bg_glass_75_e6e6e6_1x400.png" afterPath="" />
-      <change type="DELETED" beforePath="G:\webroot\wei-chat\resources\jquery-ui\css\smoothness\images\ui-bg_glass_95_fef1ec_1x400.png" afterPath="" />
-      <change type="DELETED" beforePath="G:\webroot\wei-chat\resources\jquery-ui\css\smoothness\images\ui-bg_highlight-soft_75_cccccc_1x100.png" afterPath="" />
-      <change type="DELETED" beforePath="G:\webroot\wei-chat\resources\jquery-ui\css\smoothness\images\ui-icons_222222_256x240.png" afterPath="" />
-      <change type="DELETED" beforePath="G:\webroot\wei-chat\resources\jquery-ui\css\smoothness\images\ui-icons_2e83ff_256x240.png" afterPath="" />
-      <change type="DELETED" beforePath="G:\webroot\wei-chat\resources\jquery-ui\css\smoothness\images\ui-icons_454545_256x240.png" afterPath="" />
-      <change type="DELETED" beforePath="G:\webroot\wei-chat\resources\jquery-ui\css\smoothness\images\ui-icons_888888_256x240.png" afterPath="" />
-      <change type="DELETED" beforePath="G:\webroot\wei-chat\resources\jquery-ui\css\smoothness\images\ui-icons_cd0a0a_256x240.png" afterPath="" />
-      <change type="DELETED" beforePath="G:\webroot\wei-chat\resources\jquery-ui\css\smoothness\jquery-ui-1.9.1.custom.css" afterPath="" />
-      <change type="DELETED" beforePath="G:\webroot\wei-chat\resources\jquery-ui\css\smoothness\jquery-ui-1.9.1.custom.min.css" afterPath="" />
-      <change type="DELETED" beforePath="G:\webroot\wei-chat\resources\jquery-ui\index.html" afterPath="" />
-      <change type="DELETED" beforePath="G:\webroot\wei-chat\resources\jquery-ui\js\jquery-ui-1.9.1.custom.js" afterPath="" />
-      <change type="DELETED" beforePath="G:\webroot\wei-chat\resources\jquery-ui\js\jquery-ui-1.9.1.custom.min.js" afterPath="" />
-      <change type="DELETED" beforePath="G:\webroot\wei-chat\resources\jquery-ui\js\jquery.ui.datepicker-zh-CN.js" afterPath="" />
-      <change type="DELETED" beforePath="G:\webroot\wei-chat\resources\quickflip\README" afterPath="" />
-      <change type="DELETED" beforePath="G:\webroot\wei-chat\resources\quickflip\demo\css\basic-quickflips.css" afterPath="" />
-      <change type="DELETED" beforePath="G:\webroot\wei-chat\resources\quickflip\demo\css\hover-quickflips.css" afterPath="" />
-      <change type="DELETED" beforePath="G:\webroot\wei-chat\resources\quickflip\demo\hover-quickflips.html" afterPath="" />
-      <change type="DELETED" beforePath="G:\webroot\wei-chat\resources\quickflip\demo\index.html" afterPath="" />
-      <change type="DELETED" beforePath="G:\webroot\wei-chat\resources\quickflip\jquery.js" afterPath="" />
-      <change type="DELETED" beforePath="G:\webroot\wei-chat\resources\quickflip\jquery.quickflip.min.js" afterPath="" />
-      <change type="DELETED" beforePath="G:\webroot\wei-chat\resources\quickflip\jquery.quickflip.source.js" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/application/third_party/weichat.mwb" afterPath="$PROJECT_DIR$/application/third_party/weichat.mwb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/application/core/MY_Model.php" afterPath="$PROJECT_DIR$/application/core/MY_Model.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/application/views/admin/bizlogin.php" afterPath="$PROJECT_DIR$/application/views/admin/bizlogin.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/application/views/admin/body-start.php" afterPath="$PROJECT_DIR$/application/views/admin/body-start.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/application/controllers/cardcatalog.php" afterPath="$PROJECT_DIR$/application/controllers/cardcatalog.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/application/models/cardcatalog_model.php" afterPath="$PROJECT_DIR$/application/models/cardcatalog_model.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/application/models/coupon_model.php" afterPath="$PROJECT_DIR$/application/models/coupon_model.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/application/controllers/couponcatalog.php" afterPath="$PROJECT_DIR$/application/controllers/couponcatalog.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/application/models/couponcatalog_model.php" afterPath="$PROJECT_DIR$/application/models/couponcatalog_model.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/application/third_party/db.sql" afterPath="$PROJECT_DIR$/application/third_party/db.sql" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/application/views/cardcatalog/editNew.php" afterPath="$PROJECT_DIR$/application/views/cardcatalog/editNew.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/application/views/couponcatalog/editNew.php" afterPath="$PROJECT_DIR$/application/views/couponcatalog/editNew.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/application/views/lotterydial/editNew.php" afterPath="$PROJECT_DIR$/application/views/lotterydial/editNew.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/application/views/merchant/editNew.php" afterPath="$PROJECT_DIR$/application/views/merchant/editNew.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/application/views/news/editNew.php" afterPath="$PROJECT_DIR$/application/views/news/editNew.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/application/views/respmusicmessage/editNew.php" afterPath="$PROJECT_DIR$/application/views/respmusicmessage/editNew.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/application/views/respnewsmessage/editNew.php" afterPath="$PROJECT_DIR$/application/views/respnewsmessage/editNew.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/application/views/resptextmessage/editNew.php" afterPath="$PROJECT_DIR$/application/views/resptextmessage/editNew.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/application/views/subscribemessage/editNew.php" afterPath="$PROJECT_DIR$/application/views/subscribemessage/editNew.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/application/views/admin/footer.php" afterPath="$PROJECT_DIR$/application/views/admin/footer.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/application/views/couponcatalog/getcode.php" afterPath="$PROJECT_DIR$/application/views/couponcatalog/getcode.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/application/views/admin/header-pure.php" afterPath="$PROJECT_DIR$/application/views/admin/header-pure.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/application/views/admin/header.php" afterPath="$PROJECT_DIR$/application/views/admin/header.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/scripts/admin/index.js" afterPath="$PROJECT_DIR$/resources/scripts/admin/index.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/application/views/cardcatalog/index.php" afterPath="$PROJECT_DIR$/application/views/cardcatalog/index.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/application/views/cardcatalog/list.php" afterPath="$PROJECT_DIR$/application/views/cardcatalog/list.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/application/views/couponcatalog/list.php" afterPath="$PROJECT_DIR$/application/views/couponcatalog/list.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/application/views/pubweixin/list.php" afterPath="$PROJECT_DIR$/application/views/pubweixin/list.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/application/views/respmusicmessage/list.php" afterPath="$PROJECT_DIR$/application/views/respmusicmessage/list.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/application/views/respnewsmessage/list.php" afterPath="$PROJECT_DIR$/application/views/respnewsmessage/list.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/application/views/resptextmessage/list.php" afterPath="$PROJECT_DIR$/application/views/resptextmessage/list.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/application/models/lotterydial_model.php" afterPath="$PROJECT_DIR$/application/models/lotterydial_model.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/application/controllers/message.php" afterPath="$PROJECT_DIR$/application/controllers/message.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/application/models/message_model.php" afterPath="$PROJECT_DIR$/application/models/message_model.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/application/models/news_model.php" afterPath="$PROJECT_DIR$/application/models/news_model.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/application/controllers/pubweixin.php" afterPath="$PROJECT_DIR$/application/controllers/pubweixin.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/application/models/respmusicmessage_model.php" afterPath="$PROJECT_DIR$/application/models/respmusicmessage_model.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/application/models/respnewsmessage_model.php" afterPath="$PROJECT_DIR$/application/models/respnewsmessage_model.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/application/models/resptextmessage_model.php" afterPath="$PROJECT_DIR$/application/models/resptextmessage_model.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/application/views/common/result-close.php" afterPath="$PROJECT_DIR$/application/views/common/result-close.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/application/models/subscribemessage_model.php" afterPath="$PROJECT_DIR$/application/models/subscribemessage_model.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/application/views/userpicture/thumbnails.php" afterPath="$PROJECT_DIR$/application/views/userpicture/thumbnails.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MOVED" beforePath="G:\webroot\wei-chat\application\views\couponcatalog\startvalidate.php" afterPath="$PROJECT_DIR$/application/views/couponcatalog/validated.php" />
-      <change type="MOVED" beforePath="G:\webroot\wei-chat\resources\styles\coupon_cata\style.css" afterPath="$PROJECT_DIR$/resources/styles/cardcatalog/card.css" />
-      <change type="MOVED" beforePath="G:\webroot\wei-chat\resources\styles\coupon_get_policy\style.css" afterPath="$PROJECT_DIR$/resources/styles/couponcatalog/getcode.css" />
     </list>
     <ignored path="weixin.iws" />
     <ignored path=".idea/workspace.xml" />
     <file path="/header.php" changelist="9c42f37f-b41b-40a5-884c-3813c2511426" time="1369481873251" ignored="false" />
     <file path="/index.php" changelist="9c42f37f-b41b-40a5-884c-3813c2511426" time="1369467041155" ignored="false" />
-    <file path="/Dummy.txt" changelist="9c42f37f-b41b-40a5-884c-3813c2511426" time="1369442669633" ignored="false" />
+    <file path="/Dummy.txt" changelist="9c42f37f-b41b-40a5-884c-3813c2511426" time="1369535893237" ignored="false" />
     <file path="/footer.php" changelist="9c42f37f-b41b-40a5-884c-3813c2511426" time="1369479391254" ignored="false" />
     <file path="/charisma-app.css" changelist="9c42f37f-b41b-40a5-884c-3813c2511426" time="1366641995464" ignored="false" />
     <file path="/bootstrap-cerulean.css" changelist="9c42f37f-b41b-40a5-884c-3813c2511426" time="1366641664395" ignored="false" />
@@ -463,13 +121,44 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="db.sql" pinned="false" current="true" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/application/third_party/db.sql">
-          <provider editor-type-id="com.intellij.persistence.database.editor.CsvTableFileEditorProvider">
-            <state />
-          </provider>
+      <file leaf-file-name="message_model.php" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/application/models/message_model.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="15" column="14" selection-start="723" selection-end="723" vertical-scroll-proportion="-13.25">
+            <state line="31" column="0" selection-start="1209" selection-end="1209" vertical-scroll-proportion="-12.757576">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="MY_Model.php" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/application/core/MY_Model.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="578" column="7" selection-start="14893" selection-end="14893" vertical-scroll-proportion="-13.090909">
+              <folding>
+                <marker date="1369500724112" expanded="true" signature="5848:5890" placeholder="update %s se..." />
+                <marker date="1369500724112" expanded="true" signature="11483:11680" placeholder="..." />
+                <marker date="1369500724112" expanded="true" signature="11711:11854" placeholder="..." />
+                <marker date="1369500724112" expanded="true" signature="13982:14061" placeholder="select count..keywordmap..." />
+                <marker date="1369500724112" expanded="true" signature="14552:14612" placeholder="delete from ..." />
+                <marker date="1369500724112" expanded="true" signature="14821:15072" placeholder="select count..respnewsmessage..." />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="resptextmessage_model.php" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/application/models/resptextmessage_model.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="24" column="3" selection-start="1082" selection-end="1082" vertical-scroll-proportion="-16.39394">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="editNew.php" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/application/views/resptextmessage/editNew.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="21" column="28" selection-start="549" selection-end="549" vertical-scroll-proportion="0.6079614">
               <folding />
             </state>
           </provider>
@@ -493,7 +182,6 @@
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
       <list>
-        <option value="$PROJECT_DIR$/application/views/couponcatalog/editNew.php" />
         <option value="$PROJECT_DIR$/application/views/couponcatalog/list.php" />
         <option value="$PROJECT_DIR$/application/models/coupon_model.php" />
         <option value="$PROJECT_DIR$/application/views/lotterydial/editNew.php" />
@@ -509,6 +197,7 @@
         <option value="$PROJECT_DIR$/application/models/message_model.php" />
         <option value="$PROJECT_DIR$/application/core/MY_Model.php" />
         <option value="$PROJECT_DIR$/application/controllers/message.php" />
+        <option value="$PROJECT_DIR$/application/views/resptextmessage/editNew.php" />
       </list>
     </option>
   </component>
@@ -561,7 +250,6 @@
       <sortByType />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -608,12 +296,35 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="third_party" />
+              <option name="myItemId" value="views" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="weixin" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="wei-chat" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="application" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="views" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="resptextmessage" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -622,8 +333,8 @@
     <property name="options.lastSelected" value="editor.preferences.tabs" />
     <property name="last_opened_file_path" value="G:/phing.info" />
     <property name="FullScreen" value="false" />
-    <property name="options.searchVisible" value="true" />
     <property name="options.splitter.details.proportions" value="0.2" />
+    <property name="options.searchVisible" value="true" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
@@ -704,10 +415,9 @@
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3281075" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.19593148" sideWeight="0.6718925" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.23019272" sideWeight="0.6718925" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
@@ -716,6 +426,7 @@
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3281075" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
@@ -794,130 +505,104 @@
     </PATH>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/application/views/common/result.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/application/views/common/result-close.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="2" column="25" selection-start="108" selection-end="108" vertical-scroll-proportion="-1.4545455">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/application/views/pubweixin/list.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="51" column="11" selection-start="1390" selection-end="1390" vertical-scroll-proportion="-10.575758">
-          <folding />
-        </state>
+        <state line="51" column="11" selection-start="1390" selection-end="1390" vertical-scroll-proportion="-10.575758" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/application/views/subscribemessage/list.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="25.787878">
-          <folding />
-        </state>
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="25.787878" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/application/views/subscribemessage/editNew.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="39" column="13" selection-start="1066" selection-end="1066" vertical-scroll-proportion="-28.363636">
-          <folding />
-        </state>
+        <state line="39" column="13" selection-start="1066" selection-end="1066" vertical-scroll-proportion="-28.363636" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/application/models/respmusicmessage_model.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="26" column="66" selection-start="1151" selection-end="1151" vertical-scroll-proportion="-14.878788">
-          <folding />
-        </state>
+        <state line="26" column="66" selection-start="1151" selection-end="1151" vertical-scroll-proportion="-14.878788" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/application/models/respnewsmessage_model.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="26" column="65" selection-start="1149" selection-end="1149" vertical-scroll-proportion="41.121212">
-          <folding>
-            <marker date="1369496171917" expanded="true" signature="-1:-1" placeholder="select n.id ..respnewslist..." />
-            <marker date="1369496171917" expanded="true" signature="-1:-1" placeholder="select * fro..news..." />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/application/models/resptextmessage_model.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="26" column="65" selection-start="1149" selection-end="1149" vertical-scroll-proportion="-14.878788">
-          <folding />
-        </state>
+        <state line="26" column="65" selection-start="1149" selection-end="1149" vertical-scroll-proportion="41.121212" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/application/models/news_model.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="26" column="54" selection-start="1127" selection-end="1127" vertical-scroll-proportion="0.6236429">
-          <folding />
-        </state>
+        <state line="26" column="54" selection-start="1127" selection-end="1127" vertical-scroll-proportion="0.6236429" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/application/views/merchant/editNew.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="92" column="40" selection-start="1788" selection-end="1788" vertical-scroll-proportion="0.7527141">
-          <folding />
-        </state>
+        <state line="92" column="40" selection-start="1788" selection-end="1788" vertical-scroll-proportion="0.7527141" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/application/models/subscribemessage_model.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="26" column="66" selection-start="1151" selection-end="1151" vertical-scroll-proportion="0.4053076">
+        <state line="26" column="66" selection-start="1151" selection-end="1151" vertical-scroll-proportion="0.4053076" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/application/controllers/message.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="106" column="33" selection-start="3418" selection-end="3418" vertical-scroll-proportion="-41.032257" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/application/config/database.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="52" column="35" selection-start="2703" selection-end="2713" vertical-scroll-proportion="0.46320868" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/application/third_party/db.sql">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="15" column="14" selection-start="723" selection-end="723" vertical-scroll-proportion="0.028846154">
+          <folding />
+        </state>
+      </provider>
+      <provider editor-type-id="com.intellij.persistence.database.editor.CsvTableFileEditorProvider">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/application/models/vcode_model.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="38" column="9" selection-start="1399" selection-end="1399" vertical-scroll-proportion="0.6658625">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/application/models/message_model.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="31" column="0" selection-start="1209" selection-end="1209" vertical-scroll-proportion="-12.757576">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/application/core/MY_Model.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="531" column="36" selection-start="13644" selection-end="13644" vertical-scroll-proportion="-0.2026538">
+        <state line="578" column="7" selection-start="14893" selection-end="14893" vertical-scroll-proportion="-13.090909">
           <folding>
-            <marker date="1369500724112" expanded="true" signature="-1:-1" placeholder="update %s se..." />
-            <marker date="1369500724112" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1369500724112" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1369500724112" expanded="true" signature="-1:-1" placeholder="select keywo..." />
-            <marker date="1369500724112" expanded="true" signature="-1:-1" placeholder="select count..keywordmap..." />
-            <marker date="1369500724112" expanded="true" signature="-1:-1" placeholder="delete from ..." />
-            <marker date="1369500724112" expanded="true" signature="-1:-1" placeholder="select count..respnewsmessage..." />
+            <marker date="1369500724112" expanded="true" signature="5848:5890" placeholder="update %s se..." />
+            <marker date="1369500724112" expanded="true" signature="11483:11680" placeholder="..." />
+            <marker date="1369500724112" expanded="true" signature="11711:11854" placeholder="..." />
+            <marker date="1369500724112" expanded="true" signature="13982:14061" placeholder="select count..keywordmap..." />
+            <marker date="1369500724112" expanded="true" signature="14552:14612" placeholder="delete from ..." />
+            <marker date="1369500724112" expanded="true" signature="14821:15072" placeholder="select count..respnewsmessage..." />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/application/models/message_model.php">
+    <entry file="file://$PROJECT_DIR$/application/models/resptextmessage_model.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="32" column="45" selection-start="1230" selection-end="1255" vertical-scroll-proportion="0.5367913">
+        <state line="24" column="3" selection-start="1082" selection-end="1082" vertical-scroll-proportion="-16.39394">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/application/controllers/message.php">
+    <entry file="file://$PROJECT_DIR$/application/views/resptextmessage/editNew.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="106" column="33" selection-start="3418" selection-end="3418" vertical-scroll-proportion="-41.032257">
-          <folding>
-            <marker date="1369501050749" expanded="true" signature="-1:-1" placeholder="..." />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/application/config/database.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="52" column="35" selection-start="2703" selection-end="2713" vertical-scroll-proportion="0.46320868">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/application/third_party/db.sql">
-      <provider editor-type-id="com.intellij.persistence.database.editor.CsvTableFileEditorProvider">
-        <state />
-      </provider>
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="15" column="14" selection-start="723" selection-end="723" vertical-scroll-proportion="-13.25">
+        <state line="21" column="28" selection-start="549" selection-end="549" vertical-scroll-proportion="0.6079614">
           <folding />
         </state>
       </provider>

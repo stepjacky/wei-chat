@@ -18,7 +18,7 @@
    <td>            
         <input id="keyword"
                type="text"
-               name="keywords"
+               name="keyword"
                class="validate[required] input-xlarge"
                value="<?=val($keyword)?>" />
 
