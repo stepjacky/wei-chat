@@ -63,8 +63,20 @@ class Cardcatalog_model extends Response_news_message_extModel {
         return empty($result)?false:$result;
     }
 
+    public function response($keywords, $fromuser, $touser)
+    {
+        $config = $this->get_default_config($fromuser);
+        $newslist = array(
+            array(
+                'name'=>'台州微生活会员卡',
+                'info'=>'台州微生活会员卡领取中',
+                'picurl'=>'/resources/images/card.jpg',
+                'url'=>base_url(sprintf('/cardcatalog/index/%s',$config['id']))
+            )
+        );
+
+        return  $this->buildMessage($fromuser,$touser,$newslist);
+    }
 
 
-    
-    
 }   

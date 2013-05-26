@@ -2,8 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="9c42f37f-b41b-40a5-884c-3813c2511426" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/styles/cardcatalog/card.css" afterPath="$PROJECT_DIR$/resources/styles/cardcatalog/card.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/application/views/lotterydial/getcode.php" afterPath="$PROJECT_DIR$/application/views/lotterydial/getcode.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/application/models/cardcatalog_model.php" afterPath="$PROJECT_DIR$/application/models/cardcatalog_model.php" />
     </list>
     <ignored path="weixin.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -51,7 +50,7 @@
     <file path="/pubweixin_model.php" changelist="9c42f37f-b41b-40a5-884c-3813c2511426" time="1367219869471" ignored="false" />
     <file path="/connector.php" changelist="9c42f37f-b41b-40a5-884c-3813c2511426" time="1366982702246" ignored="false" />
     <file path="/list.js" changelist="9c42f37f-b41b-40a5-884c-3813c2511426" time="1367766152261" ignored="false" />
-    <file path="/cardcatalog_model.php" changelist="9c42f37f-b41b-40a5-884c-3813c2511426" time="1369322612226" ignored="false" />
+    <file path="/cardcatalog_model.php" changelist="9c42f37f-b41b-40a5-884c-3813c2511426" time="1369579930390" ignored="false" />
     <file path="/couponcatalog.php" changelist="9c42f37f-b41b-40a5-884c-3813c2511426" time="1369579259620" ignored="false" />
     <file path="/startvalidate.php" changelist="9c42f37f-b41b-40a5-884c-3813c2511426" time="1367080467538" ignored="false" />
     <file path="/coupon.php" changelist="9c42f37f-b41b-40a5-884c-3813c2511426" time="1369573901205" ignored="false" />
@@ -128,7 +127,16 @@
       <file leaf-file-name="couponcatalog.php" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/application/controllers/couponcatalog.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="116" column="36" selection-start="3454" selection-end="3454" vertical-scroll-proportion="-63.636364">
+            <state line="116" column="36" selection-start="3454" selection-end="3454" vertical-scroll-proportion="41.848484">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="couponcatalog_model.php" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/application/models/couponcatalog_model.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="92" column="65" selection-start="2716" selection-end="3043" vertical-scroll-proportion="-18.515152">
               <folding />
             </state>
           </provider>
@@ -143,10 +151,10 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="card.css" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="card.css" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/resources/styles/cardcatalog/card.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="2" column="20" selection-start="57" selection-end="57" vertical-scroll-proportion="0.057416268">
+            <state line="3" column="1" selection-start="60" selection-end="60" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -186,10 +194,19 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="cardcatalog_model.php" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="cardcatalog_model.php" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/application/models/cardcatalog_model.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="22.878788">
+            <state line="75" column="10" selection-start="2546" selection-end="2546" vertical-scroll-proportion="0.64134496">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="cardcatalog.php" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/application/controllers/cardcatalog.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="46" column="27" selection-start="1747" selection-end="1796" vertical-scroll-proportion="-13.090909">
               <folding />
             </state>
           </provider>
@@ -224,7 +241,6 @@
       <list>
         <option value="$PROJECT_DIR$/resources/styles/lotterydial/style.css" />
         <option value="$PROJECT_DIR$/application/views/systems/accesserror.php" />
-        <option value="$PROJECT_DIR$/application/models/cardcatalog_model.php" />
         <option value="$PROJECT_DIR$/application/models/cards_model.php" />
         <option value="$PROJECT_DIR$/application/core/MY_Model.php" />
         <option value="$PROJECT_DIR$/application/controllers/cardcatalog.php" />
@@ -238,6 +254,7 @@
         <option value="$PROJECT_DIR$/application/controllers/couponcatalog.php" />
         <option value="$PROJECT_DIR$/application/views/lotterydial/getcode.php" />
         <option value="$PROJECT_DIR$/resources/styles/cardcatalog/card.css" />
+        <option value="$PROJECT_DIR$/application/models/cardcatalog_model.php" />
       </list>
     </option>
   </component>
@@ -499,6 +516,42 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="weixin" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="wei-chat" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="application" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="models" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="weixin" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="wei-chat" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="application" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="controllers" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
         </subPane>
       </pane>
       <pane id="Scope" />
@@ -689,13 +742,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/application/controllers/cardcatalog.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="62" column="46" selection-start="2347" selection-end="2347" vertical-scroll-proportion="-10.181818">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/application/views/couponcatalog/index.php">
       <provider selected="true" editor-type-id="text-editor">
         <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
@@ -734,23 +780,9 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/application/models/cardcatalog_model.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="22.878788">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/application/models/cards_model.php">
       <provider selected="true" editor-type-id="text-editor">
         <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="6.878788">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/application/models/couponcatalog_model.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="75" column="14" selection-start="2603" selection-end="2603" vertical-scroll-proportion="1.9264174">
           <folding />
         </state>
       </provider>
@@ -783,13 +815,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/application/controllers/couponcatalog.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="116" column="36" selection-start="3454" selection-end="3454" vertical-scroll-proportion="-63.636364">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/application/views/lotterydial/getcode.php">
       <provider selected="true" editor-type-id="text-editor">
         <state line="39" column="7" selection-start="1361" selection-end="1361" vertical-scroll-proportion="-28.363636">
@@ -799,7 +824,35 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/resources/styles/cardcatalog/card.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="2" column="20" selection-start="57" selection-end="57" vertical-scroll-proportion="0.057416268">
+        <state line="3" column="1" selection-start="60" selection-end="60" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/application/controllers/couponcatalog.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="116" column="36" selection-start="3454" selection-end="3454" vertical-scroll-proportion="41.848484">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/application/models/couponcatalog_model.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="92" column="65" selection-start="2716" selection-end="3043" vertical-scroll-proportion="-18.515152">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/application/controllers/cardcatalog.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="46" column="27" selection-start="1747" selection-end="1796" vertical-scroll-proportion="-13.090909">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/application/models/cardcatalog_model.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="75" column="10" selection-start="2546" selection-end="2546" vertical-scroll-proportion="0.64134496">
           <folding />
         </state>
       </provider>
