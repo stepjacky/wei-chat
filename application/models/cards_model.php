@@ -31,7 +31,7 @@ class Cards_model extends MY_Model {
     }
 
     public function get_by_wxpw($pubwx,$wx){
-        $this->db->where('member_id',$wx);
+        $this->db->where('weixin_id',$wx);
         $this->db->where('pubweixin_id',$pubwx);
         $query =  $this->db->get($this->table());
         $result = $query->row_array();
