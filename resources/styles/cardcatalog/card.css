@@ -76,7 +76,11 @@ body{
     width:100%;
     display:block;
     height:25px;
-
+}
+.dblock35{
+    width:100%;
+    display:block;
+    height:35px;
 }
 .list{
     margin-left:20px;
