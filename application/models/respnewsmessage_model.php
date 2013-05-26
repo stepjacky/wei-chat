@@ -39,7 +39,7 @@ class Respnewsmessage_model extends Response_news_message_Model {
 
         if($gen)$data[$pk]=getGuidId();
 
-        $data['fromusername']= $this->FromUserName;
+        $data[$this->FromUserKey]= $this->FromUserName;
         $str = $this->db->insert_string($this->table(), $data);
         $this->firelog($str);
         $this->db->insert($this->table, $data);

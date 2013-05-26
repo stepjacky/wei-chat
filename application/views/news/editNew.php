@@ -9,7 +9,8 @@
 <tbody>
 
 <input id="id" type="hidden" name="id" value="<?=val($id)?>" />
-  
+<input type="hidden" name="keyword" value="" />
+
      
   
      <tr>

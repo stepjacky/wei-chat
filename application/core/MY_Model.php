@@ -104,12 +104,15 @@ class MY_Model extends CI_Model
         $pk = urldecode($pk);
 
         if(!isset($data[$pk]) || empty($data[$pk])){
-            $this->save($data,$pk);
+
+            $this->save2($data,$gen,$pk);
         }else{
             $bean = $this->get($data[$pk],$pk);
+
             if($bean['empty']){
                 $this->save2($data,$gen,$pk);
             }else{
+
                 $this->update($data,$pk);
             }
         }
@@ -123,6 +126,7 @@ class MY_Model extends CI_Model
     {
 
         if($genId)$data[$pk]=getGuidId();
+        $this->firelog($data);
         $str = $this->db->insert_string($this->table(), $data);
         $this->firelog($str);
         $this->db->insert($this->table, $data);
@@ -133,7 +137,12 @@ class MY_Model extends CI_Model
     public function save2($data,$gen=TRUE,$pk='id')
     {
 
-          $this->save($data,$pk,$gen);
+
+        if($gen)$data[$pk]=getGuidId();
+        $this->firelog($data);
+        $str = $this->db->insert_string($this->table(), $data);
+        $this->firelog($str);
+        $this->db->insert($this->table, $data);
 
     }
 
@@ -381,7 +390,7 @@ class Image_Model extends MY_Model {
 class ResponseMessage_Model extends MY_Model {
 
     protected $FromUserName = "";
-    protected $FromUserKey='pupweixin_id';
+    protected $FromUserKey='pubweixin_id';
     protected $conds = array();
 
 
@@ -409,12 +418,13 @@ class ResponseMessage_Model extends MY_Model {
 
     public function  saveUpdate($data,$pk="id",$gen=TRUE){
         $data[$this->FromUserKey] = $this->FromUserName;
+
         parent::saveUpdate($data,$pk,$gen);
     }
 
 
     public function gets($page){
-        $this->firelog($page);
+
         return parent::gets($page,10,$this->conds);
     }
     public function page_link($page=1){
