@@ -381,6 +381,7 @@ class Image_Model extends MY_Model {
 class ResponseMessage_Model extends MY_Model {
 
     protected $FromUserName = "";
+    protected $FromUserKey='pupweixin_id';
     protected $conds = array();
     public function __construct()
     {
@@ -401,11 +402,11 @@ class ResponseMessage_Model extends MY_Model {
         $this->load->library('nsession');
         $pubwx = $this->nsession->userdata("pubwx");
         $this->FromUserName = $pubwx;
-        $this->conds = array('pubweixin_id'=>$this->FromUserName);
+        $this->conds = array($this->FromUserKey=>$this->FromUserName);
     }
 
     public function  saveUpdate($data,$pk="id",$gen=TRUE){
-        $data['pubweixin_id'] = $this->FromUserName;
+        $data[$this->FromUserKey] = $this->FromUserName;
         parent::saveUpdate($data,$pk,$gen);
     }
 
@@ -601,25 +602,14 @@ class Response_simple_Message_Model extends  ResponseMessage_Model{
     public function __construct()
     {
 
+        $this->FromUserKey='FromUserName';
         if (func_num_args() == 1) {
             $mname = func_get_arg(0);
             parent::__construct($mname);
         }else{
             parent::__construct();
         }
-    }
 
-    protected function postContruct()
-    {
-        $this->load->library('nsession');
-        $pubwx = $this->nsession->userdata("pubwx");
-        $this->FromUserName = $pubwx;
-        $this->conds = array('FromUserName'=>$this->FromUserName);
-    }
-
-    public function  saveUpdate($data,$pk="id",$gen=TRUE){
-        $data['FromUserName'] = $this->FromUserName;
-        parent::saveUpdate($data,$pk,$gen);
     }
 
 }

@@ -382,7 +382,7 @@ class Respmessage_Controller extends MY_Controller{
 
     public function saveUpdate(){
         $data =  $this->_xsl_post();
-        $data['fromusername']= $this->FromUserName;
+        // $data['fromusername']= $this->FromUserName;
         $this->dao->saveUpdate($data);
         $this->_end();
     }

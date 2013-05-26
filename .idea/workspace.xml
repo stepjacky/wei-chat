@@ -2,6 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="9c42f37f-b41b-40a5-884c-3813c2511426" name="Default" comment="">
+      <change type="DELETED" beforePath="G:\webroot\wei-chat\resources\images\uploads\1369490280.214.jpg" afterPath="" />
+      <change type="DELETED" beforePath="G:\webroot\wei-chat\resources\images\uploads\1369490771.8622.jpg" afterPath="" />
+      <change type="DELETED" beforePath="G:\webroot\wei-chat\resources\images\uploads\1369491889.5015.jpg" afterPath="" />
+      <change type="DELETED" beforePath="G:\webroot\wei-chat\resources\images\uploads\1369495194.6158.jpg" afterPath="" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/application/core/MY_Controller.php" afterPath="$PROJECT_DIR$/application/core/MY_Controller.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/application/core/MY_Model.php" afterPath="$PROJECT_DIR$/application/core/MY_Model.php" />
     </list>
     <ignored path="weixin.iws" />
@@ -32,7 +37,7 @@
     <file path="/input.php" changelist="9c42f37f-b41b-40a5-884c-3813c2511426" time="1366774245128" ignored="false" />
     <file path="/couponpolicy.php" changelist="9c42f37f-b41b-40a5-884c-3813c2511426" time="1366787564747" ignored="false" />
     <file path="/merchant.php" changelist="9c42f37f-b41b-40a5-884c-3813c2511426" time="1367159072197" ignored="false" />
-    <file path="/MY_Model.php" changelist="9c42f37f-b41b-40a5-884c-3813c2511426" time="1369536557058" ignored="false" />
+    <file path="/MY_Model.php" changelist="9c42f37f-b41b-40a5-884c-3813c2511426" time="1369537692000" ignored="false" />
     <file path="/vcode_model.php" changelist="9c42f37f-b41b-40a5-884c-3813c2511426" time="1366818551986" ignored="false" />
     <file path="/body-start.php" changelist="9c42f37f-b41b-40a5-884c-3813c2511426" time="1369484478248" ignored="false" />
     <file path="/picture.php" changelist="9c42f37f-b41b-40a5-884c-3813c2511426" time="1366899887651" ignored="false" />
@@ -129,18 +134,36 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="MY_Model.php" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="MY_Model.php" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/application/core/MY_Model.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="620" column="27" selection-start="16010" selection-end="16010" vertical-scroll-proportion="0.7973462">
+            <state line="597" column="0" selection-start="15429" selection-end="15429" vertical-scroll-proportion="-19.969696">
               <folding>
-                <marker date="1369537016053" expanded="true" signature="5848:5890" placeholder="update %s se..." />
-                <marker date="1369537016053" expanded="true" signature="11562:11759" placeholder="..." />
-                <marker date="1369537016053" expanded="true" signature="11790:11933" placeholder="..." />
-                <marker date="1369537016053" expanded="true" signature="14061:14140" placeholder="select count..keywordmap..." />
-                <marker date="1369537016053" expanded="true" signature="14631:14691" placeholder="delete from ..." />
-                <marker date="1369537016053" expanded="true" signature="14900:15151" placeholder="select count..respnewsmessage..." />
+                <marker date="1369537714440" expanded="true" signature="5848:5890" placeholder="update %s se..." />
+                <marker date="1369537714440" expanded="true" signature="11613:11810" placeholder="..." />
+                <marker date="1369537714440" expanded="true" signature="11841:11984" placeholder="..." />
+                <marker date="1369537714440" expanded="true" signature="14112:14191" placeholder="select count..keywordmap..." />
+                <marker date="1369537714440" expanded="true" signature="14682:14742" placeholder="delete from ..." />
+                <marker date="1369537714440" expanded="true" signature="14951:15202" placeholder="select count..respnewsmessage..." />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="resptextmessage.php" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/application/controllers/resptextmessage.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="26" column="43" selection-start="1132" selection-end="1132" vertical-scroll-proportion="-15.606061">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="MY_Controller.php" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/application/core/MY_Controller.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="165" column="24" selection-start="4287" selection-end="4287" vertical-scroll-proportion="-0.29514322">
+              <folding />
             </state>
           </provider>
         </entry>
@@ -148,7 +171,7 @@
       <file leaf-file-name="resptextmessage_model.php" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/application/models/resptextmessage_model.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="26" column="44" selection-start="1128" selection-end="1128" vertical-scroll-proportion="-15.666667">
+            <state line="26" column="41" selection-start="1125" selection-end="1125" vertical-scroll-proportion="-15.666667">
               <folding />
             </state>
           </provider>
@@ -192,7 +215,6 @@
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
       <list>
-        <option value="$PROJECT_DIR$/application/views/couponcatalog/list.php" />
         <option value="$PROJECT_DIR$/application/models/coupon_model.php" />
         <option value="$PROJECT_DIR$/application/views/lotterydial/editNew.php" />
         <option value="$PROJECT_DIR$/application/views/common/result-close.php" />
@@ -207,6 +229,7 @@
         <option value="$PROJECT_DIR$/application/models/message_model.php" />
         <option value="$PROJECT_DIR$/application/controllers/message.php" />
         <option value="$PROJECT_DIR$/application/views/resptextmessage/editNew.php" />
+        <option value="$PROJECT_DIR$/application/core/MY_Controller.php" />
         <option value="$PROJECT_DIR$/application/core/MY_Model.php" />
       </list>
     </option>
@@ -324,7 +347,11 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="models" />
+              <option name="myItemId" value="views" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="common" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -511,21 +538,6 @@
     </PATH>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/application/views/subscribemessage/list.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="25.787878" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/application/views/subscribemessage/editNew.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="39" column="13" selection-start="1066" selection-end="1066" vertical-scroll-proportion="-28.363636" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/application/models/respmusicmessage_model.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="26" column="66" selection-start="1151" selection-end="1151" vertical-scroll-proportion="-14.878788" />
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/application/models/respnewsmessage_model.php">
       <provider selected="true" editor-type-id="text-editor">
         <state line="26" column="65" selection-start="1149" selection-end="1149" vertical-scroll-proportion="41.121212" />
@@ -587,13 +599,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/application/models/resptextmessage_model.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="26" column="44" selection-start="1128" selection-end="1128" vertical-scroll-proportion="-15.666667">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/application/models/lotterydial_model.php">
       <provider selected="true" editor-type-id="text-editor">
         <state line="26" column="43" selection-start="1123" selection-end="1123" vertical-scroll-proportion="-18.90909">
@@ -603,17 +608,45 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/application/models/resptextmessage_model.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="26" column="41" selection-start="1125" selection-end="1125" vertical-scroll-proportion="-15.666667">
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/application/core/MY_Model.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="620" column="27" selection-start="16010" selection-end="16010" vertical-scroll-proportion="0.7973462">
+        <state line="597" column="0" selection-start="15429" selection-end="15429" vertical-scroll-proportion="-19.969696">
           <folding>
-            <marker date="1369537016053" expanded="true" signature="5848:5890" placeholder="update %s se..." />
-            <marker date="1369537016053" expanded="true" signature="11562:11759" placeholder="..." />
-            <marker date="1369537016053" expanded="true" signature="11790:11933" placeholder="..." />
-            <marker date="1369537016053" expanded="true" signature="14061:14140" placeholder="select count..keywordmap..." />
-            <marker date="1369537016053" expanded="true" signature="14631:14691" placeholder="delete from ..." />
-            <marker date="1369537016053" expanded="true" signature="14900:15151" placeholder="select count..respnewsmessage..." />
+            <marker date="1369537714440" expanded="true" signature="5848:5890" placeholder="update %s se..." />
+            <marker date="1369537714440" expanded="true" signature="11613:11810" placeholder="..." />
+            <marker date="1369537714440" expanded="true" signature="11841:11984" placeholder="..." />
+            <marker date="1369537714440" expanded="true" signature="14112:14191" placeholder="select count..keywordmap..." />
+            <marker date="1369537714440" expanded="true" signature="14682:14742" placeholder="delete from ..." />
+            <marker date="1369537714440" expanded="true" signature="14951:15202" placeholder="select count..respnewsmessage..." />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/application/controllers/resptextmessage.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="26" column="43" selection-start="1132" selection-end="1132" vertical-scroll-proportion="-15.606061">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/application/views/common/result-close.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/application/core/MY_Controller.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="165" column="24" selection-start="4287" selection-end="4287" vertical-scroll-proportion="-0.29514322">
+          <folding />
         </state>
       </provider>
     </entry>
