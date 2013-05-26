@@ -388,11 +388,12 @@ class ResponseMessage_Model extends MY_Model {
         if (func_num_args() == 1) {
             $mname = func_get_arg(0);
             parent::__construct($mname);
+
         }else{
             parent::__construct();
         }
-
         $this->postContruct();
+
     }
 
 
@@ -616,5 +617,9 @@ class Response_simple_Message_Model extends  ResponseMessage_Model{
         $this->conds = array('FromUserName'=>$this->FromUserName);
     }
 
+    public function  saveUpdate($data,$pk="id",$gen=TRUE){
+        $data['FromUserName'] = $this->FromUserName;
+        parent::saveUpdate($data,$pk,$gen);
+    }
 
 }
