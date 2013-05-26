@@ -3,7 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="9c42f37f-b41b-40a5-884c-3813c2511426" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/application/models/lotterydial_model.php" afterPath="$PROJECT_DIR$/application/models/lotterydial_model.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="weixin.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -135,9 +134,9 @@
       <file leaf-file-name="lotterydial_model.php" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/application/models/lotterydial_model.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="164" column="26" selection-start="5351" selection-end="5351" vertical-scroll-proportion="0.56574184">
+            <state line="168" column="42" selection-start="5493" selection-end="5493" vertical-scroll-proportion="0.681544">
               <folding>
-                <marker date="1369559092437" expanded="true" signature="4709:4813" placeholder="select id fr..lotterydial..." />
+                <marker date="1369559190033" expanded="true" signature="4709:4813" placeholder="select id fr..lotterydial..." />
               </folding>
             </state>
           </provider>
@@ -665,9 +664,9 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/application/models/lotterydial_model.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="164" column="26" selection-start="5351" selection-end="5351" vertical-scroll-proportion="0.56574184">
+        <state line="168" column="42" selection-start="5493" selection-end="5493" vertical-scroll-proportion="0.681544">
           <folding>
-            <marker date="1369559092437" expanded="true" signature="4709:4813" placeholder="select id fr..lotterydial..." />
+            <marker date="1369559190033" expanded="true" signature="4709:4813" placeholder="select id fr..lotterydial..." />
           </folding>
         </state>
       </provider>

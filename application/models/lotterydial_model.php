@@ -165,7 +165,7 @@ class Lotterydial_model extends Response_news_message_extModel {
         $newslist = array(
             array(
                 'name'=>$news['name'],
-                'info'=>$news['info'],
+                'info'=>$news['remark'],
                 'picurl'=>$news['picurl'],
                 'url'=>base_url('/'.$this->table().'/index/'.$news['id'])
 
