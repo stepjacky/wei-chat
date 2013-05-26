@@ -38,7 +38,7 @@ class Cardcatalog_model extends Response_news_message_extModel {
 
         if(!$result){
             $data = array(
-                'cardcatalog_id',$id,
+                'cardcatalog_id'=>$id,
                 'num'=>0
             );
             $this->db->insert('cardnum',$data);
