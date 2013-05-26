@@ -28,12 +28,12 @@
                 <dd>本次兑奖码已关联你的微信号,可向公众账号发送[大转盘]查询</dd>
             </dl>
             <p>
-            <input class="input-block-level" type="text" id="lottery_code"/>
+            <input class="input-block-level" type="text" id="lottery_code" placeholder="请填写手机号"/>
             <button class="btn btn-block btn-danger" onclick="userSubmit('<?=$lotteryid?>','<?=$member?>','lottery_code')">
                 用户提交</button>
             </p>
             <p>
-            <input class="input-block-level " type="text" id="merchant_code"/>
+            <input class="input-block-level " type="text" id="merchant_code" placeholder="请填写商家验证码"/>
             <button class="btn btn-block btn-danger" onclick="merchantSubmit('<?=$lotteryid?>','<?=$member?>','merchant_code')">
                 商户提交</button>
             </p>
