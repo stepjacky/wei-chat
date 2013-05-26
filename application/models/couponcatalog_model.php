@@ -45,7 +45,7 @@ class Couponcatalog_model extends Response_news_message_extModel {
         $this->db->where("id",$id);
         $this->db->where("DATEDIFF(CURRENT_DATE,enddate)<=","0");
         $this->db->where("DATEDIFF(CURRENT_DATE,startdate)>=","0");
-        $this->db->where("enabled",true);
+        //$this->db->where("enabled",true);
         $query =   $this->db->get($this->table());
         $result = $query->row_array();
         return empty($result)?FALSE:$result;

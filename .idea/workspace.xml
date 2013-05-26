@@ -2,7 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="9c42f37f-b41b-40a5-884c-3813c2511426" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/application/views/couponcatalog/exceed.php" afterPath="$PROJECT_DIR$/application/views/couponcatalog/exceed.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/application/views/couponcatalog/coupon.php" afterPath="$PROJECT_DIR$/application/views/couponcatalog/coupon.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/application/models/couponcatalog_model.php" afterPath="$PROJECT_DIR$/application/models/couponcatalog_model.php" />
     </list>
     <ignored path="weixin.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -53,7 +54,7 @@
     <file path="/cardcatalog_model.php" changelist="9c42f37f-b41b-40a5-884c-3813c2511426" time="1369322612226" ignored="false" />
     <file path="/couponcatalog.php" changelist="9c42f37f-b41b-40a5-884c-3813c2511426" time="1369475285592" ignored="false" />
     <file path="/startvalidate.php" changelist="9c42f37f-b41b-40a5-884c-3813c2511426" time="1367080467538" ignored="false" />
-    <file path="/coupon.php" changelist="9c42f37f-b41b-40a5-884c-3813c2511426" time="1369471416132" ignored="false" />
+    <file path="/coupon.php" changelist="9c42f37f-b41b-40a5-884c-3813c2511426" time="1369571505927" ignored="false" />
     <file path="/welcome.php" changelist="9c42f37f-b41b-40a5-884c-3813c2511426" time="1367215580448" ignored="false" />
     <file path="/openlogin.php" changelist="9c42f37f-b41b-40a5-884c-3813c2511426" time="1367071023781" ignored="false" />
     <file path="/sysadmin.php" changelist="9c42f37f-b41b-40a5-884c-3813c2511426" time="1367071254998" ignored="false" />
@@ -127,88 +128,16 @@
       <file leaf-file-name="couponcatalog.php" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/application/controllers/couponcatalog.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="115" column="23" selection-start="3635" selection-end="3635" vertical-scroll-proportion="-0.0">
+            <state line="56" column="36" selection-start="2055" selection-end="2055" vertical-scroll-proportion="-11.636364">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="coupon.php" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/application/views/couponcatalog/coupon.php">
+      <file leaf-file-name="couponcatalog_model.php" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/application/models/couponcatalog_model.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="-0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="editNew.php" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/application/views/couponcatalog/editNew.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="-0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="exceed.php" pinned="false" current="true" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/application/views/couponcatalog/exceed.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="5" column="6" selection-start="100" selection-end="100" vertical-scroll-proportion="0.1494396">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="getcode.php" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/application/views/couponcatalog/getcode.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="-0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="index.php" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/application/views/couponcatalog/index.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="-0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="list.php" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/application/views/couponcatalog/list.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="-0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="validated.php" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/application/views/couponcatalog/validated.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="-0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="cardcatalog.php" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/application/controllers/cardcatalog.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="62" column="46" selection-start="2347" selection-end="2347" vertical-scroll-proportion="-10.181818">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="index.php" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/application/views/cardcatalog/index.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="-0.0">
+            <state line="43" column="35" selection-start="1564" selection-end="1564" vertical-scroll-proportion="0.55006033">
               <folding />
             </state>
           </provider>
@@ -232,7 +161,6 @@
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
       <list>
-        <option value="$PROJECT_DIR$/application/models/lotterywin_model.php" />
         <option value="$PROJECT_DIR$/application/controllers/lotterydial.php" />
         <option value="$PROJECT_DIR$/application/models/lotterydial_model.php" />
         <option value="$PROJECT_DIR$/application/views/couponcatalog/getcode.php" />
@@ -240,7 +168,6 @@
         <option value="$PROJECT_DIR$/application/views/lotterydial/getcode.php" />
         <option value="$PROJECT_DIR$/application/controllers/couponcatalog.php" />
         <option value="$PROJECT_DIR$/application/views/systems/accesserror.php" />
-        <option value="$PROJECT_DIR$/application/models/couponcatalog_model.php" />
         <option value="$PROJECT_DIR$/application/models/cardcatalog_model.php" />
         <option value="$PROJECT_DIR$/application/models/cards_model.php" />
         <option value="$PROJECT_DIR$/application/core/MY_Model.php" />
@@ -248,6 +175,8 @@
         <option value="$PROJECT_DIR$/resources/styles/cardcatalog/card.css" />
         <option value="$PROJECT_DIR$/application/views/cardcatalog/card-header.php" />
         <option value="$PROJECT_DIR$/application/views/couponcatalog/exceed.php" />
+        <option value="$PROJECT_DIR$/application/views/couponcatalog/coupon.php" />
+        <option value="$PROJECT_DIR$/application/models/couponcatalog_model.php" />
       </list>
     </option>
   </component>
@@ -732,13 +661,6 @@
     </PATH>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/application/models/cardcatalog_model.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="44" column="21" selection-start="1646" selection-end="1646" vertical-scroll-proportion="-10.181818">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/application/models/cards_model.php">
       <provider selected="true" editor-type-id="text-editor">
         <state line="38" column="5" selection-start="1459" selection-end="1459" vertical-scroll-proportion="-17.787878">
@@ -796,13 +718,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/application/controllers/couponcatalog.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="115" column="23" selection-start="3635" selection-end="3635" vertical-scroll-proportion="-0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/application/views/couponcatalog/editNew.php">
       <provider selected="true" editor-type-id="text-editor">
         <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
@@ -838,16 +753,33 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/application/views/couponcatalog/coupon.php">
+    <entry file="file://$PROJECT_DIR$/application/views/couponcatalog/exceed.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
+        <state line="2" column="7" selection-start="48" selection-end="48" vertical-scroll-proportion="-1.4545455">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/application/views/couponcatalog/exceed.php">
+    <entry file="file://$PROJECT_DIR$/application/views/couponcatalog/coupon.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="5" column="6" selection-start="100" selection-end="100" vertical-scroll-proportion="0.1494396">
+        <state line="12" column="10" selection-start="471" selection-end="471" vertical-scroll-proportion="-8.727273">
+          <folding>
+            <element signature="n#style#0;n#i#0;n#a#0;n#div#0;n#div#0;n#div#1;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#i#0;n#a#0;n#div#0;n#div#0;n#div#2;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/application/controllers/couponcatalog.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="56" column="36" selection-start="2055" selection-end="2055" vertical-scroll-proportion="-11.636364">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/application/models/couponcatalog_model.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="43" column="35" selection-start="1564" selection-end="1564" vertical-scroll-proportion="0.55006033">
           <folding />
         </state>
       </provider>

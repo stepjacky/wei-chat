@@ -4,7 +4,8 @@
     <?php foreach($beans as $coup):?>
     <div class="accordion-group">
         <div class="accordion-heading">
-            <a class="accordion-toggle" href="/couponcatalog/index/<?=$coup['id']?>?member=<?=$weixin?>">
+            <a class="accordion-toggle"
+               href="/couponcatalog/index/<?=$coup['id']?>?member=<?=$weixin?>&pubweixin=<?=$pubwx?>">
                 <?=$coup['name']?>
                 <i class="icon-chevron-right" style='float:right'></i>
             </a>
