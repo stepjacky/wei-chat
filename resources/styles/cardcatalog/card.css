@@ -10,7 +10,7 @@ body{
     -moz-transition: opacity 1s ease-in-out;
     -o-transition: opacity 1s ease-in-out;
     transition: opacity 1s ease-in-out;
-    background-image:url(a.png);
+    background-image:url(/resources/images/card/a.png);
     margin:0 auto;
 }
 .anim_a:hover{
@@ -22,7 +22,7 @@ body{
 
     width:272px;
     height:160px;
-    background-image:url(b.png);
+    background-image:url(/resources/images/card/b.png);
 }
 
 .wrap{

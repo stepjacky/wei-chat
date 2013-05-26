@@ -60,6 +60,7 @@ class Cardcatalog extends MY_Controller {
                 'name'=>$config['name'],
                 'code'=>$lastno,
                 'catalog_id'=>$config['id'],
+                'm_phone'=>$pubweixin['phone'],
                 'm_address'=>$pubweixin['address'],
                 'm_name'=>$pubweixin['name'],
                 'm_info'=>$pubweixin['info'],

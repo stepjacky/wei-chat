@@ -2,7 +2,7 @@
 <div class="wrap">
     <div  class="anim_a">
         <div class='card_logo_wrap'>
-            <img src='logo.png' class="card_logo">
+            <img src='/resources/images/card/logo.png' class="card_logo">
         </div>
         <div class="m_name"><?=$card['m_name']?></div>
         <div class="u_code"><?=$card['code']?></div>
