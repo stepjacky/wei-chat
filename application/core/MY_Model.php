@@ -430,20 +430,7 @@ class ResponseMessage_Model extends MY_Model {
             show_error('the resource did not exists by keywords '.$keywords);
             return ;
         }
-
-        $newslist = array(
-
-            array(
-                'name'=>$news['name'],
-                'info'=>$news['remark'],
-                'picurl'=>$news['picurl'],
-                'url'=>base_url('/'.$this->table().'/index/'.$news['id'])
-            )
-
-
-        );
-
-
+        $newslist =  $this->assemble_news($news);
         return  $this->buildMessage($fromuser,$touser,$newslist);
     }
 

@@ -61,29 +61,4 @@ class Resptextmessage_model extends Response_simple_Message_Model {
 
     }
 
-    public function response($keywords,$fromuser,$touser){
-        //name,info,pic,url
-        $news  =  $this->find_with_keywords($keywords);
-        if(empty($news)){
-            show_error('the resource did not exists by keywords '.$keywords);
-            return ;
-        }
-
-        $newslist = array(
-
-            array(
-                'name'=>$news['name'],
-                'info'=>$news['remark'],
-                'picurl'=>$news['picurl'],
-                'url'=>base_url('/'.$this->table().'/index/'.$news['id'])
-            )
-
-
-        );
-
-
-        return  $this->buildMessage($fromuser,$touser,$newslist);
-    }
-
-
 }   
