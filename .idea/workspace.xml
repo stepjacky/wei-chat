@@ -125,10 +125,10 @@
       <file leaf-file-name="respnewsmessage_model.php" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/application/models/respnewsmessage_model.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="45" column="38" selection-start="1696" selection-end="1696" vertical-scroll-proportion="0.52110976">
+            <state line="98" column="32" selection-start="3269" selection-end="3269" vertical-scroll-proportion="0.49215922">
               <folding>
-                <marker date="1369550442475" expanded="true" signature="2744:2881" placeholder="select n.id ..respnewslist..." />
-                <marker date="1369550442475" expanded="true" signature="3385:3492" placeholder="select * fro..news..." />
+                <marker date="1369550601761" expanded="true" signature="2744:2881" placeholder="select n.id ..respnewslist..." />
+                <marker date="1369550601761" expanded="true" signature="3384:3491" placeholder="select * fro..news..." />
               </folding>
             </state>
           </provider>
@@ -622,10 +622,10 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/application/models/respnewsmessage_model.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="45" column="38" selection-start="1696" selection-end="1696" vertical-scroll-proportion="0.52110976">
+        <state line="98" column="32" selection-start="3269" selection-end="3269" vertical-scroll-proportion="0.49215922">
           <folding>
-            <marker date="1369550442475" expanded="true" signature="2744:2881" placeholder="select n.id ..respnewslist..." />
-            <marker date="1369550442475" expanded="true" signature="3385:3492" placeholder="select * fro..news..." />
+            <marker date="1369550601761" expanded="true" signature="2744:2881" placeholder="select n.id ..respnewslist..." />
+            <marker date="1369550601761" expanded="true" signature="3384:3491" placeholder="select * fro..news..." />
           </folding>
         </state>
       </provider>

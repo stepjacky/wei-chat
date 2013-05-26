@@ -96,7 +96,7 @@ class Respnewsmessage_model extends Response_news_message_Model {
 
     protected function find_with_keywords($keywords)
     {
-        $this->db->like('keywords',$keywords);
+        $this->db->like('keyword',$keywords);
         $query =  $this->db->get($this->table());
         $bean = $query->row_array();
         $SQL="select * from news n
