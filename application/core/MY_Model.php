@@ -392,6 +392,11 @@ class ResponseMessage_Model extends MY_Model {
             parent::__construct();
         }
 
+        $this->postContruct();
+    }
+
+
+    protected function postContruct(){
         $this->load->library('nsession');
         $pubwx = $this->nsession->userdata("pubwx");
         $this->FromUserName = $pubwx;
@@ -601,10 +606,15 @@ class Response_simple_Message_Model extends  ResponseMessage_Model{
         }else{
             parent::__construct();
         }
+    }
 
+    protected function postContruct()
+    {
         $this->load->library('nsession');
         $pubwx = $this->nsession->userdata("pubwx");
         $this->FromUserName = $pubwx;
         $this->conds = array('FromUserName'=>$this->FromUserName);
     }
+
+
 }
