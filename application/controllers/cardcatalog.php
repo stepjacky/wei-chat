@@ -47,8 +47,6 @@ class Cardcatalog extends MY_Controller {
         $config = $this->dao->get_default_config($pubwx);
         if(!$card){
 
-
-
             if(!$config){
                 $this->load->view('cardcatalog/noconfig');
                 return;
