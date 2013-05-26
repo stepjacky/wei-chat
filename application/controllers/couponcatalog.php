@@ -29,9 +29,9 @@ class Couponcatalog extends MY_Controller {
     public  function __construct(){
         parent::__construct("Couponcatalog_model");
 
-        $this->load->model('Coupon_model',"cdao");
-        $this->load->model('Cardcatalog_model',"cardcdao");
-        $this->load->model('Cards_model',"carddao");
+        $this->load->model('Coupon_model','copdao');
+        $this->load->model('Cardcatalog_model','cardcdao');
+        $this->load->model('Cards_model','carddao');
         $this->load->library('create_ckeditor');
     }
 
@@ -51,7 +51,7 @@ class Couponcatalog extends MY_Controller {
             }
 
             redirect(sprintf('/cardcatalog/index/%s?pubweixin=%s&member=%s',$cardcfg['id'],$pubwx,$weixin));
-            
+
             return;
         }
         $coupons  = $this->dao->get_by_pubwx($pubwx);
@@ -92,7 +92,7 @@ class Couponcatalog extends MY_Controller {
 
         }
 
-        $daily_limit = $this->cdao->check_daily_limit($id);
+        $daily_limit = $this->copdao->check_daily_limit($id);
         if(!$daily_limit){
             $data['msg']='本优惠券今日已经领完,请明天再来,谢谢参与!';
             $this->load->view('front/header');
@@ -102,7 +102,7 @@ class Couponcatalog extends MY_Controller {
         }
 
         $weixin = $this->_get('member');
-        $user_limit = $this->cdao->check_user_daily_limit($id,$weixin);
+        $user_limit = $this->copdao->check_user_daily_limit($id,$weixin);
         if(!$user_limit){
             $data['msg']='您已经领过该优惠券,谢谢参与!';
             $this->load->view('front/header');
@@ -111,10 +111,10 @@ class Couponcatalog extends MY_Controller {
             return;
         }
 
-        $validated =  $this->cdao->is_validated($id,$weixin);
+        $validated =  $this->copdao->is_validated($id,$weixin);
 
         if($validated){
-          $coupon =  $this->cdao->get_coupon($id,$weixin);
+          $coupon =  $this->copdao->get_coupon($id,$weixin);
           $data = array(
               'coupon'=>$coupon,
               'config'=>$config
@@ -136,7 +136,7 @@ class Couponcatalog extends MY_Controller {
             'csetting'=>$config['csetting'],
             'remark'=>$config['remark']
         );
-        $this->cdao->save($data);
+        $this->copdao->save($data);
         $this->load->view('front/header');
         $this->load->view("couponcatalog/getcode",$data);
         $this->load->view("front/footer");
