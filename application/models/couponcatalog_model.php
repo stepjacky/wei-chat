@@ -50,4 +50,49 @@ class Couponcatalog_model extends Response_news_message_extModel {
         $result = $query->row_array();
         return empty($result)?FALSE:$result;
     }
+
+    protected function find_with_keywords($keywords){
+
+        $this->db->select("id,name,remark,picurl");
+        $this->db->where('keyword',$keywords);
+        $query = $this->db->get($this->table());
+        $result = $query->row_array();
+        return $result;
+
+    }
+
+    protected function assemble_news($news)
+    {
+
+        $newslist = array();
+        foreach($news as $bean){
+            array_push($newslist,
+                array(
+                    'name'=>$bean['name'],
+                    'info'=>$bean['info'],
+                    'picurl'=>$bean['picurl'],
+                    'url'=>base_url('/couponcatalog/index/'.$bean['id'])
+                )
+            );
+        }
+
+
+        return $newslist;
+    }
+
+    public function response($keywords,$fromuser,$touser){
+        $newslist = array(
+            array(
+                'name'=>'优惠券开始了',
+                'info'=>'优惠券开始发行,先到先得',
+                'picurl'=>base_url('/resources/images/coupon.jpg'),
+                'url'=>base_url('/couponcatalog/coupon')
+            )
+        );
+
+        return  $this->buildMessage($fromuser,$touser,$newslist);
+    }
+
+
+
 }
