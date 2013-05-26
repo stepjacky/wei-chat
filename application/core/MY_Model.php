@@ -697,6 +697,7 @@ class Response_news_message_extModel extends Response_news_message_Model{
         }
 
         $this->FromUserKey='pubweixin_id';
+        $this->postContruct();
 
     }
 
