@@ -44,7 +44,7 @@ class Coupon_model extends MY_Model {
 
     public function check_user_daily_limit($cid,$weixin){
         $SQL="select (count(c.id)-p.user_daily_limit) num  from coupon c , couponcatalog p
-              where c.catalog_id='%s' and c.member_id='%s'
+              where c.catalog_id='%s' and c.weixin_id='%s'
               and p.id='%s'
         ";
         $query = $this->db->query(sprintf($SQL,$cid,$weixin,$cid));
