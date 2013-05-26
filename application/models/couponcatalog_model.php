@@ -85,14 +85,11 @@ class Couponcatalog_model extends Response_news_message_extModel {
             array(
                 'name'=>'优惠券开始了',
                 'info'=>'优惠券开始发行,先到先得',
-                'picurl'=>base_url('/resources/images/coupon.jpg'),
+                'picurl'=>'/resources/images/coupon.jpg',
                 'url'=>base_url('/couponcatalog/coupon')
             )
         );
 
         return  $this->buildMessage($fromuser,$touser,$newslist);
     }
-
-
-
 }
