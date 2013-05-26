@@ -2,7 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="9c42f37f-b41b-40a5-884c-3813c2511426" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/application/models/cardcatalog_model.php" afterPath="$PROJECT_DIR$/application/models/cardcatalog_model.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/application/third_party/weichat.mwb" afterPath="$PROJECT_DIR$/application/third_party/weichat.mwb" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/application/controllers/cardcatalog.php" afterPath="$PROJECT_DIR$/application/controllers/cardcatalog.php" />
     </list>
     <ignored path="weixin.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -167,10 +168,10 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="cardcatalog_model.php" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="cardcatalog_model.php" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/application/models/cardcatalog_model.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="40" column="34" selection-start="1532" selection-end="1532" vertical-scroll-proportion="0.38854295">
+            <state line="44" column="21" selection-start="1646" selection-end="1646" vertical-scroll-proportion="-10.181818">
               <folding />
             </state>
           </provider>
@@ -194,10 +195,10 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="cardcatalog.php" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="cardcatalog.php" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/application/controllers/cardcatalog.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="57" column="39" selection-start="2143" selection-end="2143" vertical-scroll-proportion="-41.454544">
+            <state line="61" column="44" selection-start="2300" selection-end="2300" vertical-scroll-proportion="0.65753424">
               <folding />
             </state>
           </provider>
@@ -253,8 +254,8 @@
         <option value="$PROJECT_DIR$/application/controllers/couponcatalog.php" />
         <option value="$PROJECT_DIR$/application/views/systems/accesserror.php" />
         <option value="$PROJECT_DIR$/application/models/couponcatalog_model.php" />
-        <option value="$PROJECT_DIR$/application/controllers/cardcatalog.php" />
         <option value="$PROJECT_DIR$/application/models/cardcatalog_model.php" />
+        <option value="$PROJECT_DIR$/application/controllers/cardcatalog.php" />
       </list>
     </option>
   </component>
@@ -784,16 +785,16 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/application/controllers/cardcatalog.php">
+    <entry file="file://$PROJECT_DIR$/application/models/cardcatalog_model.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="57" column="39" selection-start="2143" selection-end="2143" vertical-scroll-proportion="-41.454544">
+        <state line="44" column="21" selection-start="1646" selection-end="1646" vertical-scroll-proportion="-10.181818">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/application/models/cardcatalog_model.php">
+    <entry file="file://$PROJECT_DIR$/application/controllers/cardcatalog.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="40" column="34" selection-start="1532" selection-end="1532" vertical-scroll-proportion="0.38854295">
+        <state line="61" column="44" selection-start="2300" selection-end="2300" vertical-scroll-proportion="0.65753424">
           <folding />
         </state>
       </provider>
