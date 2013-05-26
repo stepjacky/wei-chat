@@ -67,7 +67,7 @@ class Coupon_model extends MY_Model {
         $this->db->where('weixin_id',$weixin);
         $query = $this->db->get($this->table());
         $result = $query->row_array();
-        return empty($result)?false:(($result['m_validated']==true) && ($result['u_validated']==true));
+        return empty($result)?false:($result['m_validated'] && $result['u_validated']);
     }
 
     public function m_validate($cid,$weixin,$mcode,$ucode){

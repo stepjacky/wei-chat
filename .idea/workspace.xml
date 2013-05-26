@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="9c42f37f-b41b-40a5-884c-3813c2511426" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/application/views/couponcatalog/validated.php" afterPath="$PROJECT_DIR$/application/views/couponcatalog/validated.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/application/models/coupon_model.php" afterPath="$PROJECT_DIR$/application/models/coupon_model.php" />
     </list>
     <ignored path="weixin.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -127,7 +127,7 @@
       <file leaf-file-name="couponcatalog.php" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/application/controllers/couponcatalog.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="165" column="0" selection-start="4936" selection-end="4936" vertical-scroll-proportion="2.8226779">
+            <state line="88" column="45" selection-start="2722" selection-end="2722" vertical-scroll-proportion="0.41978288">
               <folding />
             </state>
           </provider>
@@ -145,14 +145,14 @@
       <file leaf-file-name="coupon_model.php" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/application/models/coupon_model.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="33" column="0" selection-start="1265" selection-end="1265" vertical-scroll-proportion="2.909091">
+            <state line="69" column="86" selection-start="2589" selection-end="2589" vertical-scroll-proportion="-14.545455">
               <folding>
-                <marker date="1369575910436" expanded="true" signature="1395:1569" placeholder="select (coun..coupon..." />
-                <marker date="1369575910436" expanded="true" signature="1888:2051" placeholder="select (coun..coupon..." />
-                <marker date="1369575910436" expanded="true" signature="2688:2796" placeholder="select * fro..coupon..." />
-                <marker date="1369575910436" expanded="true" signature="2940:3045" placeholder="update coupo..." />
-                <marker date="1369575910436" expanded="true" signature="3218:3302" placeholder="select * fro..coupon..." />
-                <marker date="1369575910436" expanded="true" signature="3424:3531" placeholder="update coupo..." />
+                <marker date="1369578854883" expanded="true" signature="1395:1569" placeholder="select (coun..coupon..." />
+                <marker date="1369578854883" expanded="true" signature="1888:2051" placeholder="select (coun..coupon..." />
+                <marker date="1369578854883" expanded="true" signature="2672:2780" placeholder="select * fro..coupon..." />
+                <marker date="1369578854883" expanded="true" signature="2924:3029" placeholder="update coupo..." />
+                <marker date="1369578854883" expanded="true" signature="3202:3286" placeholder="select * fro..coupon..." />
+                <marker date="1369578854883" expanded="true" signature="3408:3515" placeholder="update coupo..." />
               </folding>
             </state>
           </provider>
@@ -207,9 +207,9 @@
         <option value="$PROJECT_DIR$/application/models/couponcatalog_model.php" />
         <option value="$PROJECT_DIR$/application/views/couponcatalog/coupon.php" />
         <option value="$PROJECT_DIR$/application/views/couponcatalog/getcode.php" />
-        <option value="$PROJECT_DIR$/application/models/coupon_model.php" />
         <option value="$PROJECT_DIR$/application/controllers/couponcatalog.php" />
         <option value="$PROJECT_DIR$/application/views/couponcatalog/validated.php" />
+        <option value="$PROJECT_DIR$/application/models/coupon_model.php" />
       </list>
     </option>
   </component>
@@ -779,21 +779,21 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/application/models/coupon_model.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="33" column="0" selection-start="1265" selection-end="1265" vertical-scroll-proportion="2.909091">
+        <state line="69" column="86" selection-start="2589" selection-end="2589" vertical-scroll-proportion="-14.545455">
           <folding>
-            <marker date="1369575910436" expanded="true" signature="1395:1569" placeholder="select (coun..coupon..." />
-            <marker date="1369575910436" expanded="true" signature="1888:2051" placeholder="select (coun..coupon..." />
-            <marker date="1369575910436" expanded="true" signature="2688:2796" placeholder="select * fro..coupon..." />
-            <marker date="1369575910436" expanded="true" signature="2940:3045" placeholder="update coupo..." />
-            <marker date="1369575910436" expanded="true" signature="3218:3302" placeholder="select * fro..coupon..." />
-            <marker date="1369575910436" expanded="true" signature="3424:3531" placeholder="update coupo..." />
+            <marker date="1369578854883" expanded="true" signature="1395:1569" placeholder="select (coun..coupon..." />
+            <marker date="1369578854883" expanded="true" signature="1888:2051" placeholder="select (coun..coupon..." />
+            <marker date="1369578854883" expanded="true" signature="2672:2780" placeholder="select * fro..coupon..." />
+            <marker date="1369578854883" expanded="true" signature="2924:3029" placeholder="update coupo..." />
+            <marker date="1369578854883" expanded="true" signature="3202:3286" placeholder="select * fro..coupon..." />
+            <marker date="1369578854883" expanded="true" signature="3408:3515" placeholder="update coupo..." />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/application/controllers/couponcatalog.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="165" column="0" selection-start="4936" selection-end="4936" vertical-scroll-proportion="2.8226779">
+        <state line="88" column="45" selection-start="2722" selection-end="2722" vertical-scroll-proportion="0.41978288">
           <folding />
         </state>
       </provider>
