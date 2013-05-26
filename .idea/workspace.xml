@@ -3,6 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="9c42f37f-b41b-40a5-884c-3813c2511426" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/application/views/cardcatalog/card-header.php" afterPath="$PROJECT_DIR$/application/views/cardcatalog/card-header.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/styles/cardcatalog/card.css" afterPath="$PROJECT_DIR$/resources/styles/cardcatalog/card.css" />
     </list>
     <ignored path="weixin.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -104,7 +105,7 @@
     <file path="/resptextmessage_model.php" changelist="9c42f37f-b41b-40a5-884c-3813c2511426" time="1369540239420" ignored="false" />
     <file path="/respmusicmessage_model.php" changelist="9c42f37f-b41b-40a5-884c-3813c2511426" time="1369540088896" ignored="false" />
     <file path="/accesserror.php" changelist="9c42f37f-b41b-40a5-884c-3813c2511426" time="1369565520542" ignored="false" />
-    <file path="/card.css" changelist="9c42f37f-b41b-40a5-884c-3813c2511426" time="1369579484408" ignored="false" />
+    <file path="/card.css" changelist="9c42f37f-b41b-40a5-884c-3813c2511426" time="1369581556830" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -151,10 +152,10 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="card.css" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="card.css" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/resources/styles/cardcatalog/card.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="3" column="1" selection-start="60" selection-end="60" vertical-scroll-proportion="0.0">
+            <state line="53" column="14" selection-start="1002" selection-end="1002" vertical-scroll-proportion="0.34449762">
               <folding />
             </state>
           </provider>
@@ -192,10 +193,10 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="card-header.php" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="card-header.php" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/application/views/cardcatalog/card-header.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="7" column="80" selection-start="377" selection-end="377" vertical-scroll-proportion="0.20921545">
+            <state line="6" column="34" selection-start="276" selection-end="276" vertical-scroll-proportion="-4.3636365">
               <folding />
             </state>
           </provider>
@@ -254,11 +255,11 @@
         <option value="$PROJECT_DIR$/application/models/coupon_model.php" />
         <option value="$PROJECT_DIR$/application/controllers/couponcatalog.php" />
         <option value="$PROJECT_DIR$/application/views/lotterydial/getcode.php" />
-        <option value="$PROJECT_DIR$/resources/styles/cardcatalog/card.css" />
         <option value="$PROJECT_DIR$/application/models/lotterywin_model.php" />
         <option value="$PROJECT_DIR$/application/models/cardcatalog_model.php" />
         <option value="$PROJECT_DIR$/application/views/cardcatalog/index.php" />
         <option value="$PROJECT_DIR$/application/views/cardcatalog/card-header.php" />
+        <option value="$PROJECT_DIR$/resources/styles/cardcatalog/card.css" />
       </list>
     </option>
   </component>
@@ -630,7 +631,7 @@
     </servers>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-3" y="0" width="1936" height="1056" extended-state="1" />
+    <frame x="-3" y="0" width="1936" height="1056" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
@@ -791,13 +792,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/resources/styles/cardcatalog/card.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="3" column="1" selection-start="60" selection-end="60" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/application/controllers/couponcatalog.php">
       <provider selected="true" editor-type-id="text-editor">
         <state line="116" column="36" selection-start="3454" selection-end="3454" vertical-scroll-proportion="41.848484">
@@ -853,7 +847,14 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/application/views/cardcatalog/card-header.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="7" column="80" selection-start="377" selection-end="377" vertical-scroll-proportion="0.20921545">
+        <state line="6" column="34" selection-start="276" selection-end="276" vertical-scroll-proportion="-4.3636365">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/styles/cardcatalog/card.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="53" column="14" selection-start="1002" selection-end="1002" vertical-scroll-proportion="0.34449762">
           <folding />
         </state>
       </provider>

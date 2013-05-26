@@ -49,6 +49,10 @@ body{
     width:58px;
     height:58px;
 }
+.m_name,.m_info{
+
+    color:#ffffff;
+}
 .m_name{
     margin-top: 40px;
     margin-left: 35px;
@@ -67,7 +71,6 @@ body{
     font-size:10px;
     margin: 0 auto;
     text-align:center;
-    color:#fff;
 }
 .dblock{
     width:100%;

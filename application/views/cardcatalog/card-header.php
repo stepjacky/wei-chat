@@ -4,6 +4,7 @@
         <div class='card_logo_wrap'>
             <img src='/resources/images/card/logo.png' class="card_logo">
         </div>
+        <div class="dblock"></div>
         <div class="m_name"><?=$card['m_name']?></div>
         <div class="u_code"><?=str_pad($card['code'],6,'0',STR_PAD_LEFT)?></div>
     </div>
