@@ -2,8 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="9c42f37f-b41b-40a5-884c-3813c2511426" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/application/models/coupon_model.php" afterPath="$PROJECT_DIR$/application/models/coupon_model.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/application/controllers/couponcatalog.php" afterPath="$PROJECT_DIR$/application/controllers/couponcatalog.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/application/views/couponcatalog/validated.php" afterPath="$PROJECT_DIR$/application/views/couponcatalog/validated.php" />
     </list>
     <ignored path="weixin.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -128,7 +127,7 @@
       <file leaf-file-name="couponcatalog.php" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/application/controllers/couponcatalog.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="107" column="9" selection-start="3201" selection-end="3201" vertical-scroll-proportion="-1.2882992">
+            <state line="165" column="0" selection-start="4936" selection-end="4936" vertical-scroll-proportion="2.8226779">
               <folding />
             </state>
           </provider>
@@ -137,7 +136,7 @@
       <file leaf-file-name="validated.php" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/application/views/couponcatalog/validated.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="19" column="6" selection-start="510" selection-end="510" vertical-scroll-proportion="-13.818182">
+            <state line="15" column="31" selection-start="407" selection-end="407" vertical-scroll-proportion="-10.909091">
               <folding />
             </state>
           </provider>
@@ -195,7 +194,6 @@
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
       <list>
-        <option value="$PROJECT_DIR$/application/models/lotterydial_model.php" />
         <option value="$PROJECT_DIR$/resources/styles/lotterydial/style.css" />
         <option value="$PROJECT_DIR$/application/views/lotterydial/getcode.php" />
         <option value="$PROJECT_DIR$/application/views/systems/accesserror.php" />
@@ -211,6 +209,7 @@
         <option value="$PROJECT_DIR$/application/views/couponcatalog/getcode.php" />
         <option value="$PROJECT_DIR$/application/models/coupon_model.php" />
         <option value="$PROJECT_DIR$/application/controllers/couponcatalog.php" />
+        <option value="$PROJECT_DIR$/application/views/couponcatalog/validated.php" />
       </list>
     </option>
   </component>
@@ -773,7 +772,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/application/views/couponcatalog/validated.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="19" column="6" selection-start="510" selection-end="510" vertical-scroll-proportion="-13.818182">
+        <state line="15" column="31" selection-start="407" selection-end="407" vertical-scroll-proportion="-10.909091">
           <folding />
         </state>
       </provider>
@@ -794,7 +793,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/application/controllers/couponcatalog.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="107" column="9" selection-start="3201" selection-end="3201" vertical-scroll-proportion="-1.2882992">
+        <state line="165" column="0" selection-start="4936" selection-end="4936" vertical-scroll-proportion="2.8226779">
           <folding />
         </state>
       </provider>
