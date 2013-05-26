@@ -89,7 +89,12 @@ class Respnewsmessage_model extends Response_news_message_Model {
     }
 
     public function get($id=FALSE,$pk="id"){
+
         $data = parent::get($id,$pk);
+        $data['newslist'] = array();
+        if(!$id) {
+            return $data;
+        } 
         $data['newslist'] = $this->get_newslist($id);
         return $data;
     }

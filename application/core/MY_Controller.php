@@ -370,10 +370,10 @@ class Respmessage_Controller extends MY_Controller{
      */
     public function editNew($id=FALSE){
 
+
         $data = $this->dao->get($id);
-
-        // $this->fireLog($data);
-
+        $this->fireLog($id);
+        $this->fireLog($data);
         $this->load->view("admin/header-pure");
         $this->load->view($this->dao->table()."/editNew",$data);
         $this->load->view("admin/footer-pure");

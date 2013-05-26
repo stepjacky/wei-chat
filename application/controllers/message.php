@@ -96,6 +96,8 @@ class Message extends MY_Controller
             show_error(sprintf("keyword %s does exists any tables ",$keyword));
             return "";
         }
+        $this->fireLog($tablename);
+
         $this->load->model(sprintf("%s_model",ucfirst($tablename)), "respdao");
         $resultStr = $this->respdao->response($keyword,$object->ToUserName,$object->FromUserName);
         return $resultStr;
