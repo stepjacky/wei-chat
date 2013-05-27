@@ -115,7 +115,7 @@ class Message extends MY_Controller
                     'weixin'=>$touser,
                     'pubweixin_id'=>$fromuser
                 );
-                $this->mbrdao->persiste($mdata);
+                $this->mbrdao->add_user($mdata);
                 break;
             }
         }

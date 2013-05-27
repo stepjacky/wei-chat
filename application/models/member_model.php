@@ -29,6 +29,14 @@ class Member_model extends MY_Model {
     public  function __construct(){
         parent::__construct("Member_model");
     }
-    
+
+    public function add_user($data){
+       /* $data = array(
+            'pubweixin_id' => $pubwx ,
+            'weixin' => $weixin
+        );*/
+
+        $this->db->insert($this->table(), $data);
+    }
     
 }   
