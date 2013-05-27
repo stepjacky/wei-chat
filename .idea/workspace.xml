@@ -3,8 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="9c42f37f-b41b-40a5-884c-3813c2511426" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/application/models/member_model.php" afterPath="$PROJECT_DIR$/application/models/member_model.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/application/controllers/message.php" afterPath="$PROJECT_DIR$/application/controllers/message.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="weixin.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -107,7 +105,7 @@
     <file path="/respmusicmessage_model.php" changelist="9c42f37f-b41b-40a5-884c-3813c2511426" time="1369540088896" ignored="false" />
     <file path="/accesserror.php" changelist="9c42f37f-b41b-40a5-884c-3813c2511426" time="1369565520542" ignored="false" />
     <file path="/card.css" changelist="9c42f37f-b41b-40a5-884c-3813c2511426" time="1369581648077" ignored="false" />
-    <file path="/member_model.php" changelist="9c42f37f-b41b-40a5-884c-3813c2511426" time="1369670182480" ignored="false" />
+    <file path="/member_model.php" changelist="9c42f37f-b41b-40a5-884c-3813c2511426" time="1369670441663" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -127,11 +125,14 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="member_model.php" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="member_model.php" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/application/models/member_model.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="37" column="0" selection-start="1353" selection-end="1353" vertical-scroll-proportion="-19.30303">
-              <folding />
+            <state line="37" column="55" selection-start="1408" selection-end="1408" vertical-scroll-proportion="0.7394451">
+              <folding>
+                <marker date="1369670463319" expanded="true" signature="1367:1417" placeholder="insert into ..." />
+                <marker date="1369670463319" expanded="true" signature="1367:1427" placeholder="insert into ..." />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -153,10 +154,10 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="message.php" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="message.php" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/application/controllers/message.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="118" column="22" selection-start="3871" selection-end="3871" vertical-scroll-proportion="0.7092883">
+            <state line="118" column="22" selection-start="3871" selection-end="3871" vertical-scroll-proportion="-13.454545">
               <folding />
             </state>
           </provider>
@@ -386,7 +387,7 @@
     </servers>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1936" height="1056" extended-state="1" />
+    <frame x="-8" y="-8" width="1936" height="1056" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
@@ -561,17 +562,20 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/application/models/member_model.php">
+    <entry file="file://$PROJECT_DIR$/application/controllers/message.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="37" column="0" selection-start="1353" selection-end="1353" vertical-scroll-proportion="-19.30303">
+        <state line="118" column="22" selection-start="3871" selection-end="3871" vertical-scroll-proportion="-13.454545">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/application/controllers/message.php">
+    <entry file="file://$PROJECT_DIR$/application/models/member_model.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="118" column="22" selection-start="3871" selection-end="3871" vertical-scroll-proportion="0.7092883">
-          <folding />
+        <state line="37" column="55" selection-start="1408" selection-end="1408" vertical-scroll-proportion="0.7394451">
+          <folding>
+            <marker date="1369670463319" expanded="true" signature="1367:1417" placeholder="insert into ..." />
+            <marker date="1369670463319" expanded="true" signature="1367:1427" placeholder="insert into ..." />
+          </folding>
         </state>
       </provider>
     </entry>
