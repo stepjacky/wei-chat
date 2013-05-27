@@ -38,5 +38,14 @@ class Member_model extends MY_Model {
         $SQL="insert into `%s` (`id`,`pubweixin_id`,`weixin`) values('%s','%s','%s')";
         $this->db->query(sprintf($SQL,$this->table(),getGUID(),$data['pubweixin_id'],$data['weixin']));
     }
+
+    public function remove_user($data){
+       /* $data = array(
+            'pubweixin_id' => $pubwx ,
+            'weixin' => $weixin
+        );*/
+        $SQL="delete from `%s`  where `pubweixin_id`='%s' and `weixin`='%s'";
+        $this->db->query(sprintf($SQL,$this->table(),$data['pubweixin_id'],$data['weixin']));
+    }
     
 }   
