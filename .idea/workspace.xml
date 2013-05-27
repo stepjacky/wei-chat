@@ -105,7 +105,7 @@
     <file path="/respmusicmessage_model.php" changelist="9c42f37f-b41b-40a5-884c-3813c2511426" time="1369540088896" ignored="false" />
     <file path="/accesserror.php" changelist="9c42f37f-b41b-40a5-884c-3813c2511426" time="1369565520542" ignored="false" />
     <file path="/card.css" changelist="9c42f37f-b41b-40a5-884c-3813c2511426" time="1369581648077" ignored="false" />
-    <file path="/member_model.php" changelist="9c42f37f-b41b-40a5-884c-3813c2511426" time="1369670525748" ignored="false" />
+    <file path="/member_model.php" changelist="9c42f37f-b41b-40a5-884c-3813c2511426" time="1369670632358" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -128,11 +128,20 @@
       <file leaf-file-name="member_model.php" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/application/models/member_model.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="32" column="36" selection-start="1243" selection-end="1243" vertical-scroll-proportion="0.5946924">
+            <state line="38" column="63" selection-start="1498" selection-end="1498" vertical-scroll-proportion="0.76839566">
               <folding>
-                <marker date="1369670527629" expanded="true" signature="1367:1417" placeholder="insert into ..." />
-                <marker date="1369670527629" expanded="true" signature="1367:1427" placeholder="insert into ..." />
+                <marker date="1369670636510" expanded="true" signature="1367:1422" placeholder="insert into ..." />
+                <marker date="1369670636510" expanded="true" signature="1367:1432" placeholder="insert into ..." />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="guid_helper.php" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/application/helpers/guid_helper.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="-0.0">
+              <folding />
             </state>
           </provider>
         </entry>
@@ -278,6 +287,42 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="application" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="weixin" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="wei-chat" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="application" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="libraries" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="weixin" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="wei-chat" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="application" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="helpers" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -482,11 +527,6 @@
     </PATH>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/application/models/cards_model.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="6.878788" />
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/application/views/couponcatalog/validated.php">
       <provider selected="true" editor-type-id="text-editor">
         <state line="15" column="31" selection-start="407" selection-end="407" vertical-scroll-proportion="-10.909091" />
@@ -569,12 +609,19 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/application/helpers/guid_helper.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/application/models/member_model.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="32" column="36" selection-start="1243" selection-end="1243" vertical-scroll-proportion="0.5946924">
+        <state line="38" column="63" selection-start="1498" selection-end="1498" vertical-scroll-proportion="0.76839566">
           <folding>
-            <marker date="1369670527629" expanded="true" signature="1367:1417" placeholder="insert into ..." />
-            <marker date="1369670527629" expanded="true" signature="1367:1427" placeholder="insert into ..." />
+            <marker date="1369670636510" expanded="true" signature="1367:1422" placeholder="insert into ..." />
+            <marker date="1369670636510" expanded="true" signature="1367:1432" placeholder="insert into ..." />
           </folding>
         </state>
       </provider>

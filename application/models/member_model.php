@@ -35,8 +35,8 @@ class Member_model extends MY_Model {
             'pubweixin_id' => $pubwx ,
             'weixin' => $weixin
         );*/
-        $SQL="insert into `%s` (`pubweixin_id`,`weixin`) values('%s','%s')";
-        $this->db->query(sprintf($SQL,$this->table(),$data['pubweixin_id'],$data['weixin']));
+        $SQL="insert into `%s` (`id`,`pubweixin_id`,`weixin`) values('%s','%s')";
+        $this->db->query(sprintf($SQL,$this->table(),getGUID(),$data['pubweixin_id'],$data['weixin']));
     }
     
 }   
