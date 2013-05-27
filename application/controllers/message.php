@@ -120,7 +120,8 @@ class Message extends MY_Controller
                 break;
             }
             case 'unsubscribe':{
-                $this->subdao->unsubscribe($fromuser, $touser);
+                $resultStr = $this->subdao->unsubscribe($fromuser, $touser);
+                break;
             }
         }
 
