@@ -43,6 +43,16 @@ class Subscribemessage_model extends Response_simple_Message_Model {
 
         $data =  $this->get($touser);
         $content = empty($data)?'欢迎光临':(!$data['content']?'欢迎关注我们公众平台!':$data['content']);
+
+        return $this->simple_message($fromuser,$touser,$content);
+    }
+
+    public function unsubscribe($fromuser, $touser){
+        $content='如果对我们的服务不满意,请联系我们,谢谢关注!';
+        return $this->simple_message($fromuser,$touser,$content);
+    }
+
+    private function simple_message($fromuser, $touser,$content){
         $textTpl = "<xml>
 <ToUserName><![CDATA[%s]]></ToUserName>
 <FromUserName><![CDATA[%s]]></FromUserName>

@@ -105,11 +105,12 @@ class Message extends MY_Controller
 
     private function proceedEvent($object)
     {
+        $touser = $object->FromUserName;
+        $fromuser  = $object->ToUserName;
         $resultStr="";
         switch ($object->Event) {
             case "subscribe":{
-                $touser = $object->FromUserName;
-                $fromuser  = $object->ToUserName;
+
                 $resultStr = $this->subdao->response('', $fromuser, $touser);
                 $mdata = array(
                     'weixin'=>$touser,
@@ -117,6 +118,9 @@ class Message extends MY_Controller
                 );
                 $this->mbrdao->add_user($mdata);
                 break;
+            }
+            case 'unsubscribe':{
+                $this->subdao->unsubscribe($fromuser, $touser);
             }
         }
 
