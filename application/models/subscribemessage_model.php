@@ -42,7 +42,7 @@ class Subscribemessage_model extends Response_simple_Message_Model {
     {
 
         $data =  $this->get($touser);
-        $content = empty($data)?'欢迎光临':$data['content'];
+        $content = empty($data)?'欢迎光临':(!$data['content']?'欢迎关注我们公众平台!':$data['content']);
         $textTpl = "<xml>
 <ToUserName><![CDATA[%s]]></ToUserName>
 <FromUserName><![CDATA[%s]]></FromUserName>
