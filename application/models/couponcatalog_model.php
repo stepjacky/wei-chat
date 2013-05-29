@@ -36,7 +36,9 @@ class Couponcatalog_model extends Response_news_message_extModel {
         $this->db->select("id,name");
         $this->db->where('pubweixin_id',$pubwx);
         $query = $this->db->get($this->table());
+
         return $query->result_array();
+
     }
 
 
