@@ -41,6 +41,7 @@ class Subscribemessage_model extends Response_simple_Message_Model {
     }
     public function save($data, $pk = 'id', $genId = TRUE)
     {
+        $data[$this->FromUserKey] = $this->FromUserName;
         $this->db->insert($this->table, $data);
     }
 
@@ -54,7 +55,8 @@ class Subscribemessage_model extends Response_simple_Message_Model {
     {
 
         $data =  $this->get($touser);
-        $content = empty($data)?'欢迎光临':(!isset($data['content'])?'欢迎关注我们公众平台!':$data['content']);
+        $content = empty($data['content'])?'欢迎关注我们公众平台!':$data['content'];
+        $content = empty($data)?'欢迎关注我们公众平台!':$content;
 
         return $this->simple_message($fromuser,$touser,$content);
     }
