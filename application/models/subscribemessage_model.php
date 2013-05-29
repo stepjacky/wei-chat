@@ -60,7 +60,7 @@ class Subscribemessage_model extends Response_simple_Message_Model {
     public function response($keywords, $fromuser, $touser)
     {
 
-        $data =  $this->get($touser);
+        $data =  $this->get($fromuser);
         $content = empty($data['content'])?'欢迎关注我们公众平台!':$data['content'];
         $content = empty($data)?'欢迎关注我们公众平台!':$content;
 
