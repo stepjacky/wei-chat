@@ -7,9 +7,11 @@
 </legend>
 <table class="table table-hover table-bordered">
 <tbody>
-      <input id="id" type="hidden" name="fromusername" value="<?=val($fromusername)?>" />
 
-     <tr>
+<!--<input id="id" type="hidden" name="fromusername" value="<?/*=val($fromusername)*/?>" />
+-->
+
+<tr>
    <td>
        内容<br>
        <span class="label label-info" style="width: 80px ;line-height:20px;text-align: justify;display: block;word-break: break-all">

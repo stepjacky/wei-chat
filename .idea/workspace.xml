@@ -2,6 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="9c42f37f-b41b-40a5-884c-3813c2511426" name="Default" comment="">
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/application/views/subscribemessage/editNew.php" afterPath="$PROJECT_DIR$/application/views/subscribemessage/editNew.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/application/models/subscribemessage_model.php" afterPath="$PROJECT_DIR$/application/models/subscribemessage_model.php" />
     </list>
     <ignored path="weixin.iws" />
@@ -143,13 +144,22 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="subscribemessage_model.php" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="subscribemessage_model.php" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/application/models/subscribemessage_model.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="45" column="5" selection-start="1619" selection-end="1619" vertical-scroll-proportion="0.52110976">
+            <state line="49" column="56" selection-start="1729" selection-end="1729" vertical-scroll-proportion="-16.0">
               <folding>
-                <marker date="1369831623550" expanded="true" signature="2344:2556" placeholder="..." />
+                <marker date="1369831719237" expanded="true" signature="2401:2613" placeholder="..." />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="editNew.php" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/application/views/subscribemessage/editNew.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="11" column="3" selection-start="399" selection-end="399" vertical-scroll-proportion="0.31845596">
+              <folding />
             </state>
           </provider>
         </entry>
@@ -189,7 +199,6 @@
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
       <list>
-        <option value="$PROJECT_DIR$/application/views/couponcatalog/exceed.php" />
         <option value="$PROJECT_DIR$/application/models/couponcatalog_model.php" />
         <option value="$PROJECT_DIR$/application/views/couponcatalog/coupon.php" />
         <option value="$PROJECT_DIR$/application/views/couponcatalog/getcode.php" />
@@ -205,6 +214,7 @@
         <option value="$PROJECT_DIR$/application/models/member_model.php" />
         <option value="$PROJECT_DIR$/application/controllers/message.php" />
         <option value="$PROJECT_DIR$/application/models/subscribemessage_model.php" />
+        <option value="$PROJECT_DIR$/application/views/subscribemessage/editNew.php" />
       </list>
     </option>
   </component>
@@ -304,7 +314,29 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="models" />
+              <option name="myItemId" value="views" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="weixin" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="wei-chat" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="application" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="views" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="subscribemessage" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -490,11 +522,6 @@
     </PATH>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/application/views/couponcatalog/getcode.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="29" column="96" selection-start="814" selection-end="814" vertical-scroll-proportion="0.028950542" />
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/application/views/lotterydial/getcode.php">
       <provider selected="true" editor-type-id="text-editor">
         <state line="39" column="7" selection-start="1361" selection-end="1361" vertical-scroll-proportion="0.0" />
@@ -587,10 +614,17 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/application/models/subscribemessage_model.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="45" column="5" selection-start="1619" selection-end="1619" vertical-scroll-proportion="0.52110976">
+        <state line="49" column="56" selection-start="1729" selection-end="1729" vertical-scroll-proportion="-16.0">
           <folding>
-            <marker date="1369831623550" expanded="true" signature="2344:2556" placeholder="..." />
+            <marker date="1369831719237" expanded="true" signature="2401:2613" placeholder="..." />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/application/views/subscribemessage/editNew.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="11" column="3" selection-start="399" selection-end="399" vertical-scroll-proportion="0.31845596">
+          <folding />
         </state>
       </provider>
     </entry>
