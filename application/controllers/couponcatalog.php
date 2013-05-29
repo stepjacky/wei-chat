@@ -106,7 +106,7 @@ class Couponcatalog extends MY_Controller {
 
             $coupon =  $this->copdao->get_coupon($id,$weixin);
             if($coupon){
-                $this->wait_for_validate($id,$weixin);
+                $this->wait_for_validate($coupon);
             }else{
                 $this->claim_coupon($id,$config,$weixin);
 
