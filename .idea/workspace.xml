@@ -2,13 +2,13 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="9c42f37f-b41b-40a5-884c-3813c2511426" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/application/controllers/message.php" afterPath="$PROJECT_DIR$/application/controllers/message.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/application/models/subscribemessage_model.php" afterPath="$PROJECT_DIR$/application/models/subscribemessage_model.php" />
     </list>
     <ignored path="weixin.iws" />
     <ignored path=".idea/workspace.xml" />
     <file path="/header.php" changelist="9c42f37f-b41b-40a5-884c-3813c2511426" time="1369481873251" ignored="false" />
     <file path="/index.php" changelist="9c42f37f-b41b-40a5-884c-3813c2511426" time="1369580962423" ignored="false" />
-    <file path="/Dummy.txt" changelist="9c42f37f-b41b-40a5-884c-3813c2511426" time="1369671523856" ignored="false" />
+    <file path="/Dummy.txt" changelist="9c42f37f-b41b-40a5-884c-3813c2511426" time="1369828909970" ignored="false" />
     <file path="/footer.php" changelist="9c42f37f-b41b-40a5-884c-3813c2511426" time="1369479391254" ignored="false" />
     <file path="/charisma-app.css" changelist="9c42f37f-b41b-40a5-884c-3813c2511426" time="1366641995464" ignored="false" />
     <file path="/bootstrap-cerulean.css" changelist="9c42f37f-b41b-40a5-884c-3813c2511426" time="1366641664395" ignored="false" />
@@ -72,7 +72,7 @@
     <file path="/get-code.php" changelist="9c42f37f-b41b-40a5-884c-3813c2511426" time="1367167471607" ignored="false" />
     <file path="/style.css" changelist="9c42f37f-b41b-40a5-884c-3813c2511426" time="1369561556644" ignored="false" />
     <file path="/subscribemessage.php" changelist="9c42f37f-b41b-40a5-884c-3813c2511426" time="1367201688939" ignored="false" />
-    <file path="/subscribemessage_model.php" changelist="9c42f37f-b41b-40a5-884c-3813c2511426" time="1369671234056" ignored="false" />
+    <file path="/subscribemessage_model.php" changelist="9c42f37f-b41b-40a5-884c-3813c2511426" time="1369829543124" ignored="false" />
     <file path="/index.html" changelist="9c42f37f-b41b-40a5-884c-3813c2511426" time="1368546771477" ignored="false" />
     <file path="/lotterydial.php" changelist="9c42f37f-b41b-40a5-884c-3813c2511426" time="1369557866228" ignored="false" />
     <file path="/lotterydial_model.php" changelist="9c42f37f-b41b-40a5-884c-3813c2511426" time="1369559087669" ignored="false" />
@@ -128,17 +128,45 @@
       <file leaf-file-name="member.php" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/application/controllers/member.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="-0.0">
+            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="message.php" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="message.php" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/application/controllers/message.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="114" column="31" selection-start="3680" selection-end="3680" vertical-scroll-proportion="0.42460796">
+            <state line="130" column="0" selection-start="4063" selection-end="4063" vertical-scroll-proportion="-84.36364">
               <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="subscribemessage_model.php" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/application/models/subscribemessage_model.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="63" column="52" selection-start="2053" selection-end="2053" vertical-scroll-proportion="1.8238842">
+              <folding>
+                <marker date="1369829575355" expanded="true" signature="2261:2473" placeholder="..." />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="MY_Model.php" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/application/core/MY_Model.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="485" column="18" selection-start="12097" selection-end="12489" vertical-scroll-proportion="-57.090908">
+              <folding>
+                <marker date="1369566539817" expanded="true" signature="5885:5927" placeholder="update %s se..." />
+                <marker date="1369566539817" expanded="true" signature="13105:13184" placeholder="select count..keywordmap..." />
+                <marker date="1369566539817" expanded="true" signature="13675:13735" placeholder="delete from ..." />
+                <marker date="1369566539817" expanded="true" signature="13944:14195" placeholder="select count..respnewsmessage..." />
+                <marker date="1369566539817" expanded="true" signature="14510:14729" placeholder="..." />
+                <marker date="1369566539817" expanded="true" signature="16148:16345" placeholder="..." />
+                <marker date="1369566539817" expanded="true" signature="16376:16519" placeholder="..." />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -187,9 +215,9 @@
         <option value="$PROJECT_DIR$/application/views/cardcatalog/index.php" />
         <option value="$PROJECT_DIR$/application/views/cardcatalog/card-header.php" />
         <option value="$PROJECT_DIR$/resources/styles/cardcatalog/card.css" />
-        <option value="$PROJECT_DIR$/application/models/subscribemessage_model.php" />
         <option value="$PROJECT_DIR$/application/models/member_model.php" />
         <option value="$PROJECT_DIR$/application/controllers/message.php" />
+        <option value="$PROJECT_DIR$/application/models/subscribemessage_model.php" />
       </list>
     </option>
   </component>
@@ -293,24 +321,6 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="weixin" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="wei-chat" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="application" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="controllers" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
         </subPane>
       </pane>
     </panes>
@@ -321,8 +331,8 @@
     <property name="options.lastSelected" value="reference.settingsdialog.IDE.editor.colors.Console Font" />
     <property name="last_opened_file_path" value="G:/phing.info" />
     <property name="FullScreen" value="false" />
-    <property name="options.searchVisible" value="true" />
     <property name="options.splitter.details.proportions" value="0.2" />
+    <property name="options.searchVisible" value="true" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
@@ -398,14 +408,14 @@
     </servers>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1936" height="1056" extended-state="0" />
+    <frame x="-8" y="-8" width="1936" height="1056" extended-state="1" />
     <editor active="true" />
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.26445395" sideWeight="0.6718925" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.26766595" sideWeight="0.6718925" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
@@ -543,19 +553,9 @@
         <state line="51" column="21" selection-start="991" selection-end="991" vertical-scroll-proportion="0.027842227" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/application/core/MY_Model.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="102" column="20" selection-start="2922" selection-end="2922" vertical-scroll-proportion="-2.1515152" />
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/application/helpers/guid_helper.php">
       <provider selected="true" editor-type-id="text-editor">
         <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/application/models/subscribemessage_model.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="50" column="43" selection-start="1812" selection-end="1812" vertical-scroll-proportion="1.4475272" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/application/models/member_model.php">
@@ -578,8 +578,32 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/application/controllers/message.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="114" column="31" selection-start="3680" selection-end="3680" vertical-scroll-proportion="0.42460796">
+        <state line="130" column="0" selection-start="4063" selection-end="4063" vertical-scroll-proportion="-84.36364">
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/application/core/MY_Model.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="485" column="18" selection-start="12097" selection-end="12489" vertical-scroll-proportion="-57.090908">
+          <folding>
+            <marker date="1369566539817" expanded="true" signature="5885:5927" placeholder="update %s se..." />
+            <marker date="1369566539817" expanded="true" signature="13105:13184" placeholder="select count..keywordmap..." />
+            <marker date="1369566539817" expanded="true" signature="13675:13735" placeholder="delete from ..." />
+            <marker date="1369566539817" expanded="true" signature="13944:14195" placeholder="select count..respnewsmessage..." />
+            <marker date="1369566539817" expanded="true" signature="14510:14729" placeholder="..." />
+            <marker date="1369566539817" expanded="true" signature="16148:16345" placeholder="..." />
+            <marker date="1369566539817" expanded="true" signature="16376:16519" placeholder="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/application/models/subscribemessage_model.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="63" column="52" selection-start="2053" selection-end="2053" vertical-scroll-proportion="1.8238842">
+          <folding>
+            <marker date="1369829575355" expanded="true" signature="2261:2473" placeholder="..." />
+          </folding>
         </state>
       </provider>
     </entry>
