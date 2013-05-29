@@ -103,27 +103,21 @@ class Couponcatalog extends MY_Controller {
         }
 
         if(!$validated){
-            $this->wait_for_validate($id,$weixin);
+
+            $coupon =  $this->copdao->get_coupon($id,$weixin);
+            if($coupon){
+                $this->wait_for_validate($id,$weixin);
+            }else{
+                $this->claim_coupon($id,$config,$weixin);
+
+            }
             return;
         } else{
             $this->has_validated($id,$weixin);
             return;
         }
+        $this->claim_coupon($id,$config,$weixin);
 
-        $code  = create_random_string(8);
-        $data = array(
-            'code'=>$code,
-            'm_code'=>$config['merchant_code'],
-            'name'=>$config['name'],
-            'weixin_id'=>$weixin,
-            'catalog_id'=>$id,
-            'csetting'=>$config['csetting'],
-            'remark'=>$config['remark']
-        );
-        $this->copdao->save($data,'id',FALSE);
-        $this->load->view('front/header');
-        $this->load->view("couponcatalog/getcode",$data);
-        $this->load->view("front/footer");
 
     }
 
@@ -142,8 +136,8 @@ class Couponcatalog extends MY_Controller {
         $this->load->view("front/footer");
     }
 
-    private function wait_for_validate($id,$weixin){
-        $coupon =  $this->copdao->get_coupon($id,$weixin);
+    private function wait_for_validate($coupon){
+
         $this->load->view('front/header');
         $this->load->view("couponcatalog/getcode",$coupon);
         $this->load->view("front/footer");
@@ -163,6 +157,25 @@ class Couponcatalog extends MY_Controller {
         $this->load->view("couponcatalog/exceed",$data);
         $this->load->view("front/footer");
     }
+
+    private function claim_coupon($cid,$config,$weixin){
+        $code  = create_random_string(8);
+        $data = array(
+            'code'=>$code,
+            'm_code'=>$config['merchant_code'],
+            'name'=>$config['name'],
+            'weixin_id'=>$weixin,
+            'catalog_id'=>$cid,
+            'csetting'=>$config['csetting'],
+            'remark'=>$config['remark']
+        );
+        $this->firelog($data);
+        $this->copdao->save($data,'id',FALSE);
+        $this->load->view('front/header');
+        $this->load->view("couponcatalog/getcode",$data);
+        $this->load->view("front/footer");
+    }
+
 
 
     public function m_validate($cid,$weixin,$mcode,$ucode){
