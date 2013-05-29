@@ -2,7 +2,7 @@
 <html lang="en">
 <head>
     <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1,uer-scalable=0">
+    <meta name="viewport" content="width=device-width, initial-scale=1,uer-scalable=no">
     <title>台州微生活</title>
     <link href="/resources/bootstrap/css/bootstrap.css" rel="stylesheet">
     <link href="/resources/bootstrap/css/bootstrap-responsive.css" rel="stylesheet">
