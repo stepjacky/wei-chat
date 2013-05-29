@@ -76,7 +76,7 @@ class Subscribemessage_model extends Response_simple_Message_Model {
 <Content><![CDATA[%s]]></Content>
 <FuncFlag>0</FuncFlag>
 </xml>";
-        $resultStr = sprintf($textTpl, $fromuser, $touser, time(), $content);
+        $resultStr = sprintf($textTpl, $touser,  $fromuser,time(), $content);
         return $resultStr;
     }
 
