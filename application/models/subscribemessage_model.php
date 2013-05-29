@@ -36,9 +36,9 @@ class Subscribemessage_model extends Response_simple_Message_Model {
 
     public function  saveUpdate($data){
 
-       parent::saveUpdate($data,"fromusername",FALSE);
-    }
+        $this->persiste($data,false,"fromusername");
 
+    }
     public function save($data, $pk = 'id', $genId = TRUE)
     {
         $this->db->insert($this->table, $data);
