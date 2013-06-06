@@ -68,7 +68,9 @@ class Cardcatalog extends MY_Controller {
 
             );
             $this->csdao->save($cdata,'',false);
+            $card = $this->dao->get_default_config($pubwx);
         }
+
 
         $preros =  $this->pdao->get_for_card($id);
         $data = array(
