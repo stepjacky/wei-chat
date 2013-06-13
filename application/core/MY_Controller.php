@@ -363,6 +363,7 @@ class Respmessage_Controller extends MY_Controller{
         }
         $wx = $this->nsession->userdata('pubwx');
         $this->FromUserName = $wx;
+        $this->load->model("Pubweixin_model", "pubdao");
     }
 
     /**
@@ -370,13 +371,16 @@ class Respmessage_Controller extends MY_Controller{
      */
     public function editNew($id=FALSE){
 
-
+        $user = $this->nsession->userdata('user');
+        (!$user) AND redirect('welcome/bizlogin');
         $data = $this->dao->get($id);
-        $this->fireLog($id);
-        $this->fireLog($data);
-        $this->load->view("admin/header-pure");
+        $pubwx = $this->pubdao->get($this->FromUserName,"weixin_id");
+        $data['pubwx'] = $pubwx;
+        $data['loginuser'] = $user['id'];
+        $this->load->view("admin/header");
+        $this->load->view("message/body-start",$data);
         $this->load->view($this->dao->table()."/editNew",$data);
-        $this->load->view("admin/footer-pure");
+        $this->load->view("admin/footer");
     }
 
 

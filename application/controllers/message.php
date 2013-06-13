@@ -39,10 +39,20 @@ class Message extends MY_Controller
     public function setting($weixin)
     {
 
+
+
+
+        $user = $this->nsession->userdata('user');
+        (!$user) AND redirect('welcome/bizlogin');
         $pubwx = $this->pubdao->get($weixin,"weixin_id");
         $data['pubwx'] = $pubwx;
+        $data['loginuser'] = $user['id'];
         $this->nsession->set_userdata('pubwx',$weixin);
+        $this->load->view("admin/header");
+        $this->load->view("message/body-start",$data);
         $this->load->view("message/index",$data);
+        $this->load->view("admin/footer");
+
     }
 
     public function index($id = FALSE)

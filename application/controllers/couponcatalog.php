@@ -28,7 +28,7 @@ class Couponcatalog extends MY_Controller {
      
     public  function __construct(){
         parent::__construct("Couponcatalog_model");
-
+        $this->load->model("Pubweixin_model", "pubdao");
         $this->load->model('Coupon_model','copdao');
         $this->load->model('Cardcatalog_model','cardcdao');
         $this->load->model('Cards_model','carddao');
@@ -203,9 +203,17 @@ class Couponcatalog extends MY_Controller {
         $ckcfg["value"] = $data["remark"];
 
         $data['my_editor'] = $this->create_ckeditor->createEditor( $ckcfg);
-        $this->load->view("admin/header-pure");
+
+        $user = $this->nsession->userdata('user');
+        (!$user) AND redirect('welcome/bizlogin');
+        $pubwxid = $this->nsession->userdata('pubwx');
+        $pubwx = $this->pubdao->get($pubwxid,"weixin_id");
+        $data['pubwx'] = $pubwx;
+        $data['loginuser'] = $user['id'];
+        $this->load->view("admin/header");
+        $this->load->view("message/body-start",$data);
         $this->load->view($this->dao->table()."/editNew",$data);
-        $this->load->view("admin/footer-pure");
+        $this->load->view("admin/footer");
     }
 
 

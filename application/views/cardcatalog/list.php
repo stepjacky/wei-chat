@@ -4,9 +4,11 @@
         <thead>
         <tr>
           <th colspan="4">
-            <button type="button" class="btn btn-info" onclick="newOne();">
+            <a type="button" class="btn btn-info"
+                    href="/cardcatalog/editNew"
+                >
              <i class="icon-plus"></i>新增会员卡
-            </button>
+            </a>
           </th>
         </tr>
         <tr>

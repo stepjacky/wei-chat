@@ -36,9 +36,10 @@ class Admin extends MY_Controller {
         $user = $this->nsession->userdata('user');
         (!$user) AND redirect('welcome/bizlogin');
 
+        $data['loginuser'] = $user['id'];
 
         $this->load->view("admin/header");
-        $this->load->view("admin/body-start",$user);
+        $this->load->view("admin/body-start",$data);
         $this->load->view("admin/index");
         $this->load->view("admin/footer");
     }

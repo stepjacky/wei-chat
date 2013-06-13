@@ -1,12 +1,15 @@
 <link href="/resources/styles/lotterydial/style.css" media="screen" rel="stylesheet" type="text/css" />
-<h3>抽奖大转盘列表</h3>
 <table id="list" class="table table-striped table-bordered table-hover">
         <thead>
         <tr>
           <th colspan="20">
-            <button type="button" class="btn btn-info" onclick="newOne();">
+            <a
+                type="button"
+                class="btn btn-info"
+                href="/lotterydial/editNew"
+                >
              <i class="icon-plus"></i>新增抽奖大转盘
-            </button>
+            </a>
           </th>
         </tr>
         <tr>

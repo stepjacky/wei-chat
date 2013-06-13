@@ -1,5 +1,4 @@
 <link href="/resources/styles/news/style.css" media="screen" rel="stylesheet" type="text/css" />
-<h3>图文消息列表</h3>
 <table id="list" class="table table-striped table-bordered table-hover">
         <thead>
         <tr>

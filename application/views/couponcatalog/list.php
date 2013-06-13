@@ -4,9 +4,13 @@
         <thead>
         <tr>
           <th colspan="7" >
-            <button type="button" class="btn btn-info" onclick="newOne();">
+            <a
+                type="button"
+                class="btn btn-info"
+                href="/couponcatalog/editNew"
+                >
              <i class="icon-plus"></i>新增优惠券
-            </button>
+            </a>
 
           </th>
         </tr>

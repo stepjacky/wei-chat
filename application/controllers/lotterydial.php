@@ -31,6 +31,7 @@ class Lotterydial extends MY_Controller {
     public  function __construct(){
         parent::__construct("Lotterydial_model");
         $this->load->model("Lotterywin_model",'winerdao');
+        $this->load->model("Pubweixin_model", "pubdao");
     }
 
 
@@ -235,12 +236,16 @@ class Lotterydial extends MY_Controller {
     public function editNew($id=FALSE){
         
        $data = $this->dao->get($id);
-             
-     
-        
-        $this->load->view("admin/header-pure");
+       $user = $this->nsession->userdata('user');
+       (!$user) AND redirect('welcome/bizlogin');
+       $pubwxid = $this->nsession->userdata('pubwx');
+       $pubwx = $this->pubdao->get($pubwxid,"weixin_id");
+        $data['pubwx'] = $pubwx;
+        $data['loginuser'] = $user['id'];
+        $this->load->view("admin/header");
+        $this->load->view("message/body-start",$data);
         $this->load->view($this->dao->table()."/editNew",$data);
-        $this->load->view("admin/footer-pure");
+        $this->load->view("admin/footer");
     }
 
 
