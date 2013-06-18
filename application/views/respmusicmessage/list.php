@@ -58,9 +58,14 @@
                 </td>
                       
            <td>
-             <button class="btn btn-success" type="button" onclick="editOne('<?=$id;?>');">
+             <a
+                 class="btn btn-success"
+                 type="button"
+                 href="/respmusicmessage/editNew/<?=$id;?>"
+
+                 >
                <i class="icon-edit"></i>
-             </button>
+             </a>
              <button class="btn btn-danger" type="button" onclick="removeOne('<?=$id;?>');">
                <i class="icon-remove"></i>
              </button>

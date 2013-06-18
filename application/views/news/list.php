@@ -3,9 +3,13 @@
         <thead>
         <tr>
           <th colspan="6">
-            <button type="button" class="btn btn-info" onclick="newOne();">
+            <a
+                type="button"
+                class="btn btn-info"
+                href="/news/editNew"
+                >
              <i class="icon-plus"></i>新增图文消息
-            </button>
+            </a>
           </th>
         </tr>
         <tr>
@@ -45,9 +49,13 @@
                       
                       
            <td>
-             <button class="btn btn-success" type="button" onclick="editOne('<?=$id;?>');">
+             <a
+                 class="btn btn-success"
+                 type="button"
+                 href="/news/editNew/<?=$id;?>"
+                 >
                <i class="icon-edit"></i>
-             </button>
+             </a>
              <button class="btn btn-danger" type="button" onclick="removeOne('<?=$id;?>');">
                <i class="icon-remove"></i>
              </button>

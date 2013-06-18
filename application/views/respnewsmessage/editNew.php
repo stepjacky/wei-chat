@@ -29,18 +29,15 @@
       </td>
       <td>
         <button class="btn btn-info" type="button" onclick="selectNews('newslist')">选择消息</button>
-        <br />
-        <span class="label label"
-          <hr/>
-        <div id="newslist">
+        <hr />
+        <div id="newslist" class="btn-group">
            <?php foreach($newslist as $news):?>
-              <div>
+
                   <input type='hidden' name='newslist[]' value="<?$news['id']?>" />
                   <button type='button' onclick='removeNews(this)' class='btn btn-danger'>
                       <?=$news['name']?>
                   </button>
-              </div>
-               <br/>
+
 
            <?php endforeach;?>
         </div>

@@ -10,9 +10,9 @@ function doPost(url,data){
     if(!data)data='';
     url=url+"?ds="+new Date();
     $.post(url,data,function(msg){
-        $("#main-panel").empty();
+        $("#mcontent").empty();
         //if(typeof(console)!='undefined') console.log(msg);
-        $("#main-panel").html(msg);
+        $("#mcontent").html(msg);
     });
 }
 

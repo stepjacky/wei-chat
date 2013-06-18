@@ -5,16 +5,15 @@ $(function(){
                     , {
                           onValidationComplete: validationCmp 
                       });
-    $('.datepicker').datepicker();
 });
 function saveData(){
     var vadrst = $("#resptextmessageform").validationEngine('validate');
     if(!vadrst)return;
-    var sform = document.getElementById("resptextmessageform");
-    sform.action = "/resptextmessage/saveupdate";
-    sform.enctype="multipart/form-data";
-    sform.target="dataFrame";
-    sform.submit();
+    var data = $("#resptextmessageform").serialize();
+    var url = "/resptextmessage/saveupdate";
+    $.post(url,data,function(html){
+        eval(html);
+    });
 }
 
 function validationCmp(form, status){

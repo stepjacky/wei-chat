@@ -43,14 +43,20 @@ class Pubweixin extends MY_Controller {
       * 新增编辑
       */
     public function editNew($id=FALSE){
-        
-       $data = $this->dao->get($id,'weixin_id');
-             
-     
-        
-        $this->load->view("admin/header-pure");
+
+
+        $user = $this->nsession->userdata('user');
+        (!$user) AND redirect('welcome/bizlogin');
+        $data = $this->dao->get($id,'weixin_id');
+        $pubwx = $this->nsession->userdata('pubwx');
+        $this->fireLog($pubwx);
+        $data['name']='公众账号设置';
+        $data['pubwx'] = $pubwx;
+        $data['loginuser'] = $user['id'];
+        $this->load->view("admin/header");
+        $this->load->view("admin/body-start",$data);
         $this->load->view($this->dao->table()."/editNew",$data);
-        $this->load->view("admin/footer-pure");
+        $this->load->view("admin/footer");
     }
 
 

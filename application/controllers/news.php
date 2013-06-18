@@ -28,8 +28,9 @@ class News extends MY_Controller {
      
     public  function __construct(){
         parent::__construct("News_model");
-               $this->load->library('create_ckeditor');
-                
+        $this->load->library('create_ckeditor');
+        $this->load->model("Pubweixin_model", "pubdao");
+        $this->userid or redirect('/welcome/bizlogin');
     }
 
     public function index($id=FALSE){
@@ -43,19 +44,21 @@ class News extends MY_Controller {
       * 新增编辑
       */
     public function editNew($id=FALSE){
-        
-       $data = $this->dao->get($id);
-             
-               $ckcfg = array();
-               $ckcfg["name"]  ="content";          
-             
-              $ckcfg["value"] = $data["content"];       
-     
-        
-             $data['my_editor'] = $this->create_ckeditor->createEditor( $ckcfg);        
-        $this->load->view("admin/header-pure");
-        $this->load->view($this->dao->table()."/editNew",$data);
-        $this->load->view("admin/footer-pure");
+
+        $data = $this->dao->get($id);
+        $pubwx_id    = $this->nsession->userdata('pubwx');
+        $data['loginuser']=$this->userid;
+        $pubwx =  $this->pubdao->get($pubwx_id,'weixin_id');
+        $data['pubwx']=$pubwx;
+        $ckcfg = array();
+        $ckcfg["name"]  ="content";
+        $ckcfg["value"] = $data["content"];
+        $data['my_editor'] = $this->create_ckeditor->createEditor( $ckcfg);
+        $this->load->view("admin/header");
+        $this->load->view("message/body-start",$data);
+        $this->load->view("news/editNew",$data);
+        $this->load->view("admin/footer");
+
     }
     
     

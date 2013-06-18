@@ -37,7 +37,8 @@ class Subscribemessage_model extends Response_simple_Message_Model {
     public function  saveUpdate($data){
 
         $bean = $this->get($this->FromUserName);
-        if(empty($bean)){
+
+        if(isset($bean['empty']) && $bean['empty']){
             $this->save($data);
         }else{
             $this->update($data);

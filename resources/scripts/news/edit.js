@@ -5,16 +5,23 @@ $(function(){
                     , {
                           onValidationComplete: validationCmp 
                       });
-    $('.datepicker').datepicker();
+   // $('.datepicker').datepicker();
 });
 function saveData(){
     var vadrst = $("#newsform").validationEngine('validate');
     if(!vadrst)return;
-    var sform = document.getElementById("newsform");
-    sform.action = "/news/saveupdate";
-    sform.enctype="multipart/form-data";
-    sform.target="dataFrame";
-    sform.submit();
+    var da = $("#newsform").serializeArray();
+    $.each(da,function(i,field){
+       if(field['name']=='content'){
+           field['value'] = CKEDITOR.instances.content.getData();
+           return;
+       }
+    });
+    var url  = "/news/saveupdate";
+    var data = $.param(da);
+    $.post(url,data,function(html){
+        eval(html);
+    });
 }
 
 function validationCmp(form, status){

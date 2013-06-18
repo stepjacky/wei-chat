@@ -8,13 +8,15 @@ $(function(){
     $('.datepicker').datepicker();
 });
 function saveData(){
+
     var vadrst = $("#lotterydialform").validationEngine('validate');
     if(!vadrst)return;
-    var sform = document.getElementById("lotterydialform");
-    sform.action = "/lotterydial/saveupdate";
-    sform.enctype="multipart/form-data";
-    sform.target="dataFrame";
-    sform.submit();
+    var data = $("#lotterydialform").serialize();
+    var url  = "/lotterydial/saveupdate";
+    $.post(url,data,function(html){
+        eval(html);
+    });
+
 }
 
 function validationCmp(form, status){

@@ -65,9 +65,13 @@
                </td>
                       
            <td class="btn-group">
-             <button class="btn btn-success" type="button" onclick="editOne('<?=$id;?>');">
+             <a
+                 class="btn btn-success"
+                 type="button"
+                 href="/lotterydial/editNew/<?=$id?>"
+                 >
                <i class="icon-edit"></i>
-             </button>
+             </>
              <button class="btn btn-danger" type="button" onclick="removeOne('<?=$id;?>');">
                <i class="icon-remove"></i>
              </button>

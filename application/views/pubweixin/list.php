@@ -4,9 +4,10 @@
         <thead>
         <tr>
           <th colspan="12">
-            <button type="button" class="btn btn-info" onclick="newOne();">
+            <a type="button" class="btn btn-info"
+                   href="/pubweixin/editNew">
              <i class="icon-plus"></i>新增公众账号
-            </button>
+            </a>
           </th>
         </tr>
         <tr>
@@ -51,9 +52,10 @@
                 >
                <i class="icon-edit"></i>管理
              </a>
-             <button class="btn btn-success" type="button" onclick="editOne('<?=$weixin_id;?>');">
+             <a class="btn btn-success" type="button"
+                    href="/pubweixin/editNew/<?=$weixin_id;?>">
                    <i class="icon-edit"></i>编辑
-               </button>
+               </a>
                <button class="btn btn-danger" type="button" onclick="removeOne('<?=$weixin_id;?>');">
                    <i class="icon-remove"></i>删除
                </button>

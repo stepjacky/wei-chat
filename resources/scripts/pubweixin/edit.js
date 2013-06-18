@@ -10,11 +10,12 @@ $(function(){
 function saveData(){
     var vadrst = $("#pubweixinform").validationEngine('validate');
     if(!vadrst)return;
-    var sform = document.getElementById("pubweixinform");
-    sform.action = "/pubweixin/saveupdate";
-    sform.enctype="multipart/form-data";
-    sform.target="dataFrame";
-    sform.submit();
+    var data = $("#pubweixinform").serialize();
+    var url  = "/pubweixin/saveupdate";
+    $.post(url,data,function(html){
+        eval(html);
+    });
+
 }
 
 function validationCmp(form, status){

@@ -371,12 +371,11 @@ class Respmessage_Controller extends MY_Controller{
      */
     public function editNew($id=FALSE){
 
-        $user = $this->nsession->userdata('user');
-        (!$user) AND redirect('welcome/bizlogin');
+        (!$this->userid) AND redirect('welcome/bizlogin');
         $data = $this->dao->get($id);
         $pubwx = $this->pubdao->get($this->FromUserName,"weixin_id");
         $data['pubwx'] = $pubwx;
-        $data['loginuser'] = $user['id'];
+        $data['loginuser'] = $this->userid;
         $this->load->view("admin/header");
         $this->load->view("message/body-start",$data);
         $this->load->view($this->dao->table()."/editNew",$data);

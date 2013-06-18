@@ -57,9 +57,11 @@
              </td>
                       
            <td>
-             <button class="btn btn-success btn-small  " type="button" onclick="editOne('<?=$id;?>');">
+             <a class="btn btn-success btn-small  "
+                type="button"
+                href="/cardcatalog/editNew/<?=$id;?>">
                <i class="icon-edit"></i>
-             </button>
+             </a>
              <button class="btn btn-danger btn-small" type="button" onclick="removeOne('<?=$id;?>');">
                <i class="icon-remove"></i>
              </button>

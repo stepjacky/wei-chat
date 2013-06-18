@@ -8,13 +8,15 @@ $(function(){
     $('.datepicker').datepicker();
 });
 function saveData(){
+
     var vadrst = $("#cardcatalogform").validationEngine('validate');
     if(!vadrst)return;
-    var sform = document.getElementById("cardcatalogform");
-    sform.action = "/cardcatalog/saveupdate";
-    sform.enctype="multipart/form-data";
-    sform.target="dataFrame";
-    sform.submit();
+    var data = $("#cardcatalogform").serialize();
+    var url  = "/cardcatalog/saveupdate";
+    $.post(url,data,function(html){
+        eval(html);
+    });
+
 }
 
 function validationCmp(form, status){

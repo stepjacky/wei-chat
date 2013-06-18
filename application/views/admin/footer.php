@@ -1,7 +1,4 @@
 
-<!-- PAGE CONTENT ENDS HERE -->
-
-
 
 </div>
 
@@ -13,7 +10,7 @@
 
 <script src="/resources/bootstrap/js/bootstrap-datepicker.js" type="text/javascript" ></script>
 <script type="text/javascript" src="/resources/bootstrap/js/locales/bootstrap-datepicker.zh-CN.js" charset="UTF-8"></script>
-<script src="/resources/jquery-ui/ui/minified/jquery-ui.min.js" type="text/javascript"></script>
+
 <script src="/resources/scripts/util.js" type="text/javascript"></script>
 <script src="/resources/scripts/admin/index.js" type="text/javascript"></script>
 

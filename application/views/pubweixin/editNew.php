@@ -10,7 +10,10 @@
      <tr>
    <td>原始微信号</td>
    <td>            
-        <input name="weixin_id" id="weixin_id" type="text" value="<?=val($weixin_id)?>" class="validate[required]" />
+        <input name="weixin_id" id="weixin_id" type="text"
+               value="<?=val($weixin_id)?>"
+               <?=!empty($weixin_id)?'readOnly':''?>
+               class="validate[required]" />
    </td>     
    
 </tr>
@@ -126,5 +129,4 @@
 </form>
 
 <script type="text/javascript" src="/resources/scripts/picture/picture.js" charset="UTF-8"></script>
-<script type="text/javascript" src="/resources/bootstrap/js/locales/bootstrap-datepicker.zh-CN.js" charset="UTF-8"></script>
 <script type="text/javascript" src="/resources/scripts/pubweixin/edit.js"></script>

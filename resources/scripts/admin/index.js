@@ -17,7 +17,7 @@ function leftNavClick(){
    if(!$(this).hasClass("alink")) return true;
    var url =  $(this).attr("link");
 
-   loadContent("content",url);
+   loadContent("mcontent",url);
 }
 
 function loadContent(pid,url){

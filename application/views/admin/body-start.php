@@ -9,9 +9,6 @@
     <div class="navbar-inner">
         <ul class="nav pull-right">
 
-            <li><a href="/merchant/editNew"
-                   class="hidden-phone visible-tablet visible-desktop"
-                   role="button">商户设置</a></li>
             <li id="fat-menu" class="dropdown">
                 <a href="#" role="button" class="dropdown-toggle" data-toggle="dropdown">
                     <i class="icon-user"></i>  <?=$loginuser?>
@@ -27,7 +24,7 @@
             </li>
 
         </ul>
-        <a class="brand" href="#"><span class="first">
+        <a  href="/admin" class="brand"><span class="first">
                台州</span> <span class="second">微生活卡平台</span></a>
     </div>
 </div>
@@ -41,7 +38,7 @@
     </ul>
 
     <a href="#accounts-menu" class="nav-header" data-toggle="collapse">
-        <i class="icon-briefcase"></i>用户资源</i>
+        <i class="icon-briefcase"></i>用户资源
         <span class="label label-info"></span></a>
     <ul id="accounts-menu" class="nav nav-list collapse in">
         <li ><a class="alink"
@@ -83,7 +80,7 @@
         <li class="active">管理面板</li>
     </ul>
     <div class="container-fluid" >
-        <div class="row-fluid" id="content">
+        <div class="row-fluid" id="mcontent">
     <!-- PAGE CONTENT BEGINS HERE -->
 
 

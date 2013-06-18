@@ -109,7 +109,7 @@ class MY_Model extends CI_Model
         }else{
             $bean = $this->get($data[$pk],$pk);
 
-            if($bean['empty']){
+            if(isset($bean['empty']) && $bean['empty']){
                 $this->save2($data,$gen,$pk);
             }else{
 

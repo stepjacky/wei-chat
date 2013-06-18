@@ -5,16 +5,16 @@ $(function(){
                     , {
                           onValidationComplete: validationCmp 
                       });
-    $('.datepicker').datepicker();
+   // $('.datepicker').datepicker();
 });
 function saveData(){
     var vadrst = $("#respmusicmessageform").validationEngine('validate');
     if(!vadrst)return;
-    var sform = document.getElementById("respmusicmessageform");
-    sform.action = "/respmusicmessage/saveupdate";
-    sform.enctype="multipart/form-data";
-    sform.target="dataFrame";
-    sform.submit();
+    var data = $("#respmusicmessageform").serialize();
+    var url  = "/respmusicmessage/saveupdate";
+    $.post(url,data,function(html){
+        eval(html);
+    });
 }
 
 function validationCmp(form, status){

@@ -8,13 +8,14 @@ $(function(){
     $('.datepicker').datepicker();
 });
 function saveData(){
+
     var vadrst = $("#couponcatalogform").validationEngine('validate');
     if(!vadrst)return;
-    var sform = document.getElementById("couponcatalogform");
-    sform.action = "/couponcatalog/saveupdate";
-    sform.enctype="multipart/form-data";
-    sform.target="dataFrame";
-    sform.submit();
+    var data = $("#couponcatalogform").serialize();
+    var url  = "/couponcatalog/saveupdate";
+    $.post(url,data,function(html){
+        eval(html);
+    });
 }
 
 function validationCmp(form, status){

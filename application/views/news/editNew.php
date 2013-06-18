@@ -1,4 +1,5 @@
 <link href="/resources/styles/news/style.css" media="screen" rel="stylesheet" type="text/css" />
+<script type="text/javascript" src="/resources/ckeditor/ckeditor.js"></script>
 <form id="newsform" method="post">
 
 <fieldset>
@@ -46,35 +47,7 @@
    </td>     
    
 </tr>
-  
-  
-     
-  
-  <!--   <tr>
-   <td>
-       点击跳转
-
-   </td>
-   <td>
-       <p>
-           <button class="btn btn-success"
-                   type="button"
-                   onclick="useLotteryUrl('url')">使用大转盘链接</button>
-
-       </p>
-       <p>
-        <span class="label label-info">
-                 如有值,则当前内容被忽略,直接跳转此链接
-        </span>
-       </p>
-      <textarea id="url" name="url" class="input-xxlarge"><?/*=$url;*/?></textarea>
-
-   </td>     
-
-</tr>-->
-
-
-     <tr>
+   <tr>
    <td>内容</td>
    <td>
         <?=$my_editor;?>
@@ -102,5 +75,4 @@
 </form>
 
 <script type="text/javascript" src="/resources/scripts/userpicture/picture.js" charset="UTF-8"></script>
-<script type="text/javascript" src="/resources/bootstrap/js/locales/bootstrap-datepicker.zh-CN.js" charset="UTF-8"></script>
 <script type="text/javascript" src="/resources/scripts/news/edit.js"></script>
