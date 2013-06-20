@@ -5,7 +5,7 @@ $(function(){
                     , {
                           onValidationComplete: validationCmp 
                       });
-    $('.datepicker').datepicker();
+    //$('.datepicker').datepicker();
 });
 function saveData(){
 

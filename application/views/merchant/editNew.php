@@ -37,7 +37,7 @@
      <tr>
    <td>重复密码</td>
    <td>
-        <input type="password"  class="validate[required,equals[pword]]" />
+        <input type="password" value="<?=val($pword)?>" class="validate[required,equals[pword]]" />
    </td>
 
 </tr>

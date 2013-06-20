@@ -21,8 +21,8 @@
                          
                          
                          
-                <th>启用</th> 
-                
+                <th>启用</th>
+
                          
             <th>管理</th>
         </tr>
@@ -50,13 +50,23 @@
                       <?=$enabled?'启用中':'停用中'?>
 
                   </span>
-              <button class=" btn btn-inverse btn-small" type="button"
+                  <button class=" btn btn-inverse btn-small" type="button"
                       onclick="toggleProp('cardcatalog','enabled','<?=$id?>')">
                   <span class="icon icon-color icon-wrench"></span>切換
               </button>
              </td>
-                      
-           <td>
+
+
+           <td class="btn-group">
+
+
+               <a class=" btn btn-info btn-small"
+                  type="button"
+                  href="/prerogative/index/<?=$id?>"
+
+                   >
+                   <span class="icon icon-color icon-plus"></span>特权
+               </a>
              <a class="btn btn-success btn-small  "
                 type="button"
                 href="/cardcatalog/editNew/<?=$id;?>">

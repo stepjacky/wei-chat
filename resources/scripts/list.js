@@ -49,5 +49,8 @@ function setPictureExtra(domain,pkname,pkval,field){
 
 function toggleProp(domain,prop,id){
     var url = '/'+domain+'/toggle/'+prop+'/'+id;
-    $.post(url);
+    $.post(url,'',function(){
+        doPost("/"+domain+"/lists");
+
+    });
 }

@@ -14,7 +14,8 @@ function saveData(){
     var data = $("#lotterydialform").serialize();
     var url  = "/lotterydial/saveupdate";
     $.post(url,data,function(html){
-        eval(html);
+
+        $("#mcontent").load("/lotterydial/lists");
     });
 
 }

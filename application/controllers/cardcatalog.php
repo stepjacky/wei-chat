@@ -105,12 +105,12 @@ class Cardcatalog extends MY_Controller {
 
         $data['my_editor'] = $this->create_ckeditor->createEditor( $ckcfg);
 
-        $user = $this->nsession->userdata('user');
-        (!$user) AND redirect('welcome/bizlogin');
+
+        (!$this->userid) AND redirect('welcome/bizlogin');
         $pubwxid = $this->nsession->userdata('pubwx');
         $pubwx = $this->pubdao->get($pubwxid,"weixin_id");
         $data['pubwx'] = $pubwx;
-        $data['loginuser'] = $user['id'];
+        $data['loginuser'] = $this->userid;
         $this->load->view("admin/header");
         $this->load->view("message/body-start",$data);
         $this->load->view($this->dao->table()."/editNew",$data);

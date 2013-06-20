@@ -4,9 +4,13 @@
         <thead>
         <tr>
           <th colspan="5">
-            <button type="button" class="btn btn-info" onclick="newOne();">
-             <i class="icon-plus"></i>新增会员特权
-            </button>
+              <a class=" btn btn-info btn-small"
+                 type="button"
+                 href="/prerogative/editNew?cid=<?=$id?>"
+
+                  >
+                  <span class="icon icon-color icon-wrench"></span>添加特权
+              </a>
           </th>
         </tr>
         <tr>

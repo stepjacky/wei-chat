@@ -8,12 +8,13 @@
                 class="btn btn-info"
                 href="/lotterydial/editNew"
                 >
-             <i class="icon-plus"></i>新增抽奖大转盘
+             <i class="icon-plus"></i>新增大转盘
             </a>
           </th>
         </tr>
         <tr>
-                         
+
+                <th>关键字</th>
                 <th>名称</th>
 
                 <th>说明</th>
@@ -35,7 +36,11 @@
                extract($bean);
             ?>
            <tr>
-                      
+               <td>
+                   <?=$keyword?>
+
+               </td>
+
                 <td>
               <?=$name?>             
             </td> 
@@ -70,8 +75,8 @@
                  type="button"
                  href="/lotterydial/editNew/<?=$id?>"
                  >
-               <i class="icon-edit"></i>
-             </>
+               <i class="icon icon-edit"></i>
+             </a>
              <button class="btn btn-danger" type="button" onclick="removeOne('<?=$id;?>');">
                <i class="icon-remove"></i>
              </button>

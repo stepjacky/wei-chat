@@ -37,5 +37,8 @@ class Prerogative_model extends MY_Model {
         $result = $query->result_array();
         return $result;
     }
-    
+
+
+
+
 }   

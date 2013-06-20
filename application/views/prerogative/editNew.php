@@ -1,5 +1,5 @@
 <link href="/resources/styles/prerogative/style.css" media="screen" rel="stylesheet" type="text/css" />
-<form id="prerogativeform" method="post">
+<form id="prerogativeform">
 
 <fieldset>
 <legend>
@@ -9,7 +9,7 @@
 <tbody>
       <input type="hidden" name="id" id="id" value="<?=val($id)?>" />
       
-  
+      <input type="hidden" name="cardcatalog_id" value="<?=$cardcatalog_id?>" />
   
      
   
@@ -56,6 +56,4 @@
 </fieldset>
 </form>
 
-<script type="text/javascript" src="/resources/scripts/picture/picture.js" charset="UTF-8"></script>
-<script type="text/javascript" src="/resources/bootstrap/js/locales/bootstrap-datepicker.zh-CN.js" charset="UTF-8"></script>
 <script type="text/javascript" src="/resources/scripts/prerogative/edit.js"></script>

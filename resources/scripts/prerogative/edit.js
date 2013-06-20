@@ -5,16 +5,16 @@ $(function(){
                     , {
                           onValidationComplete: validationCmp 
                       });
-    $('.datepicker').datepicker();
+    //$('.datepicker').datepicker();
 });
 function saveData(){
     var vadrst = $("#prerogativeform").validationEngine('validate');
     if(!vadrst)return;
-    var sform = document.getElementById("prerogativeform");
-    sform.action = "/prerogative/saveupdate";
-    sform.enctype="multipart/form-data";
-    sform.target="dataFrame";
-    sform.submit();
+    var data = $("#prerogativeform").serialize();
+    var url  = "/prerogative/saveupdate";
+    $.post(url,data,function(html){
+         doPost("/cardcatalog/lists");
+    });
 }
 
 function validationCmp(form, status){

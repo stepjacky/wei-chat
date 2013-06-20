@@ -210,7 +210,7 @@ class MY_Model extends CI_Model
     }
 
     public function toggle_prop($prop,$id,$pk="id"){
-        $SQL  = 'update %s set %s=ABS(%s-1) where %s=\'%s\'';
+        $SQL  = 'update `%s` set `%s`=ABS(`%s`-1) where `%s`=\'%s\'';
         $this->query(sprintf($SQL,$this->table(),$prop,$prop,$pk,$id));
 
     }
@@ -482,11 +482,13 @@ class ResponseMessage_Model extends SimpleMessage_Model {
     public function save($data, $pk = 'id', $genId = TRUE)
     {
 
+
         $this->db->trans_start();
         if(!$data['keyword']) return;
         $keyword = trim($data['keyword']);
         $inuse = $this->keyword_in_use($keyword);
         if($inuse) return;
+
         parent::save($data, $pk, $genId);
         $this->add_key_map($this->table(),$keyword);
         $this->db->trans_complete();
@@ -708,6 +710,21 @@ class Response_news_message_extModel extends Response_news_message_Model{
         $query = $this->db->get($this->table());
         $result = $query->row_array();
         return $result;
+
+    }
+
+    public function toggle_prop($prop, $id,$pk="id")
+    {
+
+
+        if($prop=="enabled"){
+            $SQL  = "update `%s` set enabled=false where pubweixin_id='%s'";
+            $this->query(sprintf($SQL,$this->table(),$this->FromUserName));
+            $SQL  = "update `%s` set enabled=true where id='%s'";
+            $this->query(sprintf($SQL,$this->table(),$id));
+        }else
+            parent::toggle_prop($prop, $id, $pk);
+
 
     }
 
