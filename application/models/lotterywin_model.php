@@ -31,7 +31,7 @@ class Lotterywin_model extends MY_Model {
     }  
 
     public function get_winers($lottery,$grade){
-        $SQL = "select count(`id`) as num from `%s` where `lotterydial_id`='%s' and `wingrade`=%d";
+        $SQL = "select count(`id`) as num from `%s` where `lotterydial_id`='%s' and `wingrade`='%d'";
         $query =  $this->db->query(sprintf($SQL,$this->table(),$lottery,$grade));
         $result = $query->row_array();
         return $result['num'];

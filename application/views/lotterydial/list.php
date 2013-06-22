@@ -77,15 +77,24 @@
                  >
                <i class="icon icon-edit"></i>
              </a>
-             <button class="btn btn-danger" type="button" onclick="removeOne('<?=$id;?>');">
-               <i class="icon-remove"></i>
-             </button>
+
+               <a
+                 class="btn btn-info"
+                 type="button"
+                 href="/lotterywin/lists?lotterydial_id=<?=$id?>"
+                 >
+               <i class="icon icon-edit"></i>验证管理
+             </a>
                <button class=" btn btn-inverse"
                        type="button"
                        onclick="toggleProp('lotterydial','enabled','<?=$id?>')">
                    <span class="icon icon-color icon-wrench"></span>
                    <?=$enabled?'禁用':'启用'?>
                </button>
+               <button class="btn btn-danger" type="button" onclick="removeOne('<?=$id;?>');">
+               <i class="icon-remove"></i>
+             </button>
+
            </td>
            </tr>
         <?php endforeach; ?>

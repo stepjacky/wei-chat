@@ -159,7 +159,8 @@
 </tfoot>     
 </table>
 </fieldset>
-</form>
+</form><script src="/resources/bootstrap/js/bootstrap-datepicker.js" type="text/javascript" ></script>
+<script type="text/javascript" src="/resources/bootstrap/js/locales/bootstrap-datepicker.zh-CN.js" charset="UTF-8"></script>
 
 <script type="text/javascript" src="/resources/scripts/picture/picture.js" charset="UTF-8"></script>
 <script type="text/javascript" src="/resources/scripts/couponcatalog/edit.js"></script>

@@ -65,12 +65,18 @@
             </td>  
                       
                       
-           <td class="btn btn-group">
+           <td class="btn-group">
              <a
                  class="btn btn-success btn-small"
                  type="button"
-                 href="/couponcatalog/editNew/<?=$id;?>">
+                 href="/couponcatalog/editNew/<?=$id?>">
                <i class="icon-edit"></i>
+             </a>
+              <a
+                 class="btn btn-info btn-small"
+                 type="button"
+                 href="/coupon/lists?cid=<?=$id?>">
+               <i class="icon-edit"></i>验证信息
              </a>
              <button class="btn btn-danger btn-small" type="button" onclick="removeOne('<?=$id;?>');">
                <i class="icon-remove"></i>

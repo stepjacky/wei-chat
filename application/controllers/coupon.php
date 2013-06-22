@@ -24,7 +24,7 @@
  *    
  */
 
-class Coupon extends MY_Controller {
+class Coupon extends Respmessage_Controller {
      
     public  function __construct(){
         parent::__construct("Coupon_model");
@@ -59,6 +59,31 @@ class Coupon extends MY_Controller {
 
        $tdata = array("code"=>"success");
        $this->load->view('common/result',$tdata);
+    }
+
+    public function lists($page=1,$rows=10){
+
+        $cond =  $this->_xls_get();
+
+        unset($cond['_']);
+        unset($cond['ds']);
+        if(!$cond) $cond = array();
+        $ccond = $this->cache->file->get('couponcond');
+        if(!is_array($ccond))$ccond = array();
+        $cond = array_merge($ccond,$cond);
+        $this->cache->file->save('pagecond',$cond,60);
+        $this->fireLog($cond);
+        if(!$rows)$rows=10;
+        $result   = $this->dao->gets($page,$rows,$sorts=array("firedate"=>"desc"),$cond);
+        $pagelink = $this->dao->page_link($page,$rows,$cond);
+        $data['datasource'] = $result;
+        $data['pagelink']=$pagelink;
+        $cdata = array();
+        $this->initUserData($cdata);
+        $this->load->view("admin/header");
+        $this->load->view("message/body-start",$cdata);
+        $this->load->view($this->dao->table()."/list",$data);
+        $this->load->view("admin/footer");
     }
     
     

@@ -26,7 +26,7 @@ class MY_Controller extends CI_Controller
          $this->load->helper('date');
          $this->load->library('nsession');
          $this->load->helper('cookie');
-
+         $this->load->driver('cache');
         if(func_num_args()==1){
             $mName=func_get_arg(0);
             $this->load->model($mName,"dao");
@@ -148,6 +148,10 @@ class MY_Controller extends CI_Controller
 
     protected function _get($name){
         return $this->input->get($name, TRUE);
+    }
+
+    protected function _xls_get(){
+        return $this->input->get(NULL, TRUE);
     }
 
     protected function _post($name){
@@ -371,11 +375,8 @@ class Respmessage_Controller extends MY_Controller{
      */
     public function editNew($id=FALSE){
 
-        (!$this->userid) AND redirect('welcome/bizlogin');
         $data = $this->dao->get($id);
-        $pubwx = $this->pubdao->get($this->FromUserName,"weixin_id");
-        $data['pubwx'] = $pubwx;
-        $data['loginuser'] = $this->userid;
+        $this->initUserData($data);
         $this->load->view("admin/header");
         $this->load->view("message/body-start",$data);
         $this->load->view($this->dao->table()."/editNew",$data);
@@ -385,8 +386,14 @@ class Respmessage_Controller extends MY_Controller{
 
     public function saveUpdate(){
         $data =  $this->_xsl_post();
-        // $data['fromusername']= $this->FromUserName;
         $this->dao->saveUpdate($data);
         $this->_end();
+    }
+
+    protected function initUserData(&$data){
+        (!$this->userid) AND redirect('welcome/bizlogin');
+        $pubwx = $this->pubdao->get($this->FromUserName,"weixin_id");
+        $data['pubwx'] = $pubwx;
+        $data['loginuser'] = $this->userid;
     }
 }

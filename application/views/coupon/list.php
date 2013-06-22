@@ -4,24 +4,25 @@
         <thead>
         <tr>
           <th colspan="8">
-            <button type="button" class="btn btn-info" onclick="newOne();">
-             <i class="icon-plus"></i>新增优惠券记录
+            <button type="button" class="btn btn-inverse"
+                    onclick="doPost('/couponcatalog/lists')"
+                >
+             <i class="icon-plus"></i>返回优惠券
             </button>
           </th>
         </tr>
         <tr>
-                         
-                         
-                <th>验证类型</th> 
-                         
-                <th>验证码</th> 
-                         
-                <th>使用时间</th> 
-                         
-                <th>所属优惠券</th> 
-                         
-                <th>领取人</th> 
-                         
+
+            <th>领取人</th>
+
+            <th>优惠券验证码</th>
+
+            <th>用户验证信息</th>
+
+            <th>商家验证信息</th>
+
+            <th>验证完成时间</th>
+
             <th>管理</th>
         </tr>
         </thead>
@@ -32,38 +33,32 @@
                extract($bean);
             ?>
            <tr>
-                <td>
-              <?=$id?>             
+               <td>
+                   <?=$weixin_id?>
+               </td>
+
+
+
+               <td>
+              <?=$code?>
             </td>  
                       
                 <td>
-              <?=$name?>             
-            </td>  
-                      
-                <td>
-              <?=$validator?>             
-            </td>  
-                      
-                <td>
-              <?=$cvcode?>             
-            </td>  
-                      
-                <td>
+              <?=$memberphone?>
+            </td>
+
+               <td>
+                   <?=$m_code?>
+               </td>
+               <td>
               <?=$firedate?>             
             </td>  
                       
-                <td>
-              <?=$catalog_id?>             
-            </td>  
+
                       
-                <td>
-              <?=$member_id?>             
-            </td>  
+
                       
            <td>
-             <button class="btn btn-success" type="button" onclick="editOne('<?=$id;?>');">
-               <i class="icon-edit"></i>
-             </button>
              <button class="btn btn-danger" type="button" onclick="removeOne('<?=$id;?>');">
                <i class="icon-remove"></i>
              </button>
