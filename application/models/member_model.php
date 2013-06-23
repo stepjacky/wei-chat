@@ -35,7 +35,14 @@ class Member_model extends MY_Model {
             'pubweixin_id' => $pubwx ,
             'weixin' => $weixin
         );*/
-        $ucont = $this->count_all($data);
+
+        $SQL=sprintf("select count(*) ucont from member where `pubweixin_id`='%s' and `weixin`='%s'"
+            ,$data['pubweixin_id']
+            ,$data['weixin']
+          );
+        $query = $this->db->query($SQL);
+        $result = $query-> $query->first_row('array');
+        $ucont = $result['ucont'];
         if($ucont>0) return;
         $SQL="insert into `%s` (`id`,`pubweixin_id`,`weixin`) values('%s','%s','%s')";
         $this->db->query(sprintf($SQL,$this->table(),getGUID(),$data['pubweixin_id'],$data['weixin']));
