@@ -30,7 +30,7 @@ class News extends MY_Controller {
         parent::__construct("News_model");
         $this->load->library('create_ckeditor');
         $this->load->model("Pubweixin_model", "pubdao");
-        $this->userid or redirect('/welcome/bizlogin');
+
     }
 
     public function index($id=FALSE){
@@ -45,6 +45,7 @@ class News extends MY_Controller {
       */
     public function editNew($id=FALSE){
 
+        $this->userid or redirect('/welcome/bizlogin');
         $data = $this->dao->get($id);
         $pubwx_id    = $this->nsession->userdata('pubwx');
         $data['loginuser']=$this->userid;
