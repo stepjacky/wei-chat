@@ -83,7 +83,7 @@
         </span>
 
             <dl class="dl-horizontal">
-                <?=$remark;?>
+                <?=$lconfig['remark']?>
             </dl>
 
 

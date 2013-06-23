@@ -3,13 +3,11 @@
   <component name="ChangeListManager">
     <list default="true" id="9c42f37f-b41b-40a5-884c-3813c2511426" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/application/views/lotterydial/index.php" afterPath="$PROJECT_DIR$/application/views/lotterydial/index.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/application/controllers/lotterydial.php" afterPath="$PROJECT_DIR$/application/controllers/lotterydial.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="weixin.iws" />
     <ignored path=".idea/workspace.xml" />
     <file path="/header.php" changelist="9c42f37f-b41b-40a5-884c-3813c2511426" time="1371134980868" ignored="false" />
-    <file path="/index.php" changelist="9c42f37f-b41b-40a5-884c-3813c2511426" time="1372005374840" ignored="false" />
+    <file path="/index.php" changelist="9c42f37f-b41b-40a5-884c-3813c2511426" time="1372005568022" ignored="false" />
     <file path="/Dummy.txt" changelist="9c42f37f-b41b-40a5-884c-3813c2511426" time="1372002891425" ignored="false" />
     <file path="/footer.php" changelist="9c42f37f-b41b-40a5-884c-3813c2511426" time="1371132377879" ignored="false" />
     <file path="/charisma-app.css" changelist="9c42f37f-b41b-40a5-884c-3813c2511426" time="1366641995464" ignored="false" />
@@ -135,8 +133,10 @@
       <file leaf-file-name="index.php" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/application/views/lotterydial/index.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="85" column="29" selection-start="1954" selection-end="1954" vertical-scroll-proportion="3.4113712">
-              <folding />
+            <state line="85" column="37" selection-start="1962" selection-end="1962" vertical-scroll-proportion="0.5217391">
+              <folding>
+                <marker date="1372005574021" expanded="true" signature="2053:2077" placeholder="..." />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -691,8 +691,10 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/application/views/lotterydial/index.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="85" column="29" selection-start="1954" selection-end="1954" vertical-scroll-proportion="3.4113712">
-          <folding />
+        <state line="85" column="37" selection-start="1962" selection-end="1962" vertical-scroll-proportion="0.5217391">
+          <folding>
+            <marker date="1372005574021" expanded="true" signature="2053:2077" placeholder="..." />
+          </folding>
         </state>
       </provider>
     </entry>
