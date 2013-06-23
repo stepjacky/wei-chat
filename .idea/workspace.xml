@@ -2,11 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="9c42f37f-b41b-40a5-884c-3813c2511426" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/application/third_party/weichat.mwb" afterPath="$PROJECT_DIR$/application/third_party/weichat.mwb" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/application/models/member_model.php" afterPath="$PROJECT_DIR$/application/models/member_model.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/application/controllers/pubweixin.php" afterPath="$PROJECT_DIR$/application/controllers/pubweixin.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/application/models/pubweixin_model.php" afterPath="$PROJECT_DIR$/application/models/pubweixin_model.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="weixin.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -109,7 +105,7 @@
     <file path="/respmusicmessage_model.php" changelist="9c42f37f-b41b-40a5-884c-3813c2511426" time="1369540088896" ignored="false" />
     <file path="/accesserror.php" changelist="9c42f37f-b41b-40a5-884c-3813c2511426" time="1369565520542" ignored="false" />
     <file path="/card.css" changelist="9c42f37f-b41b-40a5-884c-3813c2511426" time="1369581648077" ignored="false" />
-    <file path="/member_model.php" changelist="9c42f37f-b41b-40a5-884c-3813c2511426" time="1371978652844" ignored="false" />
+    <file path="/member_model.php" changelist="9c42f37f-b41b-40a5-884c-3813c2511426" time="1371980125885" ignored="false" />
     <file path="/theme.css" changelist="9c42f37f-b41b-40a5-884c-3813c2511426" time="1371131863698" ignored="false" />
     <file path="/news.php" changelist="9c42f37f-b41b-40a5-884c-3813c2511426" time="1371572388346" ignored="false" />
     <file path="/prerogative.php" changelist="9c42f37f-b41b-40a5-884c-3813c2511426" time="1371744697852" ignored="false" />
@@ -164,10 +160,10 @@
       <file leaf-file-name="member_model.php" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/application/models/member_model.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="32" column="31" selection-start="1238" selection-end="1238" vertical-scroll-proportion="0.07855974">
+            <state line="38" column="28" selection-start="1423" selection-end="1423" vertical-scroll-proportion="0.3927987">
               <folding>
-                <marker date="1371978659631" expanded="true" signature="1431:1501" placeholder="insert into ..." />
-                <marker date="1371978659631" expanded="true" signature="1778:1839" placeholder="delete from ..." />
+                <marker date="1371980128855" expanded="true" signature="1438:1508" placeholder="insert into ..." />
+                <marker date="1371980128855" expanded="true" signature="1785:1846" placeholder="delete from ..." />
               </folding>
             </state>
           </provider>
@@ -443,7 +439,7 @@
     </servers>
   </component>
   <component name="ToolWindowManager">
-    <frame x="239" y="162" width="1509" height="838" extended-state="1" />
+    <frame x="239" y="162" width="1509" height="838" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
@@ -641,10 +637,10 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/application/models/member_model.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="32" column="31" selection-start="1238" selection-end="1238" vertical-scroll-proportion="0.07855974">
+        <state line="38" column="28" selection-start="1423" selection-end="1423" vertical-scroll-proportion="0.3927987">
           <folding>
-            <marker date="1371978659631" expanded="true" signature="1431:1501" placeholder="insert into ..." />
-            <marker date="1371978659631" expanded="true" signature="1778:1839" placeholder="delete from ..." />
+            <marker date="1371980128855" expanded="true" signature="1438:1508" placeholder="insert into ..." />
+            <marker date="1371980128855" expanded="true" signature="1785:1846" placeholder="delete from ..." />
           </folding>
         </state>
       </provider>

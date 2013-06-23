@@ -30,14 +30,13 @@ class Member_model extends MY_Model {
         parent::__construct("Member_model");
     }
 
-    public function add_user(){
+    public function add_user($data){
        /* $data = array(
             'pubweixin_id' => $pubwx ,
             'weixin' => $weixin
         );*/
-
-        $ucont = $this->count_all();
-        if($ucont!=0) return ;
+        $ucont = $this->count_all($data);
+        if($ucont>0) return;
         $SQL="insert into `%s` (`id`,`pubweixin_id`,`weixin`) values('%s','%s','%s')";
         $this->db->query(sprintf($SQL,$this->table(),getGUID(),$data['pubweixin_id'],$data['weixin']));
     }
