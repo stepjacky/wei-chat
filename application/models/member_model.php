@@ -41,7 +41,7 @@ class Member_model extends MY_Model {
             ,$data['weixin']
           );
         $query = $this->db->query($SQL);
-        $result = $query-> $query->first_row('array');
+        $result = $query->first_row('array');
         $ucont = $result['ucont'];
         if($ucont>0) return;
         $SQL="insert into `%s` (`id`,`pubweixin_id`,`weixin`) values('%s','%s','%s')";

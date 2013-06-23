@@ -3,7 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="9c42f37f-b41b-40a5-884c-3813c2511426" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/application/models/member_model.php" afterPath="$PROJECT_DIR$/application/models/member_model.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="weixin.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -161,11 +160,11 @@
       <file leaf-file-name="member_model.php" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/application/models/member_model.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="45" column="6" selection-start="1669" selection-end="1669" vertical-scroll-proportion="0.66775775">
+            <state line="43" column="44" selection-start="1617" selection-end="1617" vertical-scroll-proportion="0.58919805">
               <folding>
-                <marker date="1371980570508" expanded="true" signature="1376:1453" placeholder="select count..member..." />
-                <marker date="1371980570508" expanded="true" signature="1706:1776" placeholder="insert into ..." />
-                <marker date="1371980570508" expanded="true" signature="2053:2114" placeholder="delete from ..." />
+                <marker date="1371980663547" expanded="true" signature="1376:1453" placeholder="select count..member..." />
+                <marker date="1371980663547" expanded="true" signature="1697:1767" placeholder="insert into ..." />
+                <marker date="1371980663547" expanded="true" signature="2044:2105" placeholder="delete from ..." />
               </folding>
             </state>
           </provider>
@@ -639,11 +638,11 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/application/models/member_model.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="45" column="6" selection-start="1669" selection-end="1669" vertical-scroll-proportion="0.66775775">
+        <state line="43" column="44" selection-start="1617" selection-end="1617" vertical-scroll-proportion="0.58919805">
           <folding>
-            <marker date="1371980570508" expanded="true" signature="1376:1453" placeholder="select count..member..." />
-            <marker date="1371980570508" expanded="true" signature="1706:1776" placeholder="insert into ..." />
-            <marker date="1371980570508" expanded="true" signature="2053:2114" placeholder="delete from ..." />
+            <marker date="1371980663547" expanded="true" signature="1376:1453" placeholder="select count..member..." />
+            <marker date="1371980663547" expanded="true" signature="1697:1767" placeholder="insert into ..." />
+            <marker date="1371980663547" expanded="true" signature="2044:2105" placeholder="delete from ..." />
           </folding>
         </state>
       </provider>
