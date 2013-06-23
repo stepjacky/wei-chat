@@ -161,6 +161,7 @@ class Lotterydial extends MY_Controller {
         $secondodd = $lcfg['secondodds'];
         $thirdodd  = $lcfg['thirdodds'];
 
+        //如果三种奖数都中完,那么几率都归零
         if($firsted>=$lcfg['firstnum']) $firstodd = 0;
         if($seconded>=$lcfg['secondnum']) $secondodd = 0;
         if($thirded>=$lcfg['thirdnum']) $thirdodd= 0;
@@ -210,7 +211,7 @@ class Lotterydial extends MY_Controller {
         $result['merchantcode'] = base64_encode($lcfg['code']);
         $result['lotteryid'] = $lcfg['id'];
         $result['pubweixin'] = urlencode($pubwx);
-
+        $result['lconfig'] = $lcfg;
 
         $this->fireLog($result);
         $this->load->view("lotterydial/index",$result);

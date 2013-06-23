@@ -17,7 +17,7 @@
         height: 191px;
     }
     body{
-        background-color: #ff822e;
+        background-color: #008800;
     }
     .panel {
         position: relative;
@@ -46,23 +46,25 @@
       <div class="panel">
 
         <span class="label label-important">
-           奖项说明
+           奖项设置
         </span>
 
           <dl class="dl-horizontal">
               <dt>
                            一等奖
               </dt>
-              <dd>A description list is perfect for defining terms.</dd>
+              <dd><?=$lconfig['firstmsg']?></dd>
               <dt>
 
                         二等奖
               </dt>
-              <dd>Vestibulum id ligula porta felis euismod semper eget lacinia odio sem nec elit.</dd>
+              <dd>
+                  <?=$lconfig['secondmsg']?>
+              </dd>
               <dt>
                      三等奖
               </dt>
-              <dd>Malesuada porta</dd>
+              <dd><?=$lconfig['thirdmsg']?></dd>
 
             </dl>
 
@@ -77,17 +79,11 @@
         <div class="panel">
 
         <span class="label label-success">
-                   抽奖说明
-         </span>
+           活动说明
+        </span>
 
             <dl class="dl-horizontal">
-
-                <dd>A description list is perfect for defining terms.</dd>
-
-                <dd>Vestibulum id ligula porta felis euismod semper eget lacinia odio sem nec elit.</dd>
-
-                <dd>Malesuada porta</dd>
-
+                <?=$remark;?>
             </dl>
 
 
