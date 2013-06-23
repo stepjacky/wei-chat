@@ -75,6 +75,7 @@ class Pubweixin extends MY_Controller {
     }
 
     public function remove($id,$pk='weixin_id'){
+
         parent::remove($id,$pk);
     }
 }   

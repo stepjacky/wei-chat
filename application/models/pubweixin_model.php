@@ -72,5 +72,6 @@ class Pubweixin_model extends MY_Model {
         $beans = $query->result_array();
         return $beans;
     }
-    
+
+
 }   
