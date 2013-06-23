@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="9c42f37f-b41b-40a5-884c-3813c2511426" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/application/views/news/index.php" afterPath="$PROJECT_DIR$/application/views/news/index.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/application/views/front/footer.php" afterPath="$PROJECT_DIR$/application/views/front/footer.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/application/controllers/news.php" afterPath="$PROJECT_DIR$/application/controllers/news.php" />
     </list>
     <ignored path="weixin.iws" />
@@ -171,19 +171,37 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="news.php" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="news.php" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/application/controllers/news.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="38" column="8" selection-start="1455" selection-end="1455" vertical-scroll-proportion="-9.0">
+            <state line="39" column="39" selection-start="1517" selection-end="1517" vertical-scroll-proportion="0.548718">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="index.php" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="index.php" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/application/views/news/index.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="6" column="9" selection-start="100" selection-end="100" vertical-scroll-proportion="0.24615385">
+            <state line="6" column="9" selection-start="100" selection-end="100" vertical-scroll-proportion="-4.3636365">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="header.php" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/application/views/front/header.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="14" column="13" selection-start="709" selection-end="709" vertical-scroll-proportion="-10.181818">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="footer.php" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/application/views/front/footer.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="0" column="83" selection-start="83" selection-end="83" vertical-scroll-proportion="-0.0">
               <folding />
             </state>
           </provider>
@@ -235,7 +253,6 @@
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
       <list>
-        <option value="$PROJECT_DIR$/application/views/lotterydial/list.php" />
         <option value="$PROJECT_DIR$/application/core/MY_Controller.php" />
         <option value="$PROJECT_DIR$/application/controllers/lotterywin.php" />
         <option value="$PROJECT_DIR$/application/views/lotterywin/list.php" />
@@ -249,8 +266,9 @@
         <option value="$PROJECT_DIR$/application/controllers/pubweixin.php" />
         <option value="$PROJECT_DIR$/application/models/pubweixin_model.php" />
         <option value="$PROJECT_DIR$/application/models/member_model.php" />
-        <option value="$PROJECT_DIR$/application/controllers/news.php" />
         <option value="$PROJECT_DIR$/application/views/news/index.php" />
+        <option value="$PROJECT_DIR$/application/views/front/footer.php" />
+        <option value="$PROJECT_DIR$/application/controllers/news.php" />
       </list>
     </option>
   </component>
@@ -371,7 +389,7 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="news" />
+              <option name="myItemId" value="front" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -558,16 +576,6 @@
     </PATH>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/application/views/couponcatalog/list.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="78" column="44" selection-start="2019" selection-end="2019" vertical-scroll-proportion="1.7766234" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/application/models/lotterywin_model.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="36" column="30" selection-start="1523" selection-end="1523" vertical-scroll-proportion="0.84415585" />
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/index.php">
       <provider selected="true" editor-type-id="text-editor">
         <state line="14" column="14" selection-start="432" selection-end="432" vertical-scroll-proportion="-3.9726028">
@@ -660,16 +668,30 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/application/controllers/news.php">
+    <entry file="file://$PROJECT_DIR$/application/views/news/index.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="38" column="8" selection-start="1455" selection-end="1455" vertical-scroll-proportion="-9.0">
+        <state line="6" column="9" selection-start="100" selection-end="100" vertical-scroll-proportion="-4.3636365">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/application/views/news/index.php">
+    <entry file="file://$PROJECT_DIR$/application/views/front/header.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="6" column="9" selection-start="100" selection-end="100" vertical-scroll-proportion="0.24615385">
+        <state line="14" column="13" selection-start="709" selection-end="709" vertical-scroll-proportion="-10.181818">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/application/views/front/footer.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="83" selection-start="83" selection-end="83" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/application/controllers/news.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="39" column="39" selection-start="1517" selection-end="1517" vertical-scroll-proportion="0.548718">
           <folding />
         </state>
       </provider>

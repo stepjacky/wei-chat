@@ -34,10 +34,10 @@ class News extends MY_Controller {
     }
 
     public function index($id=FALSE){
-         $data = $this->dao->get($id);        
-        //$this->load->view("admin/header-pure");
+        $data = $this->dao->get($id);
+        $this->load->view("front/header");
         $this->load->view("news/index",$data);
-        //$this->load->view("admin/footer-pure");
+        $this->load->view("front/footer");
     }
     
      /**
