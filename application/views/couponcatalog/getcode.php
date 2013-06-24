@@ -1,8 +1,8 @@
 <link href="/resources/styles/couponcatalog/getcode.css" rel="stylesheet"/>
 <div class="wrap">
     <div  class="anim_a">
-        <p>&nbsp;</p>
         <div class="anim_b"></div>
+        <div class="anim_b_down"></div>
     </div>
 </div>
 <div class="dblock"></div>

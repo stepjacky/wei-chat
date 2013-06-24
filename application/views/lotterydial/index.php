@@ -1,36 +1,6 @@
 <script type="text/javascript" src="/resources/circle/js/jQueryRotate.2.2.js"></script>
 <script type="text/javascript" src="/resources/jquery-ui/effect/jquery.easing.min.js"></script>
-<style>
-    #lottery {
-        background: url("/resources/circle/images/box.png?v=79804") no-repeat scroll 0 0 transparent;
-        background-size: 272px 272px;
-        height: 272px;
-        width: 272px;
-        margin: 0 auto;
-    }
-    .image{
-        cursor : pointer;
-        position: relative;
-        left: 91px;
-        top: 40px;
-        width: 90px;
-        height: 191px;
-    }
-    body{
-        background-color: #008800;
-    }
-    .panel {
-        position: relative;
-        margin: 15px 15px  5px 15px;
-        padding: 0px 19px 14px 19px;
-        *padding-top: 0px;
-        background-color: #FFD993;
-        border: 1px solid #ddd;
-        -webkit-border-radius: 4px;
-        -moz-border-radius: 4px;
-        border-radius: 4px;
-    }
-</style>
+<link href="/resources/styles/lotterydial/style.css" rel="stylesheet"  >
 
 <header>
     <div id="lottery">
@@ -49,25 +19,14 @@
            奖项设置
         </span>
 
-          <dl class="dl-horizontal">
-              <dt>
-                           一等奖
-              </dt>
-              <dd><?=$lconfig['firstmsg']?></dd>
-              <dt>
+          <ul class="local-inline">
+              <li>一等奖:<?=$lconfig['firstmsg']?></li>
+              <li>二等奖:<?=$lconfig['secondmsg']?></li>
+              <li>
+                  三等奖:<?=$lconfig['thirdmsg']?>
 
-                        二等奖
-              </dt>
-              <dd>
-                  <?=$lconfig['secondmsg']?>
-              </dd>
-              <dt>
-                     三等奖
-              </dt>
-              <dd><?=$lconfig['thirdmsg']?></dd>
-
-            </dl>
-
+              </li>
+          </ul>
 
       </div>
 

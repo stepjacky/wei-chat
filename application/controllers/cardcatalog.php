@@ -32,7 +32,6 @@ class Cardcatalog extends MY_Controller {
         $this->load->model("Pubweixin_model", "pubdao");
         $this->load->model('Prerogative_model','pdao');
         $this->load->model('Cards_model','csdao');
-        $this->load->model('Pubweixin_model','pubdao');
 
     }
 
@@ -69,7 +68,7 @@ class Cardcatalog extends MY_Controller {
 
             );
             $this->csdao->save($cdata,'',false);
-            $card = $this->dao->get_default_config($pubwx);
+            $card = $this->csdao->get_by_wxpw($pubwx,$weixin);
         }
 
 
@@ -78,6 +77,8 @@ class Cardcatalog extends MY_Controller {
             'card'=>$card,
             'preros'=>$preros
         );
+
+        $this->fireLog($data);
 
         $this->load->view("front/header");
         $this->load->view("cardcatalog/card-header",$data);

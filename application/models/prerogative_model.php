@@ -32,9 +32,11 @@ class Prerogative_model extends MY_Model {
 
 
     public function get_for_card($cid){
+        $this->firelog("cardid $cid");
         $this->db->where("cardcatalog_id",$cid);
         $query = $this->db->get($this->table());
         $result = $query->result_array();
+        $this->firelog($result);
         return $result;
     }
 

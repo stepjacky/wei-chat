@@ -18,14 +18,19 @@
                 <dt>
                   你中了:<?=$prizename?>
                 </dt>
-                <dd><?=$prizemsg?></dd>
-                <dt>
-                          兑奖验证码:
+              <!--  <dd><?/*=$prizemsg*/?></dd>-->
+                <dt >
+                    兑奖验证码:
                 </dt>
-                <dd>
+                <dd class="label label-info">
                    <?=$prizecode?>
                 </dd>
-                <dd>本次兑奖码已关联你的微信号,可向公众账号发送[大转盘]查询</dd>
+                <dd>本次兑奖码已关联你的微信号,可向公众账号发送
+
+                    <label class="label label-important">
+                       大转盘
+                    </label>
+                    查询</dd>
             </dl>
             <p>
             <input class="input-block-level" type="text" id="lottery_code" placeholder="请填写手机号"/>
@@ -43,25 +48,15 @@
         <span class="label label-important">
                 奖项设置
         </span>
-            <?php
-                 extract($config);
-            ?>
-            <dl class="dl-horizontal">
-                <dt>
-                    一等奖
-                </dt>
-                <dd><?=$firstmsg?></dd>
-                <dt>
 
-                    二等奖
-                </dt>
-                <dd><?=$secondmsg?></dd>
-                <dt>
-                    三等奖
-                </dt>
-                <dd><?=$thirdmsg?></dd>
+            <ul class="local-inline">
+                <li>一等奖:<?=$config['firstmsg']?></li>
+                <li>二等奖:<?=$config['secondmsg']?></li>
+                <li>
+                    三等奖:<?=$config['thirdmsg']?>
 
-            </dl>
+                </li>
+            </ul>
 
 
         </div>
@@ -76,17 +71,9 @@
         <span class="label label-success">
              活动说明
         </span>
-
             <dl class="dl-horizontal">
-
-                <dd>
-                  <?=$remark;?>
-
-                </dd>
-
-
+              <?=$config['remark']?>
             </dl>
-
 
         </div>
 

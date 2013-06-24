@@ -1,16 +1,25 @@
 <div class="dblock"></div>
 <div class="wrap">
 <div class="accordion" id="accordion2">
+
+    <?php
+       $acroidx = 0;
+    ?>
     <?php foreach($preros as $preo):?>
+    <?php
+        $acroidx++;
+     ?>
 
     <div class="accordion-group">
         <div class="accordion-heading">
-            <a class="accordion-toggle" data-toggle="collapse" data-parent="#accordion2" href="#collapseOne">
+            <a class="accordion-toggle" data-toggle="collapse"
+               data-parent="#accordion2"
+               href="#accordionContent<?=$acroidx?>">
                <?=$preo['name']?>
                 <i class="icon-chevron-right" style='float:right'></i>
             </a>
         </div>
-        <div id="collapseOne" class="accordion-body collapse">
+        <div id="accordionContent<?=$acroidx?>" class="accordion-body collapse">
             <div class="accordion-inner">
                 <?=$preo['content']?>
             </div>
