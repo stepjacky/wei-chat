@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="9c42f37f-b41b-40a5-884c-3813c2511426" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/application/views/systems/phpinfo.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/application/views/systems/test.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/application/controllers/Systems.php" afterPath="$PROJECT_DIR$/application/controllers/Systems.php" />
     </list>
     <ignored path="weixin.iws" />
@@ -96,7 +96,7 @@
     <file path="$PROJECT_DIR$/system/core/Model.php" changelist="9c42f37f-b41b-40a5-884c-3813c2511426" time="1369326197901" ignored="false" />
     <file path="/Dummy.regexp" changelist="9c42f37f-b41b-40a5-884c-3813c2511426" time="1369326293432" ignored="false" />
     <file path="/injection.txt" changelist="9c42f37f-b41b-40a5-884c-3813c2511426" time="1369326293432" ignored="false" />
-    <file path="/Systems.php" changelist="9c42f37f-b41b-40a5-884c-3813c2511426" time="1372169269382" ignored="false" />
+    <file path="/Systems.php" changelist="9c42f37f-b41b-40a5-884c-3813c2511426" time="1372170099710" ignored="false" />
     <file path="/noconfig.php" changelist="9c42f37f-b41b-40a5-884c-3813c2511426" time="1369380772817" ignored="false" />
     <file path="/card-header.php" changelist="9c42f37f-b41b-40a5-884c-3813c2511426" time="1372093921616" ignored="false" />
     <file path="/getcode.css" changelist="9c42f37f-b41b-40a5-884c-3813c2511426" time="1372093142709" ignored="false" />
@@ -154,16 +154,27 @@
       <file leaf-file-name="Systems.php" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/application/controllers/Systems.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="24" column="23" selection-start="545" selection-end="545" vertical-scroll-proportion="-14.151515">
+            <state line="29" column="42" selection-start="676" selection-end="676" vertical-scroll-proportion="-14.878788">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="phpinfo.php" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="test.php" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/application/views/systems/test.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="28" column="23" selection-start="827" selection-end="827" vertical-scroll-proportion="0.9179487">
+              <folding>
+                <element signature="e#6#157#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="phpinfo.php" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/application/views/systems/phpinfo.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="8" column="10" selection-start="168" selection-end="168" vertical-scroll-proportion="0.31423897">
+            <state line="8" column="6" selection-start="164" selection-end="164" vertical-scroll-proportion="-5.818182">
               <folding />
             </state>
           </provider>
@@ -205,7 +216,6 @@
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
       <list>
-        <option value="$PROJECT_DIR$/application/views/news/index.php" />
         <option value="$PROJECT_DIR$/application/views/front/footer.php" />
         <option value="$PROJECT_DIR$/application/controllers/news.php" />
         <option value="$PROJECT_DIR$/application/controllers/lotterydial.php" />
@@ -219,8 +229,9 @@
         <option value="$PROJECT_DIR$/resources/styles/couponcatalog/getcode.css" />
         <option value="$PROJECT_DIR$/resources/styles/cardcatalog/card.css" />
         <option value="$PROJECT_DIR$/application/views/cardcatalog/card-header.php" />
-        <option value="$PROJECT_DIR$/application/controllers/Systems.php" />
         <option value="$PROJECT_DIR$/application/views/systems/phpinfo.php" />
+        <option value="$PROJECT_DIR$/application/controllers/Systems.php" />
+        <option value="$PROJECT_DIR$/application/views/systems/test.php" />
       </list>
     </option>
   </component>
@@ -622,11 +633,6 @@
     </PATH>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/application/models/prerogative_model.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="34" column="36" selection-start="1301" selection-end="1301" vertical-scroll-proportion="0.53333336" />
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/application/controllers/cardcatalog.php">
       <provider selected="true" editor-type-id="text-editor">
         <state line="67" column="0" selection-start="2538" selection-end="2538" vertical-scroll-proportion="2.1897435" />
@@ -700,17 +706,26 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/application/controllers/Systems.php">
+    <entry file="file://$PROJECT_DIR$/application/views/systems/phpinfo.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="24" column="23" selection-start="545" selection-end="545" vertical-scroll-proportion="-14.151515">
+        <state line="8" column="6" selection-start="164" selection-end="164" vertical-scroll-proportion="-5.818182">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/application/views/systems/phpinfo.php">
+    <entry file="file://$PROJECT_DIR$/application/controllers/Systems.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="8" column="10" selection-start="168" selection-end="168" vertical-scroll-proportion="0.31423897">
+        <state line="29" column="42" selection-start="676" selection-end="676" vertical-scroll-proportion="-14.878788">
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/application/views/systems/test.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="28" column="23" selection-start="827" selection-end="827" vertical-scroll-proportion="0.9179487">
+          <folding>
+            <element signature="e#6#157#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>

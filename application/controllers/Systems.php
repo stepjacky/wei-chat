@@ -26,4 +26,7 @@ class Systems extends MY_Controller {
         $this->load->view('systems/phpinfo');
     }
 
+    public function test(){
+        $this->load->view('systems/test');
+    }
 }
