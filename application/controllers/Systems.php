@@ -22,4 +22,8 @@ class Systems extends MY_Controller {
         $this->load->view('front/footer');
     }
 
+    public function phpinfo(){
+        $this->load->view('systems/phpinfo');
+    }
+
 }
