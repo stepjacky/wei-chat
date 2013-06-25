@@ -47,7 +47,7 @@
                 <input type="text" id="focusedInput"
                        name="capcode"
                        class="validate[required]">
-               <?/*=$image*/?>
+               <?=$capimage?>
                 <?=$word;?>
             </div>
         </div>

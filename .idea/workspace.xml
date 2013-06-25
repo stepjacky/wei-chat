@@ -1,7 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="9c42f37f-b41b-40a5-884c-3813c2511426" name="Default" comment="" />
+    <list default="true" id="9c42f37f-b41b-40a5-884c-3813c2511426" name="Default" comment="">
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/application/views/admin/bizregister.php" afterPath="$PROJECT_DIR$/application/views/admin/bizregister.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/application/controllers/welcome.php" afterPath="$PROJECT_DIR$/application/controllers/welcome.php" />
+    </list>
     <ignored path="weixin.iws" />
     <ignored path=".idea/workspace.xml" />
     <file path="/header.php" changelist="9c42f37f-b41b-40a5-884c-3813c2511426" time="1371134980868" ignored="false" />
@@ -157,19 +160,19 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="welcome.php" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="welcome.php" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/application/controllers/welcome.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="64" column="10" selection-start="1552" selection-end="1552" vertical-scroll-proportion="0.6564103">
+            <state line="64" column="18" selection-start="1556" selection-end="1564" vertical-scroll-proportion="-11.636364">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="bizregister.php" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="bizregister.php" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/application/views/admin/bizregister.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="-0.0">
+            <state line="49" column="29" selection-start="2036" selection-end="2036" vertical-scroll-proportion="0.54545456">
               <folding />
             </state>
           </provider>
@@ -756,16 +759,16 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/application/views/admin/bizregister.php">
+    <entry file="file://$PROJECT_DIR$/application/controllers/welcome.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
+        <state line="64" column="18" selection-start="1556" selection-end="1564" vertical-scroll-proportion="-11.636364">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/application/controllers/welcome.php">
+    <entry file="file://$PROJECT_DIR$/application/views/admin/bizregister.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="64" column="10" selection-start="1552" selection-end="1552" vertical-scroll-proportion="0.6564103">
+        <state line="49" column="29" selection-start="2036" selection-end="2036" vertical-scroll-proportion="0.54545456">
           <folding />
         </state>
       </provider>
