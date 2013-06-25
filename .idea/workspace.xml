@@ -2,8 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="9c42f37f-b41b-40a5-884c-3813c2511426" name="Default" comment="">
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/application/views/admin/bizregister.php" afterPath="$PROJECT_DIR$/application/views/admin/bizregister.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/application/views/systems/phpinfo.php" afterPath="$PROJECT_DIR$/application/views/systems/phpinfo.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/application/views/systems/test.php" afterPath="$PROJECT_DIR$/application/views/systems/test.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/application/controllers/welcome.php" afterPath="$PROJECT_DIR$/application/controllers/welcome.php" />
     </list>
     <ignored path="weixin.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -154,7 +155,25 @@
       <file leaf-file-name="Systems.php" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/application/controllers/Systems.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="29" column="42" selection-start="676" selection-end="676" vertical-scroll-proportion="-14.878788">
+            <state line="29" column="42" selection-start="676" selection-end="676" vertical-scroll-proportion="-20.636364">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="welcome.php" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/application/controllers/welcome.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="62" column="22" selection-start="1515" selection-end="1515" vertical-scroll-proportion="0.45128205">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="bizregister.php" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/application/views/admin/bizregister.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="-0.0">
               <folding />
             </state>
           </provider>
@@ -163,7 +182,7 @@
       <file leaf-file-name="test.php" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/application/views/systems/test.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="28" column="22" selection-start="826" selection-end="826" vertical-scroll-proportion="-20.363636">
+            <state line="24" column="0" selection-start="744" selection-end="744" vertical-scroll-proportion="-17.0">
               <folding>
                 <element signature="e#6#157#0" expanded="true" />
               </folding>
@@ -171,10 +190,10 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="phpinfo.php" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="phpinfo.php" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/application/views/systems/phpinfo.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="13" column="15" selection-start="220" selection-end="220" vertical-scroll-proportion="0.53333336">
+            <state line="13" column="14" selection-start="219" selection-end="219" vertical-scroll-proportion="-9.454545">
               <folding />
             </state>
           </provider>
@@ -216,8 +235,6 @@
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
       <list>
-        <option value="$PROJECT_DIR$/application/views/front/footer.php" />
-        <option value="$PROJECT_DIR$/application/controllers/news.php" />
         <option value="$PROJECT_DIR$/application/controllers/lotterydial.php" />
         <option value="$PROJECT_DIR$/application/views/lotterydial/index.php" />
         <option value="$PROJECT_DIR$/resources/styles/lotterydial/style.css" />
@@ -232,13 +249,15 @@
         <option value="$PROJECT_DIR$/application/controllers/Systems.php" />
         <option value="$PROJECT_DIR$/application/views/systems/test.php" />
         <option value="$PROJECT_DIR$/application/views/systems/phpinfo.php" />
+        <option value="$PROJECT_DIR$/application/controllers/welcome.php" />
+        <option value="$PROJECT_DIR$/application/views/admin/bizregister.php" />
       </list>
     </option>
   </component>
   <component name="PhpWorkspaceProjectConfiguration" backward_compatibility_performed="true" />
   <component name="ProjectFrameBounds">
-    <option name="x" value="101" />
-    <option name="y" value="3" />
+    <option name="x" value="141" />
+    <option name="y" value="101" />
     <option name="width" value="1509" />
     <option name="height" value="838" />
   </component>
@@ -451,6 +470,28 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="weixin" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="wei-chat" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="application" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="views" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="admin" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
         </subPane>
       </pane>
     </panes>
@@ -538,14 +579,14 @@
     </servers>
   </component>
   <component name="ToolWindowManager">
-    <frame x="101" y="3" width="1509" height="838" extended-state="0" />
+    <frame x="141" y="101" width="1509" height="838" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.26995143" sideWeight="0.6618705" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.26162386" sideWeight="0.6618705" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3381295" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
@@ -633,16 +674,6 @@
     </PATH>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/application/controllers/cardcatalog.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="67" column="0" selection-start="2538" selection-end="2538" vertical-scroll-proportion="2.1897435" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/resources/styles/cards/style.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" />
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/application/views/couponcatalog/validated.php">
       <provider selected="true" editor-type-id="text-editor">
         <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" />
@@ -706,25 +737,39 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/application/controllers/Systems.php">
+    <entry file="file://$PROJECT_DIR$/application/views/systems/phpinfo.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="29" column="42" selection-start="676" selection-end="676" vertical-scroll-proportion="-14.878788">
+        <state line="13" column="14" selection-start="219" selection-end="219" vertical-scroll-proportion="-9.454545">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/application/views/systems/test.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="28" column="22" selection-start="826" selection-end="826" vertical-scroll-proportion="-20.363636">
+        <state line="24" column="0" selection-start="744" selection-end="744" vertical-scroll-proportion="-17.0">
           <folding>
             <element signature="e#6#157#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/application/views/systems/phpinfo.php">
+    <entry file="file://$PROJECT_DIR$/application/controllers/Systems.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="13" column="15" selection-start="220" selection-end="220" vertical-scroll-proportion="0.53333336">
+        <state line="29" column="42" selection-start="676" selection-end="676" vertical-scroll-proportion="-20.636364">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/application/views/admin/bizregister.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/application/controllers/welcome.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="62" column="22" selection-start="1515" selection-end="1515" vertical-scroll-proportion="0.45128205">
           <folding />
         </state>
       </provider>

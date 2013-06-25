@@ -59,7 +59,7 @@ class Welcome extends MY_Controller
         );
 
         $cap = create_captcha($vals);
-        //$this->fireLog($cap);
+        $this->fireLog($cap);
         $data = array(
             'word'=>$word
         );

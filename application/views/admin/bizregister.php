@@ -44,7 +44,9 @@
         <div class="control-group">
             <label for="focusedInput" class="control-label">验证码</label>
             <div class="controls">
-                <input type="text" id="focusedInput" name="capcode" class="validate[required]">
+                <input type="text" id="focusedInput"
+                       name="capcode"
+                       class="validate[required]">
                <?/*=$image*/?>
                 <?=$word;?>
             </div>
