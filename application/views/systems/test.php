@@ -26,4 +26,4 @@ for( $i = 0 ; $i < $len ; $i ++)
 }
 header ( "Content-Type: image/gif" );
 imagegif ( $img );
-imagedestroy ( $img ); 
+imagedestroy ( $img );

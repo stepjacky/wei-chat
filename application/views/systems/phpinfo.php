@@ -7,3 +7,8 @@
  * To change this template use File | Settings | File Templates.
  */
 phpinfo();
+
+
+echo '<pre>';
+print_r(gd_info());
+echo '</pre>'; 
