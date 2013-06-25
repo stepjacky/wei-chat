@@ -51,8 +51,8 @@ class Admin extends MY_Controller {
     }
 
     public function login(){
-
-
+        $data = $this->_no_xsl_post();
+        $this->check_captch_code($data,1);
         $id  =$this->_post("id");
         $password  =$this->_post('pword');
         $user = $this->usrDao->login($id,$password);
@@ -65,14 +65,7 @@ class Admin extends MY_Controller {
 
     public function register(){
         $data = $this->_no_xsl_post();
-        $cap = $this->nsession->userdata("capword");
-        $this->fireLog("session cap is :"+$cap);
-        /*if(!$cap OR strtolower($cap)!=strtolower($data['capcode'])) {
-
-            redirect('/welcome/start_register?info=验证码错误');
-
-
-        }*/
+        $this->check_captch_code($data,0);
         $udata = array(
             "id"    =>$data['id'],
             'pword' =>$data['pword'],
@@ -93,5 +86,16 @@ class Admin extends MY_Controller {
     public function logout(){
         $this->nsession->sess_destroy();
         redirect('/welcome/bizlogin');
+    }
+
+    private  function check_captch_code($data,$type=0){
+        $cap = $this->nsession->userdata("capword");
+        if(!$cap OR strtolower($cap)!=strtolower($data['capcode'])) {
+            if($type==0){
+                redirect('/welcome/start_register?info=验证码错误');
+            }else if($type==1){
+                redirect('/welcome/bizlogin?info=验证码错误');
+            }
+        }
     }
 }   

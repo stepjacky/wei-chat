@@ -40,13 +40,23 @@ class Welcome extends MY_Controller
     }
 
     public function bizlogin(){
+        $data = $this->init_capcode();
 
         $this->load->view('admin/header');
-        $this->load->view("admin/bizlogin");
+        $this->load->view("admin/bizlogin",$data);
         $this->load->view("admin/footer");
     }
 
     public function start_register(){
+
+
+        $data = $this->init_capcode();
+        $this->load->view('admin/header');
+        $this->load->view("admin/bizregister",$data);
+        $this->load->view("admin/footer");
+    }
+
+    private function init_capcode(){
         $this->load->helper('captcha');
         $word = create_random_string(5);
         $vals = array(
@@ -65,9 +75,7 @@ class Welcome extends MY_Controller
             'capimage'=>$cap['image']
         );
         $this->nsession->set_userdata("capword",$word);
-        $this->load->view('admin/header');
-        $this->load->view("admin/bizregister",$data);
-        $this->load->view("admin/footer");
+        return $data;
     }
 
 }

@@ -48,7 +48,6 @@
                        name="capcode"
                        class="validate[required]">
                <?=$capimage?>
-                <?=$word;?>
             </div>
         </div>
 
