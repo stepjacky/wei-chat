@@ -75,7 +75,7 @@
               <a
                  class="btn btn-info btn-small"
                  type="button"
-                 href="/coupon/lists?cid=<?=$id?>">
+                 href="/coupon/lists?catalog_id=<?=$id?>">
                <i class="icon-edit"></i>验证信息
              </a>
              <button class="btn btn-danger btn-small" type="button" onclick="removeOne('<?=$id;?>');">

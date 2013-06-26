@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="9c42f37f-b41b-40a5-884c-3813c2511426" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/application/controllers/coupon.php" afterPath="$PROJECT_DIR$/application/controllers/coupon.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/application/views/couponcatalog/list.php" afterPath="$PROJECT_DIR$/application/views/couponcatalog/list.php" />
     </list>
     <ignored path="weixin.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -42,7 +42,7 @@
     <file path="/Langclass.php" changelist="9c42f37f-b41b-40a5-884c-3813c2511426" time="1366904205522" ignored="false" />
     <file path="/picture_model.php" changelist="9c42f37f-b41b-40a5-884c-3813c2511426" time="1366964742814" ignored="false" />
     <file path="/editNew.php" changelist="9c42f37f-b41b-40a5-884c-3813c2511426" time="1371747622774" ignored="false" />
-    <file path="/list.php" changelist="9c42f37f-b41b-40a5-884c-3813c2511426" time="1371836961157" ignored="false" />
+    <file path="/list.php" changelist="9c42f37f-b41b-40a5-884c-3813c2511426" time="1372250737945" ignored="false" />
     <file path="/pubweixin.php" changelist="9c42f37f-b41b-40a5-884c-3813c2511426" time="1371565752646" ignored="false" />
     <file path="/message.php" changelist="9c42f37f-b41b-40a5-884c-3813c2511426" time="1371137261420" ignored="false" />
     <file path="/WechatCallbackapiTest.php" changelist="9c42f37f-b41b-40a5-884c-3813c2511426" time="1366980045307" ignored="false" />
@@ -141,15 +141,6 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="welcome.php" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/application/controllers/welcome.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="42" column="38" selection-start="933" selection-end="933" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="bizlogin.php" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/application/views/admin/bizlogin.php">
           <provider selected="true" editor-type-id="text-editor">
@@ -163,15 +154,6 @@
         <entry file="file://$PROJECT_DIR$/application/controllers/admin.php">
           <provider selected="true" editor-type-id="text-editor">
             <state line="88" column="5" selection-start="2861" selection-end="2861" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="bizregister.php" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/application/views/admin/bizregister.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="14" column="15" selection-start="373" selection-end="466" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -229,10 +211,28 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="coupon.php" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="coupon.php" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/application/controllers/coupon.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="76" column="81" selection-start="2547" selection-end="2547" vertical-scroll-proportion="0.2871795">
+            <state line="76" column="81" selection-start="2547" selection-end="2547" vertical-scroll-proportion="-5.090909">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="couponcatalog.php" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/application/controllers/couponcatalog.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="50.18182">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="list.php" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/application/views/couponcatalog/list.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="78" column="44" selection-start="2026" selection-end="2026" vertical-scroll-proportion="0.36923078">
               <folding />
             </state>
           </provider>
@@ -256,7 +256,6 @@
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
       <list>
-        <option value="$PROJECT_DIR$/application/views/cardcatalog/index.php" />
         <option value="$PROJECT_DIR$/application/views/couponcatalog/getcode.php" />
         <option value="$PROJECT_DIR$/resources/styles/couponcatalog/getcode.css" />
         <option value="$PROJECT_DIR$/resources/styles/cardcatalog/card.css" />
@@ -272,6 +271,7 @@
         <option value="$PROJECT_DIR$/application/models/lotterywin_model.php" />
         <option value="$PROJECT_DIR$/application/controllers/lotterywin.php" />
         <option value="$PROJECT_DIR$/application/controllers/coupon.php" />
+        <option value="$PROJECT_DIR$/application/views/couponcatalog/list.php" />
       </list>
     </option>
   </component>
@@ -448,6 +448,46 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="application" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="weixin" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="wei-chat" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="application" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="views" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="weixin" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="wei-chat" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="application" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="views" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="couponcatalog" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -651,18 +691,6 @@
     </PATH>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/application/views/cardcatalog/index.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="8" column="9" selection-start="173" selection-end="173" vertical-scroll-proportion="-0.72727275" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/resources/styles/couponcatalog/getcode.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="70" column="0" selection-start="1317" selection-end="1475" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/application/views/cardcatalog/card-header.php">
       <provider selected="true" editor-type-id="text-editor">
         <state line="9" column="10" selection-start="389" selection-end="389" vertical-scroll-proportion="0.0">
@@ -770,7 +798,21 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/application/controllers/coupon.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="76" column="81" selection-start="2547" selection-end="2547" vertical-scroll-proportion="0.2871795">
+        <state line="76" column="81" selection-start="2547" selection-end="2547" vertical-scroll-proportion="-5.090909">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/application/controllers/couponcatalog.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="50.18182">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/application/views/couponcatalog/list.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="78" column="44" selection-start="2026" selection-end="2026" vertical-scroll-proportion="0.36923078">
           <folding />
         </state>
       </provider>
