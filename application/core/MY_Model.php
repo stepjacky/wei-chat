@@ -27,13 +27,19 @@ class MY_Model extends CI_Model
     }
 
 
-    public function gets($page = 1, $rows = 10,$where=array()) {
+    public function gets($page = 1, $rows = 10,$where=array(),$sorts=array()) {
         $start = $rows*$page - $rows; //
         if ($start<0) $start = 0;
         $this->firelog($where);
         if(!empty($where)){
             foreach($where as $field=>$value){
                 $this->db->where($field,$value);
+            }
+        }
+        if(!empty($sorts)){
+            foreach($sorts as $field=>$value){
+                //$this->db->where($field,$value);
+                $this->db->order_by($field,$value);
             }
         }
         $this->db->limit($rows,$start);

@@ -77,4 +77,5 @@ class Lotterywin_model extends MY_Model {
 
     }
 
+
 }

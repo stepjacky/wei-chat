@@ -2,38 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="9c42f37f-b41b-40a5-884c-3813c2511426" name="Default" comment="">
-      <change type="DELETED" beforePath="G:\webroot\wei-chat\resources\images\uploads\1372175563.3668.jpg" afterPath="" />
-      <change type="DELETED" beforePath="G:\webroot\wei-chat\resources\images\uploads\1372175656.4769.jpg" afterPath="" />
-      <change type="DELETED" beforePath="G:\webroot\wei-chat\resources\images\uploads\1372175704.231.jpg" afterPath="" />
-      <change type="DELETED" beforePath="G:\webroot\wei-chat\resources\images\uploads\1372175739.9904.jpg" afterPath="" />
-      <change type="DELETED" beforePath="G:\webroot\wei-chat\resources\images\uploads\1372175757.4422.jpg" afterPath="" />
-      <change type="DELETED" beforePath="G:\webroot\wei-chat\resources\images\uploads\1372175770.9775.jpg" afterPath="" />
-      <change type="DELETED" beforePath="G:\webroot\wei-chat\resources\images\uploads\1372175834.4775.jpg" afterPath="" />
-      <change type="DELETED" beforePath="G:\webroot\wei-chat\resources\images\uploads\1372175920.7265.jpg" afterPath="" />
-      <change type="DELETED" beforePath="G:\webroot\wei-chat\resources\images\uploads\1372175982.6466.jpg" afterPath="" />
-      <change type="DELETED" beforePath="G:\webroot\wei-chat\resources\images\uploads\1372176027.6585.jpg" afterPath="" />
-      <change type="DELETED" beforePath="G:\webroot\wei-chat\resources\images\uploads\1372176054.498.jpg" afterPath="" />
-      <change type="DELETED" beforePath="G:\webroot\wei-chat\resources\images\uploads\1372176069.6897.jpg" afterPath="" />
-      <change type="DELETED" beforePath="G:\webroot\wei-chat\resources\images\uploads\1372176123.9611.jpg" afterPath="" />
-      <change type="DELETED" beforePath="G:\webroot\wei-chat\resources\images\uploads\1372176647.6636.jpg" afterPath="" />
-      <change type="DELETED" beforePath="G:\webroot\wei-chat\resources\images\uploads\1372176678.3155.jpg" afterPath="" />
-      <change type="DELETED" beforePath="G:\webroot\wei-chat\resources\images\uploads\1372176713.8246.jpg" afterPath="" />
-      <change type="DELETED" beforePath="G:\webroot\wei-chat\resources\images\uploads\1372176717.0093.jpg" afterPath="" />
-      <change type="DELETED" beforePath="G:\webroot\wei-chat\resources\images\uploads\1372176735.7456.jpg" afterPath="" />
-      <change type="DELETED" beforePath="G:\webroot\wei-chat\resources\images\uploads\1372176793.0581.jpg" afterPath="" />
-      <change type="DELETED" beforePath="G:\webroot\wei-chat\resources\images\uploads\1372176800.4097.jpg" afterPath="" />
-      <change type="DELETED" beforePath="G:\webroot\wei-chat\resources\images\uploads\1372176806.241.jpg" afterPath="" />
-      <change type="DELETED" beforePath="G:\webroot\wei-chat\resources\images\uploads\1372176811.6777.jpg" afterPath="" />
-      <change type="DELETED" beforePath="G:\webroot\wei-chat\resources\images\uploads\1372176918.182.jpg" afterPath="" />
-      <change type="DELETED" beforePath="G:\webroot\wei-chat\resources\images\uploads\1372176924.5934.jpg" afterPath="" />
-      <change type="DELETED" beforePath="G:\webroot\wei-chat\resources\images\uploads\1372176994.1582.jpg" afterPath="" />
-      <change type="DELETED" beforePath="G:\webroot\wei-chat\resources\images\uploads\1372176998.8097.jpg" afterPath="" />
-      <change type="DELETED" beforePath="G:\webroot\wei-chat\resources\images\uploads\1372177039.4111.jpg" afterPath="" />
-      <change type="DELETED" beforePath="G:\webroot\wei-chat\resources\images\uploads\1372177042.0212.jpg" afterPath="" />
-      <change type="DELETED" beforePath="G:\webroot\wei-chat\resources\images\uploads\1372177046.0979.jpg" afterPath="" />
-      <change type="DELETED" beforePath="G:\webroot\wei-chat\resources\images\uploads\1372177064.0345.jpg" afterPath="" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/application/core/MY_Model.php" afterPath="$PROJECT_DIR$/application/core/MY_Model.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/application/controllers/lotterywin.php" afterPath="$PROJECT_DIR$/application/controllers/lotterywin.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/application/models/lotterywin_model.php" afterPath="$PROJECT_DIR$/application/models/lotterywin_model.php" />
     </list>
     <ignored path="weixin.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -63,7 +34,7 @@
     <file path="/input.php" changelist="9c42f37f-b41b-40a5-884c-3813c2511426" time="1366774245128" ignored="false" />
     <file path="/couponpolicy.php" changelist="9c42f37f-b41b-40a5-884c-3813c2511426" time="1366787564747" ignored="false" />
     <file path="/merchant.php" changelist="9c42f37f-b41b-40a5-884c-3813c2511426" time="1367159072197" ignored="false" />
-    <file path="/MY_Model.php" changelist="9c42f37f-b41b-40a5-884c-3813c2511426" time="1369557331522" ignored="false" />
+    <file path="/MY_Model.php" changelist="9c42f37f-b41b-40a5-884c-3813c2511426" time="1372250091941" ignored="false" />
     <file path="/vcode_model.php" changelist="9c42f37f-b41b-40a5-884c-3813c2511426" time="1366818551986" ignored="false" />
     <file path="/body-start.php" changelist="9c42f37f-b41b-40a5-884c-3813c2511426" time="1371575344957" ignored="false" />
     <file path="/picture.php" changelist="9c42f37f-b41b-40a5-884c-3813c2511426" time="1366899887651" ignored="false" />
@@ -140,7 +111,7 @@
     <file path="/theme.css" changelist="9c42f37f-b41b-40a5-884c-3813c2511426" time="1371131863698" ignored="false" />
     <file path="/news.php" changelist="9c42f37f-b41b-40a5-884c-3813c2511426" time="1371572388346" ignored="false" />
     <file path="/prerogative.php" changelist="9c42f37f-b41b-40a5-884c-3813c2511426" time="1371744697852" ignored="false" />
-    <file path="/lotterywin.php" changelist="9c42f37f-b41b-40a5-884c-3813c2511426" time="1372249562122" ignored="false" />
+    <file path="/lotterywin.php" changelist="9c42f37f-b41b-40a5-884c-3813c2511426" time="1372250136336" ignored="false" />
     <file path="/pi.php" changelist="9c42f37f-b41b-40a5-884c-3813c2511426" time="1371896645211" ignored="false" />
     <file path="$APPLICATION_HOME_DIR$/lib/phpstorm.jar!/resources/html5-schema/html5.rnc" changelist="9c42f37f-b41b-40a5-884c-3813c2511426" time="1372078208107" ignored="false" />
     <file path="/phpinfo.php" changelist="9c42f37f-b41b-40a5-884c-3813c2511426" time="1372169294997" ignored="false" />
@@ -229,13 +200,13 @@
       <file leaf-file-name="lotterywin_model.php" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/application/models/lotterywin_model.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="26" column="35" selection-start="1114" selection-end="1114" vertical-scroll-proportion="-1.4545455">
+            <state line="77" column="5" selection-start="3034" selection-end="3034" vertical-scroll-proportion="-10.060606">
               <folding>
-                <marker date="1371836495011" expanded="true" signature="1286:1369" placeholder="select count..%s..." />
-                <marker date="1371836495011" expanded="true" signature="1604:1675" placeholder="select `num`..%s..." />
-                <marker date="1371836495011" expanded="true" signature="2288:2381" placeholder="select * fro..%s..." />
-                <marker date="1371836495011" expanded="true" signature="2528:2644" placeholder="update `%s` ..." />
-                <marker date="1371836495011" expanded="true" signature="2821:2929" placeholder="update `%s` ..." />
+                <marker date="1372250128423" expanded="true" signature="1286:1369" placeholder="select count..%s..." />
+                <marker date="1372250128423" expanded="true" signature="1604:1675" placeholder="select `num`..%s..." />
+                <marker date="1372250128423" expanded="true" signature="2288:2381" placeholder="select * fro..%s..." />
+                <marker date="1372250128423" expanded="true" signature="2528:2644" placeholder="update `%s` ..." />
+                <marker date="1372250128423" expanded="true" signature="2821:2929" placeholder="update `%s` ..." />
               </folding>
             </state>
           </provider>
@@ -244,17 +215,17 @@
       <file leaf-file-name="MY_Model.php" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/application/core/MY_Model.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="8" column="6" selection-start="167" selection-end="167" vertical-scroll-proportion="164.36363">
+            <state line="29" column="20" selection-start="664" selection-end="664" vertical-scroll-proportion="-3.7272727">
               <folding>
-                <marker date="1371748433657" expanded="true" signature="5910:5960" placeholder="update `%s` ..." />
-                <marker date="1371748433657" expanded="true" signature="13140:13219" placeholder="select count..keywordmap..." />
-                <marker date="1371748433657" expanded="true" signature="13710:13770" placeholder="delete from ..." />
-                <marker date="1371748433657" expanded="true" signature="13979:14230" placeholder="select count..respnewsmessage..." />
-                <marker date="1371748433657" expanded="true" signature="14545:14764" placeholder="..." />
-                <marker date="1371748433657" expanded="true" signature="16183:16380" placeholder="..." />
-                <marker date="1371748433657" expanded="true" signature="16411:16554" placeholder="..." />
-                <marker date="1371748433657" expanded="true" signature="18167:18220" placeholder="update `%s` ..." />
-                <marker date="1371748433657" expanded="true" signature="18320:18362" placeholder="update `%s` ..." />
+                <marker date="1372250098719" expanded="true" signature="6127:6177" placeholder="update `%s` ..." />
+                <marker date="1372250098719" expanded="true" signature="13357:13436" placeholder="select count..keywordmap..." />
+                <marker date="1372250098719" expanded="true" signature="13927:13987" placeholder="delete from ..." />
+                <marker date="1372250098719" expanded="true" signature="14196:14447" placeholder="select count..respnewsmessage..." />
+                <marker date="1372250098719" expanded="true" signature="14762:14981" placeholder="..." />
+                <marker date="1372250098719" expanded="true" signature="16400:16597" placeholder="..." />
+                <marker date="1372250098719" expanded="true" signature="16628:16771" placeholder="..." />
+                <marker date="1372250098719" expanded="true" signature="18384:18437" placeholder="update `%s` ..." />
+                <marker date="1372250098719" expanded="true" signature="18537:18579" placeholder="update `%s` ..." />
               </folding>
             </state>
           </provider>
@@ -263,7 +234,7 @@
       <file leaf-file-name="lotterywin.php" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/application/controllers/lotterywin.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="36" column="25" selection-start="1340" selection-end="1340" vertical-scroll-proportion="-0.082051285">
+            <state line="44" column="27" selection-start="1663" selection-end="1663" vertical-scroll-proportion="0.36923078">
               <folding />
             </state>
           </provider>
@@ -287,8 +258,6 @@
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
       <list>
-        <option value="$PROJECT_DIR$/application/views/lotterydial/getcode.php" />
-        <option value="$PROJECT_DIR$/application/controllers/cardcatalog.php" />
         <option value="$PROJECT_DIR$/application/models/prerogative_model.php" />
         <option value="$PROJECT_DIR$/application/views/cardcatalog/index.php" />
         <option value="$PROJECT_DIR$/application/views/couponcatalog/getcode.php" />
@@ -302,6 +271,8 @@
         <option value="$PROJECT_DIR$/application/controllers/welcome.php" />
         <option value="$PROJECT_DIR$/application/views/admin/bizlogin.php" />
         <option value="$PROJECT_DIR$/application/controllers/admin.php" />
+        <option value="$PROJECT_DIR$/application/core/MY_Model.php" />
+        <option value="$PROJECT_DIR$/application/models/lotterywin_model.php" />
         <option value="$PROJECT_DIR$/application/controllers/lotterywin.php" />
       </list>
     </option>
@@ -587,7 +558,7 @@
     </servers>
   </component>
   <component name="ToolWindowManager">
-    <frame x="123" y="135" width="1721" height="838" extended-state="1" />
+    <frame x="123" y="135" width="1721" height="838" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
@@ -767,39 +738,39 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/application/models/lotterywin_model.php">
+    <entry file="file://$PROJECT_DIR$/application/core/MY_Model.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="26" column="35" selection-start="1114" selection-end="1114" vertical-scroll-proportion="-1.4545455">
+        <state line="29" column="20" selection-start="664" selection-end="664" vertical-scroll-proportion="-3.7272727">
           <folding>
-            <marker date="1371836495011" expanded="true" signature="1286:1369" placeholder="select count..%s..." />
-            <marker date="1371836495011" expanded="true" signature="1604:1675" placeholder="select `num`..%s..." />
-            <marker date="1371836495011" expanded="true" signature="2288:2381" placeholder="select * fro..%s..." />
-            <marker date="1371836495011" expanded="true" signature="2528:2644" placeholder="update `%s` ..." />
-            <marker date="1371836495011" expanded="true" signature="2821:2929" placeholder="update `%s` ..." />
+            <marker date="1372250098719" expanded="true" signature="6127:6177" placeholder="update `%s` ..." />
+            <marker date="1372250098719" expanded="true" signature="13357:13436" placeholder="select count..keywordmap..." />
+            <marker date="1372250098719" expanded="true" signature="13927:13987" placeholder="delete from ..." />
+            <marker date="1372250098719" expanded="true" signature="14196:14447" placeholder="select count..respnewsmessage..." />
+            <marker date="1372250098719" expanded="true" signature="14762:14981" placeholder="..." />
+            <marker date="1372250098719" expanded="true" signature="16400:16597" placeholder="..." />
+            <marker date="1372250098719" expanded="true" signature="16628:16771" placeholder="..." />
+            <marker date="1372250098719" expanded="true" signature="18384:18437" placeholder="update `%s` ..." />
+            <marker date="1372250098719" expanded="true" signature="18537:18579" placeholder="update `%s` ..." />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/application/core/MY_Model.php">
+    <entry file="file://$PROJECT_DIR$/application/models/lotterywin_model.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="8" column="6" selection-start="167" selection-end="167" vertical-scroll-proportion="164.36363">
+        <state line="77" column="5" selection-start="3034" selection-end="3034" vertical-scroll-proportion="-10.060606">
           <folding>
-            <marker date="1371748433657" expanded="true" signature="5910:5960" placeholder="update `%s` ..." />
-            <marker date="1371748433657" expanded="true" signature="13140:13219" placeholder="select count..keywordmap..." />
-            <marker date="1371748433657" expanded="true" signature="13710:13770" placeholder="delete from ..." />
-            <marker date="1371748433657" expanded="true" signature="13979:14230" placeholder="select count..respnewsmessage..." />
-            <marker date="1371748433657" expanded="true" signature="14545:14764" placeholder="..." />
-            <marker date="1371748433657" expanded="true" signature="16183:16380" placeholder="..." />
-            <marker date="1371748433657" expanded="true" signature="16411:16554" placeholder="..." />
-            <marker date="1371748433657" expanded="true" signature="18167:18220" placeholder="update `%s` ..." />
-            <marker date="1371748433657" expanded="true" signature="18320:18362" placeholder="update `%s` ..." />
+            <marker date="1372250128423" expanded="true" signature="1286:1369" placeholder="select count..%s..." />
+            <marker date="1372250128423" expanded="true" signature="1604:1675" placeholder="select `num`..%s..." />
+            <marker date="1372250128423" expanded="true" signature="2288:2381" placeholder="select * fro..%s..." />
+            <marker date="1372250128423" expanded="true" signature="2528:2644" placeholder="update `%s` ..." />
+            <marker date="1372250128423" expanded="true" signature="2821:2929" placeholder="update `%s` ..." />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/application/controllers/lotterywin.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="36" column="25" selection-start="1340" selection-end="1340" vertical-scroll-proportion="-0.082051285">
+        <state line="44" column="27" selection-start="1663" selection-end="1663" vertical-scroll-proportion="0.36923078">
           <folding />
         </state>
       </provider>
