@@ -49,6 +49,7 @@ class Lotterywin extends Respmessage_Controller {
         $data['pagelink']=$pagelink;
         $cdata = array();
         $this->initUserData($cdata);
+        $this->fireLog($data);
         $this->load->view("admin/header");
         $this->load->view("message/body-start",$cdata);
         $this->load->view($this->dao->table()."/list",$data);
