@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="9c42f37f-b41b-40a5-884c-3813c2511426" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/application/controllers/lotterywin.php" afterPath="$PROJECT_DIR$/application/controllers/lotterywin.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/application/controllers/coupon.php" afterPath="$PROJECT_DIR$/application/controllers/coupon.php" />
     </list>
     <ignored path="weixin.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -177,15 +177,6 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="test.php" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/application/views/systems/test.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="24" column="0" selection-start="744" selection-end="744" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="phpinfo.php" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/application/views/systems/phpinfo.php">
           <provider selected="true" editor-type-id="text-editor">
@@ -229,10 +220,19 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="lotterywin.php" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="lotterywin.php" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/application/controllers/lotterywin.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="45" column="73" selection-start="1737" selection-end="1737" vertical-scroll-proportion="0.41025642">
+            <state line="45" column="73" selection-start="1737" selection-end="1737" vertical-scroll-proportion="-7.2727275">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="coupon.php" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/application/controllers/coupon.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="76" column="81" selection-start="2547" selection-end="2547" vertical-scroll-proportion="0.2871795">
               <folding />
             </state>
           </provider>
@@ -256,7 +256,6 @@
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
       <list>
-        <option value="$PROJECT_DIR$/application/models/prerogative_model.php" />
         <option value="$PROJECT_DIR$/application/views/cardcatalog/index.php" />
         <option value="$PROJECT_DIR$/application/views/couponcatalog/getcode.php" />
         <option value="$PROJECT_DIR$/resources/styles/couponcatalog/getcode.css" />
@@ -272,6 +271,7 @@
         <option value="$PROJECT_DIR$/application/core/MY_Model.php" />
         <option value="$PROJECT_DIR$/application/models/lotterywin_model.php" />
         <option value="$PROJECT_DIR$/application/controllers/lotterywin.php" />
+        <option value="$PROJECT_DIR$/application/controllers/coupon.php" />
       </list>
     </option>
   </component>
@@ -651,11 +651,6 @@
     </PATH>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/application/views/couponcatalog/getcode.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="7" column="26" selection-start="240" selection-end="240" vertical-scroll-proportion="-1.0434783" />
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/application/views/cardcatalog/index.php">
       <provider selected="true" editor-type-id="text-editor">
         <state line="8" column="9" selection-start="173" selection-end="173" vertical-scroll-proportion="-0.72727275" />
@@ -768,7 +763,14 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/application/controllers/lotterywin.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="45" column="73" selection-start="1737" selection-end="1737" vertical-scroll-proportion="0.41025642">
+        <state line="45" column="73" selection-start="1737" selection-end="1737" vertical-scroll-proportion="-7.2727275">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/application/controllers/coupon.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="76" column="81" selection-start="2547" selection-end="2547" vertical-scroll-proportion="0.2871795">
           <folding />
         </state>
       </provider>

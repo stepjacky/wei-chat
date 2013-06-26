@@ -71,10 +71,10 @@ class Coupon extends Respmessage_Controller {
         $ccond = $this->cache->file->get('couponcond');
         if(!is_array($ccond))$ccond = array();
         $cond = array_merge($ccond,$cond);
-        $this->cache->file->save('pagecond',$cond,60);
+        $this->cache->file->save('couponcond',$cond,60);
         $this->fireLog($cond);
         if(!$rows)$rows=10;
-        $result   = $this->dao->gets($page,$rows,$sorts=array("firedate"=>"desc"),$cond);
+        $result   = $this->dao->gets($page,$rows,$cond,array("firedate"=>"desc"));
         $pagelink = $this->dao->page_link($page,$rows,$cond);
         $data['datasource'] = $result;
         $data['pagelink']=$pagelink;
