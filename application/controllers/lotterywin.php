@@ -43,7 +43,7 @@ class Lotterywin extends Respmessage_Controller {
         $this->cache->file->save('pagecond',$cond,60);
         $this->fireLog($cond);
         if(!$rows)$rows=10;
-        $result   = $this->dao->gets($page,$rows,$cond,array("firedate","desc"));
+        $result   = $this->dao->gets($page,$rows,$cond,array("firedate"=>"desc"));
         $pagelink = $this->dao->page_link($page,$rows,$cond);
         $data['datasource'] = $result;
         $data['pagelink']=$pagelink;

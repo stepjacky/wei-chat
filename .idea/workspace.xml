@@ -2,9 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="9c42f37f-b41b-40a5-884c-3813c2511426" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/application/core/MY_Model.php" afterPath="$PROJECT_DIR$/application/core/MY_Model.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/application/controllers/lotterywin.php" afterPath="$PROJECT_DIR$/application/controllers/lotterywin.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/application/models/lotterywin_model.php" afterPath="$PROJECT_DIR$/application/models/lotterywin_model.php" />
     </list>
     <ignored path="weixin.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -234,7 +232,7 @@
       <file leaf-file-name="lotterywin.php" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/application/controllers/lotterywin.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="44" column="27" selection-start="1663" selection-end="1663" vertical-scroll-proportion="0.36923078">
+            <state line="45" column="73" selection-start="1737" selection-end="1737" vertical-scroll-proportion="0.41025642">
               <folding />
             </state>
           </provider>
@@ -770,7 +768,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/application/controllers/lotterywin.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="44" column="27" selection-start="1663" selection-end="1663" vertical-scroll-proportion="0.36923078">
+        <state line="45" column="73" selection-start="1737" selection-end="1737" vertical-scroll-proportion="0.41025642">
           <folding />
         </state>
       </provider>
