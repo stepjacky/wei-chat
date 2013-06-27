@@ -33,7 +33,7 @@
     <p>
         <input class="input-block-level " type="text" id="m_code" placeholder="填写商家验证码" />
         <button class="btn btn-block btn-danger"
-                onclick="merchantSubmit('<?=$catalog_id?>','<?=$weixin_id?>','m_code','<?=$code?>')">
+                onclick="merchantSubmit('<?=$catalog_id?>','<?=$weixin_id?>','<?=$code?>','m_code')">
             商户提交</button>
     </p>
 </div>
