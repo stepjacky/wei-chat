@@ -2,7 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="9c42f37f-b41b-40a5-884c-3813c2511426" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/application/core/MY_Model.php" afterPath="$PROJECT_DIR$/application/core/MY_Model.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/application/models/coupon_model.php" afterPath="$PROJECT_DIR$/application/models/coupon_model.php" />
     </list>
     <ignored path="weixin.iws" />
@@ -154,14 +153,14 @@
       <file leaf-file-name="coupon_model.php" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/application/models/coupon_model.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="87" column="20" selection-start="3616" selection-end="3616" vertical-scroll-proportion="0.72240806">
+            <state line="83" column="63" selection-start="3352" selection-end="3352" vertical-scroll-proportion="0.5618729">
               <folding>
-                <marker date="1372346451657" expanded="true" signature="1395:1569" placeholder="select (coun..coupon..." />
-                <marker date="1372346451657" expanded="true" signature="1888:2051" placeholder="select (coun..coupon..." />
-                <marker date="1372346451657" expanded="true" signature="2672:2780" placeholder="select * fro..coupon..." />
-                <marker date="1372346451657" expanded="true" signature="2924:3029" placeholder="update coupo..." />
-                <marker date="1372346451657" expanded="true" signature="3202:3286" placeholder="select * fro..coupon..." />
-                <marker date="1372346451657" expanded="true" signature="3418:3525" placeholder="update coupo..." />
+                <marker date="1372346753353" expanded="true" signature="1395:1569" placeholder="select (coun..coupon..." />
+                <marker date="1372346753353" expanded="true" signature="1888:2051" placeholder="select (coun..coupon..." />
+                <marker date="1372346753353" expanded="true" signature="2672:2780" placeholder="select * fro..coupon..." />
+                <marker date="1372346753353" expanded="true" signature="2924:3029" placeholder="update coupo..." />
+                <marker date="1372346753353" expanded="true" signature="3202:3286" placeholder="select * fro..coupon..." />
+                <marker date="1372346753353" expanded="true" signature="3411:3518" placeholder="update coupo..." />
               </folding>
             </state>
           </provider>
@@ -218,8 +217,8 @@
         <option value="$PROJECT_DIR$/application/controllers/coupon.php" />
         <option value="$PROJECT_DIR$/application/views/couponcatalog/list.php" />
         <option value="$PROJECT_DIR$/application/controllers/couponcatalog.php" />
-        <option value="$PROJECT_DIR$/application/models/coupon_model.php" />
         <option value="$PROJECT_DIR$/application/core/MY_Model.php" />
+        <option value="$PROJECT_DIR$/application/models/coupon_model.php" />
       </list>
     </option>
   </component>
@@ -716,14 +715,14 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/application/models/coupon_model.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="87" column="20" selection-start="3616" selection-end="3616" vertical-scroll-proportion="0.72240806">
+        <state line="83" column="63" selection-start="3352" selection-end="3352" vertical-scroll-proportion="0.5618729">
           <folding>
-            <marker date="1372346451657" expanded="true" signature="1395:1569" placeholder="select (coun..coupon..." />
-            <marker date="1372346451657" expanded="true" signature="1888:2051" placeholder="select (coun..coupon..." />
-            <marker date="1372346451657" expanded="true" signature="2672:2780" placeholder="select * fro..coupon..." />
-            <marker date="1372346451657" expanded="true" signature="2924:3029" placeholder="update coupo..." />
-            <marker date="1372346451657" expanded="true" signature="3202:3286" placeholder="select * fro..coupon..." />
-            <marker date="1372346451657" expanded="true" signature="3418:3525" placeholder="update coupo..." />
+            <marker date="1372346753353" expanded="true" signature="1395:1569" placeholder="select (coun..coupon..." />
+            <marker date="1372346753353" expanded="true" signature="1888:2051" placeholder="select (coun..coupon..." />
+            <marker date="1372346753353" expanded="true" signature="2672:2780" placeholder="select * fro..coupon..." />
+            <marker date="1372346753353" expanded="true" signature="2924:3029" placeholder="update coupo..." />
+            <marker date="1372346753353" expanded="true" signature="3202:3286" placeholder="select * fro..coupon..." />
+            <marker date="1372346753353" expanded="true" signature="3411:3518" placeholder="update coupo..." />
           </folding>
         </state>
       </provider>
