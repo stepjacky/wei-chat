@@ -153,14 +153,14 @@
       <file leaf-file-name="coupon_model.php" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/application/models/coupon_model.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="74" column="87" selection-start="2870" selection-end="2870" vertical-scroll-proportion="0.32107022">
+            <state line="73" column="89" selection-start="2747" selection-end="2747" vertical-scroll-proportion="0.28093645">
               <folding>
-                <marker date="1372347136362" expanded="true" signature="1395:1569" placeholder="select (coun..coupon..." />
-                <marker date="1372347136362" expanded="true" signature="1888:2051" placeholder="select (coun..coupon..." />
-                <marker date="1372347136362" expanded="true" signature="2672:2780" placeholder="select * fro..coupon..." />
-                <marker date="1372347136362" expanded="true" signature="2927:3032" placeholder="update coupo..." />
-                <marker date="1372347136362" expanded="true" signature="3205:3289" placeholder="select * fro..coupon..." />
-                <marker date="1372347136362" expanded="true" signature="3414:3521" placeholder="update coupo..." />
+                <marker date="1372347280285" expanded="true" signature="1395:1569" placeholder="select (coun..coupon..." />
+                <marker date="1372347280285" expanded="true" signature="1888:2051" placeholder="select (coun..coupon..." />
+                <marker date="1372347280285" expanded="true" signature="2672:2773" placeholder="select * fro..coupon..." />
+                <marker date="1372347280285" expanded="true" signature="2920:3025" placeholder="update coupo..." />
+                <marker date="1372347280285" expanded="true" signature="3198:3282" placeholder="select * fro..coupon..." />
+                <marker date="1372347280285" expanded="true" signature="3407:3514" placeholder="update coupo..." />
               </folding>
             </state>
           </provider>
@@ -759,14 +759,14 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/application/models/coupon_model.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="74" column="87" selection-start="2870" selection-end="2870" vertical-scroll-proportion="0.32107022">
+        <state line="73" column="89" selection-start="2747" selection-end="2747" vertical-scroll-proportion="0.28093645">
           <folding>
-            <marker date="1372347136362" expanded="true" signature="1395:1569" placeholder="select (coun..coupon..." />
-            <marker date="1372347136362" expanded="true" signature="1888:2051" placeholder="select (coun..coupon..." />
-            <marker date="1372347136362" expanded="true" signature="2672:2780" placeholder="select * fro..coupon..." />
-            <marker date="1372347136362" expanded="true" signature="2927:3032" placeholder="update coupo..." />
-            <marker date="1372347136362" expanded="true" signature="3205:3289" placeholder="select * fro..coupon..." />
-            <marker date="1372347136362" expanded="true" signature="3414:3521" placeholder="update coupo..." />
+            <marker date="1372347280285" expanded="true" signature="1395:1569" placeholder="select (coun..coupon..." />
+            <marker date="1372347280285" expanded="true" signature="1888:2051" placeholder="select (coun..coupon..." />
+            <marker date="1372347280285" expanded="true" signature="2672:2773" placeholder="select * fro..coupon..." />
+            <marker date="1372347280285" expanded="true" signature="2920:3025" placeholder="update coupo..." />
+            <marker date="1372347280285" expanded="true" signature="3198:3282" placeholder="select * fro..coupon..." />
+            <marker date="1372347280285" expanded="true" signature="3407:3514" placeholder="update coupo..." />
           </folding>
         </state>
       </provider>
