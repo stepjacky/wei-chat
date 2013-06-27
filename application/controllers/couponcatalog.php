@@ -179,12 +179,12 @@ class Couponcatalog extends MY_Controller {
 
 
     public function m_validate($cid,$weixin,$mcode,$ucode){
-        $rst = $this->cdao->m_validate($cid,$weixin,$mcode,$ucode);
+        $rst = $this->copdao->m_validate($cid,$weixin,$mcode,$ucode);
         echo $rst;
     }
 
     public function u_validate($cid,$weixin,$code,$phone){
-        $rst = $this->cdao->u_validate($cid,$weixin,$code,$phone);
+        $rst = $this->copdao->u_validate($cid,$weixin,$code,$phone);
         echo $rst;
     }
 
