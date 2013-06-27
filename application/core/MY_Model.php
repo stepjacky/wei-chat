@@ -50,11 +50,14 @@ class MY_Model extends CI_Model
 
     public function query($sql){
         $query =  $this->db->query($sql);
-        if(is_object($query))
+        if ($query->num_rows() > 0){
             $result = $query->result_array();
-        else
+            return $result;
+        }else{
             $result = $query;
-        return $result;
+            return $result;
+        }
+
     }
 
     public function find_where($where=""){
