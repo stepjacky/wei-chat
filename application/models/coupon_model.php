@@ -72,7 +72,7 @@ class Coupon_model extends MY_Model {
 
     public function m_validate($cid,$weixin,$mcode,$ucode){
         $SQL="select * from coupon c where c.catalog_id='%s' and c.weixin_id='%s' and c.merchant_code='%s' and c.code='%s'";
-        $this->query(sprintf($SQL,array($this->table(),$cid,$weixin,$mcode,$ucode)));
+        $result = $this->query(sprintf($SQL,$this->table(),$cid,$weixin,$mcode,$ucode));
         if(empty($result)) return false;
         $SQL="update coupon set m_validated=true where catalog_id='%s' and weixin_id='%s' and m_code='%s' and code='%s'";
         $this->db->query(sprintf($SQL,$cid,$weixin,$mcode,$ucode));
