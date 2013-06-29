@@ -50,7 +50,7 @@ class MY_Model extends CI_Model
 
     public function query($sql){
         $query =  $this->db->query($sql);
-        if ($query->num_rows() > 0){
+        if (is_object($query)&&$query->num_rows() > 0){
             $result = $query->result_array();
             return $result;
         }else{
