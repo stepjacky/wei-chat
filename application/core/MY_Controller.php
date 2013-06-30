@@ -205,6 +205,9 @@ class MY_Controller extends CI_Controller
         }
     }
     public function fireLog($msg=""){
+        if(is_bool($msg)){
+           $msg = $msg?"TRUE":"FALSE";
+        }
         $this->firephp->log($msg);
     }
 

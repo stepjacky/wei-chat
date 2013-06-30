@@ -63,7 +63,7 @@ class Coupon_model extends MY_Model {
 
     public function is_validated($id,$weixin){
         $this->db->select("m_validated,u_validated");
-        $this->db->where('id',$id);
+        $this->db->where('catalog_id',$id);
         $this->db->where('weixin_id',$weixin);
         $query = $this->db->get($this->table());
         $result = $query->row_array();

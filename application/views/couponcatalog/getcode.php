@@ -24,6 +24,10 @@
         </dd>
         <dd>本次兑奖码已关联你的微信号,可向公众账号发送[优惠券]查询</dd>
     </dl>
+
+    <?php if(!$validated): ?>
+
+
     <p>
         <input class="input-block-level" type="text" id="phone" placeholder="请填写手机号" />
         <button class="btn btn-block btn-danger"
@@ -36,6 +40,14 @@
                 onclick="merchantSubmit('<?=$catalog_id?>','<?=$weixin_id?>','<?=$code?>','m_code')">
             商户提交</button>
     </p>
+    <?php else: ?>
+        <span class="label label-warning">
+
+        该优惠券已通过验证!
+        </span>
+
+    <?php endif;?>
+
 </div>
 <div class="panel">
  <span class="label label-success">
@@ -75,6 +87,7 @@
         var url = '/couponcatalog/u_validate/'+cid+'/'+weixin+'/'+ucode+'/'+code;
         $.get(url,function(rst){
             if(rst) showModal("手机号成功提交");
+
         });
 
     }
@@ -84,9 +97,9 @@
         if(!code) return;
         var url = '/couponcatalog/m_validate/'+cid+'/'+weixin+'/'+code+'/'+ucode;
         $.get(url,function(rst){
-            if(rst)
+            if(rst){
                 showModal("商户已验证");
-            else{
+            } else{
                 showModal("商户验证码错误");
             }
         })
@@ -95,5 +108,8 @@
     function showModal(msg){
         $("#modalbody").html(msg);
         $('#myModal').modal('show');
+        $('#myModal').on('hidden', function () {
+             window.location.href = window.location.href;
+        })
     }
 </script>

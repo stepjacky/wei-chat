@@ -2,7 +2,13 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="9c42f37f-b41b-40a5-884c-3813c2511426" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/application/controllers/lotterydial.php" afterPath="$PROJECT_DIR$/application/controllers/lotterydial.php" />
+      <change type="DELETED" beforePath="G:\webroot\wei-chat\application\views\couponcatalog\validated.php" afterPath="" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/application/core/MY_Controller.php" afterPath="$PROJECT_DIR$/application/core/MY_Controller.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/application/models/coupon_model.php" afterPath="$PROJECT_DIR$/application/models/coupon_model.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/application/controllers/couponcatalog.php" afterPath="$PROJECT_DIR$/application/controllers/couponcatalog.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/application/views/couponcatalog/getcode.php" afterPath="$PROJECT_DIR$/application/views/couponcatalog/getcode.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/application/views/lotterydial/getcode.php" afterPath="$PROJECT_DIR$/application/views/lotterydial/getcode.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="weixin.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -36,7 +42,7 @@
     <file path="/vcode_model.php" changelist="9c42f37f-b41b-40a5-884c-3813c2511426" time="1366818551986" ignored="false" />
     <file path="/body-start.php" changelist="9c42f37f-b41b-40a5-884c-3813c2511426" time="1371575344957" ignored="false" />
     <file path="/picture.php" changelist="9c42f37f-b41b-40a5-884c-3813c2511426" time="1366899887651" ignored="false" />
-    <file path="/MY_Controller.php" changelist="9c42f37f-b41b-40a5-884c-3813c2511426" time="1371831302506" ignored="false" />
+    <file path="/MY_Controller.php" changelist="9c42f37f-b41b-40a5-884c-3813c2511426" time="1372575320705" ignored="false" />
     <file path="/test.php" changelist="9c42f37f-b41b-40a5-884c-3813c2511426" time="1366901912834" ignored="false" />
     <file path="/result.php" changelist="9c42f37f-b41b-40a5-884c-3813c2511426" time="1367083129554" ignored="false" />
     <file path="/Langclass.php" changelist="9c42f37f-b41b-40a5-884c-3813c2511426" time="1366904205522" ignored="false" />
@@ -51,7 +57,7 @@
     <file path="/connector.php" changelist="9c42f37f-b41b-40a5-884c-3813c2511426" time="1366982702246" ignored="false" />
     <file path="/list.js" changelist="9c42f37f-b41b-40a5-884c-3813c2511426" time="1371741588801" ignored="false" />
     <file path="/cardcatalog_model.php" changelist="9c42f37f-b41b-40a5-884c-3813c2511426" time="1371746167432" ignored="false" />
-    <file path="/couponcatalog.php" changelist="9c42f37f-b41b-40a5-884c-3813c2511426" time="1369839248935" ignored="false" />
+    <file path="/couponcatalog.php" changelist="9c42f37f-b41b-40a5-884c-3813c2511426" time="1372575781724" ignored="false" />
     <file path="/startvalidate.php" changelist="9c42f37f-b41b-40a5-884c-3813c2511426" time="1367080467538" ignored="false" />
     <file path="/coupon.php" changelist="9c42f37f-b41b-40a5-884c-3813c2511426" time="1369573901205" ignored="false" />
     <file path="/welcome.php" changelist="9c42f37f-b41b-40a5-884c-3813c2511426" time="1372176383798" ignored="false" />
@@ -79,7 +85,7 @@
     <file path="/lotterywin_model.php" changelist="9c42f37f-b41b-40a5-884c-3813c2511426" time="1372573963910" ignored="false" />
     <file path="/guid_helper.php" changelist="9c42f37f-b41b-40a5-884c-3813c2511426" time="1368698940312" ignored="false" />
     <file path="/exceed.php" changelist="9c42f37f-b41b-40a5-884c-3813c2511426" time="1369476388808" ignored="false" />
-    <file path="/getcode.php" changelist="9c42f37f-b41b-40a5-884c-3813c2511426" time="1372570431112" ignored="false" />
+    <file path="/getcode.php" changelist="9c42f37f-b41b-40a5-884c-3813c2511426" time="1372576026021" ignored="false" />
     <file path="/a.html" changelist="9c42f37f-b41b-40a5-884c-3813c2511426" time="1369326156299" ignored="false" />
     <file path="/gameover.php" changelist="9c42f37f-b41b-40a5-884c-3813c2511426" time="1368818588997" ignored="false" />
     <file path="/cards_model.php" changelist="9c42f37f-b41b-40a5-884c-3813c2511426" time="1371745712253" ignored="false" />
@@ -99,7 +105,7 @@
     <file path="/noconfig.php" changelist="9c42f37f-b41b-40a5-884c-3813c2511426" time="1369380772817" ignored="false" />
     <file path="/card-header.php" changelist="9c42f37f-b41b-40a5-884c-3813c2511426" time="1372093921616" ignored="false" />
     <file path="/getcode.css" changelist="9c42f37f-b41b-40a5-884c-3813c2511426" time="1372093142709" ignored="false" />
-    <file path="/validated.php" changelist="9c42f37f-b41b-40a5-884c-3813c2511426" time="1369476603839" ignored="false" />
+    <file path="/validated.php" changelist="9c42f37f-b41b-40a5-884c-3813c2511426" time="1372575582629" ignored="false" />
     <file path="/message_model.php" changelist="9c42f37f-b41b-40a5-884c-3813c2511426" time="1369500396122" ignored="false" />
     <file path="/resptextmessage_model.php" changelist="9c42f37f-b41b-40a5-884c-3813c2511426" time="1369540239420" ignored="false" />
     <file path="/respmusicmessage_model.php" changelist="9c42f37f-b41b-40a5-884c-3813c2511426" time="1369540088896" ignored="false" />
@@ -133,63 +139,71 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="lotterydial.php" pinned="false" current="true" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/application/controllers/lotterydial.php">
+      <file leaf-file-name="couponcatalog.php" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/application/controllers/couponcatalog.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="133" column="6" selection-start="3541" selection-end="3541" vertical-scroll-proportion="0.62847793">
+            <state line="136" column="42" selection-start="4027" selection-end="4027" vertical-scroll-proportion="-7.3636365">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="couponcatalog.php" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/application/controllers/couponcatalog.php">
+      <file leaf-file-name="exceed.php" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/application/views/couponcatalog/exceed.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="108" column="50" selection-start="3308" selection-end="3308" vertical-scroll-proportion="-18.90909">
+            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="-0.0">
               <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="MY_Controller.php" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/application/core/MY_Controller.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="208" column="38" selection-start="5411" selection-end="5411" vertical-scroll-proportion="-7.939394">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="coupon.php" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/application/views/couponcatalog/coupon.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="24" column="13" selection-start="873" selection-end="873" vertical-scroll-proportion="-8.727273">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="coupon_model.php" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/application/models/coupon_model.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="71" column="0" selection-start="2605" selection-end="2605" vertical-scroll-proportion="-10.939394">
+              <folding>
+                <marker date="1372575240856" expanded="true" signature="1395:1569" placeholder="select (coun..coupon..." />
+                <marker date="1372575240856" expanded="true" signature="1888:2051" placeholder="select (coun..coupon..." />
+                <marker date="1372575240856" expanded="true" signature="2680:2781" placeholder="select * fro..coupon..." />
+                <marker date="1372575240856" expanded="true" signature="2928:3033" placeholder="update coupo..." />
+                <marker date="1372575240856" expanded="true" signature="3206:3290" placeholder="select * fro..coupon..." />
+                <marker date="1372575240856" expanded="true" signature="3415:3522" placeholder="update coupo..." />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file leaf-file-name="getcode.php" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/application/views/lotterydial/getcode.php">
+        <entry file="file://$PROJECT_DIR$/application/views/couponcatalog/getcode.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="46" column="21" selection-start="1601" selection-end="1601" vertical-scroll-proportion="-24.727272">
+            <state line="43" column="39" selection-start="1212" selection-end="1247" vertical-scroll-proportion="-7.6060605">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="lotterywin_model.php" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/application/models/lotterywin_model.php">
+      <file leaf-file-name="getcode.php" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/application/views/lotterydial/getcode.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="87" column="28" selection-start="3509" selection-end="3509" vertical-scroll-proportion="-13.424242">
-              <folding>
-                <marker date="1372573965954" expanded="true" signature="1286:1369" placeholder="select count..%s..." />
-                <marker date="1372573965954" expanded="true" signature="1621:1692" placeholder="select `num`..%s..." />
-                <marker date="1372573965954" expanded="true" signature="2329:2422" placeholder="select * fro..%s..." />
-                <marker date="1372573965954" expanded="true" signature="2569:2685" placeholder="update `%s` ..." />
-                <marker date="1372573965954" expanded="true" signature="2862:2970" placeholder="update `%s` ..." />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="lotterydial_model.php" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/application/models/lotterydial_model.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="70" column="0" selection-start="2426" selection-end="2426" vertical-scroll-proportion="-44.363636">
-              <folding>
-                <marker date="1369559190033" expanded="true" signature="4709:4813" placeholder="select id fr..lotterydial..." />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="index.php" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/application/views/lotterydial/index.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="75" column="37" selection-start="1759" selection-end="1759" vertical-scroll-proportion="-54.545456">
+            <state line="47" column="30" selection-start="1657" selection-end="1657" vertical-scroll-proportion="0.64615387">
               <folding />
             </state>
           </provider>
@@ -213,30 +227,30 @@
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
       <list>
-        <option value="$PROJECT_DIR$/application/controllers/admin.php" />
-        <option value="$PROJECT_DIR$/application/controllers/lotterywin.php" />
         <option value="$PROJECT_DIR$/application/controllers/coupon.php" />
         <option value="$PROJECT_DIR$/application/views/couponcatalog/list.php" />
-        <option value="$PROJECT_DIR$/application/controllers/couponcatalog.php" />
-        <option value="$PROJECT_DIR$/application/views/couponcatalog/getcode.php" />
-        <option value="$PROJECT_DIR$/application/models/coupon_model.php" />
         <option value="$PROJECT_DIR$/application/core/MY_Model.php" />
         <option value="$PROJECT_DIR$/application/controllers/Systems.php" />
         <option value="$PROJECT_DIR$/application/models/Systems_model.php" />
         <option value="$PROJECT_DIR$/application/views/lotterydial/index.php" />
         <option value="$PROJECT_DIR$/application/views/lotterydial/gameover.php" />
         <option value="$PROJECT_DIR$/application/views/lotterydial/exceed.php" />
-        <option value="$PROJECT_DIR$/application/views/lotterydial/getcode.php" />
         <option value="$PROJECT_DIR$/application/models/lotterywin_model.php" />
         <option value="$PROJECT_DIR$/application/controllers/lotterydial.php" />
+        <option value="$PROJECT_DIR$/application/models/coupon_model.php" />
+        <option value="$PROJECT_DIR$/application/core/MY_Controller.php" />
+        <option value="$PROJECT_DIR$/application/views/couponcatalog/validated.php" />
+        <option value="$PROJECT_DIR$/application/controllers/couponcatalog.php" />
+        <option value="$PROJECT_DIR$/application/views/couponcatalog/getcode.php" />
+        <option value="$PROJECT_DIR$/application/views/lotterydial/getcode.php" />
       </list>
     </option>
   </component>
   <component name="PhpWorkspaceProjectConfiguration" backward_compatibility_performed="true" />
   <component name="ProjectFrameBounds">
-    <option name="x" value="56" />
-    <option name="y" value="128" />
-    <option name="width" value="1721" />
+    <option name="x" value="7" />
+    <option name="y" value="99" />
+    <option name="width" value="1829" />
     <option name="height" value="838" />
   </component>
   <component name="ProjectInspectionProfilesVisibleTreeState">
@@ -381,6 +395,50 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
+              <option name="myItemId" value="views" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="lotterydial" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="weixin" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="wei-chat" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="application" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="views" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="couponcatalog" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="weixin" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="wei-chat" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="application" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
               <option name="myItemId" value="controllers" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
@@ -473,14 +531,14 @@
     </servers>
   </component>
   <component name="ToolWindowManager">
-    <frame x="56" y="128" width="1721" height="838" extended-state="0" />
+    <frame x="7" y="99" width="1829" height="838" extended-state="1" />
     <editor active="true" />
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.21597096" sideWeight="0.6618705" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.20272572" sideWeight="0.6618705" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3381295" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
@@ -568,47 +626,6 @@
     </PATH>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/application/views/couponcatalog/list.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="78" column="44" selection-start="2026" selection-end="2026" vertical-scroll-proportion="0.060556464" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/system/database/DB_driver.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="249" column="13" selection-start="5982" selection-end="5982" vertical-scroll-proportion="0.040133778" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/application/views/couponcatalog/getcode.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="34" column="48" selection-start="1015" selection-end="1015" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/application/views/couponcatalog/coupon.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="24" column="13" selection-start="873" selection-end="873" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/application/core/MY_Model.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="52" column="28" selection-start="1446" selection-end="1446" vertical-scroll-proportion="-0.72727275">
-          <folding>
-            <marker date="1372519549176" expanded="true" signature="-1:-1" placeholder="update `%s` ..." />
-            <marker date="1372519549176" expanded="true" signature="-1:-1" placeholder="select count..keywordmap..." />
-            <marker date="1372519549176" expanded="true" signature="-1:-1" placeholder="delete from ..." />
-            <marker date="1372519549176" expanded="true" signature="-1:-1" placeholder="select count..respnewsmessage..." />
-            <marker date="1372519549176" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1372519549176" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1372519549176" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1372519549176" expanded="true" signature="-1:-1" placeholder="update `%s` ..." />
-            <marker date="1372519549176" expanded="true" signature="-1:-1" placeholder="update `%s` ..." />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/application/models/Systems_model.php">
       <provider selected="true" editor-type-id="text-editor">
         <state line="18" column="0" selection-start="426" selection-end="426" vertical-scroll-proportion="0.4923077">
@@ -634,7 +651,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/application/views/lotterydial/index.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="75" column="37" selection-start="1759" selection-end="1759" vertical-scroll-proportion="-54.545456">
+        <state line="75" column="37" selection-start="1759" selection-end="1759" vertical-scroll-proportion="2.94599">
           <folding />
         </state>
       </provider>
@@ -646,52 +663,24 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/application/models/coupon_model.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="67" column="13" selection-start="2235" selection-end="2596" vertical-scroll-proportion="0.32107022">
-          <folding>
-            <marker date="1372347280285" expanded="true" signature="-1:-1" placeholder="select (coun..coupon..." />
-            <marker date="1372347280285" expanded="true" signature="-1:-1" placeholder="select (coun..coupon..." />
-            <marker date="1372347280285" expanded="true" signature="-1:-1" placeholder="select * fro..coupon..." />
-            <marker date="1372347280285" expanded="true" signature="-1:-1" placeholder="update coupo..." />
-            <marker date="1372347280285" expanded="true" signature="-1:-1" placeholder="select * fro..coupon..." />
-            <marker date="1372347280285" expanded="true" signature="-1:-1" placeholder="update coupo..." />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/application/models/lotterydial_model.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="70" column="0" selection-start="2426" selection-end="2426" vertical-scroll-proportion="-44.363636">
+        <state line="70" column="0" selection-start="2426" selection-end="2426" vertical-scroll-proportion="2.396072">
           <folding>
-            <marker date="1369559190033" expanded="true" signature="4709:4813" placeholder="select id fr..lotterydial..." />
+            <marker date="1369559190033" expanded="true" signature="-1:-1" placeholder="select id fr..lotterydial..." />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/application/views/lotterydial/getcode.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="46" column="21" selection-start="1601" selection-end="1601" vertical-scroll-proportion="-24.727272">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/application/controllers/couponcatalog.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="108" column="50" selection-start="3308" selection-end="3308" vertical-scroll-proportion="-18.90909">
-          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/application/models/lotterywin_model.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="87" column="28" selection-start="3509" selection-end="3509" vertical-scroll-proportion="-13.424242">
+        <state line="87" column="28" selection-start="3509" selection-end="3509" vertical-scroll-proportion="0.7250409">
           <folding>
-            <marker date="1372573965954" expanded="true" signature="1286:1369" placeholder="select count..%s..." />
-            <marker date="1372573965954" expanded="true" signature="1621:1692" placeholder="select `num`..%s..." />
-            <marker date="1372573965954" expanded="true" signature="2329:2422" placeholder="select * fro..%s..." />
-            <marker date="1372573965954" expanded="true" signature="2569:2685" placeholder="update `%s` ..." />
-            <marker date="1372573965954" expanded="true" signature="2862:2970" placeholder="update `%s` ..." />
+            <marker date="1372573965954" expanded="true" signature="-1:-1" placeholder="select count..%s..." />
+            <marker date="1372573965954" expanded="true" signature="-1:-1" placeholder="select `num`..%s..." />
+            <marker date="1372573965954" expanded="true" signature="-1:-1" placeholder="select * fro..%s..." />
+            <marker date="1372573965954" expanded="true" signature="-1:-1" placeholder="update `%s` ..." />
+            <marker date="1372573965954" expanded="true" signature="-1:-1" placeholder="update `%s` ..." />
           </folding>
         </state>
       </provider>
@@ -699,6 +688,62 @@
     <entry file="file://$PROJECT_DIR$/application/controllers/lotterydial.php">
       <provider selected="true" editor-type-id="text-editor">
         <state line="133" column="6" selection-start="3541" selection-end="3541" vertical-scroll-proportion="0.62847793">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/application/models/coupon_model.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="71" column="0" selection-start="2605" selection-end="2605" vertical-scroll-proportion="-10.939394">
+          <folding>
+            <marker date="1372575240856" expanded="true" signature="1395:1569" placeholder="select (coun..coupon..." />
+            <marker date="1372575240856" expanded="true" signature="1888:2051" placeholder="select (coun..coupon..." />
+            <marker date="1372575240856" expanded="true" signature="2680:2781" placeholder="select * fro..coupon..." />
+            <marker date="1372575240856" expanded="true" signature="2928:3033" placeholder="update coupo..." />
+            <marker date="1372575240856" expanded="true" signature="3206:3290" placeholder="select * fro..coupon..." />
+            <marker date="1372575240856" expanded="true" signature="3415:3522" placeholder="update coupo..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/application/views/couponcatalog/coupon.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="24" column="13" selection-start="873" selection-end="873" vertical-scroll-proportion="-8.727273">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/application/core/MY_Controller.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="208" column="38" selection-start="5411" selection-end="5411" vertical-scroll-proportion="-7.939394">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/application/views/couponcatalog/exceed.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/application/controllers/couponcatalog.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="136" column="42" selection-start="4027" selection-end="4027" vertical-scroll-proportion="-7.3636365">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/application/views/couponcatalog/getcode.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="43" column="39" selection-start="1212" selection-end="1247" vertical-scroll-proportion="-7.6060605">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/application/views/lotterydial/getcode.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="47" column="30" selection-start="1657" selection-end="1657" vertical-scroll-proportion="0.64615387">
           <folding />
         </state>
       </provider>

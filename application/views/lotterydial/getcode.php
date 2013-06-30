@@ -44,7 +44,9 @@
                 商户提交</button>
             </p>
             <?php else: ?>
-                验证已通过
+            <span class="label label-warning">
+                   该次中奖已经通过验证!
+              </span>
             <?php endif; ?>
 
 
