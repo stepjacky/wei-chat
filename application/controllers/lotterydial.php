@@ -125,21 +125,16 @@ class Lotterydial extends MY_Controller {
             'merchantcode'=>$wins['merchant_code'],
             'lotteryid'=>$lcfg['id'],
             'member'=>$member,
-            'config'=>$lcfg
+            'config'=>$lcfg,
+            'validated'=>$validated
         );
 
         $this->fireLog($cdata);
 
-
         $view = !$validated?"getcode":"validated";
 
-        $cdata['validated'] = $validated;
-
         $this->load->view("lotterydial/".$view,$cdata);
-
-
-
-
+        
         $this->load->view("front/footer");
     }
 
