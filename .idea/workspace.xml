@@ -3,7 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="9c42f37f-b41b-40a5-884c-3813c2511426" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/application/controllers/lotterydial.php" afterPath="$PROJECT_DIR$/application/controllers/lotterydial.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/application/models/lotterywin_model.php" afterPath="$PROJECT_DIR$/application/models/lotterywin_model.php" />
     </list>
     <ignored path="weixin.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -134,10 +133,10 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="lotterydial.php" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="lotterydial.php" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/application/controllers/lotterydial.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="136" column="0" selection-start="3643" selection-end="3643" vertical-scroll-proportion="-59.636364">
+            <state line="133" column="6" selection-start="3541" selection-end="3541" vertical-scroll-proportion="0.62847793">
               <folding />
             </state>
           </provider>
@@ -161,10 +160,10 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="lotterywin_model.php" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="lotterywin_model.php" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/application/models/lotterywin_model.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="87" column="28" selection-start="3509" selection-end="3509" vertical-scroll-proportion="0.7250409">
+            <state line="87" column="28" selection-start="3509" selection-end="3509" vertical-scroll-proportion="-13.424242">
               <folding>
                 <marker date="1372573965954" expanded="true" signature="1286:1369" placeholder="select count..%s..." />
                 <marker date="1372573965954" expanded="true" signature="1621:1692" placeholder="select `num`..%s..." />
@@ -228,8 +227,8 @@
         <option value="$PROJECT_DIR$/application/views/lotterydial/gameover.php" />
         <option value="$PROJECT_DIR$/application/views/lotterydial/exceed.php" />
         <option value="$PROJECT_DIR$/application/views/lotterydial/getcode.php" />
-        <option value="$PROJECT_DIR$/application/controllers/lotterydial.php" />
         <option value="$PROJECT_DIR$/application/models/lotterywin_model.php" />
+        <option value="$PROJECT_DIR$/application/controllers/lotterydial.php" />
       </list>
     </option>
   </component>
@@ -684,16 +683,9 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/application/controllers/lotterydial.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="136" column="0" selection-start="3643" selection-end="3643" vertical-scroll-proportion="-59.636364">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/application/models/lotterywin_model.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="87" column="28" selection-start="3509" selection-end="3509" vertical-scroll-proportion="0.7250409">
+        <state line="87" column="28" selection-start="3509" selection-end="3509" vertical-scroll-proportion="-13.424242">
           <folding>
             <marker date="1372573965954" expanded="true" signature="1286:1369" placeholder="select count..%s..." />
             <marker date="1372573965954" expanded="true" signature="1621:1692" placeholder="select `num`..%s..." />
@@ -701,6 +693,13 @@
             <marker date="1372573965954" expanded="true" signature="2569:2685" placeholder="update `%s` ..." />
             <marker date="1372573965954" expanded="true" signature="2862:2970" placeholder="update `%s` ..." />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/application/controllers/lotterydial.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="133" column="6" selection-start="3541" selection-end="3541" vertical-scroll-proportion="0.62847793">
+          <folding />
         </state>
       </provider>
     </entry>
