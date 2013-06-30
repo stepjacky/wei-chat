@@ -27,7 +27,7 @@
         </span>
 
             <div class="alert">
-                <button type="button" class="close" data-dismiss="alert">&times;</button>
+
                 <strong>注意!</strong>
                    您本次活动次数已用完,请下次再来!
                </div>

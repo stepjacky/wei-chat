@@ -55,7 +55,7 @@ class Lotterydial extends MY_Controller {
         $usernum =  $this->winerdao->check_user_number($id,$member);
 
 
-        if(!$usernum || $usernum['num']==0){
+        if($usernum==0){
             $this->go_index($lcfg,$pubwx,$member);
             return;
         }
@@ -64,7 +64,7 @@ class Lotterydial extends MY_Controller {
         $wins  = $this->winerdao->user_records($id,$member);
         if(empty($wins)){
 
-            if($usernum['num']<$lcfg['userlimit']){
+            if($usernum<$lcfg['userlimit']){
                 $this->go_index($lcfg,$pubwx,$member);
                 return;
             }else{
@@ -72,7 +72,8 @@ class Lotterydial extends MY_Controller {
                 return;
             }
         }else{
-            $this->go_cash($wins,$lcfg,$member);
+
+            $this->go_cash($wins,$lcfg,$member,$this->winerdao->is_validated($id,$member));
             return ;
         }
 
@@ -92,7 +93,7 @@ class Lotterydial extends MY_Controller {
     }
 
 
-    private  function go_cash($wins,$lcfg,$member){
+    private  function go_cash($wins,$lcfg,$member,$validated=false){
         $this->load->view("front/header");
         $gmap = array(
             '1'=>'first',
@@ -122,7 +123,12 @@ class Lotterydial extends MY_Controller {
 
         $this->fireLog($cdata);
 
-        $this->load->view("lotterydial/getcode",$cdata);
+
+        $view = !$validated?"getcode":"validated";
+
+        $cdata['validated'] = $validated;
+
+        $this->load->view("lotterydial/".$view,$cdata);
 
 
 
@@ -183,7 +189,8 @@ class Lotterydial extends MY_Controller {
         $ltotal = $firstodd+$secondodd+$thirdodd;
 
 
-        $prize_arr['6']['prize'] = 8-$ltotal+50;
+        $prize_arr['6']['v'] = 8-$ltotal+50;
+        $prize_arr['6']['prize'] = '继续努力';
 
         $this->fireLog($prize_arr);
 

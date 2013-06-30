@@ -86,18 +86,4 @@
         });
 
     });
-
-
 </script>
-<div id="myModal" class="modal hide fade" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
-    <div class="modal-header">
-        <button type="button" class="close" data-dismiss="modal" aria-hidden="true">×</button>
-        <h3 id="myModalLabel">系统提示</h3>
-    </div>
-    <div class="modal-body">
-        <p>继续努力!</p>
-    </div>
-    <div class="modal-footer">
-        <button class="btn btn-block btn-danger "ata-dismiss="modal" aria-hidden="true">再来一次</button>
-    </div>
-</div>

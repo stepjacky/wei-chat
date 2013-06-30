@@ -32,6 +32,7 @@
                     </label>
                     查询</dd>
             </dl>
+            <?php if(!$validated):?>
             <p>
             <input class="input-block-level" type="text" id="lottery_code" placeholder="请填写手机号"/>
             <button class="btn btn-block btn-danger" onclick="userSubmit('<?=$lotteryid?>','<?=$member?>','lottery_code')">
@@ -42,6 +43,11 @@
             <button class="btn btn-block btn-danger" onclick="merchantSubmit('<?=$lotteryid?>','<?=$member?>','merchant_code')">
                 商户提交</button>
             </p>
+            <?php else: ?>
+                验证已通过
+            <?php endif; ?>
+
+
         </div>
         <div class="panel">
 

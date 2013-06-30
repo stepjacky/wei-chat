@@ -34,14 +34,14 @@ class Lotterywin_model extends MY_Model {
         $SQL = "select count(`id`) as num from `%s` where `lotterydial_id`='%s' and `wingrade`='%d'";
         $query =  $this->db->query(sprintf($SQL,$this->table(),$lottery,$grade));
         $result = $query->row_array();
-        return $result['num'];
+        return empty($result)?0:$result['num'];
     }
 
     public function check_user_number($lottery,$member){
         $SQL = "select `num` from `%s` where `lotterydial_id`='%s' and `weixin_id`='%s'";
         $query =  $this->db->query(sprintf($SQL,"lotterynum",$lottery,$member));
         $result = $query->row_array();
-        return $result;
+        return empty($result)?0:$result['num'];
     }
 
     public function user_records($lottery,$member){
@@ -75,6 +75,15 @@ class Lotterywin_model extends MY_Model {
         $this->query(sprintf($SQL,$this->table(),$code,$lottery,$member));
         return true;
 
+    }
+
+    public function is_validated($id,$weixin){
+        $this->db->select("m_validated,u_validated");
+        $this->db->where('lotterydial_id',$id);
+        $this->db->where('weixin_id',$weixin);
+        $query = $this->db->get($this->table());
+        $result = $query->row_array();
+        return empty($result)?false:($result['m_validated'] && $result['u_validated']);
     }
 
 

@@ -27,7 +27,7 @@
         </span>
 
             <div class="alert">
-                <button type="button" class="close" data-dismiss="alert">&times;</button>
+
                 <strong>注意!</strong>
                 本次活动期限已过,谢谢参与,最新活动随时推送!
             </div>

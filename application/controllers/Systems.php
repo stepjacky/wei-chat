@@ -9,10 +9,9 @@
 
 class Systems extends MY_Controller {
 
+    public  function __construct(){
+        parent::__construct("Systems_model");
 
-    public function __construct()
-    {
-        parent::__construct();
     }
 
 
@@ -28,5 +27,10 @@ class Systems extends MY_Controller {
 
     public function test(){
         $this->load->view('systems/test');
+
+    }
+
+    public function testdb(){
+        $this->dao->test();
     }
 }
