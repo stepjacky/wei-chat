@@ -83,7 +83,10 @@ class Lotterywin_model extends MY_Model {
         $this->db->where('weixin_id',$weixin);
         $query = $this->db->get($this->table());
         $result = $query->row_array();
-        return empty($result)?false:($result['m_validated'] && $result['u_validated']);
+        $this->firelog($result);
+        $vd = empty($result)?false:($result['m_validated'] && $result['u_validated']);
+        $this->firelog($vd);
+        return $vd;
     }
 
 

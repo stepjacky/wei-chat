@@ -134,7 +134,7 @@ class Lotterydial extends MY_Controller {
         $view = !$validated?"getcode":"validated";
 
         $this->load->view("lotterydial/".$view,$cdata);
-        
+
         $this->load->view("front/footer");
     }
 
