@@ -60,8 +60,15 @@ class Lotterydial extends MY_Controller {
             return;
         }
 
+        $wins      = $this->winerdao->user_records($id,$member);
+        $validated = $this->winerdao->is_validated($id,$member);
+        if($validated){
+            $this->go_cash($wins,$lcfg,$member,$validated);
+            return;
+        }
 
-        $wins  = $this->winerdao->user_records($id,$member);
+
+
         if(empty($wins)){
 
             if($usernum<$lcfg['userlimit']){
@@ -73,7 +80,7 @@ class Lotterydial extends MY_Controller {
             }
         }else{
 
-            $this->go_cash($wins,$lcfg,$member,$this->winerdao->is_validated($id,$member));
+            $this->go_cash($wins,$lcfg,$member,$validated);
             return ;
         }
 
